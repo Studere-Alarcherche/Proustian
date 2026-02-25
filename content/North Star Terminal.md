@@ -82,6 +82,7 @@ if (p) {
     dv.paragraph("❌ 载入失败：请检查 Character Sheet-The Player 文件名");
 }
 ```
+
 ## 🔴 The Forge
 ```dataview
 TABLE WITHOUT ID
