@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/index.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "README"
             }
           }
         ]
@@ -271,11 +271,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4f0186bf89f272a0",
+  "active": "92825f4436abfef6",
   "lastOpenFiles": [
     "content/04_Journal/2026-02-26.md",
-    "Pasted image 20260226011610.png",
     "content/index.md",
+    "Pasted image 20260226011610.png",
     "content/04_Journal/2026/2/2026-02-26.md",
     "content/00_System/📂 Legacy_Inbox/🎭Character Sheet-The Player.md",
     "README.md",
