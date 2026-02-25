@@ -1,0 +1,55 @@
+   @use "./base.scss";
+
+   /* =========================================
+      1. 字体引擎 (The Typography Engine)
+      ========================================= */
+   /* 强制绑定中西文：标题和正文全部进入“古典文学模式” */
+   :root {
+     --headerFont: "EB Garamond", "Noto Serif SC", serif !important;
+     --bodyFont: "Lora", "Noto Serif SC", serif !important;
+   }
+   
+   /* =========================================
+      2. 空间呼吸感 (The Breathing Space)
+      ========================================= */
+   article {
+     line-height: 1.85 !important; 
+     letter-spacing: 0.02em; 
+   }
+   
+   blockquote {
+     font-style: italic; 
+     border-left: 3px solid var(--secondary);
+     background: rgba(217, 119, 54, 0.05); 
+     padding: 10px 20px;
+     border-radius: 0 4px 4px 0;
+   }
+   
+   /* =========================================
+      3. 视觉魔法 (The Visual Magic)
+      ========================================= */
+   .graph {
+     & > svg {
+       filter: drop-shadow(0px 0px 8px var(--secondary));
+       transition: filter 0.3s ease;
+     }
+   }
+   
+   .page-title a {
+     font-family: "EB Garamond", serif;
+     font-size: 1.5rem;
+     letter-spacing: 0.05em;
+     font-weight: 700;
+     text-transform: uppercase;
+   }
+   
+   a.internal {
+     text-decoration-color: var(--tertiary) !important;
+     transition: all 0.2s ease;
+     
+     &:hover {
+       background-color: var(--highlight);
+       border-radius: 4px;
+       padding: 0 0.2em;
+     }
+   }
