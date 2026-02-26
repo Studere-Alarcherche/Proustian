@@ -1,8 +1,6 @@
 @use "./base.scss";
 
-/* =========================================
-   1. 全局变量与底色设定 (Global Variables)
-   ========================================= */
+/* 1. 全局变量 */
 :root {
   --light: #F7F5E8 !important; 
   --lightgray: #E5E2D1 !important;
@@ -14,9 +12,7 @@
   --bodyFont: "Lora", "Noto Serif SC", serif !important;
 }
 
-/* =========================================
-   2. 基础排版与空间呼吸感 (Typography & Spacing)
-   ========================================= */
+/* 2. 排版基础 */
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--headerFont);
   font-weight: 500;
@@ -37,8 +33,7 @@ blockquote {
   border-radius: 0 4px 4px 0;
 }
 
-/* =========================================
-   3. /* --- 侧边栏与头像挂载 (Sidebar & Avatar) --- */
+/* 3. 侧边栏与头像 (精简修正版) */
 .page-title {
   margin-top: 2rem;
   display: flex;
@@ -46,35 +41,18 @@ blockquote {
   align-items: center;
   justify-content: center;
 
-  /* 就是这里！把 &::before 完整地贴进来 */
   &::before {
     content: "";
     display: block;
-    width: 120px;  /* 稍微加大一点，让动漫线条更清晰 */
+    width: 120px;
     height: 120px;
     margin-bottom: 1rem;
-    
-    /* 核心路径确认：指向你刚才修正好文件名的 png */
     background-image: url("/static/proust-logo.png"); 
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    
-    /* 装饰：如果你希望保留正方形手稿感，可以删掉 border-radius */
     filter: drop-shadow(0 4px 8px rgba(166, 123, 91, 0.15));
   }
-
-  /* 标题文字样式 */
-  a {
-    font-family: var(--headerFont);
-    font-size: 1.4rem;
-    letter-spacing: 0.15em;
-    text-transform: uppercase;
-    color: var(--secondary) !important;
-    text-decoration: none;
-    font-weight: 700;
-  }
-} 
 
   a {
     font-family: var(--headerFont);
@@ -107,9 +85,7 @@ a.internal {
   }
 }
 
-/* =========================================
-   4. 首页组件：行动中枢项目卡片 (Project Deck)
-   ========================================= */
+/* 4. 项目卡片 */
 .project-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -135,14 +111,12 @@ a.internal {
             color: var(--dark);
         }
     }
-
     p {
         font-size: 0.95rem;
         line-height: 1.6;
         color: var(--darkgray);
         margin-bottom: 1.5rem;
     }
-
     .meta-data {
         display: flex;
         justify-content: space-between;
@@ -161,9 +135,7 @@ a.internal {
     border-color: var(--secondary);
 }
 
-/* =========================================
-   5. 核心星系画廊 (The Constellation Gallery)
-   ========================================= */
+/* 5. 核心星系 */
 .constellation-gallery {
     display: flex;
     flex-direction: column;
