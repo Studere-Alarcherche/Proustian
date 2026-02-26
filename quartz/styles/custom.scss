@@ -38,8 +38,7 @@ blockquote {
 }
 
 /* =========================================
-   3. 侧边栏与头像挂载 (Sidebar & Avatar)
-   ========================================= */
+   3. /* --- 侧边栏与头像挂载 (Sidebar & Avatar) --- */
 .page-title {
   margin-top: 2rem;
   display: flex;
@@ -47,20 +46,35 @@ blockquote {
   align-items: center;
   justify-content: center;
 
+  /* 就是这里！把 &::before 完整地贴进来 */
   &::before {
     content: "";
     display: block;
-    width: 100px;
-    height: 100px;
+    width: 120px;  /* 稍微加大一点，让动漫线条更清晰 */
+    height: 120px;
     margin-bottom: 1rem;
+    
+    /* 核心路径确认：指向你刚才修正好文件名的 png */
     background-image: url("/static/proust-logo.png"); 
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    /* 如果你想让头像更贴合动漫风格，可以把下面的 radius 删掉或者改小 */
-    border-radius: 50%; 
+    
+    /* 装饰：如果你希望保留正方形手稿感，可以删掉 border-radius */
     filter: drop-shadow(0 4px 8px rgba(166, 123, 91, 0.15));
   }
+
+  /* 标题文字样式 */
+  a {
+    font-family: var(--headerFont);
+    font-size: 1.4rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--secondary) !important;
+    text-decoration: none;
+    font-weight: 700;
+  }
+} 
 
   a {
     font-family: var(--headerFont);
