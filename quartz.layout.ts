@@ -1,7 +1,7 @@
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
 
-// components shared across all pages
+// 所有页面通用的组件（页头、页脚等）
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
@@ -14,7 +14,7 @@ export const sharedPageComponents: SharedLayout = {
   }),
 }
 
-// components for pages that display a single page (e.g. a single note)
+// 笔记详情页布局 (例如单篇 Proust 笔记)
 export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
     Component.ConditionalRender({
@@ -30,10 +30,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.MobileOnly(Component.Spacer()),
     Component.Flex({
       components: [
-        {
-          Component: Component.Search(),
-          grow: true,
-        },
+        { Component: Component.Search(), grow: true },
         { Component: Component.Darkmode() },
         { Component: Component.ReaderMode() },
       ],
@@ -41,7 +38,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Explorer(),
   ],
   right: [
-    Component.Graph(),
+    Component.Graph(), // 文章页保留关系图谱
     Component.RecentNotes({
       title: "✦ 行进中的星座",
       limit: 4,
@@ -51,9 +48,9 @@ export const defaultContentPageLayout: PageLayout = {
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
   ],
-} // <--- 关键点：这个大括号之前被漏掉了，它负责关闭 defaultContentPageLayout
+}
 
-// components for pages that display lists of pages (e.g. tags or folders)
+// 列表页布局 (例如 Essays 文件夹预览、标签页)
 export const defaultListPageLayout: PageLayout = {
   beforeBody: [Component.Breadcrumbs(), Component.ArticleTitle(), Component.ContentMeta()],
   left: [
@@ -61,14 +58,19 @@ export const defaultListPageLayout: PageLayout = {
     Component.MobileOnly(Component.Spacer()),
     Component.Flex({
       components: [
-        {
-          Component: Component.Search(),
-          grow: true,
-        },
+        { Component: Component.Search(), grow: true },
         { Component: Component.Darkmode() },
       ],
     }),
     Component.Explorer(),
   ],
-  right: [],
+  right: [
+    // 列表页也加上星座组件，解决你之前反馈的“消失”问题
+    Component.RecentNotes({
+      title: "✦ 行进中的星座",
+      limit: 4,
+      filter: (f) => f.frontmatter?.status === "active",
+      sort: (f1, f2) => (f2.dates?.modified.getTime() ?? 0) - (f1.dates?.modified.getTime() ?? 0),
+    }),
+  ],
 }

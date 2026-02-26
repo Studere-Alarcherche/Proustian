@@ -383,3 +383,79 @@ article {
     }
   }
 }
+/* --- 行进中的星座：深度美化方案 --- */
+.recent-notes {
+  margin-top: 2.5rem;
+  padding: 1.5rem;
+  background: rgba(var(--secondary), 0.03); // 极淡的次要色背景，增加纸张感
+  border: 1px solid var(--lightgray);
+  border-radius: 6px;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.02); // 极其轻微的阴影
+
+  h3 {
+    font-family: "EB Garamond", serif !important; // 统一字体风格
+    font-size: 1.1rem;
+    font-variant: small-caps;
+    letter-spacing: 0.1em;
+    color: var(--secondary);
+    margin: 0 0 1.2rem 0;
+    padding-bottom: 0.6rem;
+    border-bottom: 1px solid var(--lightgray);
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    li {
+      margin-bottom: 1.2rem;
+      padding-left: 0.8rem;
+      border-left: 2px solid transparent;
+      transition: all 0.2s ease;
+
+      &:hover {
+        border-left: 2px solid var(--tertiary); // 悬停时左侧出现色块引导
+        background: rgba(var(--highlight), 0.2);
+      }
+
+      a {
+        display: block;
+        font-family: "EB Garamond", serif !important;
+        font-weight: 600;
+        font-size: 1.05rem;
+        color: var(--dark);
+        text-decoration: none !important;
+        line-height: 1.4;
+      }
+
+      .meta {
+        display: block;
+        font-size: 0.75rem;
+        color: var(--gray);
+        margin-top: 0.3rem;
+        font-style: italic;
+      }
+
+      .tags {
+        margin-top: 0.4rem;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.3rem;
+
+        .tag-link {
+          font-size: 0.65rem;
+          padding: 0.1rem 0.5rem;
+          background: transparent;
+          border: 1px solid var(--lightgray);
+          border-radius: 12px;
+          color: var(--gray);
+          &:hover {
+            border-color: var(--tertiary);
+            color: var(--tertiary);
+          }
+        }
+      }
+    }
+  }
+}
