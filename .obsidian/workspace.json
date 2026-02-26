@@ -23,12 +23,24 @@
             "id": "d5a8f9e4693bcb11",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "quartz/static/proust-logo.png"
+                "file": "content/00_System/📂 Legacy_Inbox/🌟Level 100- The Cognitive Athlete.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "lucide-image",
-              "title": "proust-logo"
+              "icon": "lucide-file",
+              "title": "🌟Level 100- The Cognitive Athlete"
             }
           }
         ],
@@ -294,11 +306,11 @@
   },
   "active": "d5a8f9e4693bcb11",
   "lastOpenFiles": [
+    "quartz/static/proust-logo.png",
     "proust-logo.png",
     "content/04_Journal/2026-02-26.md",
     "quartz/static/icon.png",
     "conflict-files-obsidian-git.md",
-    "quartz/static/proust-logo.png",
     "quartz/static/og-image.png",
     "quartz/static/proust-logo.png.jpg",
     "content/index.md",
