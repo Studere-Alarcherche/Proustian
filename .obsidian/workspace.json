@@ -13,10 +13,10 @@
             "state": {
               "type": "image",
               "state": {
-                "file": "quartz/static/proust-logo.png.jpg"
+                "file": "quartz/static/icon.png"
               },
               "icon": "lucide-image",
-              "title": "proust-logo.png"
+              "title": "icon"
             }
           }
         ]
@@ -282,8 +282,8 @@
   "active": "92825f4436abfef6",
   "lastOpenFiles": [
     "quartz/static/og-image.png",
-    "quartz/static/icon.png",
     "quartz/static/proust-logo.png.jpg",
+    "quartz/static/icon.png",
     "content/index.md",
     "content/North Star Terminal.md",
     "content/00_System/📂 Protocols/00-Philosophy.md",
