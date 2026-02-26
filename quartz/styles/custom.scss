@@ -4,19 +4,12 @@
    1. 全局变量与底色设定 (Global Variables)
    ========================================= */
 :root {
-  /* 背景：温润的米色古纸 */
   --light: #F7F5E8 !important; 
   --lightgray: #E5E2D1 !important;
-  
-  /* 文字：深沉的炭墨色 */
   --dark: #2C2C2C !important;
   --darkgray: #5A5A5A !important;
-
-  /* 强调色：旧金色/赭石色 */
   --secondary: #A67B5B !important; 
   --tertiary: #C4A484 !important;
-
-  /* 字体：古典文学模式 */
   --headerFont: "EB Garamond", "Noto Serif SC", serif !important;
   --bodyFont: "Lora", "Noto Serif SC", serif !important;
 }
@@ -45,52 +38,51 @@ blockquote {
 }
 
 /* =========================================
-   3. 侧边栏与视觉魔法 (Sidebar & Visual Magic)
+   3. 侧边栏与头像挂载 (Sidebar & Avatar)
    ========================================= */
-
-/* --- 注入普鲁斯特动漫名片 --- */
 .page-title {
+  margin-top: 2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 1rem;
-  
+  justify-content: center;
+
   &::before {
     content: "";
     display: block;
-    width: 120px;  /* 头像大小，可自行调整 */
-    height: 120px;
-    /* ⚠️ 确保你把图片存为了 proust-logo.png，并放在了 quartz/static 文件夹下 */
-    background: url('/static/proust-logo.png') no-repeat;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 1rem;
+    background-image: url("/static/proust-logo.png"); 
     background-size: contain;
+    background-repeat: no-repeat;
     background-position: center;
-    filter: drop-shadow(0 4px 8px rgba(166, 123, 91, 0.1));
+    /* 如果你想让头像更贴合动漫风格，可以把下面的 radius 删掉或者改小 */
+    border-radius: 50%; 
+    filter: drop-shadow(0 4px 8px rgba(166, 123, 91, 0.15));
   }
 
   a {
     font-family: var(--headerFont);
-    font-size: 1.2rem;
-    letter-spacing: 0.2em;
-    font-weight: 700;
+    font-size: 1.4rem;
+    letter-spacing: 0.15em;
     text-transform: uppercase;
-    text-decoration: none;
     color: var(--secondary) !important;
+    text-decoration: none;
+    font-weight: 700;
   }
 }
 
-/* 隐藏侧边栏丑陋文件夹前缀 */
 .folder-title {
   font-family: var(--headerFont);
   text-transform: capitalize;
 }
 
-/* 关系图谱微光 */
 .graph > svg {
   filter: drop-shadow(0px 0px 8px var(--secondary));
   transition: filter 0.3s ease;
 }
 
-/* 内部链接优雅化 */
 a.internal {
   text-decoration-color: var(--tertiary) !important;
   transition: all 0.2s ease;
@@ -124,7 +116,6 @@ a.internal {
         margin-bottom: 0.8rem;
         font-size: 1.3rem;
         border-bottom: none; 
-        
         a {
             text-decoration: none;
             color: var(--dark);
@@ -156,9 +147,9 @@ a.internal {
     border-color: var(--secondary);
 }
 
-/* ============================================================
+/* =========================================
    5. 核心星系画廊 (The Constellation Gallery)
-   ============================================================ */
+   ========================================= */
 .constellation-gallery {
     display: flex;
     flex-direction: column;
@@ -185,7 +176,6 @@ a.internal {
         margin: 0 0 1rem 0;
         font-size: 1.8rem;
         border-bottom: none;
-        
         a {
             color: var(--dark);
             text-decoration: none;
