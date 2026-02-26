@@ -1,55 +1,210 @@
-   @use "./base.scss";
+@use "./base.scss";
 
-   /* =========================================
-      1. 字体引擎 (The Typography Engine)
-      ========================================= */
-   /* 强制绑定中西文：标题和正文全部进入“古典文学模式” */
-   :root {
-     --headerFont: "EB Garamond", "Noto Serif SC", serif !important;
-     --bodyFont: "Lora", "Noto Serif SC", serif !important;
-   }
-   
-   /* =========================================
-      2. 空间呼吸感 (The Breathing Space)
-      ========================================= */
-   article {
-     line-height: 1.85 !important; 
-     letter-spacing: 0.02em; 
-   }
-   
-   blockquote {
-     font-style: italic; 
-     border-left: 3px solid var(--secondary);
-     background: rgba(217, 119, 54, 0.05); 
-     padding: 10px 20px;
-     border-radius: 0 4px 4px 0;
-   }
-   
-   /* =========================================
-      3. 视觉魔法 (The Visual Magic)
-      ========================================= */
-   .graph {
-     & > svg {
-       filter: drop-shadow(0px 0px 8px var(--secondary));
-       transition: filter 0.3s ease;
-     }
-   }
-   
-   .page-title a {
-     font-family: "EB Garamond", serif;
-     font-size: 1.5rem;
-     letter-spacing: 0.05em;
-     font-weight: 700;
-     text-transform: uppercase;
-   }
-   
-   a.internal {
-     text-decoration-color: var(--tertiary) !important;
-     transition: all 0.2s ease;
-     
-     &:hover {
-       background-color: var(--highlight);
-       border-radius: 4px;
-       padding: 0 0.2em;
-     }
-   }
+/* =========================================
+   1. 全局变量与底色设定 (Global Variables)
+   ========================================= */
+:root {
+  /* 背景：温润的米色古纸 */
+  --light: #F7F5E8 !important; 
+  --lightgray: #E5E2D1 !important;
+  
+  /* 文字：深沉的炭墨色 */
+  --dark: #2C2C2C !important;
+  --darkgray: #5A5A5A !important;
+
+  /* 强调色：旧金色/赭石色 */
+  --secondary: #A67B5B !important; 
+  --tertiary: #C4A484 !important;
+
+  /* 字体：古典文学模式 */
+  --headerFont: "EB Garamond", "Noto Serif SC", serif !important;
+  --bodyFont: "Lora", "Noto Serif SC", serif !important;
+}
+
+/* =========================================
+   2. 基础排版与空间呼吸感 (Typography & Spacing)
+   ========================================= */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--headerFont);
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: var(--dark);
+}
+
+article {
+  line-height: 1.85 !important;
+  letter-spacing: 0.01em;
+}
+
+blockquote {
+  font-style: italic;
+  border-left: 3px solid var(--secondary);
+  background: rgba(217, 119, 54, 0.05);
+  padding: 10px 20px;
+  border-radius: 0 4px 4px 0;
+}
+
+/* =========================================
+   3. 侧边栏与视觉魔法 (Sidebar & Visual Magic)
+   ========================================= */
+
+/* --- 注入普鲁斯特动漫名片 --- */
+.page-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  
+  &::before {
+    content: "";
+    display: block;
+    width: 120px;  /* 头像大小，可自行调整 */
+    height: 120px;
+    /* ⚠️ 确保你把图片存为了 proust-logo.png，并放在了 quartz/static 文件夹下 */
+    background: url('/static/proust-logo.png') no-repeat;
+    background-size: contain;
+    background-position: center;
+    filter: drop-shadow(0 4px 8px rgba(166, 123, 91, 0.1));
+  }
+
+  a {
+    font-family: var(--headerFont);
+    font-size: 1.2rem;
+    letter-spacing: 0.2em;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--secondary) !important;
+  }
+}
+
+/* 隐藏侧边栏丑陋文件夹前缀 */
+.folder-title {
+  font-family: var(--headerFont);
+  text-transform: capitalize;
+}
+
+/* 关系图谱微光 */
+.graph > svg {
+  filter: drop-shadow(0px 0px 8px var(--secondary));
+  transition: filter 0.3s ease;
+}
+
+/* 内部链接优雅化 */
+a.internal {
+  text-decoration-color: var(--tertiary) !important;
+  transition: all 0.2s ease;
+  &:hover {
+    background-color: rgba(166, 123, 91, 0.1);
+    border-radius: 4px;
+    padding: 0 0.2em;
+  }
+}
+
+/* =========================================
+   4. 首页组件：行动中枢项目卡片 (Project Deck)
+   ========================================= */
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.project-card {
+    background: #fffef8; 
+    border: 1px solid rgba(166, 123, 91, 0.2); 
+    border-radius: 12px; 
+    padding: 1.8rem;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
+    transition: all 0.3s ease;
+
+    h3 {
+        margin-top: 0;
+        margin-bottom: 0.8rem;
+        font-size: 1.3rem;
+        border-bottom: none; 
+        
+        a {
+            text-decoration: none;
+            color: var(--dark);
+        }
+    }
+
+    p {
+        font-size: 0.95rem;
+        line-height: 1.6;
+        color: var(--darkgray);
+        margin-bottom: 1.5rem;
+    }
+
+    .meta-data {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-family: var(--codeFont); 
+        font-size: 0.85em;
+        border-top: 1px dashed rgba(166, 123, 91, 0.3); 
+        padding-top: 1rem;
+        color: var(--darkgray);
+    }
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+    border-color: var(--secondary);
+}
+
+/* ============================================================
+   5. 核心星系画廊 (The Constellation Gallery)
+   ============================================================ */
+.constellation-gallery {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem; 
+    margin: 3rem 0;
+}
+
+.constellation-item {
+    position: relative;
+    padding: 1rem 0 1rem 2rem;
+    border-left: 2px solid rgba(166, 123, 91, 0.3);
+    transition: all 0.4s ease;
+
+    .constellation-label {
+        font-family: var(--bodyFont);
+        font-size: 0.75rem;
+        letter-spacing: 0.15em;
+        color: var(--secondary); 
+        margin-bottom: 0.8rem;
+        text-transform: uppercase;
+    }
+
+    h2 {
+        margin: 0 0 1rem 0;
+        font-size: 1.8rem;
+        border-bottom: none;
+        
+        a {
+            color: var(--dark);
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        a:hover {
+            color: var(--secondary);
+        }
+    }
+
+    .constellation-desc {
+        font-size: 1.05rem;
+        color: var(--darkgray);
+        line-height: 1.8;
+        margin: 0;
+    }
+}
+
+.constellation-item:hover {
+    border-left: 4px solid var(--secondary);
+    background: linear-gradient(90deg, rgba(166,123,91,0.04) 0%, rgba(255,255,255,0) 100%);
+}

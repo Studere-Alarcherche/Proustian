@@ -19,58 +19,50 @@ url: https://studere-alarcherche.github.io/Proustian/
 
   
 
-### 🌌 核心星系 (The Constellations)
+<div class="constellation-gallery">
 
+  <div class="constellation-item">
+    <div class="constellation-label">✦ 核心锚点 / THE CORE ANCHOR</div>
+    <h2><a href="/OF-PROUST">OF PROUST</a></h2>
+    <p class="constellation-desc">东海西海，心理攸同；南学北学，道术未裂。普鲁斯特是世界的半径，追忆是勘测万物的尺具。</p>
+  </div>
 
-自上而下或自下而上的永续工程，所有的 `Eassys`（概念恒星）与 `Seeds`（灵感星尘）最终都将汇聚于此。
+  <div class="constellation-item">
+    <div class="constellation-label">✦ 灵感星尘 / THE 1000 NIGHTS</div>
+    <h2><a href="/Bradbury-Quartet">布拉德雷四重奏 (The Bradbury Quartet)</a></h2>
+    <blockquote>
+      “I’ll give you a programme to follow every night. Very simple programme... read one poem a night, one short story a night, one essay a night, for the next 1,000 nights.”
+    </blockquote>
+  </div>
 
-- [[OF PROUST]]
+  <div class="constellation-item">
+    <div class="constellation-label">✦ 认知基石 / THE FOUNDATION</div>
+    <h2><a href="/English-Textbook">渐进式语言教材 - 英文</a></h2>
+    <p class="constellation-desc">跨越巴别塔的词源学与文本细读法。不求速成，只求勘破。</p>
+  </div>
 
-> 东海西海，心理攸同；南学北学，道术未裂。 普鲁斯特是世界的半径，追忆是勘测万物的尺具。
-
-  
-
----
-
-  
-
-- **[布拉德雷四重奏 (The Bradbury Quartet)](https://studere-alarcherche.github.io/Studere-Knowledge-Base/%E5%B8%83%E6%8B%89%E5%BE%B7%E9%9B%B7%E5%9B%9B%E9%87%8D%E5%A5%8F-\(The-Bradbury-Quartet\))** —— KeyWords-Poem-Short Story
-
-  
-
-> ## **The ‘Bradbury Trio’ in Ray Bradbury’s own words:**
-
-  
-
-> “I’ll give you a programme to follow every night. Very simple programme. For the next thousand nights, before you go to bed every night, read one short story. That will take you ten minutes, fifteen minutes. Okay? Then read one poem a night from the vast history of poetry. Stay away from most modern poems. It’s crap. It’s not poetry. Now, if you want to kid yourself and write lines that look like poems, go ahead and do it, but you’ll go nowhere. But read the great poets. Go back and read Shakespeare, read Alexander Pope, read Robert Frost. But **one poem a night, one short story a night, one essay a night, for the next 1,000 nights**.”
-
-  
-
----
-
-  
-
-- [[渐进式语言教材-英文]]
-
-### ⚔️ 行动中枢 (The Command Center)
-
-
-> 记录时长 更新Active Projects
-
-  
-
-- **[[LifeOS ]]**
-
-  
-
+</div>
 ---
 
 ### ✒️ 随笔 (The Essays)
 
-> "随便写写"
+> "Le monde est mon jardin." —— 世界是我的花园。
 
-日常的思维碎片、科普长文与生活切片。自动按时间线沉淀。
+切片/随写随记
 
-
-* **[[Essays|阅读近期文章 (Read the Blog) ➔]]**
-* 
+<div style="margin-top: 2rem; text-align: center;">
+  <a href="/Essays" style="
+    display: inline-block;
+    padding: 1rem 3rem;
+    border: 1px solid var(--secondary);
+    border-radius: 30px;
+    color: var(--secondary);
+    text-decoration: none;
+    font-family: var(--headerFont);
+    letter-spacing: 0.1em;
+    transition: all 0.3s ease;
+    background: transparent;
+  " onmouseover="this.style.background='var(--secondary)'; this.style.color='#fff'" onmouseout="this.style.background='transparent'; this.style.color='var(--secondary)'">
+    随笔集 / BROWSE THE ESSAYS ➔
+  </a>
+</div>

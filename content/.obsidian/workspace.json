@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_Maps/Bricks/Character Sheet-The Player.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Character Sheet-The Player"
+              "title": "index"
             }
           }
         ]
@@ -281,8 +281,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2af6f86969af9b2d",
+  "active": "92825f4436abfef6",
   "lastOpenFiles": [
+    "North Star Terminal.md",
+    "01_Maps/Bricks/Character Sheet-The Player.md",
+    "04_Journal/2026-02-26.md",
     "01_Maps/Bricks/Tech/01-为什么我们需要OB+GIT+静态网站.md",
     "01_Maps/Bricks/Tech/基于 Obsidian x Quartz x Git 的网状数字花园搭建指南.md",
     "01_Maps/Bricks/Tech",
@@ -292,7 +295,6 @@
     "01_Maps/OF PROUST.md",
     "00_System/Life OS 岁时记.md",
     "00_System/00-NAMESPACE.md",
-    "04_Journal/2026-02-26.md",
     "Essays.md",
     "index.md",
     "04_Journal/2026/2/2026-02-26.md",
@@ -310,8 +312,6 @@
     "README.md",
     "CODE_OF_CONDUCT.md",
     "content/04_Journal/2026/2/2026-02-25.md",
-    "North Star Terminal.md",
-    "04_Journal/2026/2/2026-02-25.md",
     "01_Maps/Active_Projects",
     "公理",
     "Asserts/Pasted image 20260219201554.png",

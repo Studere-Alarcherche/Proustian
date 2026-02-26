@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "04_Journal/2026-02-26.md",
+                "file": "content/index.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-02-26"
+              "title": "index"
             }
           }
         ]
@@ -191,8 +191,8 @@
             "state": {
               "type": "planner-timeline",
               "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Timeline"
+              "icon": "lucide-ghost",
+              "title": "planner-timeline"
             }
           },
           {
@@ -201,8 +201,8 @@
             "state": {
               "type": "planner-timeline",
               "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Timeline"
+              "icon": "lucide-ghost",
+              "title": "planner-timeline"
             }
           },
           {
@@ -251,6 +251,16 @@
             "state": {
               "type": "planner-timeline",
               "state": {},
+              "icon": "lucide-ghost",
+              "title": "planner-timeline"
+            }
+          },
+          {
+            "id": "c5f8b50974bffdb1",
+            "type": "leaf",
+            "state": {
+              "type": "planner-timeline",
+              "state": {},
               "icon": "calendar-with-checkmark",
               "title": "Timeline"
             }
@@ -283,6 +293,8 @@
   },
   "active": "92825f4436abfef6",
   "lastOpenFiles": [
+    "content/North Star Terminal.md",
+    "content/00_System/📂 Protocols/00-Philosophy.md",
     "index.md",
     "04_Journal/2026-02-26.md",
     "04_Journal/2026/2/2026-02-26.md",
@@ -308,8 +320,6 @@
     "00_System/Prompt Zone/🐱‍💻Cognitive Architect v10.1 (The Curator Edition).md",
     "99_Archive/Token-Git.md",
     "04_Journal/2026/2/2026-02-22.md",
-    "01_Maps/Bricks/基于 Obsidian x Quartz x Git 的网状数字花园搭建指南.md",
-    "01_Maps/Bricks/01-为什么我们需要OB+GIT+静态网站.md",
     "01_Maps/Active_Projects",
     "公理",
     "Asserts/Pasted image 20260219201554.png",
