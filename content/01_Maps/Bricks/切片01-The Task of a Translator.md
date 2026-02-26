@@ -40,3 +40,6 @@ In short, in this case as in the other, whether it be a question of impressions 
 - Sensory Focus: Visual (steeples, paving-stones, sun), Auditory (strains of music), Tactile (uneven stones)
     
 - Emotional Tone: Epiphanic, solemn, resolved, intellectualized ecstasy
+---
+# Close Reading Series 
+## [[The Vocabulary]]
