@@ -256,7 +256,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 9
       }
     ],
     "direction": "horizontal",
@@ -281,10 +281,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "92825f4436abfef6",
+  "active": "2af6f86969af9b2d",
   "lastOpenFiles": [
-    "01_Maps/Bricks/Tech/基于 Obsidian x Quartz x Git 的网状数字花园搭建指南.md",
+    "00_System/Life OS 岁时记.md",
+    "00_System/North Star Terminal.md",
     "04_Journal/2026-02-27.md",
+    "00_System/00-NAMESPACE.md",
+    "01_Maps/Bricks/Tech/基于 Obsidian x Quartz x Git 的网状数字花园搭建指南.md",
     "01_Maps/Bricks/Tech/01-为什么我们需要OB+GIT+静态网站.md",
     "01_Maps/Bricks/Intro.md",
     "01_Maps/Bricks/Character Sheet-The Player.md",
@@ -305,14 +308,11 @@
     "01_Maps/Bricks/Literature/OFP ROUST",
     "01_Maps/The Bradbury Quartet/The Bradbury Quartet.md",
     "99_Archive/Final/MVP1.0.md",
-    "00_System/North Star Terminal.md",
     "01_Maps/渐进式语言教材-英文/index.md",
     "01_Maps/The Bradbury Quartet/index.md",
     "01_Maps/Seeds/Strategic Seed Bank (灵感孵化器).md",
-    "Eassays/index.md",
     "Eassays",
     "01_Maps/渐进式语言教材-英文",
-    "Essays/index.md",
     "01_Maps/The Bradbury Quartet",
     "01_Maps/OF PROUST",
     "Asserts/proust-logo.png.jpg",
