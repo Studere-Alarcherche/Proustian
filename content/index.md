@@ -25,7 +25,7 @@ description: "description: 关于我"
   </div>
 
   <div class="constellation-item">
-    <div class="constellation-label">✦ 灵感星尘 / THE 1000 NIGHTS</div>
+    <div class="constellation-label">✦ 百科全书式的阅读是一种生活方式 / THE 1000 NIGHTS</div>
     <h2><a href="/Bradbury-Quartet">布拉德雷四重奏 (The Bradbury Quartet)</a></h2>
     <blockquote>
       “I’ll give you a programme to follow every night. Very simple programme... read one poem a night, one short story a night, one essay a night, for the next 1,000 nights.”
@@ -33,12 +33,13 @@ description: "description: 关于我"
   </div>
 
   <div class="constellation-item">
-    <div class="constellation-label">✦ 巴别塔 / THE FOUNDATION</div>
+    <div class="constellation-label">✦ Stat rosa pristina nomine, nomina nuda tenemus / THE FOUNDATION</div>
     <h2><a href="/English-Textbook">渐进式语言教材 - 英文</a></h2>
     <p class="constellation-desc"></p>
   </div>
 
 </div>
+
 ---
 
 ### ✒️ 随笔 (The Essays)
@@ -47,19 +48,5 @@ description: "description: 关于我"
 
 切片/随写随记
 
-<div style="margin-top: 2rem; text-align: center;">
-  <a href="/Essays" style="
-    display: inline-block;
-    padding: 1rem 3rem;
-    border: 1px solid var(--secondary);
-    border-radius: 30px;
-    color: var(--secondary);
-    text-decoration: none;
-    font-family: var(--headerFont);
-    letter-spacing: 0.1em;
-    transition: all 0.3s ease;
-    background: transparent;
-  " onmouseover="this.style.background='var(--secondary)'; this.style.color='#fff'" onmouseout="this.style.background='transparent'; this.style.color='var(--secondary)'">
-    随笔集 / BROWSE THE ESSAYS ➔
-  </a>
-</div>
+<div style="margin-top: 2rem; text-align: center;"> <a href="/Essays/" style=" display: inline-block; padding: 1rem 3rem; border: 1px solid var(--secondary); border-radius: 30px; color: var(--secondary); text-decoration: none; font-family: var(--headerFont); letter-spacing: 0.1em; transition: all 0.3s ease; background: transparent; " onmouseover="this.style.background='var(--secondary)'; this.style.color='#fff'" onmouseout="this.style.background='transparent'; this.style.color='var(--secondary)'"> 随笔集 / BROWSE THE ESSAYS ➔ </a> </div> 
+
