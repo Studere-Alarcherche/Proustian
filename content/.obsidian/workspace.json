@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "04_Journal/2026-02-27.md",
+                "file": "01_Maps/Active_Projects/普鲁斯特系列精读.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-02-27"
+              "title": "普鲁斯特系列精读"
             }
           }
         ]
@@ -221,9 +221,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1546f1ad54888a99",
+  "active": "462286ddd567f68b",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
-    "04_Journal/2026-02-27.md"
+    "01_Maps/The Bradbury Quartet/index.md",
+    "01_Maps/The Bradbury Quartet/The Bradbury Quartet.md",
+    "Essays/index.md",
+    "04_Journal/2026-02-27.md",
+    "conflict-files-obsidian-git.md"
   ]
 }

@@ -2,12 +2,12 @@
 title: THE BRADBURY QUARTET
 aliases:
   - Bradbury Index
-  - 布拉德雷索引
+  - 布拉德雷
 categories:
 tags:
 status: evergreen
 description: 百科全书式的阅读是一种生活方式
-investment:
+investment: 0
 ---
 
 > [!quote] 
