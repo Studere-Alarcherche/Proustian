@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "04_Journal/2026-02-26.md",
+                "file": "04_Journal/2026-02-28.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-02-26"
+              "title": "2026-02-28"
             }
           }
         ]
@@ -283,6 +283,8 @@
   },
   "active": "92825f4436abfef6",
   "lastOpenFiles": [
+    "04_Journal/2026-02-26.md",
+    "04_Journal/2026-02-28.md",
     "01_Maps/Active_Projects/普鲁斯特系列精读.md",
     "01_Maps/Active_Projects/托马斯.曼 阅读专项.md",
     "00_System/North Star Terminal.md",
@@ -294,7 +296,6 @@
     "01_Maps/Bricks/Literature/切片01-The Task of a Translator.md",
     "00_System/📂 Templates/Monthly_Reset.md",
     "00_System/📂 Templates/Daily Gaming.md",
-    "04_Journal/2026-02-26.md",
     "99_Archive/Final/教材编写总论.md",
     "99_Archive/Final/MVP1.0.md",
     "01_Maps/Bricks/Tech/基于 Obsidian x Quartz x Git 的网状数字花园搭建指南.md",
@@ -312,7 +313,6 @@
     "01_Maps/Bricks/Tech",
     "01_Maps/Bricks/Literature",
     "04_Journal/2026/2/2026-02-26.md",
-    "01_Maps/The Bradbury Quartet.md",
     "Pasted image 20260226011610.png",
     "01_Maps/Active_Projects",
     "公理",
