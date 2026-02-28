@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "链接新上.md",
+                "file": "01_Maps/Active_Projects/index.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "链接新上"
+              "title": "index"
             }
           }
         ]
@@ -88,8 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "cea85d3639db91ee",
@@ -201,8 +200,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -225,15 +223,18 @@
   },
   "active": "9af0a1505c272208",
   "lastOpenFiles": [
-    "Essays/index.md",
-    "01_Maps/The Bradbury Quartet/index.md",
-    "链接新上.md",
-    "index.md",
     "01_Maps/渐进式语言教材-英文/index.md",
     "01_Maps/Active_Projects/index.md",
     "01_Maps/Active_Projects/普鲁斯特系列精读.md",
-    "04_Journal/2026-02-28.md",
+    "Essays/index.md",
+    "未命名.md",
+    "00_System/Prompt Zone/普鲁斯特精读专用.md",
     "01_Maps/OF PROUST/index.md",
+    "index.md",
+    "01_Maps/The Bradbury Quartet/index.md",
+    "01_Maps/Active_Projects/托马斯.曼 阅读专项.md",
+    "链接新上.md",
+    "04_Journal/2026-02-28.md",
     "01_Maps/Seeds/Strategic Seed Bank (灵感孵化器).md",
     "01_Maps/Bricks/Intro.md",
     "Asserts/Pasted image 20260219201554.png",
@@ -246,7 +247,6 @@
     "Asserts/banner-bradbury.jpg 1.jfif",
     "Asserts/proust-logo.png.jpg",
     "Asserts/banner-language.jpg 1.jfif",
-    "01_Maps/Active_Projects/托马斯.曼 阅读专项.md",
     "04_Journal/2026-02-27.md",
     "01_Maps/The Bradbury Quartet/The Bradbury Quartet.md",
     "conflict-files-obsidian-git.md"
