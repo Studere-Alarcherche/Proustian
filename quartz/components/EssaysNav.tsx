@@ -3,25 +3,17 @@ import { classNames } from "../util/lang"
 import { resolveRelative } from "../util/path"
 
 const EssaysNav: QuartzComponent = ({ fileData, allFiles, displayClass }: QuartzComponentProps) => {
-  // 1. 动态过滤：抓取 Essays 文件夹下所有的随笔文件
-  // 关键：排除掉 index.md 自身，只拉取文章内容
+  // 1. 穿甲弹动态过滤：抓取 Essays 文件夹下所有的随笔文件
+  // 关键升级：无视嵌套层级，坚决排除所有名字叫 index 的目录页！
   const essays = allFiles
-    .filter((f) => f.slug?.startsWith("Essays/") && f.slug !== "Essays/index") 
+    .filter((f) => f.slug?.startsWith("Essays/") && !f.slug?.endsWith("index")) 
     .sort((a, b) => (b.dates?.modified?.getTime() ?? 0) - (a.dates?.modified?.getTime() ?? 0))
     .slice(0, 3) 
 
-  // 如果文件夹是空的，返回一个柔软的提示块
-  if (essays.length === 0) {
-    return (
-      <div class={classNames(displayClass, "essays-nav")}>
-        <div class="essay-block empty">
-          <div class="essay-title">✦ 虚位以待</div>
-          <div class="essay-desc">等待第一笔灵感降临...</div>
-        </div>
-      </div>
-    )
-  }
+  // 如果没有真实随笔，就安静隐藏，不报“虚位以待”了，保持左侧干净
+  if (essays.length === 0) return null
 
+  // 这里完全保留了你要求的结构
   return (
     <div class={classNames(displayClass, "essays-nav")}>
       <div class="essays-nav-label">RECENT ESSAYS</div>
@@ -39,6 +31,7 @@ const EssaysNav: QuartzComponent = ({ fileData, allFiles, displayClass }: Quartz
   )
 }
 
+// 这里完全保留了你要求的 CSS 样式
 EssaysNav.css = `
 .essays-nav {
   display: flex;
