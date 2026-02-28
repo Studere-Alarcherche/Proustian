@@ -3,14 +3,11 @@ title: Proustian
 url: https://studere-alarcherche.github.io/Proustian/
 description: "description: 关于我"
 ---
----
-title: ALARCHERCHE 
-layout: layouts/index.njk
----
+
 
 <div style="text-align: center; margin-bottom: 3rem; margin-top: 2rem;">
   <div style="font-family: var(--headerFont); font-size: 2.5em; letter-spacing: 0.2em; color: var(--secondary); font-weight: bold;">ALARCHERCHE</div>
-  <div style="font-size: 0.9em; color: var(--gray); margin-top: 0.5rem; letter-spacing: 0.1em;">秘密研究实验室 · V1.0 · 2026</div>
+  <div style="font-size: 0.9em; color: var(--gray); margin-top: 0.5rem; letter-spacing: 0.1em;">关于我 · V1.0 · 2026</div>
 </div>
 
 <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 3rem;">
@@ -34,6 +31,8 @@ layout: layouts/index.njk
 </div>
 
 <hr style="border: none; border-top: 1px solid rgba(0,0,0,0.05); margin-bottom: 3rem;">
+
+
 
 <div style="display: grid; grid-template-columns: 1fr; gap: 1.5rem;">
 
