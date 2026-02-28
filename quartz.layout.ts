@@ -1,5 +1,6 @@
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
+import EssaysNav from "./quartz/components/EssaysNav" // <--- 引入维米尔群青随笔块
 
 // 所有页面通用的组件
 export const sharedPageComponents: SharedLayout = {
@@ -9,10 +10,24 @@ export const sharedPageComponents: SharedLayout = {
   footer: Component.Footer({
     links: {
       GitHub: "https://github.com/jackyzha0/quartz",
-      "Discord Community": "https://discord.gg/cRFFHYye7t",
     },
   }),
 }
+
+// 目录树配置：过滤隐藏后台文件夹，并强制 Essays 置顶
+const explorerFilter = Component.Explorer({
+  title: "探索",
+  filterFn: (node) => {
+    const excludeFolders = ["99_Archive", "Seeds", "Active_Projects", "Bricks", "System", "Asserts", "00_System"]
+    return !excludeFolders.includes(node.name)
+  },
+  sortFn: (a, b) => {
+    // 强制把 Essays 文件夹提到了绝对的最上面
+    if (a.name === "Essays") return -1
+    if (b.name === "Essays") return 1
+    return a.displayName.localeCompare(b.displayName)
+  },
+})
 
 // 笔记详情页布局 (长文页)
 export const defaultContentPageLayout: PageLayout = {
@@ -35,10 +50,11 @@ export const defaultContentPageLayout: PageLayout = {
         { Component: Component.ReaderMode() },
       ],
     }),
-    Component.Explorer(),
+    EssaysNav(),     // <--- 柔软的随笔块悬浮在此处
+    explorerFilter,  // <--- 安静的目录树跟随其后
   ],
   right: [
-    // 1. 目录：放在最上方，且不加 DesktopOnly 包装，确保其始终尝试渲染
+    // 1. 目录：保留你的偏好，不加 DesktopOnly 限制
     Component.TableOfContents(), 
     // 2. 关系图谱
     Component.Graph(), 
@@ -64,7 +80,7 @@ export const defaultContentPageLayout: PageLayout = {
         strict: false,
         reactionsEnabled: true,
         inputPosition: 'bottom',
-        theme: 'preferred_color_scheme', 
+        theme: 'preferred_color_scheme',
       }
     }),
   ],
@@ -78,12 +94,12 @@ export const defaultListPageLayout: PageLayout = {
     Component.MobileOnly(Component.Spacer()),
     Component.Flex({
       components: [
-        // ✨ 帮你找回了之前“消失”的夜间模式按钮
         { Component: Component.Search(), grow: true },
         { Component: Component.Darkmode() }, 
       ],
     }),
-    Component.Explorer(),
+    EssaysNav(),     // <--- 列表页同步保持“群青随笔块”
+    explorerFilter,
   ],
   right: [
     // 列表页保持克制，只显示最重要的“星座”

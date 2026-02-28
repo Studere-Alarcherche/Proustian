@@ -42,9 +42,33 @@
               "icon": "lucide-file",
               "title": "🌟Level 100- The Cognitive Athlete"
             }
+          },
+          {
+            "id": "65672654cfceb4d8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -304,31 +328,42 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d5a8f9e4693bcb11",
+  "active": "65672654cfceb4d8",
   "lastOpenFiles": [
-    "content/00_System/North Star Terminal.md",
-    "content/00_System/📂 Templates/PBL.md",
-    "content/00_System/📂 Templates/未命名.md",
-    "public/tags/技术基建/GitHub/Quartz.html",
-    "public/tags/效率工具/Obsidian/建站.html",
-    "public/tags/知识管理/方法论/数字花园.html",
-    "public/tags/domain/LITERATURE/close_reading.html",
-    "public/01_Maps/Bricks/Literature/切片01-The-Task-of-a-Translator.html",
-    "public/01_Maps/Bricks/Literature/PRS01-Vocab.html",
-    "public/01_Maps/Bricks/Literature/INTRO-and-P.html",
-    "public/01_Maps/Bricks/Literature/index.html",
+    "conflict-files-obsidian-git.md",
+    "public/01_Maps/OF-PROUST/PR-1/切片01-The-Task-of-a-Translator.html",
+    "public/01_Maps/OF-PROUST/PR-1/PRS01-Vocab.html",
+    "public/01_Maps/OF-PROUST/PR-1/PRS00-INTRO.html",
+    "public/01_Maps/OF-PROUST/PR-1/index.html",
     "public/01_Maps/Bricks/Tech/基于-Obsidian-x-Quartz-x-Git-的网状数字花园搭建指南.html",
     "public/01_Maps/Bricks/Tech/index.html",
+    "public/01_Maps/Bricks/Tech/01-为什么我们需要OB+GIT+静态网站.html",
+    "public/01_Maps/Active_Projects/普鲁斯特系列精读/index.html",
+    "public/01_Maps/SLA-英语高阶/index.html",
+    "public/01_Maps/The-Bradbury-Quartet/index.html",
     "public/static/proust-logo.png",
     "public/static/og-image.png",
     "public/static/icon.png",
     "public/Asserts/proust-logo.png.jpg",
     "public/Asserts/Pasted-image-20260219201554.png",
+    "content/conflict-files-obsidian-git.md",
+    "content/01_Maps/Active_Projects/index.md",
+    "content/00_System/📂 Legacy_Inbox/🌟Level 100- The Cognitive Athlete.md",
+    "content/Essays/index.md",
+    "content/01_Maps/The Bradbury Quartet/index.md",
+    "content/01_Maps/Active_Projects/普鲁斯特系列精读/index.md",
+    "content/01_Maps/SLA-英语高阶/index.md",
+    "content/01_Maps/OF PROUST/PR-1/切片01-The Task of a Translator.md",
+    "content/01_Maps/OF PROUST/PR-1/PRS00-INTRO.md",
+    "content/01_Maps/OF PROUST/PR-1/PRS01-Vocab.md",
+    "content/01_Maps/OF PROUST/index.md",
+    "content/00_System/North Star Terminal.md",
+    "content/00_System/📂 Templates/PBL.md",
+    "content/00_System/📂 Templates/未命名.md",
     "quartz/static/proust-logo.png",
     "proust-logo.png",
     "content/04_Journal/2026-02-26.md",
     "quartz/static/icon.png",
-    "conflict-files-obsidian-git.md",
     "quartz/static/og-image.png",
     "quartz/static/proust-logo.png.jpg",
     "content/index.md",
@@ -340,18 +375,6 @@
     "99_Archive/Final/MVP1.0.md",
     "99_Archive/Final/Intro.md",
     "99_Archive/Final/最终成品.md",
-    "01_Maps/渐进式语言教材-英文.md",
-    "01_Maps/OF PROUST.md",
-    "01_Maps/The Bradbury Quartet.md",
-    "00_System/Life OS 岁时记.md",
-    "Studere-Knowledge-Base/00_System/📂 Legacy_Inbox/🎭Character Sheet-The Player.md",
-    "Studere-Knowledge-Base/00_System/Life OS 岁时记.md",
-    "content/04_Journal/2026/2/2026-02-26.md",
-    "content/00_System/📂 Legacy_Inbox/🎭Character Sheet-The Player.md",
-    "README.md",
-    "CODE_OF_CONDUCT.md",
-    "content/04_Journal/2026/2/2026-02-25.md",
-    "North Star Terminal.md",
     "99_Archive/Final/未命名.canvas",
     "03-Resources/Brain Storm.canvas",
     "Untitled.canvas"

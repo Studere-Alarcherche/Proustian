@@ -8,13 +8,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "92825f4436abfef6",
+            "id": "31db9a1ab8e7352e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "04_Journal/2026-02-28.md",
-                "mode": "preview",
+                "file": "01_Maps/Active_Projects/普鲁斯特系列精读/index.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,10 +28,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-02-28"
+              "title": "index"
+            }
+          },
+          {
+            "id": "c2ca054af3dfa109",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -281,10 +306,28 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "92825f4436abfef6",
+  "active": "c2ca054af3dfa109",
   "lastOpenFiles": [
-    "04_Journal/2026-02-26.md",
+    "01_Maps/Active_Projects/普鲁斯特系列精读/index.md",
+    "conflict-files-obsidian-git.md",
+    "01_Maps/SLA-英语高阶/index.md",
+    "04_Journal/2026/2/2026-02-26.md",
     "04_Journal/2026-02-28.md",
+    "01_Maps/Bricks/Intro.md",
+    "Essays/index.md",
+    "Essays",
+    "01_Maps/The Bradbury Quartet/index.md",
+    "01_Maps/The Bradbury Quartet",
+    "01_Maps/SLA-英语高阶",
+    "01_Maps/OF PROUST/PR-1/切片01-The Task of a Translator.md",
+    "01_Maps/OF PROUST/PR-1/PRS01-Vocab.md",
+    "01_Maps/OF PROUST/PR-1/PRS00-INTRO.md",
+    "01_Maps/OF PROUST/PR-1",
+    "01_Maps/OF PROUST/index.md",
+    "01_Maps/OF PROUST",
+    "01_Maps/Active_Projects/普鲁斯特系列精读",
+    "01_Maps/Active_Projects/index.md",
+    "04_Journal/2026-02-26.md",
     "01_Maps/Active_Projects/普鲁斯特系列精读.md",
     "01_Maps/Active_Projects/托马斯.曼 阅读专项.md",
     "00_System/North Star Terminal.md",
@@ -297,31 +340,13 @@
     "00_System/📂 Templates/Monthly_Reset.md",
     "00_System/📂 Templates/Daily Gaming.md",
     "99_Archive/Final/教材编写总论.md",
-    "99_Archive/Final/MVP1.0.md",
-    "01_Maps/Bricks/Tech/基于 Obsidian x Quartz x Git 的网状数字花园搭建指南.md",
-    "Eassays/index.md",
-    "Essays.md",
     "Eassays",
-    "01_Maps/Bricks/Tech/01-为什么我们需要OB+GIT+静态网站.md",
-    "index.md",
-    "01_Maps/OF PROUST.md",
-    "99_Archive/Final/最终成品.md",
-    "01_Maps/渐进式语言教材-英文.md",
-    "01_Maps/Bricks/Intro.md",
     "Asserts/proust-logo.png.jpg",
-    "01_Maps/Bricks/Character Sheet-The Player.md",
     "01_Maps/Bricks/Tech",
     "01_Maps/Bricks/Literature",
-    "04_Journal/2026/2/2026-02-26.md",
     "Pasted image 20260226011610.png",
     "01_Maps/Active_Projects",
-    "公理",
     "Asserts/Pasted image 20260219201554.png",
-    "03_Essays",
-    "Asserts/Drafts-Marterials",
-    "Asserts",
-    "02_Active_Projects",
-    "01_Maps/Cathedral/OF PROUST",
     "Pasted image 20260129012044.png",
     "Pasted image 20260128231617.png",
     "Pasted image 20260128231609.png",

@@ -27,6 +27,7 @@
     "last_pruned": "datetime",
     "date": "datetime",
     "layer": "number",
-    "tex": "multitext"
+    "tex": "multitext",
+    "investment": "number"
   }
 }

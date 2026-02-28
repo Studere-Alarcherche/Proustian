@@ -603,3 +603,53 @@ iframe.giscus-frame {
   cursor: pointer;
   padding: 0 0.5rem;
 }
+/* ========================================== */
+/* C 区：庞贝红 (Pompeian Red) 星座深度定制 */
+/* ========================================== */
+
+.recent-notes {
+  background: rgba(155, 50, 38, 0.02) !important; /* 火漆红极淡透底 */
+  border-radius: 16px !important; /* 呼应 A 区的圆润 */
+  padding: 1.5rem !important;
+  border: 1px dashed rgba(155, 50, 38, 0.2) !important; /* 虚线隐喻星轨 */
+  transition: all 0.3s ease;
+}
+
+.recent-notes:hover {
+  border-color: rgba(155, 50, 38, 0.4) !important;
+  background: rgba(155, 50, 38, 0.04) !important;
+}
+
+/* 星座的标题：庞贝红 */
+.recent-notes h3 {
+  color: #9B3226 !important; 
+  font-family: var(--headerFont) !important;
+  letter-spacing: 0.15em !important;
+}
+
+/* 星座里的列表项 */
+.recent-notes ul li .section {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+/* 链接文字颜色 */
+.recent-notes ul li a {
+  color: #9B3226 !important; /* 默认显示深火漆红 */
+  font-weight: 500;
+  opacity: 0.85;
+  transition: all 0.3s ease;
+}
+
+/* 链接悬停时的魔法：红蓝交汇 */
+.recent-notes ul li a:hover {
+  opacity: 1;
+  color: #1B3B86 !important; /* 悬停时，文字变为维米尔群青，呼应 A 区 */
+  transform: translateX(4px); /* 轻轻向右跳动 */
+}
+
+/* 时间标签颜色弱化 */
+.recent-notes ul li .meta {
+  color: rgba(155, 50, 38, 0.5) !important;
+}
