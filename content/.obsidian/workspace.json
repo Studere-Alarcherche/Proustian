@@ -11,12 +11,24 @@
             "id": "462286ddd567f68b",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Asserts/proust-logo.png.jpg"
+                "file": "01_Maps/Active_Projects/托马斯.曼 阅读专项.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "lucide-image",
-              "title": "proust-logo.png"
+              "icon": "lucide-file",
+              "title": "托马斯.曼 阅读专项"
             }
           }
         ]
@@ -211,14 +223,15 @@
   },
   "active": "1546f1ad54888a99",
   "lastOpenFiles": [
+    "01_Maps/OF PROUST/index.md",
+    "01_Maps/Bricks/Intro.md",
+    "04_Journal/2026-02-28.md",
     "Asserts/Pasted image 20260219201554.png",
     "01_Maps/Bricks/Character Sheet-The Player.md",
     "01_Maps/渐进式语言教材-英文/index.md",
     "Essays/index.md",
     "index.md",
     "01_Maps/The Bradbury Quartet/index.md",
-    "01_Maps/OF PROUST/index.md",
-    "04_Journal/2026-02-28.md",
     "Asserts/banner-proust.jpg.jfif",
     "Asserts/banner-bradbury.jpg.jfif",
     "Asserts/banner-language.jpg.jfif",
@@ -227,7 +240,6 @@
     "Asserts/banner-bradbury.jpg 1.jfif",
     "Asserts/proust-logo.png.jpg",
     "Asserts/banner-language.jpg 1.jfif",
-    "01_Maps/Bricks/Intro.md",
     "01_Maps/Active_Projects/托马斯.曼 阅读专项.md",
     "01_Maps/Active_Projects/普鲁斯特系列精读.md",
     "04_Journal/2026-02-27.md",
