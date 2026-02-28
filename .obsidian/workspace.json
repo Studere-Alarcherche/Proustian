@@ -304,8 +304,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d5a8f9e4693bcb11",
+  "active": "bf3c8a0479bad75b",
   "lastOpenFiles": [
+    "content/01-为什么我们需要OB+GIT+静态网站.md",
+    "public/01-为什么我们需要OB+GIT+静态网站.html",
+    "public/Essays/01-为什么我们需要OB+GIT+静态网站.html",
+    "content/Essays/01-为什么我们需要OB+GIT+静态网站.md",
     "quartz/components/ProjectMeta.tsx",
     "quartz/components/新建 文本文档.txt",
     "public/404.html",
@@ -315,9 +319,6 @@
     "public/01_Maps/OF-PROUST/PR-1/PRS00-INTRO.html",
     "public/01_Maps/OF-PROUST/PR-1/index.html",
     "public/01_Maps/Bricks/Tech/基于-Obsidian-x-Quartz-x-Git-的网状数字花园搭建指南.html",
-    "public/01_Maps/Bricks/Tech/index.html",
-    "public/01_Maps/Bricks/Tech/01-为什么我们需要OB+GIT+静态网站.html",
-    "public/01_Maps/Active_Projects/普鲁斯特系列精读/index.html",
     "public/static/proust-logo.png",
     "public/static/og-image.png",
     "public/static/icon.png",
@@ -350,8 +351,6 @@
     "04_Journal/2026-02-26.md",
     "04_Journal/2026/2/2026-02-26.md",
     "99_Archive/Final/MVP1.0.md",
-    "99_Archive/Final/Intro.md",
-    "99_Archive/Final/最终成品.md",
     "99_Archive/Final/未命名.canvas",
     "03-Resources/Brain Storm.canvas",
     "Untitled.canvas"
