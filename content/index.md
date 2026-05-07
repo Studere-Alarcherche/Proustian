@@ -1,36 +1,27 @@
 ---
 title: Proustian 2.0
-subtitle: An Interactive Reading Garden for Proust, Signs, Senses, and Time
-description: This site enters Proust from the periphery through signs, music, images, space, sensory history, and writing.
+subtitle: A reader-facing course garden for Proust, signs, senses, and time
+description: Proustian 2.0 is a reader-facing course garden for learning to read Proust through signs, memory, music, visual attention, sensory history, and writing.
 ---
 # Proustian 2.0
 
-An Interactive Reading Garden for Proust, Signs, Senses, and Time
+Proustian 2.0 is a reader-facing course garden for learning to read Proust through signs, memory, music, visual attention, sensory history, and writing.
 
-This site enters Proust from the periphery through signs, music, images, space, sensory history, and writing.
+Minimal Reading Package V0.1 is now active. The site is moving from packet construction into passage-level reading, judgment, and reader-facing transformation.
 
-## Enter Through
+## Start here
 
-- Text, Time, and Signs
-- Music, Ineffability, and Form
-- Visuality, Attention, and Image
-- Space, Sensory History, and Social Time
-- Writing and Course-Making
+- [[Minimal-Reading-Package]]
+- [[Reading-Map]]
+- [[Passage-Cards]]
+- [[Question-Gradient]]
+- [[U1-U6-Repository-Index]]
+- [[Build-Log]]
 
-## Core Entry
+## Current active entrances
 
-- [[Reading-Guide|Reading Guide]]
-- [[Reading-Index|Reading Index]]
-- [[Literature-Question-Map-V0.1|Literature–Question Map V0.1]]
-- [[Literature-Importance-Ranking-V0.1|Literature Importance Ranking V0.1]]
-- [[Core-Question-Collection|Core Question Collection]]
-- [[Minimal-Entry-Packet-V0.1|Minimal Entry Packet V0.1]]
-- [[NotebookLM-Evidence-Packet-Plan|NotebookLM Evidence Packet Plan]]
-- [[Build-Log|Build Log]]
-
-## Current Reading Pages
-
-- [[Reading-Madeleine|Madeleine]]
-- [[Reading-Vinteuil|Vinteuil]]
-- [[Reading-Vermeer-Yellow-Wall|Vermeer Yellow Wall]]
-- [[Reading-Salon|Salon]]
+- Madeleine｜memory / sensation / sign
+- Vinteuil little phrase｜music / love sign / truth
+- Vermeer yellow wall｜visual attention / artistic truth
+- Bells / soundscape｜collective time
+- Smell / atmosphere｜sensory history
