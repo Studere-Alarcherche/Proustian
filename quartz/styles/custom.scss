@@ -12,6 +12,21 @@
   --bodyFont: "Lora", "Noto Serif SC", serif !important;
 }
 
+html[saved-theme="dark"] {
+  --light: #1E1E1E !important;
+  --lightgray: #34322C !important;
+  --gray: #8F8776 !important;
+  --darkgray: #CFC6B6 !important;
+  --dark: #F4EEDC !important;
+  --secondary: #D6AA78 !important;
+  --tertiary: #8D7355 !important;
+}
+
+body {
+  background: var(--light);
+  color: var(--dark);
+}
+
 /* 2. 排版基础 */
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--headerFont);
@@ -23,6 +38,49 @@ h1, h2, h3, h4, h5, h6 {
 article {
   line-height: 1.85 !important;
   letter-spacing: 0.01em;
+}
+
+article h1 {
+  margin-top: 0;
+  margin-bottom: 1.6rem;
+}
+
+article h2 {
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.35rem;
+  border-bottom: 1px solid var(--lightgray);
+}
+
+article h3 {
+  margin-top: 2.2rem;
+  margin-bottom: 0.8rem;
+}
+
+article h4 {
+  margin-top: 1.6rem;
+  margin-bottom: 0.6rem;
+}
+
+article p {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+article ul,
+article ol {
+  margin-top: 0.75rem;
+  margin-bottom: 1.25rem;
+  padding-left: 1.4rem;
+}
+
+article li {
+  margin-top: 0.35rem;
+  margin-bottom: 0.35rem;
+}
+
+article hr {
+  margin: 2.5rem 0;
 }
 
 blockquote {
@@ -679,4 +737,109 @@ article > ul > li > .internal-link {
   margin: 0.5rem 0;
   font-size: 1.1rem;
   letter-spacing: 0.05em;
+}
+
+/* =========================================
+   9. Reader-facing typography layer
+   ========================================= */
+
+article {
+  max-width: 760px;
+  width: 100%;
+  line-height: 1.82 !important;
+  color: var(--dark);
+}
+
+article > p:first-of-type::first-letter {
+  float: none;
+  font: inherit;
+  line-height: inherit;
+  margin: 0;
+  color: inherit;
+  text-shadow: none;
+}
+
+article h1 {
+  margin: 0 0 1.75rem;
+  font-size: 2.35rem;
+  line-height: 1.15;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  color: var(--dark);
+}
+
+article h2 {
+  margin: 3.25rem 0 1.15rem;
+  padding-bottom: 0.45rem;
+  border-bottom: 1px solid var(--lightgray);
+  font-size: 1.65rem;
+  line-height: 1.25;
+  font-weight: 600;
+  color: var(--dark);
+}
+
+article h3 {
+  margin: 2.35rem 0 0.85rem;
+  font-size: 1.28rem;
+  line-height: 1.32;
+  font-weight: 600;
+  color: var(--secondary);
+}
+
+article h4,
+article h5 {
+  margin: 1.65rem 0 0.65rem;
+  font-size: 1.05rem;
+  line-height: 1.4;
+  font-weight: 600;
+  color: var(--darkgray);
+}
+
+article p {
+  margin: 0.85rem 0;
+}
+
+article ul,
+article ol {
+  margin: 0.85rem 0 1.35rem;
+  padding-left: 1.45rem;
+}
+
+article li {
+  margin: 0.42rem 0;
+}
+
+article li > p {
+  margin: 0.35rem 0;
+}
+
+article hr {
+  border: none;
+  border-top: 1px solid var(--lightgray);
+  margin: 2.75rem 0;
+  text-align: center;
+}
+
+article hr::before {
+  content: none;
+}
+
+article strong {
+  color: var(--dark);
+  font-weight: 650;
+  box-shadow: inset 0 -0.16em 0 color-mix(in srgb, var(--secondary) 22%, transparent);
+}
+
+article blockquote {
+  margin: 1.4rem 0;
+  padding: 0.85rem 1.15rem;
+  border-left: 3px solid var(--secondary);
+  background: color-mix(in srgb, var(--secondary) 8%, transparent);
+  color: var(--darkgray);
+}
+
+article > ul > li > .internal-link {
+  margin: 0.25rem 0;
+  font-size: 1rem;
+  letter-spacing: 0;
 }

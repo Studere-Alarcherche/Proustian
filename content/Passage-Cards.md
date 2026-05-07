@@ -2,53 +2,59 @@
 
 Use this page with [[Minimal-Reading-Package]], [[Reading-Map]], and [[Question-Gradient]].
 
+Status language:
+- found = locator exists
+- checked = boundary confirmed in iBooks
+- read = passage has been read
+- carded = usable Passage Card exists
+
 ## Standard Passage Card Template
 
-Source: TBD
+Source: pending reading confirmation
 
-Edition / File: TBD
+Edition / File: pending source check
 
-Local Location: TBD
+Local Location: pending iBooks check
 
-Start Words: TBD
+Start Words: pending iBooks check
 
-End Words: TBD
+End Words: pending iBooks check
 
 NotebookLM Packet: TO BE ADDED MANUALLY
 
-Why this passage matters: TBD
+Why this passage matters: blank until reading
 
-Questions: TBD
+Questions: blank until reading
 
-Annotations: TBD
+Annotations: blank until reading
 
-Concepts: TBD
+Concepts: blank until reading
 
-Related Unit: TBD
+Related Unit: pending unit link
 
-Obsidian Links: TBD
+Obsidian Links: pending internal links
 
-Next reading action: TBD
+Next reading action: pending reading action
 
 ## Madeleine｜memory / sensation / sign
 
-Source: TBD
+Source: pending reading confirmation
 
-Edition / File: TBD
+Edition / File: pending source check
 
-Local Location: TBD
+Local Location: pending iBooks check
 
-Start Words: TBD
+Start Words: pending iBooks check
 
-End Words: TBD
+End Words: pending iBooks check
 
 NotebookLM Packet: TO BE ADDED MANUALLY
 
-Why this passage matters: TBD
+Why this passage matters: blank until reading
 
 Questions: How does a sensory event become a sign before it becomes an explanation?
 
-Annotations: TBD
+Annotations: blank until reading
 
 Concepts: memory; sensation; sign
 
@@ -60,23 +66,23 @@ Next reading action: Verify passage boundary and build the first complete card.
 
 ## Vinteuil little phrase｜music / love sign / truth
 
-Source: TBD
+Source: pending reading confirmation
 
-Edition / File: TBD
+Edition / File: pending source check
 
-Local Location: TBD
+Local Location: pending iBooks check
 
-Start Words: TBD
+Start Words: pending iBooks check
 
-End Words: TBD
+End Words: pending iBooks check
 
 NotebookLM Packet: TO BE ADDED MANUALLY
 
-Why this passage matters: TBD
+Why this passage matters: blank until reading
 
 Questions: How does music carry truth before it can be explained?
 
-Annotations: TBD
+Annotations: blank until reading
 
 Concepts: music; love sign; truth
 
@@ -88,23 +94,23 @@ Next reading action: Verify passage boundary and build the first complete card.
 
 ## Vermeer yellow wall｜visual attention / artistic truth
 
-Source: TBD
+Source: pending reading confirmation
 
-Edition / File: TBD
+Edition / File: pending source check
 
-Local Location: TBD
+Local Location: pending iBooks check
 
-Start Words: TBD
+Start Words: pending iBooks check
 
-End Words: TBD
+End Words: pending iBooks check
 
 NotebookLM Packet: TO BE ADDED MANUALLY
 
-Why this passage matters: TBD
+Why this passage matters: blank until reading
 
 Questions: How does visual attention become a discipline of artistic truth?
 
-Annotations: TBD
+Annotations: blank until reading
 
 Concepts: visual attention; artistic truth; seeing
 
@@ -116,23 +122,23 @@ Next reading action: Verify passage boundary and build the first complete card.
 
 ## Bells / soundscape｜collective time
 
-Source: TBD
+Source: pending reading confirmation
 
-Edition / File: TBD
+Edition / File: pending source check
 
-Local Location: TBD
+Local Location: pending iBooks check
 
-Start Words: TBD
+Start Words: pending iBooks check
 
-End Words: TBD
+End Words: pending iBooks check
 
 NotebookLM Packet: TO BE ADDED MANUALLY
 
-Why this passage matters: TBD
+Why this passage matters: blank until reading
 
 Questions: How does sound gather private perception into collective time?
 
-Annotations: TBD
+Annotations: blank until reading
 
 Concepts: bells; soundscape; collective time
 
@@ -144,23 +150,23 @@ Next reading action: Verify passage boundary and build the first complete card.
 
 ## Smell / atmosphere｜sensory history
 
-Source: TBD
+Source: pending reading confirmation
 
-Edition / File: TBD
+Edition / File: pending source check
 
-Local Location: TBD
+Local Location: pending iBooks check
 
-Start Words: TBD
+Start Words: pending iBooks check
 
-End Words: TBD
+End Words: pending iBooks check
 
 NotebookLM Packet: TO BE ADDED MANUALLY
 
-Why this passage matters: TBD
+Why this passage matters: blank until reading
 
 Questions: How do smell and atmosphere mark social boundaries and historical subjectivity?
 
-Annotations: TBD
+Annotations: blank until reading
 
 Concepts: smell; atmosphere; sensory history
 
