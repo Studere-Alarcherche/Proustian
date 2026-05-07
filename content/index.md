@@ -12,6 +12,7 @@ Minimal Reading Package V0.1 is now active. The site is moving from packet const
 ## Start here
 
 - [[Minimal-Reading-Package]]
+- [[Source-Locator-iBooks]]
 - [[Reading-Map]]
 - [[Passage-Cards]]
 - [[Question-Gradient]]
