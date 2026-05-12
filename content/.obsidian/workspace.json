@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Question-Gradient.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Question-Gradient"
+              "title": "index"
             }
           }
         ]
@@ -112,7 +112,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "8429ec4e85488a51",
@@ -128,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "06-Logs/Current-Week.md",
+                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +139,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Current-Week 的反向链接列表"
+              "title": "index 的反向链接列表"
             }
           },
           {
@@ -208,16 +209,29 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "4722c592d7135d7c",
+            "type": "leaf",
+            "state": {
+              "type": "planner-timeline",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Timeline"
+            }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-day-planner:Open Timeline": false,
+      "obsidian-day-planner:Open Multi-Day View": false,
+      "notebook-navigator:笔记本导航器": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
@@ -233,21 +247,24 @@
   },
   "active": "2cdb45fc349583e7",
   "lastOpenFiles": [
-    "index.md",
+    "Levi-Strauss-Structure-Myth.md",
+    "Literature-Importance-Ranking-V0.1.md",
+    "Minimal-Reading-Packet.md",
+    "Passage-Cards.md",
+    "U1-U6-Repository-Index.md",
+    "Six-Units.md",
+    "Reading-Map.md",
     "Course-Thesis.md",
     "Proustian-2.0.md",
+    "Constellations.md",
+    "Build-Log.md",
+    "2026-05-07.md",
+    "Question-Gradient.md",
+    "index.md",
     "NotebookLM-Evidence-Packet-Plan.md",
     "New-Tendrils.md",
-    "Minimal-Reading-Packet.md",
-    "Build-Log.md",
-    "Reading-Map.md",
     "Warburg-Image-Memory.md",
-    "Six-Units.md",
-    "Question-Gradient.md",
-    "Literature-Importance-Ranking-V0.1.md",
-    "Levi-Strauss-Structure-Myth.md",
     "Codex-Operating-Rules.md",
-    "Constellations.md",
     "字数大概.md",
     "Essays/越秀公园.md",
     "Essays/碎片笔记的必要性-Flomo仍然然保留.md",
@@ -256,9 +273,6 @@
     "Essays/北归咖仓.md",
     "Essays/index.md",
     "Essays/Sensory鹅卵石咖啡Espresso.md",
-    "Essays/20260301-读书、吃.md",
-    "Essays/2.24日在广州越秀区.md",
-    "Essays/04-反向布鲁姆重构螺旋：自上而下&自下而上.md",
     "Essays",
     "Asserts/Pasted image 20260219201554.png",
     "Asserts/proust-logo.png.jpg",
