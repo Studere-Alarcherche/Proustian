@@ -122,7 +122,7 @@ No, except for targeted packets where a verified expansion would clarify an exis
 - full music history surveys
 - full art history surveys
 - broad poststructuralist expansion
-- large Zotero evidence-chain work
+- large external citation-database evidence-chain work
 - database-heavy website features
 
 Use:

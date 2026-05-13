@@ -1,17 +1,42 @@
-# Quartz v4
+# Proustian
 
-> “[One] who works with the door open gets all kinds of interruptions, but [they] also occasionally gets clues as to what the world is and what might be important.” — Richard Hamming
+Proustian is an Obsidian + Quartz reading repository for Proustian 2.0.
 
-Quartz is a set of tools that helps you publish your [digital garden](https://jzhao.xyz/posts/networked-thought) and notes as a website for free.
+This repository is not a normal blog, a raw source dump, a plugin playground, or a Zotero-centered workflow. It supports a reader-facing public course garden while preserving Obsidian as the private layer for judgment, reading, training, and writing.
 
-🔗 Read the documentation and get started: https://quartz.jzhao.xyz/
+## Current Workflow
 
-[Join the Discord Community](https://discord.gg/cRFFHYye7t)
+The active workflow is:
 
-## Sponsors
+Local Source Repository -> NotebookLM U1-U6 -> Obsidian Reading Repository -> GitHub / Quartz Public Course Garden -> WeChat Public Writing
 
-<p align="center">
-  <a href="https://github.com/sponsors/jackyzha0">
-    <img src="https://cdn.jsdelivr.net/gh/jackyzha0/jackyzha0/sponsorkit/sponsors.svg" />
-  </a>
-</p>
+Quartz publishes from `content/`. Obsidian should open `content/` as the vault. Codex works from the repository root and handles structural labor only: cleanup, links, frontmatter, Markdown formatting, Quartz structure, repo hygiene, and safe removal of obsolete generated files.
+
+## Active Entry Files
+
+- `content/index.md`
+- `content/Proustian-2.0.md`
+- `content/Reading-Map.md`
+- `content/Question-Gradient.md`
+- `content/Passage-Cards.md`
+- `content/Build-Log.md`
+- `content/U1-U6-Repository-Index.md`
+
+## Maintenance Rules
+
+- Keep `content/index.md` lowercase and do not create root `index.md`.
+- Keep public course pages flat under `content/` unless Quartz tooling requires otherwise.
+- Do not introduce a folder-centered knowledge system.
+- Do not add plugin dependencies for publishing automation.
+- Do not rewrite core theoretical claims during structural cleanup.
+- Archive uncertain intellectual material instead of deleting it.
+- Delete only generated junk, cache, build output, dead automation, or obsolete plugin residue.
+
+## Build
+
+Install dependencies and build Quartz:
+
+```bash
+npm ci
+npm run build
+```
