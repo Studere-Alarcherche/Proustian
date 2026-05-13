@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "Reading-Map.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "Reading-Map"
             }
           }
         ]
@@ -112,8 +112,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "8429ec4e85488a51",
@@ -247,6 +246,8 @@
   },
   "active": "2cdb45fc349583e7",
   "lastOpenFiles": [
+    "2026-05-13.md",
+    "index.md",
     "Levi-Strauss-Structure-Myth.md",
     "Literature-Importance-Ranking-V0.1.md",
     "Minimal-Reading-Packet.md",
@@ -260,7 +261,6 @@
     "Build-Log.md",
     "2026-05-07.md",
     "Question-Gradient.md",
-    "index.md",
     "NotebookLM-Evidence-Packet-Plan.md",
     "New-Tendrils.md",
     "Warburg-Image-Memory.md",
@@ -272,7 +272,6 @@
     "Essays/基于 Obsidian x Quartz x Git 的网状数字花园搭建指南.md",
     "Essays/北归咖仓.md",
     "Essays/index.md",
-    "Essays/Sensory鹅卵石咖啡Espresso.md",
     "Essays",
     "Asserts/Pasted image 20260219201554.png",
     "Asserts/proust-logo.png.jpg",
