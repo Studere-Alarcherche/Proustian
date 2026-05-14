@@ -1,0 +1,824 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>U1｜General Introduction: From the Memory Cliché to Polycentric Reading</title>
+  <meta name="description" content="U1 methodological overture for Proustian 2.0: from the memory cliché to polycentric claim/problem chains and textual return." />
+  <style>
+    :root {
+      --bg: #fbfaf7;
+      --paper: #ffffff;
+      --ink: #142033;
+      --soft-ink: #314158;
+      --muted: #697386;
+      --line: #e7dfd4;
+      --line-strong: #d9cdbf;
+      --accent: #7d3f2d;
+      --accent-2: #314f77;
+      --accent-3: #6a5a84;
+      --wash: #fff7f1;
+      --wash-blue: #f3f7fc;
+      --wash-purple: #f5f1fa;
+      --wash-green: #f2f7f2;
+      --radius: 22px;
+      --shadow: 0 18px 45px rgba(28, 35, 45, 0.08);
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      background:
+        radial-gradient(circle at top left, rgba(125,63,45,0.08), transparent 32rem),
+        linear-gradient(180deg, #fbfaf7 0%, #f7f3ed 100%);
+      color: var(--ink);
+      font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans SC", "PingFang SC", "Microsoft YaHei", Arial, sans-serif;
+      line-height: 1.72;
+      letter-spacing: 0.005em;
+    }
+
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    .page {
+      width: min(1180px, calc(100% - 40px));
+      margin: 0 auto;
+      padding: 42px 0 78px;
+    }
+
+    .hero {
+      position: relative;
+      overflow: hidden;
+      padding: clamp(34px, 6vw, 68px);
+      border: 1px solid var(--line);
+      border-radius: 32px;
+      background:
+        linear-gradient(135deg, rgba(255,255,255,0.96), rgba(255,247,241,0.94)),
+        radial-gradient(circle at 80% 10%, rgba(49,79,119,0.16), transparent 22rem);
+      box-shadow: var(--shadow);
+    }
+
+    .hero::after {
+      content: "";
+      position: absolute;
+      right: -80px;
+      top: 42px;
+      width: 360px;
+      height: 360px;
+      border: 1px solid rgba(125,63,45,0.18);
+      border-radius: 50%;
+      transform: rotate(-12deg);
+    }
+
+    .eyebrow {
+      margin: 0 0 14px;
+      color: var(--accent);
+      font-weight: 800;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      font-size: 0.78rem;
+    }
+
+    h1, h2, h3 { line-height: 1.18; letter-spacing: -0.035em; }
+    h1 {
+      position: relative;
+      max-width: 940px;
+      margin: 0;
+      font-size: clamp(2.25rem, 5vw, 5.05rem);
+      z-index: 1;
+    }
+
+    .subtitle {
+      position: relative;
+      z-index: 1;
+      max-width: 860px;
+      margin: 24px 0 0;
+      color: var(--soft-ink);
+      font-size: clamp(1rem, 1.5vw, 1.2rem);
+    }
+
+    .meta {
+      position: relative;
+      z-index: 1;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 30px;
+    }
+
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 7px 12px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: rgba(255,255,255,0.78);
+      color: #3f4b5f;
+      font-size: 0.9rem;
+    }
+
+    .toc {
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      margin: 22px auto 30px;
+      padding: 12px;
+      border: 1px solid rgba(231,223,212,0.88);
+      border-radius: 999px;
+      background: rgba(251,250,247,0.88);
+      backdrop-filter: blur(14px);
+      box-shadow: 0 8px 24px rgba(20,32,51,0.04);
+    }
+
+    .toc-inner {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 8px;
+    }
+
+    .toc a {
+      display: inline-flex;
+      padding: 7px 11px;
+      border: 1px solid transparent;
+      border-radius: 999px;
+      color: #40506a;
+      font-size: 0.9rem;
+    }
+
+    .toc a:hover {
+      border-color: var(--line-strong);
+      background: #fff;
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    .section {
+      margin-top: 30px;
+      padding: clamp(22px, 4vw, 38px);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: rgba(255,255,255,0.94);
+      box-shadow: 0 10px 30px rgba(28,35,45,0.05);
+    }
+
+    .section > h2 {
+      margin: 0 0 10px;
+      font-size: clamp(1.6rem, 3vw, 2.7rem);
+    }
+
+    .section-kicker {
+      margin: 0 0 22px;
+      color: var(--muted);
+      max-width: 820px;
+    }
+
+    .callout {
+      margin: 22px 0;
+      padding: 20px 22px;
+      border: 1px solid #ead3c4;
+      border-radius: 18px;
+      background: var(--wash);
+    }
+
+    .callout strong { color: var(--accent); }
+
+    .grid-two {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 18px;
+    }
+
+    .grid-three {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 18px;
+    }
+
+    .card {
+      padding: 20px;
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      background: #fff;
+    }
+
+    .card h3 {
+      margin: 0 0 8px;
+      font-size: 1.18rem;
+    }
+
+    .card p { margin: 0; color: var(--soft-ink); }
+
+    .mini-label {
+      display: inline-flex;
+      margin-bottom: 10px;
+      padding: 4px 9px;
+      border-radius: 999px;
+      background: #f2f4f7;
+      color: #48566f;
+      font-size: 0.78rem;
+      font-weight: 800;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+    }
+
+    .table-wrap {
+      overflow-x: auto;
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      background: #fff;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      min-width: 760px;
+    }
+
+    th, td {
+      padding: 15px 16px;
+      border-bottom: 1px solid var(--line);
+      text-align: left;
+      vertical-align: top;
+    }
+
+    th {
+      background: #fbf8f3;
+      color: #2f3b4f;
+      font-size: 0.84rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    tr:last-child td { border-bottom: none; }
+
+    .chain {
+      display: grid;
+      grid-template-columns: repeat(6, minmax(0, 1fr));
+      gap: 10px;
+      margin: 22px 0 8px;
+    }
+
+    .chain-step {
+      position: relative;
+      min-height: 118px;
+      padding: 15px;
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      background: #fff;
+    }
+
+    .chain-step::after {
+      content: "→";
+      position: absolute;
+      right: -10px;
+      top: 42px;
+      color: var(--muted);
+      font-weight: 700;
+    }
+
+    .chain-step:last-child::after { content: ""; }
+
+    .num {
+      display: inline-grid;
+      place-items: center;
+      width: 24px;
+      height: 24px;
+      border-radius: 999px;
+      background: #edf3fb;
+      color: var(--accent-2);
+      font-weight: 800;
+      font-size: 0.82rem;
+      margin-bottom: 10px;
+    }
+
+    .chain-step h3 {
+      margin: 0 0 6px;
+      font-size: 1rem;
+      letter-spacing: -0.02em;
+    }
+
+    .chain-step p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 0.92rem;
+      line-height: 1.55;
+    }
+
+    .reading-steps {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 12px;
+      margin-top: 18px;
+    }
+
+    .reading-step {
+      min-height: 150px;
+      padding: 16px;
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      background: linear-gradient(180deg, #fff, #fcfbf8);
+    }
+
+    .reading-step p { margin: 0; }
+
+    .lens-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 16px;
+      margin-top: 18px;
+    }
+
+    .lens-card {
+      padding: 18px 18px 16px;
+      border: 1px solid var(--line);
+      border-left: 5px solid var(--accent-2);
+      border-radius: 18px;
+      background: #fff;
+    }
+
+    .lens-card:nth-child(2) { border-left-color: var(--accent); }
+    .lens-card:nth-child(3) { border-left-color: var(--accent-3); }
+    .lens-card:nth-child(4) { border-left-color: #6d7d40; }
+    .lens-card:nth-child(5) { border-left-color: #4a6b61; }
+    .lens-card:nth-child(6) { border-left-color: #8a5b45; }
+
+    .lens-card h3 { margin: 0 0 8px; font-size: 1.12rem; }
+    .lens-card ul { margin: 8px 0 0; padding-left: 1.1rem; color: var(--soft-ink); }
+    .lens-card li { margin: 4px 0; }
+
+    .quote {
+      margin: 24px 0 0;
+      padding: 22px 24px;
+      border-left: 5px solid var(--accent);
+      border-radius: 0 18px 18px 0;
+      background: var(--wash);
+      color: #2d3748;
+      font-size: 1.06rem;
+    }
+
+    .bilingual {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 18px;
+    }
+
+    .bilingual .card:first-child { background: var(--wash-blue); }
+    .bilingual .card:last-child { background: #fffdf7; }
+
+    .test-cases {
+      display: grid;
+      grid-template-columns: repeat(5, minmax(0, 1fr));
+      gap: 12px;
+      margin-top: 18px;
+    }
+
+    .test-case {
+      padding: 16px;
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      background: #fff;
+    }
+
+    .test-case h3 {
+      margin: 0 0 8px;
+      font-size: 1rem;
+    }
+
+    .test-case p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 0.92rem;
+      line-height: 1.55;
+    }
+
+    .footer-note {
+      margin-top: 34px;
+      color: var(--muted);
+      font-size: 0.94rem;
+      text-align: center;
+    }
+
+    @media (max-width: 980px) {
+      .grid-two, .grid-three, .bilingual, .lens-grid { grid-template-columns: 1fr; }
+      .chain { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .chain-step::after { content: ""; }
+      .reading-steps { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .test-cases { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .toc { border-radius: 22px; }
+    }
+
+    @media (max-width: 620px) {
+      .page { width: min(100% - 24px, 1180px); padding-top: 22px; }
+      .hero { border-radius: 24px; }
+      .chain, .reading-steps, .test-cases { grid-template-columns: 1fr; }
+    }
+
+    @media print {
+      body { background: #fff; }
+      .page { width: auto; padding: 0; }
+      .toc { display: none; }
+      .hero, .section { box-shadow: none; break-inside: avoid; }
+      .chain-step::after { content: ""; }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header class="hero" id="top">
+      <p class="eyebrow">Proustian 2.0 · U1 Methodological Overture</p>
+      <h1>From the Memory Cliché to Polycentric Reading</h1>
+      <p class="subtitle">
+        U1 is not a signs unit. It is the general introduction that uses the memory cliché as a methodological hinge: from involuntary memory to competing reading lenses, from single-center interpretation to claim/problem chains, and finally back to Proust’s textual world.
+      </p>
+      <div class="meta" aria-label="metadata">
+        <span class="pill">U1｜General Introduction</span>
+        <span class="pill">Memory as Starting Pressure</span>
+        <span class="pill">Polycentric Method</span>
+        <span class="pill">Claim / Problem Chain</span>
+        <span class="pill">Textual Return</span>
+      </div>
+    </header>
+
+    <nav class="toc" aria-label="Page navigation">
+      <div class="toc-inner">
+        <a href="#position">Position</a>
+        <a href="#memory">Memory Cliché</a>
+        <a href="#review">Literature Review</a>
+        <a href="#polycentric">Polycentric Method</a>
+        <a href="#chain">Claim / Problem</a>
+        <a href="#kite">Kite-Line</a>
+        <a href="#action">Reading Action</a>
+        <a href="#transition">Transition</a>
+      </div>
+    </nav>
+
+    <section class="section" id="position">
+      <h2>U1 Position｜总论，而不是 Signs 单元</h2>
+      <p class="section-kicker">
+        U1 establishes the course’s methodological tendency. It does not ask the reader to replace memory with signs, nor to choose Deleuze as the master key. It shows how the cliché “Proust is a novelist of memory” becomes the first pressure point from which the whole course opens.
+      </p>
+      <div class="grid-two">
+        <div class="card">
+          <span class="mini-label">Not This</span>
+          <h3>Signs as Course Center</h3>
+          <p>U1 should not make “signs” into a new sovereign center. Deleuze remains useful, but he is only one theoretical line among several.</p>
+        </div>
+        <div class="card">
+          <span class="mini-label">But This</span>
+          <h3>Memory Cliché as Methodological Hinge</h3>
+          <p>The course begins with the force and insufficiency of involuntary memory, then unfolds multiple reading paths that return to the novel.</p>
+        </div>
+      </div>
+      <div class="callout">
+        <strong>Core formulation:</strong> U1 is a methodological overture. It explains how Proustian 2.0 reads through strong theoretical positions without allowing any one of them to own Proust.
+      </div>
+    </section>
+
+    <section class="section" id="memory">
+      <h2>The Memory Cliché as Starting Pressure</h2>
+      <p class="section-kicker">
+        The tradition of involuntary memory is not a weak opponent. It is powerful enough to become a recurring object of criticism, compression, displacement, and renewal. U1 must therefore begin by granting its force before showing why it cannot remain the only center.
+      </p>
+      <div class="bilingual">
+        <div class="card">
+          <span class="mini-label">English Claim</span>
+          <h3>Memory is powerful but insufficient.</h3>
+          <p>Proust is often entered through lost time, involuntary memory, and the return of the personal past. This entry is legitimate, but incomplete. If memory becomes the first and final explanation, the novel’s errors, delays, social codes, musical pressures, visual fragments, and artistic discoveries are flattened.</p>
+        </div>
+        <div class="card">
+          <span class="mini-label">中文判断</span>
+          <h3>记忆是强传统，但不是最终中心。</h3>
+          <p>非自愿记忆当然构成《追忆》中最具震动性的经验之一。但如果它成为唯一解释，小说中的误读、延宕、社交姿态、爱情迷误、音乐压力、视觉凝聚与艺术真理都会被压成“过去回来了”。</p>
+        </div>
+      </div>
+      <blockquote class="quote">
+        U1 does not reject memory. It uses memory as the first hinge through which Proustian reading moves from a single strong tradition toward a polycentric method.
+      </blockquote>
+    </section>
+
+    <section class="section" id="review">
+      <h2>Basic Literature Review as Method</h2>
+      <p class="section-kicker">
+        The literature review in U1 should not be a bibliography dump. It should present reading positions: what each lens sees, what it risks, and how it returns to the Proustian text-world.
+      </p>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Reading Position</th>
+              <th>What It Sees</th>
+              <th>What It Risks</th>
+              <th>Return to Text</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Memory Tradition</strong></td>
+              <td>Lost time returns through sensation, involuntary memory, and the sudden recovery of personal history.</td>
+              <td>Reducing the novel to recollection, nostalgia, or psychological recovery.</td>
+              <td>Ask what returns, and why the return is delayed, unstable, or transformed.</td>
+            </tr>
+            <tr>
+              <td><strong>Deleuze</strong></td>
+              <td>Signs force thought; the narrator learns through error, apprenticeship, and interpretation.</td>
+              <td>Flattening prose into taxonomy or turning Proust into Deleuze.</td>
+              <td>Ask whether signs clarify the passage, or whether classification weakens its literary pressure.</td>
+            </tr>
+            <tr>
+              <td><strong>Poulet</strong></td>
+              <td>Memory becomes space; moments and places condense into fields of vision.</td>
+              <td>Freezing narrative movement into static contemplation.</td>
+              <td>Ask what spatial image or mosaic-like arrangement the passage forms.</td>
+            </tr>
+            <tr>
+              <td><strong>Narrative Discourse</strong></td>
+              <td>Meaning emerges through delay, order, duration, frequency, voice, retrospection, and narrative arrangement.</td>
+              <td>Over-formalizing the text and losing the pressure of experience.</td>
+              <td>Ask how the passage becomes readable only through narrative structure.</td>
+            </tr>
+            <tr>
+              <td><strong>Visual / Music / Sensory Paths</strong></td>
+              <td>Proust transforms image, sound, smell, gesture, and atmosphere into literary form.</td>
+              <td>Drifting into art history, musicology, or sensory history without textual return.</td>
+              <td>Ask how the medium is absorbed by the novel rather than simply added to it.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="section" id="polycentric">
+      <h2>Polycentric Reading｜无中心不是无判断</h2>
+      <p class="section-kicker">
+        U1 introduces a polycentric method. “No center” does not mean arbitrary wandering. It means no single theory is allowed to become sovereign. Each lens must become strong enough to make a claim, produce a problem, and submit itself to textual testing.
+      </p>
+      <div class="grid-three">
+        <div class="card">
+          <span class="mini-label">Rule 1</span>
+          <h3>No single theory owns Proust.</h3>
+          <p>Memory, signs, space, narrative delay, music, visuality, and sensory history are all possible entrances, not final masters.</p>
+        </div>
+        <div class="card">
+          <span class="mini-label">Rule 2</span>
+          <h3>Every lens must become strong.</h3>
+          <p>A weak lens produces decoration. A strong lens produces a claim, a problem, and a pressure against other readings.</p>
+        </div>
+        <div class="card">
+          <span class="mini-label">Rule 3</span>
+          <h3>The text tests every claim.</h3>
+          <p>A theory is useful only when it returns to a sentence, scene, rhythm, object, gesture, sound, or misrecognition.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="chain">
+      <h2>Claim / Problem Chain</h2>
+      <p class="section-kicker">
+        This is the central writing method for U1. The goal is not to list themes, but to unfold claims until their problems, counterclaims, limits, and textual returns become visible.
+      </p>
+      <div class="chain" aria-label="Claim problem chain">
+        <div class="chain-step">
+          <span class="num">1</span>
+          <h3>Claim</h3>
+          <p>State what a reading position asserts.</p>
+        </div>
+        <div class="chain-step">
+          <span class="num">2</span>
+          <h3>Passage</h3>
+          <p>Attach the claim to a concrete Proust scene.</p>
+        </div>
+        <div class="chain-step">
+          <span class="num">3</span>
+          <h3>Problem</h3>
+          <p>Show what the claim cannot easily explain.</p>
+        </div>
+        <div class="chain-step">
+          <span class="num">4</span>
+          <h3>Counter-Claim</h3>
+          <p>Let another lens answer or resist it.</p>
+        </div>
+        <div class="chain-step">
+          <span class="num">5</span>
+          <h3>Limit</h3>
+          <p>Expose where the second lens also begins to fail.</p>
+        </div>
+        <div class="chain-step">
+          <span class="num">6</span>
+          <h3>Return</h3>
+          <p>Go back to the prose and form a judgment.</p>
+        </div>
+      </div>
+      <div class="callout">
+        <strong>Method principle:</strong> The more fully a claim/problem chain is unfolded, the more testable, comparable, and recoverable the reading becomes. This is U1’s version of rigor.
+      </div>
+    </section>
+
+    <section class="section" id="kite">
+      <h2>Kite-Line Reading｜文本脊骨与理论线束</h2>
+      <p class="section-kicker">
+        The hand-drawn model becomes the course’s visual method: theory flies outward from the text, reaches its horizon, dissolves, and returns.
+      </p>
+      <div class="grid-two">
+        <div class="card">
+          <span class="mini-label">English Formulation</span>
+          <h3>The text is the spine.</h3>
+          <p>Theories are lines released above it. Each line may fly outward, rise, diverge, and open a new field of vision. But every line must return to the Proustian text-world.</p>
+        </div>
+        <div class="card">
+          <span class="mini-label">中文表述</span>
+          <h3>文本是脊骨。</h3>
+          <p>理论是在文本脊骨上方放飞的线束。每条理论线都可以飞出、分叉、升高，但最终必须重新降落到普鲁斯特的句子、场景、感官与叙事运动之中。</p>
+        </div>
+      </div>
+      <blockquote class="quote">
+        Proustian 2.0 does not reject theory. It releases theory from the text, lets it fly to its horizon, watches it dissolve, and then returns to the novel and to the reader’s own perception.
+      </blockquote>
+    </section>
+
+    <section class="section" id="action">
+      <h2>Reading Action｜U1 训练的不是 Sign 分类</h2>
+      <p class="section-kicker">
+        The reading action no longer begins by asking “what kind of sign is this?” It begins with the passage and asks what pressure appears. Signs are one possible lens, not the center.
+      </p>
+      <div class="reading-steps">
+        <div class="reading-step">
+          <span class="num">1</span>
+          <p>Start with a Proust passage, not a theory.</p>
+        </div>
+        <div class="reading-step">
+          <span class="num">2</span>
+          <p>Identify the dominant pressure: memory, error, delay, image, sound, social gesture, sensation, or artistic form.</p>
+        </div>
+        <div class="reading-step">
+          <span class="num">3</span>
+          <p>Choose one provisional lens: memory, signs, space, narrative discourse, visuality, music, or sensory history.</p>
+        </div>
+        <div class="reading-step">
+          <span class="num">4</span>
+          <p>Ask what this lens makes visible in the passage.</p>
+        </div>
+        <div class="reading-step">
+          <span class="num">5</span>
+          <p>Ask what this lens fails to see, weakens, or over-systematizes.</p>
+        </div>
+        <div class="reading-step">
+          <span class="num">6</span>
+          <p>Let another lens answer, resist, or intensify the first claim.</p>
+        </div>
+        <div class="reading-step">
+          <span class="num">7</span>
+          <p>Return to the prose: sentence, rhythm, scene, gesture, object, sound, or image.</p>
+        </div>
+        <div class="reading-step">
+          <span class="num">8</span>
+          <p>Produce a readerly judgment: what did this passage teach the reader to see?</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="lenses">
+      <h2>Core Lenses Opened by U1</h2>
+      <p class="section-kicker">
+        U1 introduces several strong reading lenses. Each one is provisional. Each one must return to the passage.
+      </p>
+      <div class="lens-grid">
+        <div class="lens-card">
+          <h3>Memory</h3>
+          <ul>
+            <li>What lost past returns?</li>
+            <li>What sensory shock triggers it?</li>
+            <li>Why is return not enough?</li>
+          </ul>
+        </div>
+        <div class="lens-card">
+          <h3>Signs</h3>
+          <ul>
+            <li>What pressure forces interpretation?</li>
+            <li>What does the narrator misread?</li>
+            <li>Where does apprenticeship begin?</li>
+          </ul>
+        </div>
+        <div class="lens-card">
+          <h3>Space / Vision</h3>
+          <ul>
+            <li>What spatial image forms?</li>
+            <li>How do moments and places become a mosaic?</li>
+            <li>What does vision compress?</li>
+          </ul>
+        </div>
+        <div class="lens-card">
+          <h3>Narrative Discourse</h3>
+          <ul>
+            <li>What is delayed?</li>
+            <li>Who knows what, and when?</li>
+            <li>How does narrative order make meaning possible?</li>
+          </ul>
+        </div>
+        <div class="lens-card">
+          <h3>Music / Visuality</h3>
+          <ul>
+            <li>How does another art enter the novel?</li>
+            <li>Does the novel imitate it or transform it?</li>
+            <li>What new form of truth appears?</li>
+          </ul>
+        </div>
+        <div class="lens-card">
+          <h3>Sensory / Social Space</h3>
+          <ul>
+            <li>How do smell, sound, room, salon, or street produce social time?</li>
+            <li>What historical pressure enters private experience?</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="test-cases">
+      <h2>Scene Anchors as Test Cases</h2>
+      <p class="section-kicker">
+        These are not proof examples for a single theory. They are testing grounds where multiple lenses compete and return.
+      </p>
+      <div class="test-cases">
+        <div class="test-case">
+          <h3>Madeleine</h3>
+          <p>Memory, sensation, sign, habit, delay, and narrative reorganization.</p>
+        </div>
+        <div class="test-case">
+          <h3>Swann / Odette</h3>
+          <p>Love, jealousy, deception, interpretation, social signs, and misreading.</p>
+        </div>
+        <div class="test-case">
+          <h3>Names of Places</h3>
+          <p>Fantasy, expectation, disappointment, space, language, and desire.</p>
+        </div>
+        <div class="test-case">
+          <h3>Vinteuil</h3>
+          <p>Music, love, ineffable truth, repetition, and artistic transformation.</p>
+        </div>
+        <div class="test-case">
+          <h3>Vermeer</h3>
+          <p>Visual attention, art sign, mortality, color, detail, and judgment.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="transition">
+      <h2>Transition to U2–U6</h2>
+      <p class="section-kicker">
+        U1 opens the whole course. It does not close itself around Deleuze or signs. Its output is a method that can move into later units.
+      </p>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Question Opened in U1</th>
+              <th>Later Unit</th>
+              <th>Course Function</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Why is memory powerful but insufficient?</td>
+              <td>U2｜Memory / Time / Space</td>
+              <td>Turns recollection into structure, delay, space, and passage-level reading.</td>
+            </tr>
+            <tr>
+              <td>How do signs, errors, and forced thought train the reader?</td>
+              <td>U1 bridge + U2</td>
+              <td>Provides a portable method without making Deleuze the center.</td>
+            </tr>
+            <tr>
+              <td>How does music become a path toward truth?</td>
+              <td>U3｜Music / Ineffable</td>
+              <td>Moves from emotional motif to artistic and novelistic structure.</td>
+            </tr>
+            <tr>
+              <td>How does seeing become attention and judgment?</td>
+              <td>U4｜Visuality / Gaze</td>
+              <td>Reads visual fragments as pressures on perception and form.</td>
+            </tr>
+            <tr>
+              <td>How do spaces and sensations produce social time?</td>
+              <td>U5｜Sensory History / Social Space</td>
+              <td>Links private sensation with historical and social form.</td>
+            </tr>
+            <tr>
+              <td>How can reading become a reader-facing structure?</td>
+              <td>U6｜Writing Apparatus</td>
+              <td>Converts U1–U5 into pages, cards, labs, and course architecture.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="callout">
+        <strong>U1 final judgment:</strong> The center is not memory, not signs, not Deleuze, not Poulet, and not any single theory. The center is the disciplined effort to approach Proust’s novel through competing, testable, returnable reading paths.
+      </div>
+    </section>
+
+    <p class="footer-note">Proustian 2.0 · U1 General Introduction · HTML draft for Obsidian / Quartz adaptation</p>
+  </main>
+</body>
+</html>

@@ -17,6 +17,9 @@ How does Proust train the reader to discover truth through signs, sensation, att
 
 How does Proust train the reader to read signs rather than merely follow plot, psychology, or memory?
 
+Method entrance:
+- [[U1-General-Introduction-Memory-Cliche-to-Polycentric-Reading|U1 General Introduction: From the Memory Cliché to Polycentric Reading]]
+
 Supporting questions:
 - What forces thought before interpretation begins?
 - What makes a sign readable?

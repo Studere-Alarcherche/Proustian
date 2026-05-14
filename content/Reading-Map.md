@@ -2,6 +2,10 @@
 
 Start from [[Minimal-Reading-Package]], then use [[Question-Gradient]], [[Passage-Cards]], [[U1-U6-Repository-Index]], and [[Build-Log]] to keep reading connected.
 
+## U1 methodological entrance
+
+- [[U1-General-Introduction-Memory-Cliche-to-Polycentric-Reading|U1 General Introduction]]: move from the memory cliché to polycentric, testable, returnable reading paths.
+
 ## Golden entrances
 
 - Madeleine｜memory / sensation / sign: a sensory event becomes a sign before it becomes an explanation.
