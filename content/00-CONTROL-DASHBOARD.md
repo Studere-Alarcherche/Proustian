@@ -3,6 +3,10 @@ title: Control Dashboard
 type: control-dashboard
 status: active
 updated: 2026-05-14
+draft: true
+private: true
+tags:
+  - control
 ---
 # CONTROL DASHBOARD
 > One repository. One control center. One next action.

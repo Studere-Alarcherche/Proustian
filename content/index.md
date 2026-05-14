@@ -11,7 +11,6 @@ Minimal Reading Package V0.1 is active. The current work is passage-level readin
 
 ## Atlas surface
 
-- [[00-CONTROL-DASHBOARD]]
 - [[Reading-Map]]
 - [[Passage-Cards]]
 - [[Source-Locator-iBooks]]

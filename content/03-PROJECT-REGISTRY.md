@@ -3,6 +3,10 @@ title: Project Registry
 type: project-registry
 status: active
 updated: 2026-05-14
+draft: true
+private: true
+tags:
+  - control
 ---
 # Project Registry
 | Project | Function | Location | Public? | Next Action |

@@ -3,6 +3,10 @@ title: Eisenhower Board
 type: eisenhower-board
 status: active
 updated: 2026-05-14
+draft: true
+private: true
+tags:
+  - control
 ---
 # Eisenhower Board
 ## I. Urgent + Important

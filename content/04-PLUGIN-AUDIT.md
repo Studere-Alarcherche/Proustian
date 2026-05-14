@@ -3,6 +3,10 @@ title: Plugin Audit
 type: plugin-audit
 status: active
 updated: 2026-05-14
+draft: true
+private: true
+tags:
+  - control
 ---
 # Plugin Audit
 ## Tonight’s Rule
