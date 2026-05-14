@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_archive-language-training/README.md",
+                "file": "00-CONTROL-DASHBOARD.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "00-CONTROL-DASHBOARD"
             }
           }
         ]
@@ -198,6 +198,16 @@
               "icon": "lucide-list",
               "title": "Build-Log 的大纲"
             }
+          },
+          {
+            "id": "da43a36f2d2b85c6",
+            "type": "leaf",
+            "state": {
+              "type": "planner-timeline",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Timeline"
+            }
           }
         ]
       }
@@ -208,6 +218,10 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-day-planner:Open Timeline": false,
+      "obsidian-day-planner:Open Multi-Day View": false,
+      "obsidian-git:Open Git source control": false,
+      "notebook-navigator:笔记本导航器": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
@@ -220,13 +234,15 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "4f0186bf89f272a0",
+  "active": "2cdb45fc349583e7",
   "lastOpenFiles": [
-    "04-PLUGIN-AUDIT.md",
-    "03-PROJECT-REGISTRY.md",
-    "02-EISENHOWER.md",
     "01-NEXT-ACTION.md",
+    "02-EISENHOWER.md",
+    "03-PROJECT-REGISTRY.md",
     "00-CONTROL-DASHBOARD.md",
+    "_archive-language-training/README.md",
+    "2026-05-14.md",
+    "04-PLUGIN-AUDIT.md",
     "Build-Log.md",
     "CARD-Types.md",
     "LTF-V0-1-Self-Testing-Log.md",
@@ -246,8 +262,6 @@
     "CARD-Chapter-003.md",
     "LTF-Chapter-001-Cognates-and-Reading-Confidence.md",
     "AGENT-Pedagogical-Audit-Principles.md",
-    "SELFTEST-Chapter-005.md",
-    "SELFTEST-Chapter-004.md",
     "_archive-language-training/private-legacy/Learn-to-Read-Proust/03-Answer-Key/Part-V-Proustian-Long-Periods",
     "_archive-language-training/private-legacy/Learn-to-Read-Proust/03-Answer-Key/Part-IV-Subordination-and-Delay",
     "_archive-language-training/private-legacy/Learn-to-Read-Proust/03-Answer-Key/Part-III-Past-Memory-and-Narrative",
