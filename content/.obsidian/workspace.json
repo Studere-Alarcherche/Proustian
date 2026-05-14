@@ -1,0 +1,290 @@
+{
+  "main": {
+    "id": "57f836f2df4eb51e",
+    "type": "split",
+    "children": [
+      {
+        "id": "7d0725bb2be2a25e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2cdb45fc349583e7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-CONTROL-DASHBOARD.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "00-CONTROL-DASHBOARD"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2d84bc74e652960a",
+    "type": "split",
+    "children": [
+      {
+        "id": "f64cc80406d2a770",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4f0186bf89f272a0",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": true
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "95e0eec0b1d6bc9c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "06-Logs/Version-History.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Version-History"
+            }
+          },
+          {
+            "id": "68fde63f85df2b64",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "fee46ef2b8740a70",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "8429ec4e85488a51",
+    "type": "split",
+    "children": [
+      {
+        "id": "362b333850a59761",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "eca6d749a8e04cab",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Passage-Cards.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Passage-Cards 的反向链接列表"
+            }
+          },
+          {
+            "id": "3b17d2399c30ce94",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "06-Logs/Current-Week.md",
+                "linksCollapsed": true,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Current-Week 的出链列表"
+            }
+          },
+          {
+            "id": "a66d713e0f361171",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "7a27a801b5ab5fde",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": true,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "885665953be2ecd8",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Build-Log.md",
+                "followCursor": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Build-Log 的大纲"
+            }
+          },
+          {
+            "id": "da43a36f2d2b85c6",
+            "type": "leaf",
+            "state": {
+              "type": "planner-timeline",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Timeline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "obsidian-day-planner:Open Timeline": false,
+      "obsidian-day-planner:Open Multi-Day View": false,
+      "obsidian-git:Open Git source control": false,
+      "notebook-navigator:笔记本导航器": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "command-palette:打开命令面板": false,
+      "markdown-importer:打开 Markdown 格式转换器": false,
+      "random-note:开始漫游笔记": false,
+      "bases:新建数据库": false,
+      "templates:插入模板": false,
+      "templater-obsidian:Templater": false
+    }
+  },
+  "active": "2cdb45fc349583e7",
+  "lastOpenFiles": [
+    "01-NEXT-ACTION.md",
+    "02-EISENHOWER.md",
+    "03-PROJECT-REGISTRY.md",
+    "00-CONTROL-DASHBOARD.md",
+    "_archive-language-training/README.md",
+    "2026-05-14.md",
+    "04-PLUGIN-AUDIT.md",
+    "Build-Log.md",
+    "CARD-Types.md",
+    "LTF-V0-1-Self-Testing-Log.md",
+    "LTF-V0-1-Five-Chapter-Prototype.md",
+    "SKILL-Proustian-Alignment.md",
+    "SKILL-Gap-Diagnosis.md",
+    "SKILL-Card-Conversion.md",
+    "SKILL-Function-Word-Control.md",
+    "SKILL-False-Friend-Alert.md",
+    "SKILL-Cognate-Mapping.md",
+    "SKILL-Chapter-Design.md",
+    "SKILL-Pedagogical-Audit.md",
+    "DIAG-Gap-Taxonomy.md",
+    "LTF-Chapter-005-What-Is-a-French-Sentence.md",
+    "CARD-Chapter-005.md",
+    "CARD-Chapter-001.md",
+    "CARD-Chapter-003.md",
+    "LTF-Chapter-001-Cognates-and-Reading-Confidence.md",
+    "AGENT-Pedagogical-Audit-Principles.md",
+    "_archive-language-training/private-legacy/Learn-to-Read-Proust/03-Answer-Key/Part-V-Proustian-Long-Periods",
+    "_archive-language-training/private-legacy/Learn-to-Read-Proust/03-Answer-Key/Part-IV-Subordination-and-Delay",
+    "_archive-language-training/private-legacy/Learn-to-Read-Proust/03-Answer-Key/Part-III-Past-Memory-and-Narrative",
+    "_archive-language-training/private-legacy/Learn-to-Read-Proust/03-Answer-Key/Part-II-Building-Proustian-Perception",
+    "_archive-language-training/private-legacy/Learn-to-Read-Proust/03-Answer-Key/Part-I-Seeing-the-French-Sentence",
+    "_archive-language-training/private-legacy/Learn-to-Read-Proust/02-Workbook/Part-V-Proustian-Long-Periods",
+    "_archive-language-training/private-legacy/Learn-to-Read-Proust/02-Workbook/Part-IV-Subordination-and-Delay",
+    "_archive-language-training/private-legacy/Learn-to-Read-Proust/02-Workbook/Part-III-Past-Memory-and-Narrative",
+    "_archive-language-training/private-legacy/Learn-to-Read-Proust/02-Workbook/Part-II-Building-Proustian-Perception",
+    "_archive-language-training/private-legacy/Learn-to-Read-Proust/02-Workbook/Part-I-Seeing-the-French-Sentence",
+    "Asserts/Pasted image 20260219201554.png",
+    "Asserts/proust-logo.png.jpg",
+    "Assets/Pasted image 20260219201554.png",
+    "Assets/proust-logo.png.jpg",
+    "01-Atlas/OF PROUST/未命名.canvas",
+    "Pasted image 20260302000015.png",
+    "Pasted image 20260226011610.png",
+    "Pasted image 20260129012044.png",
+    "Pasted image 20260128231617.png",
+    "Pasted image 20260128231609.png",
+    "99_Archive/Final/未命名.canvas",
+    "Pasted image 20260125231041.png",
+    "03-Resources/Brain Storm.canvas",
+    "Untitled.canvas"
+  ]
+}

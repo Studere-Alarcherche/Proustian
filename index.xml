@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+      <title>Alarcherche</title>
+      <link>https://studere-alarcherche.github.io/Proustian</link>
+      <description>最近的10条笔记 on Alarcherche</description>
+      <generator>Quartz -- quartz.jzhao.xyz</generator>
+      <item>
+    <title>Eisenhower Board</title>
+    <link>https://studere-alarcherche.github.io/Proustian/02-EISENHOWER</link>
+    <guid>https://studere-alarcherche.github.io/Proustian/02-EISENHOWER</guid>
+    <description><![CDATA[ Eisenhower Board I. Urgent + Important Protect the project tonight. Upload files Confirm website renders Stop after deployment II. ]]></description>
+    <pubDate>Thu, 14 May 2026 15:30:46 GMT</pubDate>
+  </item><item>
+    <title>Project Registry</title>
+    <link>https://studere-alarcherche.github.io/Proustian/03-PROJECT-REGISTRY</link>
+    <guid>https://studere-alarcherche.github.io/Proustian/03-PROJECT-REGISTRY</guid>
+    <description><![CDATA[ Project Registry ProjectFunctionLocationPublic?Next ActionProustianMain reading/course gardencontent/YesControl CenterActive command surfacecontent/YesFrench ReadingReading precisioninternal notesNoTranslation TrainingTraining corpus_private/NoQuartz WebsitePublic renderingcontent/YesDeployPublic Wr... ]]></description>
+    <pubDate>Thu, 14 May 2026 15:30:46 GMT</pubDate>
+  </item><item>
+    <title>Plugin Audit</title>
+    <link>https://studere-alarcherche.github.io/Proustian/04-PLUGIN-AUDIT</link>
+    <guid>https://studere-alarcherche.github.io/Proustian/04-PLUGIN-AUDIT</guid>
+    <description><![CDATA[ Plugin Audit Tonight’s Rule Do not delete plugins tonight. Only confirm the key plugins needed for control and navigation. ]]></description>
+    <pubDate>Thu, 14 May 2026 15:30:46 GMT</pubDate>
+  </item><item>
+    <title>Control Dashboard</title>
+    <link>https://studere-alarcherche.github.io/Proustian/00-CONTROL-DASHBOARD</link>
+    <guid>https://studere-alarcherche.github.io/Proustian/00-CONTROL-DASHBOARD</guid>
+    <description><![CDATA[ CONTROL DASHBOARD One repository. One control center. One next action. ]]></description>
+    <pubDate>Thu, 14 May 2026 15:30:46 GMT</pubDate>
+  </item><item>
+    <title>Next Action</title>
+    <link>https://studere-alarcherche.github.io/Proustian/01-NEXT-ACTION</link>
+    <guid>https://studere-alarcherche.github.io/Proustian/01-NEXT-ACTION</guid>
+    <description><![CDATA[ Next Action Current Next Action [ ] Done Means [ ] Why It Matters After This Stop Upload Render Sleep . ]]></description>
+    <pubDate>Thu, 14 May 2026 15:30:46 GMT</pubDate>
+  </item><item>
+    <title>LTF-V0-1-Five-Chapter-Prototype</title>
+    <link>https://studere-alarcherche.github.io/Proustian/LTF-V0-1-Five-Chapter-Prototype</link>
+    <guid>https://studere-alarcherche.github.io/Proustian/LTF-V0-1-Five-Chapter-Prototype</guid>
+    <description><![CDATA[ LTF V0.1 — Five-Chapter Prototype Status self-testing-ready Purpose This prototype tests whether Book I — Learn to Read French can function as the first stage of Learn to Read Proust. ]]></description>
+    <pubDate>Thu, 14 May 2026 15:23:58 GMT</pubDate>
+  </item><item>
+    <title>LTF-V0-1-Self-Testing-Log</title>
+    <link>https://studere-alarcherche.github.io/Proustian/LTF-V0-1-Self-Testing-Log</link>
+    <guid>https://studere-alarcherche.github.io/Proustian/LTF-V0-1-Self-Testing-Log</guid>
+    <description><![CDATA[ LTF V0.1 Self-Testing Log Chapter 001 Date: Completed: Failed Cards: Failed Self-Test Items: Main Gap Type: Cards to Add: Cards to Rewrite: Chapter Revision Needed: Move Forward: Notes: Chapter 002 Date: Completed: Failed Cards: Failed Self-Test Items: Main Gap Type: Cards to Add: Cards to Rewrite: ... ]]></description>
+    <pubDate>Thu, 14 May 2026 15:23:58 GMT</pubDate>
+  </item><item>
+    <title>SKILL-Proustian-Alignment</title>
+    <link>https://studere-alarcherche.github.io/Proustian/SKILL-Proustian-Alignment</link>
+    <guid>https://studere-alarcherche.github.io/Proustian/SKILL-Proustian-Alignment</guid>
+    <description><![CDATA[ SKILL-Proustian-Alignment Purpose Ensure language training remains aligned with Proustian’s core reading project. ]]></description>
+    <pubDate>Thu, 14 May 2026 15:21:19 GMT</pubDate>
+  </item><item>
+    <title>SKILL-Card-Conversion</title>
+    <link>https://studere-alarcherche.github.io/Proustian/SKILL-Card-Conversion</link>
+    <guid>https://studere-alarcherche.github.io/Proustian/SKILL-Card-Conversion</guid>
+    <description><![CDATA[ SKILL-Card-Conversion Purpose Convert textbook knowledge into reviewable Anki-style cards. ]]></description>
+    <pubDate>Thu, 14 May 2026 15:21:19 GMT</pubDate>
+  </item><item>
+    <title>SKILL-Function-Word-Control</title>
+    <link>https://studere-alarcherche.github.io/Proustian/SKILL-Function-Word-Control</link>
+    <guid>https://studere-alarcherche.github.io/Proustian/SKILL-Function-Word-Control</guid>
+    <description><![CDATA[ SKILL-Function-Word-Control Purpose Train the reader to treat small French words as structural controls. ]]></description>
+    <pubDate>Thu, 14 May 2026 15:21:19 GMT</pubDate>
+  </item>
+    </channel>
+  </rss>
