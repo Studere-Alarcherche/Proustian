@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-CONTROL-DASHBOARD.md",
+                "file": "CARD-Chapter-002.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "00-CONTROL-DASHBOARD"
+              "title": "CARD-Chapter-002"
             }
           }
         ]
@@ -236,17 +236,24 @@
   },
   "active": "2cdb45fc349583e7",
   "lastOpenFiles": [
+    "index.md",
+    "CARD-Chapter-002.md",
+    "LTF-Chapter-002-False-Friends-and-Controlled-Guessing.md",
+    "LTF-Chapter-001-Cognates-and-Reading-Confidence.md",
+    "LTF-V0-1-Five-Chapter-Prototype.md",
+    "CARD-Chapter-004.md",
+    "LTF-Chapter-004-Function-Words-I.md",
+    "CARD-Chapter-001.md",
+    "00-CONTROL-DASHBOARD.md",
     "01-NEXT-ACTION.md",
     "02-EISENHOWER.md",
     "03-PROJECT-REGISTRY.md",
-    "00-CONTROL-DASHBOARD.md",
     "_archive-language-training/README.md",
     "2026-05-14.md",
     "04-PLUGIN-AUDIT.md",
     "Build-Log.md",
     "CARD-Types.md",
     "LTF-V0-1-Self-Testing-Log.md",
-    "LTF-V0-1-Five-Chapter-Prototype.md",
     "SKILL-Proustian-Alignment.md",
     "SKILL-Gap-Diagnosis.md",
     "SKILL-Card-Conversion.md",
@@ -255,13 +262,6 @@
     "SKILL-Cognate-Mapping.md",
     "SKILL-Chapter-Design.md",
     "SKILL-Pedagogical-Audit.md",
-    "DIAG-Gap-Taxonomy.md",
-    "LTF-Chapter-005-What-Is-a-French-Sentence.md",
-    "CARD-Chapter-005.md",
-    "CARD-Chapter-001.md",
-    "CARD-Chapter-003.md",
-    "LTF-Chapter-001-Cognates-and-Reading-Confidence.md",
-    "AGENT-Pedagogical-Audit-Principles.md",
     "_archive-language-training/private-legacy/Learn-to-Read-Proust/03-Answer-Key/Part-V-Proustian-Long-Periods",
     "_archive-language-training/private-legacy/Learn-to-Read-Proust/03-Answer-Key/Part-IV-Subordination-and-Delay",
     "_archive-language-training/private-legacy/Learn-to-Read-Proust/03-Answer-Key/Part-III-Past-Memory-and-Narrative",

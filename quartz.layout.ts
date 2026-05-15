@@ -165,19 +165,22 @@ export const defaultContentPageLayout: PageLayout = {
     hideOnFocusedLayout(Component.Backlinks()),
   ],
   afterBody: [
-    Component.Comments({
-      provider: 'giscus',
-      options: {
-        repo: 'Studere-Alarcherche/Proustian',
-        repoId: 'R_kgDORYpwTA',
-        category: 'General',
-        categoryId: 'DIC_kwDORYpwTM4C3Q3J',
-        mapping: 'pathname',
-        strict: false,
-        reactionsEnabled: true,
-        inputPosition: 'bottom',
-        theme: 'preferred_color_scheme',
-      }
+    Component.ConditionalRender({
+      component: Component.Comments({
+        provider: 'giscus',
+        options: {
+          repo: 'Studere-Alarcherche/Proustian',
+          repoId: 'R_kgDORYpwTA',
+          category: 'General',
+          categoryId: 'DIC_kwDORYpwTM4C3Q3J',
+          mapping: 'pathname',
+          strict: false,
+          reactionsEnabled: true,
+          inputPosition: 'bottom',
+          theme: 'preferred_color_scheme',
+        }
+      }),
+      condition: (page) => !isLandingPage(page) && page.fileData.frontmatter?.comments !== false,
     }),
   ],
 }
