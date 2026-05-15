@@ -244,15 +244,15 @@ export function renderPage(
   const lang = componentData.fileData.frontmatter?.lang ?? cfg.locale?.split("-")[0] ?? "en"
   const direction = i18n(cfg.locale).direction ?? "ltr"
   const pageLayout = componentData.fileData.frontmatter?.layout ?? componentData.fileData.frontmatter?.pageType
-  const isLandingLayout = pageLayout === "landing"
+  const isHomepage = slug === "index"
   const pageClass =
-    isLandingLayout
+    pageLayout === "landing"
       ? "page layout-landing"
       : pageLayout === "reading"
         ? "page layout-reading"
         : "page"
 
-  const LeftComponent = isLandingLayout ? null : (
+  const LeftComponent = isHomepage ? null : (
     <div class="left sidebar">
       {left.map((BodyComponent) => (
         <BodyComponent {...componentData} />
@@ -260,7 +260,7 @@ export function renderPage(
     </div>
   )
 
-  const RightComponent = isLandingLayout ? null : (
+  const RightComponent = isHomepage ? null : (
     <div class="right sidebar">
       {right.map((BodyComponent) => (
         <BodyComponent {...componentData} />
