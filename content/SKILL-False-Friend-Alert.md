@@ -1,3 +1,6 @@
+---
+draft: true
+---
 # SKILL-False-Friend-Alert
 
 ## Purpose

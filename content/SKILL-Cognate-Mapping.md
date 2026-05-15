@@ -1,3 +1,6 @@
+---
+draft: true
+---
 # SKILL-Cognate-Mapping
 
 ## Purpose

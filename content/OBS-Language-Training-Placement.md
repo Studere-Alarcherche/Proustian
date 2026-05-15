@@ -1,3 +1,6 @@
+---
+draft: true
+---
 # Language Training Placement
 
 In Obsidian, Language Training is a flat, course-level training surface.

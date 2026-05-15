@@ -1,3 +1,6 @@
+---
+draft: true
+---
 # Agent Workflow
 
 ## Core Rule

@@ -9,127 +9,102 @@ public_candidate: false
 
 Subtitle: Small Words That Control Reading
 
-## 1. Chapter Aim
+## What You Will Learn
 
-Learn to treat small French words as structural controls, not background noise.
+You will learn that small French words often control how a sentence is built.
 
-## 2. Reading Problem
+## Why This Matters
 
-Beginners often look for nouns and ignore small words. In French reading, this fails quickly. Function words tell the reader how sentence parts attach.
+Readers often notice nouns and verbs first. But long French sentences are held together by relation words. If you skip small words, you lose the structure.
 
-## 3. Core Knowledge
+## 1. Relation Words
 
-Function words are small, frequent words that express relation, location, addition, contrast, comparison, presence, or absence.
+Function words show relation, direction, contrast, location, addition, or comparison.
 
-They may carry less obvious dictionary meaning than nouns, but they control reading.
+| French | Basic reading value |
+|---|---|
+| de | of / from / relation |
+| à | to / at / toward |
+| et | and |
+| mais | but |
+| dans | in / inside |
+| sur | on / upon |
+| avec | with |
+| sans | without |
+| comme | as / like |
 
-The first rule: do not skip small words.
+## 2. Do Not Translate Too Quickly
 
-## 4. Vocabulary
+A function word may have more than one English value.
 
-### 4.1 Recognition Vocabulary
+For example, `de` can suggest of, from, relation, source, or possession. You should not choose too quickly. First ask what it connects.
 
-| French | First reading value | Reading action |
-| --- | --- | --- |
-| de | of / from / relation | Mark relation. |
-| à | to / at / relation | Mark direction or location. |
-| et | and | Mark addition. |
-| mais | but | Mark contrast. |
-| dans | in / inside | Mark location or frame. |
-| sur | on / upon | Mark position or topic pressure. |
-| avec | with | Mark accompaniment. |
-| sans | without | Mark absence. |
-| comme | as / like | Mark comparison. |
+## 3. Attachment
 
-### 4.2 New Core Vocabulary
+The main question is:
 
-- `de`
-- `à`
-- `et`
-- `mais`
-- `dans`
-- `sur`
-- `avec`
-- `sans`
-- `comme`
+What does this small word attach?
 
-### 4.3 Function Words
+Example:
 
-This chapter is entirely about function words.
+`dans la mémoire`
 
-### 4.4 Proust Direction
+`dans` places something inside a frame: in memory.
 
-Long French sentences are held together by relation words. Function words tell the reader how parts of a sentence attach to one another.
+## Core Vocabulary
 
-### 4.5 Card Targets
+| French | Reading action |
+|---|---|
+| de | mark relation |
+| à | mark direction or target |
+| et | add |
+| mais | contrast |
+| dans | place inside a frame |
+| sur | place on / upon |
+| avec | join with |
+| sans | mark absence |
+| comme | compare |
 
-- one function word per card
-- basic relation value
-- controlled micro-sentence
-- attachment question
+## Reading Examples
 
-## 5. Forms and Patterns
+1. `dans la mémoire`
+2. `avec une sensation`
+3. `sans image`
+4. `le temps et la mémoire`
+5. `une impression de silence`
+6. `comme une image`
+7. `sur la table`
+8. `à la chambre`
 
-| Function | Words | Basic question |
-| --- | --- | --- |
-| Relation | `de`, `à` | What is connected to what? |
-| Addition / contrast | `et`, `mais` | Is the sentence adding or turning? |
-| Location / frame | `dans`, `sur` | Where is the word or idea placed? |
-| Presence / absence | `avec`, `sans` | What is present or missing? |
-| Comparison | `comme` | What is being compared? |
+## Practice
 
-## 6. Model Sentences
+Name the relation.
 
-These are controlled training sentences.
+1. `dans la mémoire`
+2. `avec une sensation`
+3. `sans image`
+4. `le temps et la mémoire`
+5. `mais la mémoire revient`
+6. `comme une impression`
 
-1. La mémoire de la sensation.
-2. Une image dans la mémoire.
-3. Le silence et l’attention.
-4. Une impression sans forme.
-5. Une sensation comme une image.
+## Review Check
 
-## 7. Reading Method
+1. Why should small words not be skipped?
+2. What does `mais` usually do?
+3. What does `sans` mark?
+4. What question should you ask when you see `de`?
 
-Use the function-word marking method:
+## What to Remember
 
-1. Mark every small word.
-2. Name its first function.
-3. Ask what it attaches.
-4. Continue before interpreting.
+Small words are not decorative.
 
-## 8. Proustian Alignment
+They tell you how parts of the sentence attach.
 
-U1’s textual return depends on attachment. A theory may fly outward, but the sentence is held together by small relation words. Function words are the grammar of return.
+## Next Chapter
 
-## 9. Self-Test Link
-
-- [[SELFTEST-Chapter-004|Self-Test Chapter 004]]
-
-## 10. Card Targets
-
-- [[CARD-Chapter-004|Chapter 004 Cards]]
-- `de`
-- `à`
-- `et`
-- `mais`
-- `dans`
-- `sur`
-- `avec`
-- `sans`
-- `comme`
-
-## 11. Diagnostic Notes
-
-If the reader skips small words, assign function-word recognition cards.
-
-If the reader knows the word but cannot name its relation, assign attachment checks.
+- [[LTF-Chapter-005-What-Is-a-French-Sentence]]
 
 Back:
 
 - [[Language-Training]]
 - [[LTF-A0-to-B1-Course-Outline]]
-- [[LTF-Proustian-Core-Questions]]
-
-Prototype:
-
-- [[LTF-V0-1-Five-Chapter-Prototype]]

@@ -1,3 +1,7 @@
+---
+draft: true
+---
+
 # LTF V0.1 Self-Testing Log
 
 ## Chapter 001

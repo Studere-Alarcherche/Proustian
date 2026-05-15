@@ -1,3 +1,6 @@
+---
+draft: true
+---
 # SKILL-Chapter-Design
 
 ## Purpose

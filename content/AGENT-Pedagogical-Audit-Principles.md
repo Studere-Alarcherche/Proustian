@@ -1,3 +1,6 @@
+---
+draft: true
+---
 # Pedagogical Audit Principles
 
 ## Purpose

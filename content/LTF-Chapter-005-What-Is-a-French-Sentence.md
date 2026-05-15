@@ -9,127 +9,103 @@ public_candidate: false
 
 Subtitle: Subject, Verb, Complement, Modifier
 
-## 1. Chapter Aim
+## What You Will Learn
 
-Learn to identify the basic structure of a French sentence before interpretation.
+You will learn to see the basic parts of a French sentence before trying to interpret it.
 
-## 2. Reading Problem
+## Why This Matters
 
-The reader may now recognize words, patterns, and function words, but recognition alone does not produce sentence reading. The sentence must be seen as a structure.
+Even a long Proustian sentence is built from grammatical relations. Before you interpret, you must find the structure.
 
-## 3. Core Knowledge
+## 1. Subject and Verb
 
-A controlled French sentence usually contains:
+The subject is what the sentence is about.
 
-- a subject
-- a conjugated verb
-- sometimes a complement
-- sometimes a modifier
+The conjugated verb is the action, state, or movement of the sentence.
 
-The subject names what the sentence is about. The conjugated verb carries the main movement. The complement completes the verb or thought. The modifier adds circumstance, quality, place, time, or relation.
+Example:
 
-## 4. Vocabulary
+`Le souvenir revient.`
 
-### 4.1 Recognition Vocabulary
+Subject: `Le souvenir`  
+Verb: `revient`
 
-| French | Reading value |
-| --- | --- |
-| le souvenir | the memory / recollection |
-| la chambre | the room |
-| silencieuse | silent, feminine |
-| une sensation | a sensation |
+## 2. Complements
+
+A complement completes the meaning of a verb or phrase.
+
+Example:
+
+`Le temps transforme l'impression.`
+
+Subject: `Le temps`  
+Verb: `transforme`  
+Complement: `l'impression`
+
+## 3. Modifiers
+
+A modifier adds description, place, time, or condition.
+
+Example:
+
+`Dans la mémoire, une image revient.`
+
+Modifier: `Dans la mémoire`  
+Subject: `une image`  
+Verb: `revient`
+
+## Core Vocabulary
+
+| French | English support |
+|---|---|
+| le souvenir | memory / recollection |
+| la chambre | room |
 | le temps | time |
-| l’impression | the impression |
 | la mémoire | memory |
-| une image | an image |
+| une sensation | a sensation |
+| une impression | an impression |
+| revenir | to return |
+| sembler | to seem |
+| apparaître | to appear |
+| transformer | to transform |
 
-### 4.2 New Core Vocabulary
+## Reading Examples
 
-- `souvenir`: memory / recollection
-- `revient`: returns / comes back
-- `semble`: seems
-- `silencieuse`: silent, feminine
-- `apparaît`: appears
-- `transforme`: transforms
+1. `Le souvenir revient.`
+2. `La chambre semble silencieuse.`
+3. `Une sensation apparaît.`
+4. `Le temps transforme l'impression.`
+5. `Dans la mémoire, une image revient.`
 
-### 4.3 Function Words
+## Practice
 
-- `dans`: in / inside
+For each sentence, find the subject and verb.
 
-### 4.4 Proust Direction
+1. `Le souvenir revient.`
+2. `Une sensation apparaît.`
+3. `La chambre semble silencieuse.`
+4. `Le temps transforme l'impression.`
+5. `Dans la mémoire, une image revient.`
 
-Even the longest Proustian sentence is built from grammatical relations. The reader must learn to see structure before interpretation.
+## Review Check
 
-### 4.5 Card Targets
+1. What is a subject?
+2. What is a conjugated verb?
+3. What is a complement?
+4. What is a modifier?
+5. Why should structure come before interpretation?
 
-- subject
-- conjugated verb
-- complement
-- modifier
-- sentence before interpretation
+## What to Remember
 
-## 5. Forms and Patterns
+Do not translate before you see the sentence.
 
-| Term | Reading question | Example |
-| --- | --- | --- |
-| Subject | Who or what is the sentence about? | `Le souvenir` |
-| Verb | What form carries the movement? | `revient` |
-| Complement | What completes the verb or thought? | `l’impression` |
-| Modifier | What adds place, quality, or circumstance? | `Dans la mémoire` |
+Find the subject. Find the verb. Then ask what completes or modifies the sentence.
 
-Basic pattern:
+## Next Chapter
 
-Subject + conjugated verb + complement / modifier
-
-## 6. Model Sentences
-
-1. Le souvenir revient.
-2. La chambre semble silencieuse.
-3. Une sensation apparaît.
-4. Le temps transforme l’impression.
-5. Dans la mémoire, une image revient.
-
-## 7. Reading Method
-
-Use the sentence-seeing method:
-
-1. Find the full sentence.
-2. Find the subject.
-3. Find the conjugated verb.
-4. Ask whether there is a complement.
-5. Mark any modifier.
-6. Give a plain English structural control.
-7. Interpret only after the structure is visible.
-
-## 8. Proustian Alignment
-
-This chapter completes the first Stage 0 arc. U1 teaches textual return as a method. Chapter 005 makes textual return grammatical: every claim must come back to the sentence.
-
-## 9. Self-Test Link
-
-- [[SELFTEST-Chapter-005|Self-Test Chapter 005]]
-
-## 10. Card Targets
-
-- [[CARD-Chapter-005|Chapter 005 Cards]]
-- subject recognition
-- verb recognition
-- complement recognition
-- modifier recognition
-- English structural control
-
-## 11. Diagnostic Notes
-
-If the reader recognizes vocabulary but cannot parse the sentence, assign parsing cards.
-
-If the reader translates before structure is visible, return to the sentence-seeing method.
+Chapter 006 is paused until Chapters 001–005 have been deepened and used.
 
 Back:
 
 - [[Language-Training]]
 - [[LTF-A0-to-B1-Course-Outline]]
-- [[LTF-Proustian-Core-Questions]]
-
-Prototype:
-
-- [[LTF-V0-1-Five-Chapter-Prototype]]

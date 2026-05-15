@@ -9,135 +9,125 @@ public_candidate: false
 
 Subtitle: Cognates and Reading Confidence
 
-## 1. Chapter Aim
+## What You Will Learn
 
-Learn to recognize that a zero-beginner is not starting from nothing. Many French literary and academic words resemble English words closely enough to give the reader an initial foothold.
+You will learn that you are not starting from nothing. Many French literary and intellectual words resemble English words closely enough to give you an initial foothold.
 
-## 2. Reading Problem
+You will also learn the first rule of this course: recognition is useful, but recognition is not mastery.
 
-The first danger is panic. A French page can look opaque before the reader has learned to notice what is already partly visible.
+## Why This Matters
 
-The second danger is overconfidence. Recognition is not mastery. A familiar-looking word gives a hypothesis, not a final interpretation.
+A French page can look opaque before you know how to look at it. But an English reader can often recognize words such as `mémoire`, `sensation`, `impression`, `attention`, and `perception`.
 
-## 3. Core Knowledge
+These words do not make the sentence easy. They make the sentence approachable.
+
+## 1. Cognates
 
 A cognate is a word that resembles a word in another language because of shared history or borrowing.
 
-For English readers, many French abstract nouns are visually recognizable: `mémoire`, `sensation`, `perception`, `forme`, and `impression`.
+Examples:
 
-This resemblance helps the reader begin. It does not remove the need to check grammar, sentence position, modifiers, and context.
+| French | English support |
+|---|---|
+| mémoire | memory |
+| sensation | sensation |
+| impression | impression |
+| attention | attention |
+| perception | perception |
 
-The first reading action is controlled recognition:
+The English support word is not a final translation. It is a first handle.
+
+## 2. Recognition Is Not Mastery
+
+When you see a recognizable French word, do not stop reading.
+
+Use this rule:
 
 1. Notice the familiar shape.
-2. Propose a basic English support word.
+2. Give yourself a simple English support word.
 3. Mark uncertainty.
-4. Continue reading the sentence.
+4. Continue through the sentence.
 
-## 4. Vocabulary
+For example:
 
-### 4.1 Recognition Vocabulary
+`mémoire` may point toward memory, but the sentence will decide whether it means memory as faculty, recollection, record, or something more specific.
 
-| French | English support | First caution |
-| --- | --- | --- |
-| mémoire | memory | May mean memory as faculty, record, or recollection. |
+## 3. Reading Before Interpreting
+
+The first reading action is controlled recognition.
+
+You are not trying to produce a polished translation. You are learning to keep moving through the French line without panic.
+
+Ask:
+
+- What word looks familiar?
+- What English support word helps me continue?
+- What must remain uncertain until I see the sentence?
+
+## Core Vocabulary
+
+| French | English support | Caution |
+|---|---|---|
+| mémoire | memory | May mean faculty, recollection, or record. |
 | sensation | sensation | Context decides force. |
-| impression | impression | Can be mental, sensory, or artistic. |
+| impression | impression | May be mental, sensory, or artistic. |
 | attention | attention | Often tied to perception and judgment. |
-| perception | perception | Abstract but useful. |
+| perception | perception | Useful abstract noun. |
 | image | image | May be visual, mental, or literary. |
-| forme | form | Can mean shape, form, or artistic form. |
+| forme | form | May mean shape or artistic form. |
 | possible | possible | High-confidence cognate. |
 | visible | visible | High-confidence cognate. |
 | nature | nature | Meaning depends on context. |
 | silence | silence | High-confidence cognate. |
 | moment | moment | High-confidence cognate. |
 
-### 4.2 New Core Vocabulary
+## Reading Examples
 
-- `mémoire`: memory
-- `sensation`: sensation
-- `impression`: impression
-- `attention`: attention
-- `forme`: form
-- `image`: image
+1. `Une sensation.`
+2. `Une impression visible.`
+3. `La mémoire.`
+4. `Une image possible.`
+5. `Le silence.`
+6. `Un moment.`
+7. `La forme visible.`
+8. `Une perception.`
 
-### 4.3 Function Words
+## Practice
 
-No new function words are required yet.
+Give an English support word. Do not try to translate a full sentence yet.
 
-Do not skip articles when they appear. In later chapters, `le`, `la`, `un`, and `une` will become structural signals.
+1. mémoire
+2. sensation
+3. impression
+4. attention
+5. perception
+6. image
+7. forme
+8. visible
+9. silence
+10. moment
 
-### 4.4 Proust Direction
+## Review Check
 
-Proust is difficult not because every word is opaque, but because recognizable words are arranged, delayed, modified, and transformed inside long French sentences.
+1. What is a cognate?
+2. Why is recognition useful?
+3. Why is recognition not mastery?
+4. What should you do after recognizing a familiar-looking word?
+5. Why should uncertainty remain open until the sentence is read?
 
-### 4.5 Card Targets
+## What to Remember
 
-- cognate recognition
-- English support word
-- recognition versus mastery
-- Proust-direction warning
+French is not completely opaque to an English reader.
 
-## 5. Forms and Patterns
+Recognizable words give you a foothold.
 
-| Pattern | Example | Reading value |
-| --- | --- | --- |
-| `-tion` | sensation, attention, perception | Often resembles English `-tion`. |
-| final `-e` | forme, image | Often silent; do not treat it as an English ending. |
-| accent mark | mémoire | The accent changes French spelling and sound, but the visual family may remain recognizable. |
+A foothold is not a full interpretation. Keep reading.
 
-## 6. Model Sentences
+## Next Chapter
 
-These are controlled training sentences, not Proust quotations.
-
-1. La mémoire.
-2. Une sensation.
-3. Une impression visible.
-4. La forme possible.
-5. Le silence.
-
-## 7. Reading Method
-
-Use a three-step recognition method:
-
-1. Mark the recognizable word.
-2. Give an English support word.
-3. Add a question mark if meaning may shift in context.
-
-Example:
-
-`mémoire` → memory → check whether the sentence means personal memory, faculty of memory, or a record.
-
-## 8. Proustian Alignment
-
-This chapter supports U1’s method: do not rush from recognition to interpretation. A recognizable word is an entrance. It must still return to the sentence and to the passage.
-
-## 9. Self-Test Link
-
-- [[SELFTEST-Chapter-001|Self-Test Chapter 001]]
-
-## 10. Card Targets
-
-- [[CARD-Chapter-001|Chapter 001 Cards]]
-- `mémoire`
-- `sensation`
-- `impression`
-- `attention`
-- recognition is not mastery
-
-## 11. Diagnostic Notes
-
-If the reader guesses too broadly from English resemblance, assign false-friend repair in Chapter 002.
-
-If the reader cannot identify any familiar forms, review the recognition vocabulary before adding new words.
+- [[LTF-Chapter-002-False-Friends-and-Controlled-Guessing]]
 
 Back:
 
 - [[Language-Training]]
 - [[LTF-A0-to-B1-Course-Outline]]
-- [[LTF-Proustian-Core-Questions]]
-
-Prototype:
-
-- [[LTF-V0-1-Five-Chapter-Prototype]]

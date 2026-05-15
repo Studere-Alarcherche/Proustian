@@ -1,3 +1,6 @@
+---
+draft: true
+---
 # Gap Taxonomy
 
 ## Sentence Visibility

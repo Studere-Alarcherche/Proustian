@@ -29,7 +29,36 @@ const explorerFilter = Component.Explorer({
       "Asserts", 
       "00_System"
     ]
-    return !excludeFolders.includes(node.name)
+    const internalPrefixes = [
+      "AGENT-",
+      "SKILL-",
+      "CARD-",
+      "DIAG-",
+      "SELFTEST-",
+      "OBS-",
+      "TT-",
+      "LTF-V0-1-",
+    ]
+    const internalPages = [
+      "AGENT-Pedagogical-Audit-Principles",
+      "Codex-Operating-Rules",
+      "Repository-Maintenance",
+      "Source-Locator-iBooks",
+      "NotebookLM-Evidence-Packet-Plan",
+      "Literature-Importance-Ranking-V0.1",
+    ]
+    const name = node.displayName ?? ""
+    const slug = node.slugSegment ?? ""
+    const filePath = node.data?.filePath ?? ""
+
+    return (
+      !excludeFolders.includes(name) &&
+      !excludeFolders.includes(slug) &&
+      !internalPages.includes(name) &&
+      !internalPages.includes(slug) &&
+      !internalPages.some((page) => filePath.includes(page)) &&
+      !internalPrefixes.some((prefix) => name.startsWith(prefix) || slug.startsWith(prefix))
+    )
   },
   sortFn: (a, b) => {
     if (a.name === "Essays") return -1

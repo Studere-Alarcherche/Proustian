@@ -1,3 +1,6 @@
+---
+draft: true
+---
 # Self-Test Policy
 
 Self-tests are light verification, not heavy workbook architecture.

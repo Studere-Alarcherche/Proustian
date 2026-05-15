@@ -1,3 +1,6 @@
+---
+draft: true
+---
 # Weekly Language Review
 
 ## Week

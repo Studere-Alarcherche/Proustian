@@ -1,3 +1,6 @@
+---
+draft: true
+---
 # SKILL-Card-Conversion
 
 ## Purpose

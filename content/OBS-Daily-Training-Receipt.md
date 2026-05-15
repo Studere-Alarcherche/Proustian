@@ -1,3 +1,6 @@
+---
+draft: true
+---
 # Daily Training Receipt
 
 ## Date

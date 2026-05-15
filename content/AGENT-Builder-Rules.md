@@ -1,3 +1,6 @@
+---
+draft: true
+---
 # Builder Rules
 
 The Builder / Integrator performs structural implementation only.

@@ -5,429 +5,260 @@ tested_by_editor: false
 public_candidate: false
 ---
 
-# Chapter 002 — When English Misleads: False Friends and Controlled Guessing
+# Chapter 002 — When English Misleads
 
-## 1. Chapter Aim
+Subtitle: False Friends and Controlled Guessing
 
-Teach the learner to exploit English resemblance without surrendering judgment.
+## What You Will Learn
 
-Chapter 001 trained recognition. Chapter 002 trains caution. The learner should now be able to see a familiar-looking French word, propose a possible English support value, and then test that value before interpreting the sentence.
+In this chapter you will learn what false friends are, why English resemblance can both help and mislead, how to guess safely, and how to correct a wrong first impression.
 
-## 2. Reading Problem
+You are not being told to distrust every familiar-looking French word. You are learning to use resemblance carefully. English can give you a clue, but the French sentence must decide.
 
-Cognates accelerate reading, but resemblance can create false confidence. The learner must verify before interpreting.
+## Why This Matters
 
-The danger is not guessing. Guessing is necessary in reading. The danger is automatic transfer: the reader sees a French form, supplies the nearest English word, and treats the guess as meaning.
+French and English share many words. This is useful for reading. It means that a beginner can often recognize part of a French page before knowing much grammar.
 
-This chapter trains a stricter reading habit:
+But resemblance is not proof. A French word may look like English and still mean something different. A reader must learn to use English as a clue, not as a master.
 
-1. Use resemblance as a first clue.
-2. Suspend certainty.
+This matters for Proust because first impressions are powerful. They are also often incomplete. Reading well means noticing the first impression, then checking it against the sentence.
+
+## 1. The Problem: Familiar Words Can Betray You
+
+Some French words look friendly because they resemble English. The danger is that the familiar shape makes you too confident.
+
+Examples:
+
+- `actuellement` does not mean "actually." It means currently or at present.
+- `attendre` does not mean "attend." It means to wait for.
+- `librairie` does not mean "library." It means bookstore.
+
+The mistake is understandable. The words look familiar. But reading French requires a second step: check whether the familiar-looking English word actually fits the French sentence.
+
+## 2. Three Kinds of Traps
+
+### 2.1 False Friends
+
+A false friend is a word that looks like an English word but means something different.
+
+Example:
+
+`déception` looks like "deception," but it usually means disappointment.
+
+### 2.2 Partial Cognates
+
+A partial cognate has an English-like meaning in some contexts but not all.
+
+Example:
+
+`expérience` can mean experience, but it can also mean experiment. The sentence decides.
+
+### 2.3 Expression Traps
+
+Sometimes the individual word looks familiar, but the phrase works differently.
+
+Example:
+
+`assister à` means to attend or be present at.
+
+Do not read `assister à` as "to assist." The small word `à` is part of the expression.
+
+## 3. Controlled Guessing
+
+Controlled guessing is a safe way to use resemblance.
+
+1. Notice resemblance.
+2. Make a tentative guess.
 3. Check the word type.
-4. Check the sentence function.
-5. Verify with context.
-6. Only then paraphrase.
-
-## 3. Core Knowledge
-
-### 3.1 False Friends
-
-False friends are words that resemble English words but mean something different.
-
-The resemblance is real enough to attract the eye, but dangerous enough to mislead the sentence.
-
-Examples:
-
-| French | Wrong English pull | Controlled reading |
-|---|---|---|
-| actuellement | actually | currently / at present |
-| attendre | attend | to wait for |
-| ignorer | ignore | not to know / be unaware of |
-| sensible | sensible | sensitive / perceptible |
-| librairie | library | bookstore |
-
-Reading action: mark the resemblance, then correct the English pull.
-
-### 3.2 Partial Cognates
-
-Partial cognates overlap with English in some uses but diverge in others.
-
-They are more dangerous than obvious false friends because the English guess may sometimes work.
-
-Examples:
-
-| French | Safe support | Caution |
-|---|---|---|
-| expérience | experience / experiment | Context decides whether it is lived experience or experiment. |
-| caractère | character / nature | Often means nature, disposition, or character of a thing. |
-| occasion | opportunity / occasion | Not only an event; can also mean second-hand item. |
-| entrée | entrance / first course | Not always American English "entrée" as main course. |
-| lecture | reading | Not usually a classroom lecture. |
-
-Reading action: allow a support word, but keep it provisional.
-
-### 3.3 Semantic Drift
-
-Semantic drift means that related or similar words have moved apart in meaning over time.
-
-The reader should not ask only, "What English word does this look like?" The better question is, "What meaning does this French word carry in this sentence?"
-
-Examples:
-
-| French | Misleading path | Better check |
-|---|---|---|
-| déception | deception | Is the sentence about disappointment? |
-| prévenir | prevent | Is someone warning or notifying someone? |
-| propre | proper | Does it mean own or clean? |
-| journée | journey | Does it mean the span of a day? |
-| chair | chair | Does it mean flesh? |
-
-Reading action: when the English-looking form produces an odd sentence, stop and retest.
-
-### 3.4 Controlled Guessing
-
-Controlled guessing is a repeatable reading procedure.
-
-1. Recognize resemblance.
-2. Suspend certainty.
-3. Check word type.
-4. Check sentence function.
-5. Verify with context.
-6. Only then paraphrase.
+4. Check the sentence.
+5. Replace the guess if it fails.
+6. Read again.
 
 Example:
 
 `Le lecteur attend.`
 
-Bad guess: "The reader attends."  
-Word type check: `attend` is a verb form from `attendre`.  
-Controlled reading: "The reader waits."
+Bad first guess:
 
-### 3.5 Word Type Before Meaning
+"The reader attends."
 
-False friends often become visible when the word type is checked.
+Better reading:
 
-| French item | Word type | Reading value |
-|---|---|---|
-| actuellement | adverb | currently |
-| attendre | verb | to wait for |
-| librairie | noun | bookstore |
-| sensible | adjective | sensitive / perceptible |
-| assister à | verb expression | to attend / be present at |
-| demander | verb | to ask |
+"The reader waits."
 
-Reading action: identify whether the item is a noun, verb, adjective, adverb, or expression before deciding the English control value.
+Why? `attend` is a French verb form from `attendre`, meaning to wait for.
 
-## 4. Vocabulary
+## 4. Core False Friends
 
-### 4.1 Recognition Vocabulary
+| French | Wrong English guess | Safer reading value | Example phrase |
+|---|---|---|---|
+| actuellement | actually | currently / at present | actuellement, le lecteur attend |
+| attendre | attend | to wait for | attendre une réponse |
+| ignorer | ignore | not to know / be unaware of | ignorer la cause |
+| sensible | sensible | sensitive / perceptible | une impression sensible |
+| éventuellement | eventually | possibly / if necessary | éventuellement, le lecteur vérifie |
+| librairie | library | bookstore | entrer dans une librairie |
+| assister à | assist | to attend / be present at | assister à une scène |
+| demander | demand | to ask | demander une explication |
+| rester | rest | to remain / stay | rester obscure |
+| prévenir | prevent | to warn / notify | prévenir le lecteur |
+| coin | coin | corner | dans le coin |
+| chair | chair | flesh | la chair sensible |
+| lecture | lecture | reading | la lecture devient difficile |
+| journée | journey | day / day's span | une longue journée |
+| déception | deception | disappointment | une déception profonde |
+| occasion | occasion only | opportunity / occasion / second-hand item | une occasion importante |
+| entrée | entrée only | entrance / entry / first course | l'entrée de la chambre |
+| expérience | experience only | experience / experiment | une expérience étrange |
+| caractère | fictional character only | character / nature | le caractère du souvenir |
+| propre | proper | own / clean | sa propre mémoire |
+| blesser | bless | to wound / hurt | blesser le personnage |
+| grave | grave only | serious | une erreur grave |
+| sale | sale | dirty | une chambre sale |
+| ancien | ancient only | former / ancient depending context | un ancien souvenir |
+| histoire | history only | story / history | une histoire obscure |
 
-| French | Wrong Guess | Controlled Reading | Word Type | Reading Note |
-|---|---|---|---|---|
-| actuellement | actually | currently / at present | adverb | Usually marks present time. |
-| attendre | attend | to wait for | verb | Often takes an object. |
-| ignorer | ignore | not to know / be unaware of | verb | Useful for knowledge gaps. |
-| sensible | sensible | sensitive / perceptible | adjective | Important for sensation and perception. |
-| éventuellement | eventually | possibly / if necessary | adverb | Does not mean later in time. |
-| librairie | library | bookstore | noun | A library is `bibliothèque`. |
-| assister à | assist | to attend / be present at | expression | Requires `à`. |
-| demander | demand | to ask | verb | Strong demand is another context. |
-| rester | rest | to remain / stay | verb | Often marks continuation. |
-| prévenir | prevent | to warn / notify | verb | Not normally to prevent. |
+## 5. Reading Examples
 
-### 4.2 New Core Vocabulary
+Read these slowly. Do not rush from resemblance to interpretation.
 
-| French | Controlled Reading | Type |
-|---|---|---|
-| coin | corner | noun |
-| chair | flesh | noun |
-| lecture | reading | noun |
-| journée | day / day's span | noun |
-| déception | disappointment | noun |
-| occasion | opportunity / second-hand item | noun |
-| entrée | entrance / first course | noun |
-| expérience | experience / experiment | noun |
-| caractère | character / nature | noun |
-| propre | own / clean | adjective |
-
-### 4.3 Function Words
-
-This chapter does not introduce a full function-word system, but two small forms matter:
-
-| Form | Use in this chapter | Example |
-|---|---|---|
-| à | completes `assister à` | `Il assiste à une scène.` |
-| de | relation / source / object link | `Une déception de la mémoire.` |
-
-Do not skip small words inside expressions. In `assister à`, the `à` is part of the reading value.
-
-### 4.4 Proust Direction
-
-Proustian reading requires controlled inference. A first impression may be useful, but it cannot become final interpretation until it has returned to the sentence.
-
-False friends train that discipline at the smallest scale: one word, one hypothesis, one verification.
-
-### 4.5 Card Targets
-
-- high-risk false friends
-- partial cognates
-- word type checks
-- correction of misleading English pulls
-- controlled guessing sequence
-- sentence-level verification
-- Proust-direction cards on first impressions and textual return
-
-## 5. Forms and Patterns
-
-### 5.1 Adverb Traps
-
-Adverbs often look easy because they sit outside the main subject-verb structure.
-
-| French | Wrong Pull | Reading Value |
-|---|---|---|
-| actuellement | actually | currently |
-| éventuellement | eventually | possibly / if necessary |
-
-Micro-examples:
-
-1. `Actuellement, le narrateur attend.`
-2. `Éventuellement, la lecture devient possible.`
-
-### 5.2 Verb Traps
-
-Verbs control sentence movement. A wrong verb guess damages the whole sentence.
-
-| French | Wrong Pull | Reading Value |
-|---|---|---|
-| attendre | attend | to wait for |
-| ignorer | ignore | not to know |
-| demander | demand | to ask |
-| rester | rest | to remain / stay |
-| prévenir | prevent | to warn / notify |
-
-Micro-examples:
-
-1. `Le lecteur attend.`
+1. `Actuellement, le lecteur attend.`
 2. `Le narrateur ignore la cause.`
-3. `Le personnage demande une explication.`
-4. `La mémoire reste obscure.`
-5. `La voix prévient le lecteur.`
-
-### 5.3 Noun Traps
-
-Nouns may look recognizable but belong to a different field.
-
-| French | Wrong Pull | Reading Value |
-|---|---|---|
-| librairie | library | bookstore |
-| coin | coin | corner |
-| chair | chair | flesh |
-| lecture | lecture | reading |
-| journée | journey | day / day's span |
-| déception | deception | disappointment |
-
-### 5.4 Adjective Traps
-
-Adjectives modify nouns. A wrong adjective guess changes the quality of the whole phrase.
-
-| French | Wrong Pull | Reading Value |
-|---|---|---|
-| sensible | sensible | sensitive / perceptible |
-| propre | proper | own / clean |
-
-Micro-examples:
-
-1. `Une impression sensible apparaît.`
-2. `Sa propre mémoire revient.`
-
-### 5.5 Expression Traps
-
-Some false friends are expressions, not isolated words.
-
-`assister à` means to attend / be present at.
-
-Do not read it as "to assist." The `à` helps mark the expression.
-
-Micro-example:
-
-`Il assiste à une scène.`
-
-Controlled reading: "He attends / is present at a scene."
-
-## 6. Model Sentences
-
-These sentences are short, controlled, and Proust-oriented where possible.
-
-1. `Actuellement, le narrateur attend.`
-2. `Le lecteur ignore la cause.`
 3. `Une impression sensible apparaît.`
 4. `La mémoire reste obscure.`
 5. `Il assiste à une scène.`
 6. `Le personnage demande une explication.`
 7. `Une déception transforme le souvenir.`
 8. `La lecture devient difficile.`
-9. `Le narrateur entre dans une librairie.`
-10. `Dans le coin, une image revient.`
-11. `La chair garde une sensation.`
-12. `La journée semble longue.`
-13. `Une occasion devient importante.`
-14. `L'entrée de la chambre reste obscure.`
-15. `Une expérience transforme la perception.`
-16. `Le caractère du souvenir change.`
-17. `Sa propre mémoire devient incertaine.`
-18. `Éventuellement, le lecteur vérifie le mot.`
-19. `La voix prévient le narrateur.`
-20. `Le lecteur attend avant d'interpréter.`
+9. `Ce n'est pas une librairie, mais une bibliothèque.`
+10. `Cette journée semble longue.`
+11. `Le souvenir a un caractère étrange.`
+12. `Son propre monde disparaît.`
+13. `Dans le coin, une image revient.`
+14. `La chair garde une sensation.`
+15. `Une occasion devient importante.`
+16. `L'entrée de la chambre reste obscure.`
+17. `Une expérience transforme la perception.`
+18. `La voix prévient le narrateur.`
+19. `Une erreur grave change la lecture.`
+20. `Cette histoire reste difficile.`
 
-## 7. Reading Method
+## 6. Practice: Correct the Guess
 
-Use controlled guessing every time a French word looks usefully familiar but potentially dangerous.
+For each item, replace the bad guess with a safer reading.
 
-### Procedure
+1. French word: `actuellement`  
+   Bad guess: actually  
+   Correct reading:
 
-1. Recognize resemblance.
-2. Say the tempting English guess.
-3. Suspend certainty.
-4. Identify word type.
-5. Locate sentence function.
-6. Replace the guess with a controlled reading value.
-7. Produce a plain English control sentence.
-8. Return to the French sentence.
+2. French word: `attendre`  
+   Bad guess: attend  
+   Correct reading:
 
-### Worked Example
+3. French word: `librairie`  
+   Bad guess: library  
+   Correct reading:
 
-Sentence:
+4. French word: `déception`  
+   Bad guess: deception  
+   Correct reading:
 
-`Une déception transforme le souvenir.`
+5. French word: `journée`  
+   Bad guess: journey  
+   Correct reading:
 
-Tempting guess:
+6. French word: `chair`  
+   Bad guess: chair  
+   Correct reading:
 
-`déception` = deception.
+7. French word: `prévenir`  
+   Bad guess: prevent  
+   Correct reading:
 
-Check:
+8. French word: `rester`  
+   Bad guess: rest  
+   Correct reading:
 
-- word type: noun
-- sentence function: subject of `transforme`
-- context: an emotional or interpretive change of memory
+9. French word: `demander`  
+   Bad guess: demand  
+   Correct reading:
 
-Controlled reading:
+10. French word: `grave`  
+    Bad guess: grave  
+    Correct reading:
 
-"A disappointment transforms the memory."
+## 7. Practice: Read the Sentence
 
-Reading lesson:
+Choose the safer English reading.
 
-The sentence is not about deception unless context proves it. The safer value is disappointment.
+1. `Le lecteur attend.`  
+   A. The reader attends.  
+   B. The reader waits.
 
-## 8. Proustian Alignment
+2. `La lecture devient difficile.`  
+   A. The lecture becomes difficult.  
+   B. The reading becomes difficult.
 
-This chapter supports U1 method: English resemblance is useful but insufficient. The reader must move from recognition to verification to textual return.
+3. `Une déception transforme le souvenir.`  
+   A. A disappointment transforms the memory.  
+   B. A deception transforms the memory.
 
-Proustian reading requires controlled inference because the reader must not let first impressions become final interpretation.
+4. `Le narrateur ignore la cause.`  
+   A. The narrator ignores the cause.  
+   B. The narrator does not know the cause.
 
-At the level of a single word, false friends teach the same discipline that Proust demands at the level of scenes, signs, memories, and desires:
+5. `Une impression sensible apparaît.`  
+   A. A perceptible impression appears.  
+   B. A sensible impression appears.
 
-1. receive an impression;
-2. form a hypothesis;
-3. test it against the text;
-4. revise the claim;
-5. return to the passage.
+6. `Il assiste à une scène.`  
+   A. He assists a scene.  
+   B. He attends / is present at a scene.
 
-## 9. Self-Test Link
+7. `La mémoire reste obscure.`  
+   A. Memory remains obscure.  
+   B. Memory rests obscure.
 
-- [[SELFTEST-Chapter-002]]
+8. `Dans le coin, une image revient.`  
+   A. In the corner, an image returns.  
+   B. In the coin, an image returns.
 
-## 10. Card Targets
+9. `Sa propre mémoire revient.`  
+   A. His own memory returns.  
+   B. His proper memory returns.
 
-- [[CARD-Chapter-002]]
-- false-friend recognition
-- partial cognate caution
-- semantic drift
-- word type check
-- controlled guessing sequence
-- sentence-level correction
-- Proustian textual return
+10. `Cette histoire reste difficile.`  
+    A. This story / history remains difficult.  
+    B. This history must always mean academic history.
 
-## 11. Diagnostic Notes
+## 8. Review Check
 
-Common gap types:
+1. What is a false friend?
+2. Why is `actuellement` dangerous for an English reader?
+3. What does `attendre` mean?
+4. What is the difference between a false friend and a partial cognate?
+5. Why should you check word type before paraphrasing?
+6. What does `assister à` mean?
+7. Why is `déception` not usually "deception"?
+8. What should you do when the English-looking guess makes a strange sentence?
+9. How does controlled guessing protect reading?
+10. Why is resemblance a clue but not proof?
 
-- False Friend Gap
-- Word Type Gap
-- Function Gap
-- Premature Interpretation
-- English Control Gap
+## 9. What to Remember
 
-If the reader gives the tempting English form, assign error-correction cards.
+English resemblance is a clue.
 
-If the reader knows the correction in isolation but fails in a sentence, assign sentence cards.
+A clue is not proof.
 
-If the reader cannot explain why the guess is unsafe, assign controlled guessing cards.
+Guess, verify, and reread.
 
-If the reader refuses all guesses, return to Chapter 001: recognition is still useful.
+False friends are not just exceptions to memorize. They are training devices for judgment. They teach you to pause before interpretation and to return to the French sentence.
 
-## 12. Pedagogical Audit
+## Next Chapter
 
-Use [[SKILL-Pedagogical-Audit]] and [[SKILL-False-Friend-Alert]].
-
-### Source Tradition
-
-- Reading French textbook tradition: early control of cognates and false friends prevents uncontrolled transfer.
-- Classical reading textbook tradition: vocabulary is treated as reading evidence, not casual memorization.
-- SLA / input-processing principle: the learner practices form-meaning mapping under sentence pressure.
-- Vocabulary acquisition principle: false friends require repeated correction, contextual re-encounter, and retrieval.
-- Card/retrieval principle: each false friend becomes a short recognition or error-correction card.
-
-### Learning Claim
-
-This chapter claims that the learner will be able to recognize common French false friends and use controlled guessing before producing an English reading.
-
-### Observable Evidence
-
-The learner should be able to:
-
-1. correct at least 15 high-risk false friends;
-2. identify whether a target item is a noun, verb, adjective, adverb, or expression;
-3. read short sentences without surrendering to the tempting English guess;
-4. explain the controlled guessing procedure in plain English.
-
-### Falsification / Revision Trigger
-
-Revise this chapter if:
-
-1. the learner keeps translating by visual resemblance alone;
-2. the self-test does not expose word type errors;
-3. the cards are too easy in isolation but fail to improve sentence reading;
-4. the Proustian alignment feels decorative rather than procedural.
-
-### Card Conversion
-
-This chapter should generate:
-
-- Basic cards: controlled guessing definition and procedure
-- Cloze cards: suspended certainty, word type, context verification
-- Recognition cards: false friend → controlled reading value
-- Parsing cards: word type and sentence function
-- Error-correction cards: wrong English pull → corrected French value
-- Proust-Direction cards: first impression is not final interpretation
-
-### Diagnostic Categories
-
-Possible failures:
-
-- Vocabulary Gap
-- False Friend Gap
-- Form Gap
-- Function Gap
-- Word Order Gap
-- Premature Interpretation
-- English Control Gap
+- [[LTF-Chapter-003-Word-Families-and-Recognition-Patterns]]
 
 Back:
 
 - [[Language-Training]]
 - [[LTF-A0-to-B1-Course-Outline]]
-- [[LTF-Proustian-Core-Questions]]
-
-Prototype:
-
-- [[LTF-V0-1-Five-Chapter-Prototype]]

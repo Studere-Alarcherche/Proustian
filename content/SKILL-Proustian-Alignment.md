@@ -1,3 +1,6 @@
+---
+draft: true
+---
 # SKILL-Proustian-Alignment
 
 ## Purpose

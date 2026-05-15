@@ -1,3 +1,6 @@
+---
+draft: true
+---
 # Card Policy
 
 Cards repeat what the textbook has already taught.

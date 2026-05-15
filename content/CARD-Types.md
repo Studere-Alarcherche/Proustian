@@ -1,3 +1,6 @@
+---
+draft: true
+---
 # Card Types
 
 ## Form Card

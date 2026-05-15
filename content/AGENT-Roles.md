@@ -1,3 +1,6 @@
+---
+draft: true
+---
 # Agent Roles
 
 Only Builder / Integrator may modify files.

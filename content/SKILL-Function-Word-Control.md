@@ -1,3 +1,6 @@
+---
+draft: true
+---
 # SKILL-Function-Word-Control
 
 ## Purpose

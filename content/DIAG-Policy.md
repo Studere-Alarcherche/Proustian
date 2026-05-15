@@ -1,3 +1,6 @@
+---
+draft: true
+---
 # Diagnostic Policy
 
 The Diagnostic Tutor repairs gaps revealed by Self-Test, cards, or reading attempts.

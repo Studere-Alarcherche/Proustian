@@ -9,123 +9,101 @@ public_candidate: false
 
 Subtitle: Suffixes, Prefixes, and Recognition Patterns
 
-## 1. Chapter Aim
+## What You Will Learn
 
-Learn to recognize word families instead of memorizing isolated words.
+You will learn to recognize groups of related words instead of memorizing isolated vocabulary one item at a time.
 
-## 2. Reading Problem
+## Why This Matters
 
-French reading becomes slow if every word is treated as new. The reader needs pattern recognition: suffixes, prefixes, and historical spelling clues.
+Reading grows faster when you can see patterns. A suffix, prefix, or spelling clue can help you connect a new French word to an English support word.
 
-## 3. Core Knowledge
+## 1. Suffix Patterns
 
-A word family is a group of related forms that share a root or pattern.
+Some French endings are strongly recognizable to English readers.
 
-For reading, the goal is not full etymology. The goal is fast, cautious recognition.
+| French pattern | Example | English support |
+|---|---|---|
+| `-tion` | attention | attention |
+| `-ité` | sensibilité | sensibility |
+| `-ment` | mouvement | movement |
+| `-able` / `-ible` | visible | visible |
+| `-if` / `-ive` | actif / active | active |
 
-Patterns such as `-tion`, `-ité`, and `-ment` help the reader identify abstract nouns and adverbs. Endings such as `-able`, `-ible`, `-if`, and `-ive` help the reader recognize adjectives. A circumflex may mark a historical lost `s`, as in `forêt` and forest.
+## 2. Prefix and Spelling Clues
 
-## 4. Vocabulary
+Some words preserve older spelling relationships.
 
-### 4.1 Recognition Vocabulary
+Examples:
+
+- `étude` can be linked to study.
+- `forêt` can be linked to forest.
+
+The circumflex often marks a historical spelling change. It is not a rule you can use blindly, but it can help recognition.
+
+## 3. Pattern Recognition
+
+When you see a new word, ask:
+
+1. Does it have a familiar ending?
+2. Does it belong to a known word family?
+3. Does the English support word fit the sentence?
+
+## Core Vocabulary
 
 | French | Pattern | English support |
-| --- | --- | --- |
+|---|---|---|
 | attention | `-tion` | attention |
-| sensibilité | `-ité` | sensibility / sensitivity |
+| perception | `-tion` | perception |
+| sensation | `-tion` | sensation |
+| sensibilité | `-ité` | sensibility |
 | mouvement | `-ment` | movement |
 | visible | `-ible` | visible |
 | possible | `-ible` | possible |
 | actif | `-if` | active |
 | active | `-ive` | active |
-| étude | `é-` | study |
-| forêt | circumflex / lost `s` | forest |
+| étude | spelling relation | study |
+| forêt | circumflex clue | forest |
 
-### 4.2 New Core Vocabulary
+## Reading Examples
 
-- `sensibilité`: sensitivity / sensibility
-- `mouvement`: movement
-- `actif`: active, masculine
-- `active`: active, feminine
-- `étude`: study
-- `forêt`: forest
+1. `Une attention visible.`
+2. `La perception change.`
+3. `Une sensation revient.`
+4. `La sensibilité apparaît.`
+5. `Le mouvement devient possible.`
+6. `Une image active.`
 
-### 4.3 Function Words
+## Practice
 
-No new function words are required yet.
+Name the pattern.
 
-### 4.4 Proust Direction
+1. attention
+2. perception
+3. sensibilité
+4. mouvement
+5. visible
+6. actif
+7. active
+8. forêt
 
-Proustian reading requires the ability to recognize families of abstraction, perception, and movement.
+## Review Check
 
-### 4.5 Card Targets
+1. Why are word families useful?
+2. What English pattern often matches French `-tion`?
+3. What does `-ment` often suggest?
+4. Why should pattern recognition still be checked in the sentence?
 
-- suffix recognition
-- prefix recognition
-- circumflex as spelling clue
-- word family grouping
+## What to Remember
 
-## 5. Forms and Patterns
+Vocabulary is not only a list. It is a network of forms.
 
-| Pattern | Common reading signal | Examples |
-| --- | --- | --- |
-| `-tion` | abstract action or state | attention, sensation, perception |
-| `-ité` | abstract quality | sensibilité |
-| `-ment` | noun or adverb pattern | mouvement |
-| `-able / -ible` | possibility or capacity | visible, possible |
-| `-if / -ive` | adjective pair | actif / active |
-| `é- / es-` | historical relation clue | étude / study |
-| circumflex | possible lost `s` clue | forêt / forest |
+Patterns help you recognize more, but the sentence still decides meaning.
 
-## 6. Model Sentences
+## Next Chapter
 
-These are controlled training sentences.
-
-1. Une sensation visible.
-2. Une forme possible.
-3. La sensibilité.
-4. Le mouvement de la mémoire.
-5. Une image active.
-
-## 7. Reading Method
-
-Use the family recognition method:
-
-1. Identify the ending or spelling clue.
-2. Connect it to a known pattern.
-3. Propose an English support word.
-4. Check whether the sentence confirms it.
-
-## 8. Proustian Alignment
-
-U1 asks the reader to move from a single cliché to multiple testable paths. Word families make those paths visible: memory, sensation, perception, image, form, and movement become repeatable lexical fields.
-
-## 9. Self-Test Link
-
-- [[SELFTEST-Chapter-003|Self-Test Chapter 003]]
-
-## 10. Card Targets
-
-- [[CARD-Chapter-003|Chapter 003 Cards]]
-- `-tion`
-- `-ité`
-- `-ment`
-- `-able / -ible`
-- `-if / -ive`
-- circumflex and lost `s`
-
-## 11. Diagnostic Notes
-
-If the reader memorizes isolated words but misses patterns, assign suffix recognition cards.
-
-If the reader overgeneralizes patterns, return to Chapter 002 and controlled guessing.
+- [[LTF-Chapter-004-Function-Words-I]]
 
 Back:
 
 - [[Language-Training]]
 - [[LTF-A0-to-B1-Course-Outline]]
-- [[LTF-Proustian-Core-Questions]]
-
-Prototype:
-
-- [[LTF-V0-1-Five-Chapter-Prototype]]

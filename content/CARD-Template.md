@@ -1,3 +1,6 @@
+---
+draft: true
+---
 # Card Template
 
 Use this template for new card drafts.

@@ -1,3 +1,6 @@
+---
+draft: true
+---
 # Self-Test — Chapter 004
 
 ## A. Recognition Check
