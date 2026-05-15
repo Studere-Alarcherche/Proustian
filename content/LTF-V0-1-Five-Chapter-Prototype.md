@@ -76,6 +76,12 @@ Do not expand to Chapter 006 until Chapters 001–005 have been used by the edit
 
 Expansion is paused until self-testing is complete.
 
+## Deepening Mode
+
+The five chapters are sufficient for V0.1, but each chapter must be deepened before self-testing.
+
+The project is paused at five chapters until Chapters 001–005 reach real textbook density.
+
 Back:
 
 - [[Language-Training]]

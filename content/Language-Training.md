@@ -29,6 +29,10 @@ Do not expand to Chapter 006 until the editor has completed the first self-testi
 
 Expansion is paused until self-testing is complete.
 
+Current issue:
+
+The first version of the five chapters was structurally useful but too thin. V0.1 now enters deepening mode. No Chapter 006 until Chapters 001–005 are substantive enough for real self-training.
+
 ## French Reading Textbook
 
 - [[LTF-A0-to-B1-Course-Outline|A0 to B1 Course Outline]]
