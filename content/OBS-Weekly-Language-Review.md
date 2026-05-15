@@ -1,4 +1,6 @@
 ---
+private: true
+hide: true
 draft: true
 ---
 # Weekly Language Review

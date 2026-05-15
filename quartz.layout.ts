@@ -16,18 +16,28 @@ export const sharedPageComponents: SharedLayout = {
   }),
 }
 
-// 目录树配置：过滤隐藏后台文件夹，并强制 Essays 置顶
+// 目录树配置：把 Explorer 当作公共目录，而不是仓库文件浏览器
 const explorerFilter = Component.Explorer({
   title: "探索",
+  useSavedState: false,
   filterFn: (node) => {
-    const excludeFolders = [
-      "Bricks", 
-      "Seeds", 
-      "99_Archive", 
-      "Active_Projects", 
-      "System", 
-      "Asserts", 
-      "00_System"
+    if (node.isFolder) return false
+
+    const publicSlugs = [
+      "Proustian-2.0",
+      "Reading-Map",
+      "Question-Gradient",
+      "Passage-Cards",
+      "U1-U6-Repository-Index",
+      "Language-Training",
+      "LTF-A0-to-B1-Course-Outline",
+      "LTF-Chapter-001-Cognates-and-Reading-Confidence",
+      "LTF-Chapter-002-False-Friends-and-Controlled-Guessing",
+      "LTF-Chapter-003-Word-Families-and-Recognition-Patterns",
+      "LTF-Chapter-004-Function-Words-I",
+      "LTF-Chapter-005-What-Is-a-French-Sentence",
+      "Build-Log",
+      "U1-General-Introduction-Memory-Cliche-to-Polycentric-Reading",
     ]
     const internalPrefixes = [
       "AGENT-",
@@ -38,6 +48,7 @@ const explorerFilter = Component.Explorer({
       "OBS-",
       "TT-",
       "LTF-V0-1-",
+      "_archive",
     ]
     const internalPages = [
       "AGENT-Pedagogical-Audit-Principles",
@@ -46,23 +57,52 @@ const explorerFilter = Component.Explorer({
       "Source-Locator-iBooks",
       "NotebookLM-Evidence-Packet-Plan",
       "Literature-Importance-Ranking-V0.1",
+      "Literature Importance Ranking",
+      "Ranking V0.1",
+      "Archive",
+      "private",
     ]
     const name = node.displayName ?? ""
     const slug = node.slugSegment ?? ""
     const filePath = node.data?.filePath ?? ""
+    const title = node.data?.title ?? ""
 
     return (
-      !excludeFolders.includes(name) &&
-      !excludeFolders.includes(slug) &&
-      !internalPages.includes(name) &&
-      !internalPages.includes(slug) &&
-      !internalPages.some((page) => filePath.includes(page)) &&
-      !internalPrefixes.some((prefix) => name.startsWith(prefix) || slug.startsWith(prefix))
+      publicSlugs.includes(slug) &&
+      !internalPages.some(
+        (page) => name.includes(page) || slug.includes(page) || title.includes(page) || filePath.includes(page),
+      ) &&
+      !internalPrefixes.some(
+        (prefix) =>
+          name.startsWith(prefix) ||
+          slug.startsWith(prefix) ||
+          title.startsWith(prefix) ||
+          filePath.includes(`/${prefix}`),
+      )
     )
   },
   sortFn: (a, b) => {
-    if (a.name === "Essays") return -1
-    if (b.name === "Essays") return 1
+    const publicOrder = [
+      "Proustian-2.0",
+      "Reading-Map",
+      "Question-Gradient",
+      "Passage-Cards",
+      "U1-U6-Repository-Index",
+      "Language-Training",
+      "LTF-A0-to-B1-Course-Outline",
+      "LTF-Chapter-001-Cognates-and-Reading-Confidence",
+      "LTF-Chapter-002-False-Friends-and-Controlled-Guessing",
+      "LTF-Chapter-003-Word-Families-and-Recognition-Patterns",
+      "LTF-Chapter-004-Function-Words-I",
+      "LTF-Chapter-005-What-Is-a-French-Sentence",
+      "Build-Log",
+      "U1-General-Introduction-Memory-Cliche-to-Polycentric-Reading",
+    ]
+    const aIndex = publicOrder.indexOf(a.slugSegment)
+    const bIndex = publicOrder.indexOf(b.slugSegment)
+    if (aIndex !== -1 || bIndex !== -1) {
+      return (aIndex === -1 ? Number.MAX_SAFE_INTEGER : aIndex) - (bIndex === -1 ? Number.MAX_SAFE_INTEGER : bIndex)
+    }
     return a.displayName.localeCompare(b.displayName)
   },
 })

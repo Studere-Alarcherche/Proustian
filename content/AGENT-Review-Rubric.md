@@ -1,4 +1,6 @@
 ---
+private: true
+hide: true
 draft: true
 ---
 # Agent Review Rubric

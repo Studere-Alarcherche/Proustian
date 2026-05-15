@@ -1,3 +1,9 @@
+---
+draft: true
+private: true
+hide: true
+---
+
 # Translation Training Workflow
 
 Translation Training is part of Language Training, but it is not the French Reading Textbook.

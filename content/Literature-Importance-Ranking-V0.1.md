@@ -1,4 +1,7 @@
 ---
+draft: true
+private: true
+hide: true
 title: Literature Importance Ranking V0.1
 type: literature-ranking
 status: v0.1

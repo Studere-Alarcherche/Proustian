@@ -2109,10 +2109,10 @@ body[data-slug="index"] .project-meta-dashboard {
 
 /* Layout cleanup: keep the archive skin, but give reading pages room */
 .page > #quartz-body {
-  max-width: 1640px;
+  max-width: 1720px;
   margin: 0 auto;
-  grid-template-columns: minmax(220px, 278px) minmax(0, 980px) minmax(210px, 258px);
-  column-gap: clamp(1.4rem, 3.2vw, 3.8rem);
+  grid-template-columns: minmax(210px, 252px) minmax(0, 940px) minmax(190px, 228px);
+  column-gap: clamp(2rem, 4vw, 4.8rem);
 }
 
 .center,
@@ -2122,7 +2122,7 @@ article {
 }
 
 article {
-  max-width: 960px;
+  max-width: 880px;
 }
 
 .sidebar.left {
@@ -2131,20 +2131,20 @@ article {
 }
 
 .sidebar.right {
-  width: min(258px, 100%);
-  padding-left: 0.85rem;
+  width: min(228px, 100%);
+  padding-left: 1.25rem;
   padding-right: clamp(1rem, 1.7vw, 1.7rem);
 }
 
 .right {
-  opacity: 0.78;
+  opacity: 0.68;
 }
 
 .right .toc,
 .right .backlinks,
 .right .graph,
 .right .recent-notes {
-  max-width: 258px;
+  max-width: 228px;
 }
 
 .explorer {
@@ -2165,12 +2165,12 @@ article {
 
 @media all and (max-width: 1390px) {
   .page > #quartz-body {
-    grid-template-columns: minmax(205px, 250px) minmax(0, 920px) minmax(190px, 230px);
-    column-gap: clamp(1rem, 2.1vw, 2rem);
+    grid-template-columns: minmax(200px, 238px) minmax(0, 900px) minmax(176px, 210px);
+    column-gap: clamp(1.25rem, 2.6vw, 2.7rem);
   }
 
   article {
-    max-width: 920px;
+    max-width: 860px;
   }
 }
 

@@ -1,4 +1,6 @@
 ---
+private: true
+hide: true
 draft: true
 ---
 # Self-Test — Chapter 005

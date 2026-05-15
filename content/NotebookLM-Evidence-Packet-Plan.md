@@ -1,4 +1,7 @@
 ---
+draft: true
+private: true
+hide: true
 title: NotebookLM Evidence Packet Plan
 type: evidence-packet-plan
 status: v0.1

@@ -1,3 +1,9 @@
+---
+draft: true
+private: true
+hide: true
+---
+
 # Translation to Cards Policy
 
 Translation Training may produce cards, but they are not French textbook cards.

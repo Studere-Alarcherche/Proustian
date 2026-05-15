@@ -27,6 +27,8 @@ const config: QuartzConfig = {
       "04_Journal/**",
       "99_Archive",
       "99_Archive/**",
+      "_archive-language-training",
+      "_archive-language-training/**",
       "Essays",
       "Essays/**",
       "Asserts",

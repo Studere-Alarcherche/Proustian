@@ -1,3 +1,9 @@
+---
+draft: true
+private: true
+hide: true
+---
+
 # Repository Maintenance
 
 This note records the current maintenance stance for Proustian.

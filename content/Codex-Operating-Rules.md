@@ -1,4 +1,7 @@
 ---
+draft: true
+private: true
+hide: true
 title: Codex Operating Rules
 type: operating-note
 status: active

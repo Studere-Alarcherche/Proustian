@@ -1,3 +1,9 @@
+---
+draft: true
+private: true
+hide: true
+---
+
 # Translation Training Log
 
 ## Date
