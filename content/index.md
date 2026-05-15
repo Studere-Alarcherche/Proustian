@@ -5,29 +5,12 @@ description: A Proust-centered reading atlas for signs, memory, French attention
 ---
 # Proustian 2.0
 
-Proustian 2.0 is a reading atlas for signs, memory, music, visual attention, French reading, and passage work.
+A reading atlas for learning to read Proust through signs, memory, music, visual attention, French reading, and passage work.
 
-## Proustian Reading Atlas
+## Enter
 
-The central path through Proust: a course garden of maps, passage cards, question gradients, unit repositories, and version notes.
+- [[Proustian-2.0|Proustian Reading Atlas]]
+- [[Language-Training|Language Training]]
+- [[Build-Log|Build Log / Version Notes]]
 
-- [[Reading-Map]]
-- [[Passage-Cards]]
-- [[Question-Gradient]]
-- [[U1-U6-Repository-Index]]
-
-## Language Training
-
-French reading, translation training, pattern cards, anchors, and self-made reader exercises live here.
-
-- [[Language-Training]]
-
-## Build Log / Version Notes
-
-Changes to the archive are recorded as editorial decisions: pruning, relabeling, route building, and design corrections.
-
-- [[Build-Log]]
-
-## Archive / Public Writing
-
-Older materials remain available, but they are not the public entrance.
+A long-term course garden for reading, judgment, language training, and passage-level work.

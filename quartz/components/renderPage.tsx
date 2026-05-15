@@ -241,7 +241,18 @@ export function renderPage(
   const Header = HeaderConstructor()
   const Body = BodyConstructor()
 
-  const LeftComponent = (
+  const lang = componentData.fileData.frontmatter?.lang ?? cfg.locale?.split("-")[0] ?? "en"
+  const direction = i18n(cfg.locale).direction ?? "ltr"
+  const pageLayout = componentData.fileData.frontmatter?.layout ?? componentData.fileData.frontmatter?.pageType
+  const isLandingLayout = pageLayout === "landing"
+  const pageClass =
+    isLandingLayout
+      ? "page layout-landing"
+      : pageLayout === "reading"
+        ? "page layout-reading"
+        : "page"
+
+  const LeftComponent = isLandingLayout ? null : (
     <div class="left sidebar">
       {left.map((BodyComponent) => (
         <BodyComponent {...componentData} />
@@ -249,23 +260,13 @@ export function renderPage(
     </div>
   )
 
-  const RightComponent = (
+  const RightComponent = isLandingLayout ? null : (
     <div class="right sidebar">
       {right.map((BodyComponent) => (
         <BodyComponent {...componentData} />
       ))}
     </div>
   )
-
-  const lang = componentData.fileData.frontmatter?.lang ?? cfg.locale?.split("-")[0] ?? "en"
-  const direction = i18n(cfg.locale).direction ?? "ltr"
-  const pageLayout = componentData.fileData.frontmatter?.layout ?? componentData.fileData.frontmatter?.pageType
-  const pageClass =
-    pageLayout === "landing"
-      ? "page layout-landing"
-      : pageLayout === "reading"
-        ? "page layout-reading"
-        : "page"
   const doc = (
     <html lang={lang} dir={direction}>
       <Head {...componentData} />
