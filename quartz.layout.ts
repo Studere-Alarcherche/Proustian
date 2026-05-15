@@ -4,6 +4,26 @@ import EssaysNav from "./quartz/components/EssaysNav"
 import ProjectMeta from "./quartz/components/ProjectMeta" 
 import SocialLinks from "./quartz/components/SocialLinks" // <--- 补上！引入社交枢纽组件
 
+const isLandingPage = (page: any) =>
+  page.fileData.frontmatter?.layout === "landing" || page.fileData.frontmatter?.pageType === "landing"
+
+const isReadingPage = (page: any) =>
+  page.fileData.frontmatter?.layout === "reading" || page.fileData.frontmatter?.pageType === "reading"
+
+const isFocusedLayout = (page: any) => isLandingPage(page) || isReadingPage(page)
+
+const hideOnLanding = (component: any) =>
+  Component.ConditionalRender({
+    component,
+    condition: (page) => !isLandingPage(page),
+  })
+
+const hideOnFocusedLayout = (component: any) =>
+  Component.ConditionalRender({
+    component,
+    condition: (page) => !isFocusedLayout(page),
+  })
+
 // 所有页面通用的组件
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
@@ -120,29 +140,29 @@ export const defaultContentPageLayout: PageLayout = {
     Component.TagList(),
   ],
   left: [
-    Component.PageTitle(),
-    SocialLinks(),   // <--- 社交枢纽：在这里挂载你的公众号与小红书
-    Component.MobileOnly(Component.Spacer()),
-    Component.Flex({
+    hideOnFocusedLayout(Component.PageTitle()),
+    hideOnFocusedLayout(SocialLinks()),   // <--- 社交枢纽：在这里挂载你的公众号与小红书
+    hideOnFocusedLayout(Component.MobileOnly(Component.Spacer())),
+    hideOnFocusedLayout(Component.Flex({
       components: [
         { Component: Component.Search(), grow: true },
         { Component: Component.Darkmode() },
         { Component: Component.ReaderMode() },
       ],
-    }),
-    EssaysNav(),     // <--- 维米尔群青随笔气泡
-    explorerFilter, 
+    })),
+    hideOnFocusedLayout(EssaysNav()),     // <--- 维米尔群青随笔气泡
+    hideOnFocusedLayout(explorerFilter), 
   ],
   right: [
-    Component.TableOfContents(), 
-    Component.Graph(), 
-    Component.RecentNotes({
+    hideOnLanding(Component.TableOfContents()), 
+    hideOnFocusedLayout(Component.Graph()), 
+    hideOnFocusedLayout(Component.RecentNotes({
       title: "✦ CONSTELLATIONS",
       limit: 4,
       filter: (f) => f.frontmatter?.status === "active",
       sort: (f1, f2) => (f2.dates?.modified.getTime() ?? 0) - (f1.dates?.modified.getTime() ?? 0),
-    }),
-    Component.Backlinks(),
+    })),
+    hideOnFocusedLayout(Component.Backlinks()),
   ],
   afterBody: [
     Component.Comments({
@@ -171,24 +191,24 @@ export const defaultListPageLayout: PageLayout = {
     Component.ContentMeta()
   ],
   left: [
-    Component.PageTitle(),
-    SocialLinks(),   // <--- 列表页同步保持挂载
-    Component.MobileOnly(Component.Spacer()),
-    Component.Flex({
+    hideOnFocusedLayout(Component.PageTitle()),
+    hideOnFocusedLayout(SocialLinks()),   // <--- 列表页同步保持挂载
+    hideOnFocusedLayout(Component.MobileOnly(Component.Spacer())),
+    hideOnFocusedLayout(Component.Flex({
       components: [
         { Component: Component.Search(), grow: true },
         { Component: Component.Darkmode() }, 
       ],
-    }),
-    EssaysNav(), 
-    explorerFilter,
+    })),
+    hideOnFocusedLayout(EssaysNav()), 
+    hideOnFocusedLayout(explorerFilter),
   ],
   right: [
-    Component.RecentNotes({
+    hideOnFocusedLayout(Component.RecentNotes({
       title: "✦ CONSTELLATIONS",
       limit: 4,
       filter: (f) => f.frontmatter?.status === "active",
       sort: (f1, f2) => (f2.dates?.modified.getTime() ?? 0) - (f1.dates?.modified.getTime() ?? 0),
-    }),
+    })),
   ],
 }

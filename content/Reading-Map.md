@@ -1,3 +1,7 @@
+---
+layout: landing
+---
+
 # Reading Map
 
 Start from [[Minimal-Reading-Package]], then use [[Question-Gradient]], [[Passage-Cards]], [[U1-U6-Repository-Index]], and [[Build-Log]] to keep reading connected.

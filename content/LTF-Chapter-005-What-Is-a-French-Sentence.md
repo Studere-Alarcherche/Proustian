@@ -1,10 +1,10 @@
 ---
+layout: reading
 status: self-testing-ready
 phase: V0.1
 tested_by_editor: false
 public_candidate: false
 ---
-
 # Chapter 005 — What Is a French Sentence?
 
 Subtitle: Subject, Verb, Complement, Modifier

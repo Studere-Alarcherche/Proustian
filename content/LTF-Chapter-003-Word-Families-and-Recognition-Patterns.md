@@ -1,10 +1,10 @@
 ---
+layout: reading
 status: self-testing-ready
 phase: V0.1
 tested_by_editor: false
 public_candidate: false
 ---
-
 # Chapter 003 — Word Families
 
 Subtitle: Suffixes, Prefixes, and Recognition Patterns

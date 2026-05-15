@@ -1,8 +1,8 @@
 ---
+layout: landing
 title: Proustian 2.0
 description: A Proust-centered reading atlas for signs, memory, French attention, and passage work.
 ---
-
 # Proustian 2.0
 
 Proustian 2.0 is a reading atlas for signs, memory, music, visual attention, French reading, and passage work.

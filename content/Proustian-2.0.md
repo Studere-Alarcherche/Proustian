@@ -1,3 +1,7 @@
+---
+layout: landing
+---
+
 # Proustian 2.0
 
 Proustian 2.0 is a reader-facing course garden for learning to read Proust through signs, memory, music, visual attention, sensory history, and writing.
