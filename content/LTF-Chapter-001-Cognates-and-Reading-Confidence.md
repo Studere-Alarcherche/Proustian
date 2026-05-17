@@ -1,133 +1,395 @@
 ---
-layout: reading
-status: self-testing-ready
-phase: V0.1
-tested_by_editor: false
-public_candidate: false
+title: "Chapter 001 — Cognates and Reading Confidence"
+book: "Learn to Read French for Proust — Book I"
+cycle: "Cycle 1 — Seeing French on the Page"
+chapter: 001
+status: "draft-thickened"
+type: "ltrp-textbook-chapter"
 ---
-# Chapter 001 — Recognizing French on the Page
+# Chapter 001 — Cognates and Reading Confidence
 
-Subtitle: Cognates and Reading Confidence
+## Before You Begin
+
+You do not need to know French grammar before starting this chapter. You need one reading habit: look at the French page before deciding that it is unreadable.
+
+French and English share many learned words. Some come from Latin, some passed through French into English, and some belong to modern intellectual vocabulary. That shared material gives an English reader a first foothold.
+
+The rule for this chapter is strict:
+
+**A familiar-looking word gives you a foothold. It does not give you the whole sentence.**
+
+A foothold is useful because it lets you stay on the page. It is dangerous only when you treat it as proof.
 
 ## What You Will Learn
 
-You will learn that you are not starting from nothing. Many French literary and intellectual words resemble English words closely enough to give you an initial foothold.
+By the end of this chapter you will be able to:
 
-You will also learn the first rule of this course: recognition is useful, but recognition is not mastery.
+- notice French words that resemble English words;
+- group common visual patterns such as `-tion`, `-ité`, `-ment`, `-able`, and `-ible`;
+- use accents and final `-e` as recognition clues without overtrusting them;
+- separate recognition from mastery;
+- mark footholds in a short training passage without trying to translate everything.
 
-## Why This Matters
+## Core Reading Move
 
-A French page can look opaque before you know how to look at it. But an English reader can often recognize words such as `mémoire`, `sensation`, `impression`, `attention`, and `perception`.
+Use resemblance as a foothold, not as proof.
 
-These words do not make the sentence easy. They make the sentence approachable.
+The reading action is:
 
-## 1. Cognates
+1. Notice the resemblance.
+2. Say only a simple support word.
+3. Keep uncertainty open.
+4. Continue through the phrase or sentence.
 
-A cognate is a word that resembles a word in another language because of shared history or borrowing.
+You are not trying to produce a polished translation. You are learning to remain calm when the page begins to look partly legible.
 
-Examples:
+## 1. Explanation
 
-| French | English support |
-|---|---|
-| mémoire | memory |
-| sensation | sensation |
-| impression | impression |
-| attention | attention |
-| perception | perception |
+A cognate is a word that resembles a word in another language because the two words share a history or because one language borrowed from the other. For reading, the history matters less than the action: the shape of the word gives you an initial support.
 
-The English support word is not a final translation. It is a first handle.
+Look at these words:
 
-## 2. Recognition Is Not Mastery
-
-When you see a recognizable French word, do not stop reading.
-
-Use this rule:
-
-1. Notice the familiar shape.
-2. Give yourself a simple English support word.
-3. Mark uncertainty.
-4. Continue through the sentence.
-
-For example:
-
-`mémoire` may point toward memory, but the sentence will decide whether it means memory as faculty, recollection, record, or something more specific.
-
-## 3. Reading Before Interpreting
-
-The first reading action is controlled recognition.
-
-You are not trying to produce a polished translation. You are learning to keep moving through the French line without panic.
-
-Ask:
-
-- What word looks familiar?
-- What English support word helps me continue?
-- What must remain uncertain until I see the sentence?
-
-## Core Vocabulary
-
-| French | English support | Caution |
+| French | First English support | Proustian field |
 |---|---|---|
-| mémoire | memory | May mean faculty, recollection, or record. |
-| sensation | sensation | Context decides force. |
-| impression | impression | May be mental, sensory, or artistic. |
-| attention | attention | Often tied to perception and judgment. |
-| perception | perception | Useful abstract noun. |
-| image | image | May be visual, mental, or literary. |
-| forme | form | May mean shape or artistic form. |
-| possible | possible | High-confidence cognate. |
-| visible | visible | High-confidence cognate. |
-| nature | nature | Meaning depends on context. |
-| silence | silence | High-confidence cognate. |
-| moment | moment | High-confidence cognate. |
+| mémoire | memory | memory |
+| sensation | sensation | sensation |
+| impression | impression | perception |
+| attention | attention | attention |
+| perception | perception | perception |
+| image | image | image |
+| visible | visible | seeing |
+| invisible | invisible | seeing |
+| silence | silence | atmosphere |
+| moment | moment | time |
 
-## Reading Examples
+These are useful. But they are not complete. `mémoire` can mean memory as faculty, a memory, or a record. `impression` can be sensory, mental, or artistic. `visible` can describe something physically seen or something made intelligible.
 
-1. `Une sensation.`
-2. `Une impression visible.`
-3. `La mémoire.`
-4. `Une image possible.`
-5. `Le silence.`
-6. `Un moment.`
-7. `La forme visible.`
-8. `Une perception.`
+Recognition tells you: “I have a handle.” Mastery tells you: “I know what this word is doing here.” In Chapter 001, you are training recognition, not pretending to have mastery.
 
-## Practice
+### Common recognition patterns
 
-Give an English support word. Do not try to translate a full sentence yet.
+| Pattern      | French examples                                               | Reading value                                                                            |
+| ------------ | ------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
+| `-tion`      | sensation, perception, attention, composition, transformation | Often matches English `-tion` nouns.                                                     |
+| `-ité`       | vérité, réalité, possibilité, sensibilité, obscurité          | Often points toward English `-ity` nouns.                                                |
+| `-ment`      | moment, mouvement, sentiment, changement, jugement            | Often points toward English `-ment`, but check context.                                  |
+| `-able`      | admirable, probable, capable, stable, comparable              | Often points toward English `-able`.                                                     |
+| `-ible`      | visible, invisible, possible, sensible, perceptible           | Often points toward English `-ible`; some are risky.                                     |
+| final `-e`   | forme, image, nature, silence, phrase                         | Often makes the word look French while still recognizable.                               |
+| accent clues | mémoire, réalité, vérité, émotion, écriture                   | Accents change pronunciation and spelling; they may still preserve a recognizable shape. |
+
+Do not make a rule stronger than it is. Pattern recognition is a start. The sentence still decides.
+
+## 2. Recognition
+
+Read the following list as a recognition field. Do not memorize all of it today. Mark the words that give you a foothold.
+
+| French | First English support | Pattern |
+|---|---|---|
+| mémoire | memory | accent / final `-e` |
+| sensation | sensation | `-tion` |
+| perception | perception | `-tion` |
+| impression | impression | `-ion` |
+| attention | attention | `-tion` |
+| composition | composition | `-tion` |
+| transformation | transformation | `-tion` |
+| association | association | `-tion` |
+| relation | relation | `-tion` |
+| distinction | distinction | `-tion` |
+| vérité | truth / verity | `-ité` |
+| réalité | reality | `-ité` |
+| possibilité | possibility | `-ité` |
+| sensibilité | sensibility / sensitivity | `-ité` |
+| obscurité | obscurity | `-ité` |
+| qualité | quality | `-ité` |
+| identité | identity | `-ité` |
+| intensité | intensity | `-ité` |
+| moment | moment | `-ment` |
+| mouvement | movement | `-ment` |
+| sentiment | feeling / sentiment | `-ment` |
+| changement | change | `-ment` |
+| jugement | judgment | `-ment` |
+| développement | development | `-ment` |
+| admirable | admirable | `-able` |
+| probable | probable | `-able` |
+| capable | capable | `-able` |
+| comparable | comparable | `-able` |
+| transformable | transformable | `-able` |
+| visible | visible | `-ible` |
+| invisible | invisible | `-ible` |
+| possible | possible | `-ible` |
+| perceptible | perceptible | `-ible` |
+| indicible | unsayable / ineffable | `-ible` |
+| forme | form | final `-e` |
+| image | image | final `-e` |
+| nature | nature | final `-e` |
+| silence | silence | final `-e` |
+| phrase | phrase | final `-e` |
+| émotion | emotion | accent |
+| lumière | light | accent / literary field |
+| matière | matter / material | accent |
+| écriture | writing | accent / final `-e` |
+| littérature | literature | accent / final `-e` |
+
+This is more than forty examples. You do not need to own them. You need to see that the page is not blank.
+
+## 3. Controlled Training
+
+### Exercise Set 1 — Find the foothold
+
+For each word, write only one English support word. Do not translate a sentence.
 
 1. mémoire
 2. sensation
-3. impression
+3. perception
 4. attention
-5. perception
-6. image
-7. forme
-8. visible
-9. silence
-10. moment
+5. composition
+6. transformation
+7. réalité
+8. possibilité
+9. mouvement
+10. visible
 
-## Review Check
+<details class="ltrp-answer">
+  <summary>Show answer</summary>
 
-1. What is a cognate?
-2. Why is recognition useful?
-3. Why is recognition not mastery?
-4. What should you do after recognizing a familiar-looking word?
-5. Why should uncertainty remain open until the sentence is read?
+Possible support words: 1 memory; 2 sensation; 3 perception; 4 attention; 5 composition; 6 transformation; 7 reality; 8 possibility; 9 movement; 10 visible.
 
-## What to Remember
+These are support words, not final translations.
 
-French is not completely opaque to an English reader.
+</details>
 
-Recognizable words give you a foothold.
+### Exercise Set 2 — Name the pattern
 
-A foothold is not a full interpretation. Keep reading.
+Choose the visible pattern: `-tion`, `-ité`, `-ment`, `-able`, `-ible`, final `-e`, or accent clue.
+
+1. vérité
+2. mouvement
+3. admirable
+4. visible
+5. image
+6. émotion
+7. relation
+8. comparable
+9. sensibilité
+10. silence
+
+<details class="ltrp-answer">
+  <summary>Show answer</summary>
+
+1 `-ité`; 2 `-ment`; 3 `-able`; 4 `-ible`; 5 final `-e`; 6 accent clue; 7 `-tion`; 8 `-able`; 9 `-ité`; 10 final `-e`.
+
+</details>
+
+### Exercise Set 3 — Recognition is not mastery
+
+Mark each item as **safe foothold** or **needs context**. Many correct answers are “needs context.”
+
+1. mémoire = memory
+2. impression = impression
+3. visible = visible
+4. nature = nature
+5. sentiment = sentiment / feeling
+6. indicible = unsayable
+7. matière = matter / material
+8. phrase = phrase / sentence
+
+<details class="ltrp-answer">
+  <summary>Show answer</summary>
+
+All eight are useful footholds. Items 1, 2, 4, 5, 7, and 8 especially need context. Even high-confidence words can change force inside a sentence. `phrase`, for example, usually means sentence in French, not only a musical or rhetorical phrase.
+
+</details>
+
+### Exercise Set 4 — Group by field
+
+Group the words into memory, sensation, seeing, abstraction, or art/form.
+
+1. mémoire
+2. sensation
+3. image
+4. vérité
+5. composition
+6. impression
+7. visible
+8. transformation
+9. réalité
+10. forme
+
+<details class="ltrp-answer">
+  <summary>Show answer</summary>
+
+Memory: mémoire. Sensation: sensation, impression. Seeing: image, visible. Abstraction: vérité, réalité. Art/form: composition, transformation, forme.
+
+Other groupings can be defensible if you can explain the reading reason. The point is to form a reading field, not a perfect taxonomy.
+
+</details>
+
+## 4. Pattern Work
+
+### PATTERN-Cognate-Resemblance
+
+## Pattern
+
+A French word resembles an English word closely enough to give an initial support.
+
+## Reading Move
+
+Use the resemblance to stay on the page, then keep reading.
+
+## What It Usually Does
+
+It gives a first semantic foothold: `sensation`, `perception`, `visible`, `possible`.
+
+## Do Not
+
+Do not treat resemblance as proof of exact meaning.
+
+## Mini Example
+
+`une sensation visible` → sensation + visible are footholds. The phrase still needs structure.
+
+## Where It Returns
+
+Every chapter, especially false friends, word families, and passage cards.
+
+### PATTERN-Suffix-tion
+
+## Pattern
+
+French `-tion` often matches English `-tion` nouns.
+
+## Reading Move
+
+Recognize an abstract or action noun quickly.
+
+## What It Usually Does
+
+It names a process, result, or abstraction: `transformation`, `perception`, `attention`.
+
+## Do Not
+
+Do not assume the noun functions the same way in every sentence.
+
+## Mini Example
+
+`la transformation de la sensation` → transformation is a process noun.
+
+## Where It Returns
+
+Theory syntax, Deleuze vocabulary, and Proustian analysis.
+
+### PATTERN-Suffix-ite
+
+## Pattern
+
+French `-ité` often corresponds to English `-ity`.
+
+## Reading Move
+
+Recognize an abstract quality.
+
+## What It Usually Does
+
+It turns a quality into a noun: `réalité`, `possibilité`, `sensibilité`.
+
+## Do Not
+
+Do not flatten all `-ité` words into vague abstraction. Ask what quality is being named.
+
+## Mini Example
+
+`la possibilité d'une image` → possibility is the named condition.
+
+## Where It Returns
+
+Abstract prose, theory reading, and Proustian reflection on perception.
+
+### PATTERN-Suffix-ment
+
+## Pattern
+
+French `-ment` can mark nouns such as `mouvement`, `changement`, `jugement`, and also later many adverbs.
+
+## Reading Move
+
+Recognize the ending, then check the word type.
+
+## What It Usually Does
+
+In this chapter it often gives a noun foothold: movement, change, judgment.
+
+## Do Not
+
+Do not assume every `-ment` word is the same type. Later, `lentement` is an adverb.
+
+## Mini Example
+
+`un mouvement de mémoire` → movement is a noun foothold.
+
+## Where It Returns
+
+Word-family work and sentence skeletons.
+
+## 5. Mini Reading
+
+Gear 1 reading means the training surface is mostly English with selected French anchors. Read for footholds only.
+
+A reader begins with **mémoire**, not because memory is simple, but because the word gives a first handle. A **sensation** appears before explanation. An **impression** becomes **visible** for a moment. The page is still difficult, but it is not empty. The reader can mark **attention**, **perception**, **image**, and **transformation** as footholds, then wait for the sentence to decide more.
+
+Your task is not to translate the paragraph. Your task is to list the French anchors that help you stay with it.
+
+## 6. Reading Notes
+
+This course uses Proustian fields early: memory, sensation, impression, attention, image, time, and form. That does not mean you are already reading Proust. It means the first vocabulary you learn should point toward the future pressure of Proustian reading.
+
+A general French course might begin with travel, food, or classroom phrases. This course begins with words that help you approach literary and theoretical pages.
+
+## 7. Practice
+
+### Review Task — Mark only what you know
+
+In the mini reading, list ten French anchors. Beside each one write:
+
+- **high confidence** if the English support is clear;
+- **context needed** if the word is familiar but flexible.
+
+### Practice Set — Foothold, not proof
+
+For each phrase, underline the cognate foothold and write one uncertainty.
+
+1. `une impression visible`
+2. `la mémoire sensible`
+3. `une transformation possible`
+4. `la réalité de l'image`
+5. `un mouvement de perception`
+6. `une composition admirable`
+7. `la forme invisible`
+8. `une émotion obscure`
+9. `la possibilité d'un silence`
+10. `une attention comparable`
+
+<details class="ltrp-answer">
+  <summary>Show answer</summary>
+
+Possible footholds: impression / visible; mémoire / sensible; transformation / possible; réalité / image; mouvement / perception; composition / admirable; forme / invisible; émotion / obscure; possibilité / silence; attention / comparable.
+
+Possible uncertainties: exact relation between words, whether an adjective is literal or abstract, whether the phrase names a physical, mental, or artistic state.
+
+</details>
+
+## Check Your Answer
+
+You are succeeding if you can point to a familiar-looking French word without claiming too much. You should be able to say: “This word gives me a support, but I still need the phrase or sentence.”
+
+## What You Can Now Do
+
+You can open a French page and find footholds. You can recognize common learned-word patterns. You can resist the two beginner errors: panic and overconfidence.
 
 ## Next Chapter
 
-- [[LTF-Chapter-002-False-Friends-and-Controlled-Guessing]]
+Next you will learn why some familiar-looking words mislead you.
 
-Back:
-
+- [[LTF-Chapter-002-False-Friends-and-Controlled-Guessing|Chapter 002 — False Friends and Controlled Guessing]]
 - [[Language-Training]]
 - [[LTF-A0-to-B1-Course-Outline]]

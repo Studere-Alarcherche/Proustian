@@ -1,44 +1,60 @@
 ---
-title: Control Dashboard
 type: control-dashboard
 status: active
-updated: 2026-05-14
 draft: true
-private: true
-tags:
-  - control
+thread: digestion-system
 ---
-# CONTROL DASHBOARD
-> One repository. One control center. One next action.
-## Next Action
-- [ ] 
-## Tonight’s Stop Rule
-When the following are done, stop working and sleep:
-- [ ] Control center created
-- [ ] Key plugins checked
-- [ ] Files uploaded
-- [ ] Website rendered
-- [ ] No further restructuring
----
-## Active Focus
-| Area | Status | Next |
-|---|---|---|
-| Proustian | Active |  |
-| French Reading | Active |  |
-| Translation Training | Private |  |
-| Quartz Website | Publishing | Upload and render |
-| Public Writing | Later |  |
----
-## Quick Links
-- [[01-NEXT-ACTION]]
-- [[02-EISENHOWER]]
-- [[03-PROJECT-REGISTRY]]
-- [[04-PLUGIN-AUDIT]]
----
-## Do Not Do Tonight
-- Do not open a new repository.
-- Do not delete plugins.
-- Do not redesign the whole website.
-- Do not reorganize old files.
-- Do not add new systems.
-- Do not continue after deployment succeeds.
+# Proustian Control Dashboard
+
+## Now
+
+Current active system:
+
+- [[Digestion-System]]
+- [[Current-State]]
+- [[Daily-Index]]
+- [[Weekly-Plan]]
+- [[Weekly-Review]]
+
+## Today's Operating Rule
+
+Raw first. Structure later. Judgment remains human.
+
+## Current Loop
+
+```text
+Raw Daily Log
+-> AI Extraction Draft
+-> Human Review
+-> Weekly Digestion
+-> Current-State Patch
+```
+
+## Plan Track
+
+- [[Weekly-Plan]]
+- [[Monthly-Review]]
+- [[Quarterly-Review]]
+
+## Record Track
+
+- [[Daily-Index]]
+- [[Weekly-Review]]
+
+## Thinking Surfaces
+
+- [[Question-Nodes]]
+- [[Passage-Cards]]
+- [[Reading-Map]]
+- [[Source-Location-Index]]
+
+## Do Not
+
+- Do not publish Raw.
+- Do not overbuild.
+- Do not return to folder-centered structure.
+- Do not make website work the main task.
+
+## Next Pull
+
+Open [[01-NEXT-ACTION]].

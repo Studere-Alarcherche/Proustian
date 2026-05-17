@@ -1,5 +1,9 @@
 # Passage Cards
 
+Passage Cards are reviewed evidence surfaces in the [[Digestion-System]]. They should hold verified source locations, passage boundaries, reading questions, annotations, concepts, and backlinks after human review.
+
+Do not invent passage cards from system needs alone. A card becomes active only when a real passage has been read, located, and accepted for review.
+
 Use this page with [[Minimal-Reading-Package]], [[Reading-Map]], and [[Question-Gradient]].
 
 Status language:

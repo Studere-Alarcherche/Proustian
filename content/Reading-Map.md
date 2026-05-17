@@ -4,6 +4,8 @@ layout: landing
 
 # Reading Map
 
+For workflow control, use [[Digestion-System]]. This map remains the reading path surface and should not become a folder plan.
+
 Start from [[Minimal-Reading-Package]], then use [[Question-Gradient]], [[Passage-Cards]], [[U1-U6-Repository-Index]], and [[Build-Log]] to keep reading connected.
 
 ## U1 methodological entrance
