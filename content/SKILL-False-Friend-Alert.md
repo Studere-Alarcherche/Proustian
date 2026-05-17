@@ -80,7 +80,7 @@ Core examples:
 
 Back:
 
-- [[Language-Training]]
+- [[Language-Training/index|Language Training]]
 - [[AGENT-Roles]]
 - [[AGENT-Workflow]]
 - [[AGENT-Review-Rubric]]
@@ -89,6 +89,6 @@ Related:
 
 - [[LTF-Course-Architecture]]
 - [[LTF-A0-to-B1-Course-Outline]]
-- [[CARD-Policy]]
+- CARD policy (to be rebuilt)
 - [[DIAG-Policy]]
 - [[VOCAB-False-Friends-Bank]]

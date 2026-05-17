@@ -49,7 +49,7 @@ If you know individual words but miss endings, review suffix cards.
 
 Back:
 
-- [[Language-Training|Language Training]]
+- [[Language-Training/index|Language Training]]
 
 Prototype:
 

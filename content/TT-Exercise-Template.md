@@ -22,7 +22,7 @@ hide: true
 
 Back:
 
-- [[Language-Training|Language Training]]
+- [[Language-Training/index|Language Training]]
 
 Related:
 

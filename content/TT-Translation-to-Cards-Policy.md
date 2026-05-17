@@ -28,4 +28,4 @@ Card output should record:
 
 Back:
 
-- [[Language-Training|Language Training]]
+- [[Language-Training/index|Language Training]]

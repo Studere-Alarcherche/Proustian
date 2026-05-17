@@ -27,7 +27,7 @@ The first five French Reading Textbook chapters support U1 method by training re
 
 Back:
 
-- [[Language-Training|Language Training]]
+- [[Language-Training/index|Language Training]]
 
 Related:
 

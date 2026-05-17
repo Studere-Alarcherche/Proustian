@@ -94,9 +94,9 @@ Possible failures:
 
 Back:
 
-- [[Language-Training|Language Training]]
+- [[Language-Training/index|Language Training]]
 
 Related:
 
-- [[CARD-Policy|Card Policy]]
+- card policy (to be rebuilt)
 - [[DIAG-Policy|Diagnostic Tutor]]

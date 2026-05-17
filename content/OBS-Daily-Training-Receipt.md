@@ -23,4 +23,4 @@ French Reading Textbook / Translation Training / Cards / Diagnostic Tutor
 
 Back:
 
-- [[Language-Training|Language Training]]
+- [[Language-Training/index|Language Training]]

@@ -56,7 +56,7 @@ If you translate before finding the verb, return to sentence-seeing cards.
 
 Back:
 
-- [[Language-Training|Language Training]]
+- [[Language-Training/index|Language Training]]
 
 Prototype:
 

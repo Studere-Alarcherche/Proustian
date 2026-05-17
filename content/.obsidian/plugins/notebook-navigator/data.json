@@ -387,9 +387,6 @@
   "folderAppearances": {
     "Essays": {
       "groupBy": "folder"
-    },
-    "01_Maps": {
-      "groupBy": "folder"
     }
   },
   "tagIcons": {},

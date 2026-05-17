@@ -106,7 +106,7 @@ Yes / No
 
 Back:
 
-- [[Language-Training]]
+- [[Language-Training/index|Language Training]]
 - [[AGENT-Roles]]
 - [[AGENT-Workflow]]
 - [[AGENT-Review-Rubric]]
@@ -117,5 +117,5 @@ Related:
 - [[DIAG-Gap-Taxonomy]]
 - [[DIAG-Review-Protocol]]
 - [[DIAG-Session-Template]]
-- [[CARD-Policy]]
+- CARD policy (to be rebuilt)
 - [[LTF-Course-Architecture]]

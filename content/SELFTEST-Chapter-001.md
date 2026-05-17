@@ -52,7 +52,7 @@ If you guessed every word too quickly, review false-friend risk before Chapter 0
 
 Back:
 
-- [[Language-Training|Language Training]]
+- [[Language-Training/index|Language Training]]
 
 Prototype:
 

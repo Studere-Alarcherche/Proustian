@@ -31,4 +31,4 @@ Do not add more cards to cover a failed card until the failure type is named.
 
 Back:
 
-- [[Language-Training|Language Training]]
+- [[Language-Training/index|Language Training]]

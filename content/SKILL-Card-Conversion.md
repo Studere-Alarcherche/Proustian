@@ -113,16 +113,16 @@ Review Note:
 
 Back:
 
-- [[Language-Training]]
+- [[Language-Training/index|Language Training]]
 - [[AGENT-Roles]]
 - [[AGENT-Workflow]]
 - [[AGENT-Review-Rubric]]
 
 Related:
 
-- [[CARD-Policy]]
-- [[CARD-Types]]
-- [[CARD-Template]]
-- [[CARD-Review-Rubric]]
+- CARD policy (to be rebuilt)
+- card types (to be rebuilt)
+- card template (to be rebuilt)
+- card review rubric (to be rebuilt)
 - [[DIAG-Policy]]
 - [[LTF-Course-Architecture]]

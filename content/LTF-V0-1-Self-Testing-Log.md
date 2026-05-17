@@ -72,7 +72,7 @@ Notes:
 
 Back:
 
-- [[Language-Training]]
+- [[Language-Training/index|Language Training]]
 - [[LTF-V0-1-Five-Chapter-Prototype]]
 - [[DIAG-Policy]]
 - [[SKILL-Gap-Diagnosis]]

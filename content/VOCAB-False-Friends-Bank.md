@@ -14,4 +14,4 @@ Do not overload early chapters with false friends. Introduce them when they appe
 
 Back:
 
-- [[Language-Training|Language Training]]
+- [[Language-Training/index|Language Training]]

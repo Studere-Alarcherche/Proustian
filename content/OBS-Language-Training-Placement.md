@@ -13,7 +13,7 @@ Active location:
 
 Main control file:
 
-- [[Language-Training|Language Training]]
+- [[Language-Training/index|Language Training]]
 
 Primary flat-file groups:
 
@@ -43,7 +43,7 @@ Use files, headings, cards, logs, and wiki links.
 
 Back:
 
-- [[Language-Training|Language Training]]
+- [[Language-Training/index|Language Training]]
 
 Related:
 

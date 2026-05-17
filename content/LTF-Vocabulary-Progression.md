@@ -28,4 +28,4 @@ cognate recognition → false friend warning → word family → function word �
 
 Back:
 
-- [[Language-Training|Language Training]]
+- [[Language-Training/index|Language Training]]

@@ -114,7 +114,7 @@ Every chapter must include:
 
 Back:
 
-- [[Language-Training]]
+- [[Language-Training/index|Language Training]]
 - [[AGENT-Roles]]
 - [[AGENT-Workflow]]
 - [[AGENT-Review-Rubric]]
@@ -124,5 +124,5 @@ Related:
 - [[LTF-Course-Architecture]]
 - [[LTF-A0-to-B1-Course-Outline]]
 - [[LTF-Proustian-Core-Questions]]
-- [[CARD-Policy]]
+- CARD policy (to be rebuilt)
 - [[DIAG-Policy]]

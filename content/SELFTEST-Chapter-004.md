@@ -52,7 +52,7 @@ If you recognize nouns but miss relations, review function-word cards.
 
 Back:
 
-- [[Language-Training|Language Training]]
+- [[Language-Training/index|Language Training]]
 
 Prototype:
 

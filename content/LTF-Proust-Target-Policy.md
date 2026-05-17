@@ -23,4 +23,4 @@ Long Proust quotations should wait until the reader has enough grammar to parse 
 
 Back:
 
-- [[Language-Training|Language Training]]
+- [[Language-Training/index|Language Training]]

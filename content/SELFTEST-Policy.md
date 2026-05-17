@@ -18,9 +18,9 @@ They should check whether the reader can apply the chapter's core skill without 
 
 Back:
 
-- [[Language-Training|Language Training]]
+- [[Language-Training/index|Language Training]]
 
 Related:
 
 - [[DIAG-Review-Protocol|Diagnostic Review Protocol]]
-- [[CARD-Policy|Card Policy]]
+- card policy (to be rebuilt)

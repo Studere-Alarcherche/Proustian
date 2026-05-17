@@ -44,4 +44,4 @@ Use these fields as sources for controlled vocabulary and later micro-readings.
 
 Back:
 
-- [[Language-Training|Language Training]]
+- [[Language-Training/index|Language Training]]

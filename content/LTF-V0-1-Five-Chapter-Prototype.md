@@ -27,11 +27,11 @@ The goal is editor self-testing.
 
 ## Included Card Sets
 
-- [[CARD-Chapter-001]]
-- [[CARD-Chapter-002]]
-- [[CARD-Chapter-003]]
-- [[CARD-Chapter-004]]
-- [[CARD-Chapter-005]]
+- CARD-Chapter-001 scaffold (deleted)
+- CARD-Chapter-002 scaffold (deleted)
+- CARD-Chapter-003 scaffold (deleted)
+- CARD-Chapter-004 scaffold (deleted)
+- CARD-Chapter-005 scaffold (deleted)
 
 ## Included Self-Tests
 
@@ -89,6 +89,6 @@ The project is paused at five chapters until Chapters 001–005 reach real textb
 
 Back:
 
-- [[Language-Training]]
+- [[Language-Training/index|Language Training]]
 - [[LTF-A0-to-B1-Course-Outline]]
 - [[LTF-Proustian-Core-Questions]]

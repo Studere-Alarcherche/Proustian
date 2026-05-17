@@ -1,10 +1,44 @@
 ---
-layout: landing
-comments: false
-title: Proustian 2.0
-description: A Proust-centered course garden for reading, French attention, translation practice, and passage work.
+title: "Proustian"
+type: "home"
+status: "active"
+thread: "public-garden"
+description: "A reading garden centered on Proust, signs, sensation, language precision, and the long training of judgment."
 ---
+# Proustian
 
-<nav class="top-nav" aria-label="Primary navigation"><a class="nav-brand" href="./">Proustian 2.0</a><div class="nav-links" aria-label="Garden sections"><a href="#search">Search</a><a href="./Reading-Map">Course Garden</a><a href="./Language-Training">French Reading</a><a href="./Language-Training">Translation Training</a><a href="./Blog">Blog</a><a href="./Build-Log">Build Log</a></div></nav>
+Proustian 2.0 is a reading garden centered on Marcel Proust and _À la recherche du temps perdu_.
 
-<main class="home-page" id="home"><section class="home-hero" aria-labelledby="home-title"><h1 id="home-title">Proustian 2.0</h1><p class="hero-copy">A reading garden for Proust, signs, memory, French reading, translation training, and aesthetic apprenticeship.</p><button class="search-panel" id="search" type="button" aria-label="Search the garden"><span class="search-label">Search</span><span class="search-placeholder">Search notes, passages, motifs, terms...</span></button></section><section class="garden-grid" aria-label="Homepage entrances"><article class="garden-card primary" id="course"><h2>Course Garden</h2><p>Proust, signs, memory, music, visuality, space, Warburg, Lévi-Strauss.</p><a href="./Reading-Map">Open course map</a></article><article class="garden-card" id="french"><h2>French Reading</h2><p>A reading-first French textbook for literary and theoretical reading.</p><a href="./Language-Training">Open reading sequence</a></article><article class="garden-card precision" id="translation"><h2>Translation Training</h2><p>Bilingual practice, theoretical-text training, and literary passage training.</p><a href="./Language-Training">Open training room</a></article><article class="garden-card" id="blog"><h2>Blog</h2><p>Personal essays connected back into the wider intellectual garden.</p><a href="./Blog">Read latest essay</a></article><article class="garden-card archive" id="build"><h2>Build Log</h2><p>Records of site-building, design decisions, and workflow evolution.</p><a href="./Build-Log">View notes</a></article></section><section class="recent-section" aria-labelledby="recent-title"><div><p class="eyebrow">Recently tended</p><h2 id="recent-title">Recent notes</h2></div><div class="recent-list"><a href="./Reading-Map"><span>Reading-Map</span><small>Proustian course path</small></a><a href="./Language-Training"><span>Language-Training</span><small>French reading sequence</small></a><a href="./Blog"><span>Signs and interpretation</span><small>Essay note</small></a></div></section><section class="bottom-graph" aria-labelledby="graph-title"><div class="graph-copy"><p class="eyebrow">Interactive Graph</p><h2 id="graph-title">The garden as linked context</h2><p>The graph belongs at the bottom of the homepage: visible, useful, and quiet. It shows relationships after the reader understands the main entrances.</p></div></section></main>
+It is not a conventional blog, a syllabus archive, a language-learning site, or a database. It is a long-term system for reading, language precision, translation practice, aesthetic judgment, and reader-facing course formation.
+
+The project begins with Proust, but it moves through signs, memory, music, visuality, social space, sensory history, French reading, English criticism, translation, and public writing.
+
+## Main Paths
+
+### [[Proustian/|Proustian Reading Garden]]
+
+The central path. This section gathers the course map, reading architecture, passage entrances, question gradients, and the main problem-field around _In Search of Lost Time_.
+
+### [[Language-Training/|Language Training]]
+
+The French reading precision layer. This section contains Learn to Read French for Proust — Book I and related reading-only training materials.
+
+### [[Essays/|Essays]]
+
+Public-facing and semi-public writing. This is the only blog-like container. Do not create a separate Blog section.
+
+### [[Daily/|Daily Digestion]]
+
+Reviewed daily logs and distilled project movement. Raw logs remain local or ignored unless explicitly reviewed.
+
+### [[System/|System]]
+
+Templates, operating rules, current state, digestion workflow, and build records. This is the backstage layer, not the project center.
+
+## Current Rule
+
+Proust remains the center.  
+French serves precision.  
+Essays serve articulation.  
+Daily logs serve digestion.  
+System files serve operation.

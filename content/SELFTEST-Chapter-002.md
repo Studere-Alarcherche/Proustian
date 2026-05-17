@@ -121,7 +121,7 @@ Possible gap types:
 
 Back:
 
-- [[Language-Training|Language Training]]
+- [[Language-Training/index|Language Training]]
 
 Prototype:
 

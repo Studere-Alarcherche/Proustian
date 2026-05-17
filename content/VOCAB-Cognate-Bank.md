@@ -16,4 +16,4 @@ Add only words that support reading progress.
 
 Back:
 
-- [[Language-Training|Language Training]]
+- [[Language-Training/index|Language Training]]
