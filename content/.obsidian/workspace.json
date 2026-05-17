@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CARD-Chapter-002.md",
+                "file": "02-EISENHOWER.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "CARD-Chapter-002"
+              "title": "02-EISENHOWER"
             }
           }
         ]
@@ -236,17 +236,17 @@
   },
   "active": "2cdb45fc349583e7",
   "lastOpenFiles": [
+    "00-CONTROL-DASHBOARD.md",
+    "01-NEXT-ACTION.md",
+    "CARD-Chapter-002.md",
     "Blog.md",
     "index.md",
-    "CARD-Chapter-002.md",
     "LTF-Chapter-002-False-Friends-and-Controlled-Guessing.md",
     "LTF-Chapter-001-Cognates-and-Reading-Confidence.md",
     "LTF-V0-1-Five-Chapter-Prototype.md",
     "CARD-Chapter-004.md",
     "LTF-Chapter-004-Function-Words-I.md",
     "CARD-Chapter-001.md",
-    "00-CONTROL-DASHBOARD.md",
-    "01-NEXT-ACTION.md",
     "02-EISENHOWER.md",
     "03-PROJECT-REGISTRY.md",
     "_archive-language-training/README.md",

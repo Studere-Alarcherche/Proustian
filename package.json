@@ -15,7 +15,7 @@
     "quartz": "./quartz/bootstrap-cli.mjs",
     "dev": "npx quartz build --serve",
     "build": "npx quartz build",
-    "deploy": "npx quartz build && npx gh-pages -d public -b gh-pages -r https://github.com/Studere-Alarcherche/Studere-Knowledge-Base.git",
+    "deploy": "npx quartz build && npx gh-pages -d public -b gh-pages -r https://github.com/Studere-Alarcherche/Proustian.git",
     "check": "tsc --noEmit && npx prettier . --check",
     "format": "npx prettier . --write",
     "test": "tsx --test",

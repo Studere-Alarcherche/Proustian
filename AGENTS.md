@@ -63,6 +63,21 @@ Do not restructure the whole repo.
 - Do not turn drafts into polished essays unless asked.
 - Do not delete files without approval.
 
+## Proustian Digestion System
+
+- Daily Log is RAW self-written material.
+- Never rewrite, sanitize, delete, or flatten Raw Daily Log text.
+- AI/Codex may only create extraction drafts, suggested backlinks, candidate notes, review drafts, and current-state patches.
+- Human review decides whether extracted material is accepted, revised, deleted, or held.
+- The system uses a dual track:
+  - Plan Track: Quarter -> Month -> Week -> Daily Next Pull
+  - Record Track: Raw Daily Log -> AI Extraction Draft -> Human Review -> Weekly Digestion
+- The two tracks converge in Weekly Review and Current-State.
+- Structure is controlled by templates, metadata, tags, backlinks, packet files, and review cycles, not by folder hierarchy.
+- No folder-centered knowledge structure.
+- RAW first. Structure later. Judgment remains human.
+- Website / Quartz output is downstream of digested material.
+
 ## Current Public Entry Files
 
 These root-level `content/` files are the current public-first V0.1 structure:
