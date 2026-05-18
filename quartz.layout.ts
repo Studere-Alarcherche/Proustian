@@ -170,7 +170,8 @@ export const defaultContentPageLayout: PageLayout = {
           theme: 'preferred_color_scheme',
         }
       }),
-      condition: (page) => !isLandingPage(page) && page.fileData.frontmatter?.comments !== false,
+      condition: (page) =>
+        page.fileData.slug !== "index" && !isLandingPage(page) && page.fileData.frontmatter?.comments !== false,
     }),
   ],
 }
