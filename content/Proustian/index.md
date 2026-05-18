@@ -1,66 +1,27 @@
 ---
-title: "Proustian Reading Garden"
+title: "Proustian"
 type: "section-index"
 status: "active"
 thread: "proustian"
-description: "The main reading garden centered on Proust, signs, memory, music, visuality, sensory history, and writing."
+description: "The public-facing Proust course garden."
 ---
-# Proustian Reading Garden
+# Proustian
 
-This is the main section of the project.
+This section contains the public-facing Proust course garden.
 
-Proustian is centered on Marcel Proust and _À la recherche du temps perdu_. It treats the Recherche not as a finished object to summarize, but as a field of signs, sensations, delays, misreadings, social codes, aesthetic shocks, and artistic discoveries.
+Begin here:
 
-The purpose of this section is to preserve the project's main reading architecture: the course map, core questions, passage entrances, and reader-facing paths.
+- [[Course-Gateway|Course Gateway: Recursive Reading Practice]]
 
-## Core Orientation
+Core unit pages:
 
-Proust is the center.
+1. [[U1-General-Introduction|U1: General Introduction]]
+2. [[U2-Text-Time-Signs|U2: Text, Time, and Signs]]
+3. [[U3-Music-Ineffable-Structure|U3: Music, the Ineffable, and Novelistic Structure]]
+4. [[U4-Visuality-Attention|U4: Visuality, Attention, and the Mottled Screen]]
+5. [[U5-Space-Sensory-History|U5: Space, Sensory History, and Social Time]]
+6. [[U6-Writing-Time-Regained|U6: Writing, Time Regained, and the Art Apparatus]]
 
-Deleuze, Genette, Poulet, Landy, Nattiez, Jankélévitch, Bal, Crary, Corbin, Braudel, Bloch, Febvre, Mann and others are method nodes, support materials, or side entrances. They do not replace Proust.
+Clarification:
 
-The guiding question:
-
-> How does the modern subject become shaped by signs, sensation, misrecognition, self-deception, artistic form, language training, and reading experience?
-
-## Main Architecture
-
-### [[U1-U6-Repository-Index|Course Map]]
-
-The six-unit course structure and the central thesis of the reading garden.
-
-### [[Reading-Map]]
-
-The current reading orientation, source clusters, and main paths through the project.
-
-### [[Question-Gradient]]
-
-A map of major questions, from entry-level questions to more difficult theoretical problems.
-
-### [[Minimal-Reading-Package|Passage Entrances]]
-
-The first passage-level entrances into the Recherche.
-
-## Six Units
-
-1. [[U1-General-Introduction-Memory-Cliche-to-Polycentric-Reading|U1｜Signs / Method]]
-2. U2｜Memory / Time / Space
-3. U3｜Music / Ineffable
-4. U4｜Visuality / Gaze
-5. U5｜Sensory History / Social Space
-6. U6｜Writing Apparatus
-
-## First Passage Entrances
-
-- Madeleine｜memory / sensation / sign
-- Vinteuil little phrase｜music / love sign / artistic truth
-- Vermeer yellow wall｜visual attention / artistic truth
-- Bells / soundscape｜collective time
-- Smell / atmosphere｜sensory history
-
-## Working Rule
-
-Read first.  
-Let questions heat up.  
-Return to passages.  
-Fix only what has earned fixation.
+The six units are not a rigid linear roadmap. U1 establishes the recursive method. U2-U6 are recurring fields that can be entered, left, and re-entered. The center remains Proustian prose.
