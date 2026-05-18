@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html lang="zh" dir="ltr"><head><title>U5: Space, Sensory History, and Social Time</title><meta charset="utf-8"/><link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,700;1,400&amp;family=Lora:ital,wght@0,400;0,700;1,400&amp;family=Noto+Serif+SC:wght@400;700&amp;display=swap" rel="stylesheet"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB Garamond:wght@400;700&amp;family=Inter:ital,wght@0,400;0,600;1,400;1,600&amp;family=JetBrains Mono:wght@400;600&amp;display=swap"/><link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin="anonymous"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="og:site_name" content="Alarcherche"/><meta property="og:title" content="U5: Space, Sensory History, and Social Time"/><meta property="og:type" content="website"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="U5: Space, Sensory History, and Social Time"/><meta name="twitter:description" content="Rooms, smell, sound, social space, and historical atmosphere."/><meta property="og:description" content="Rooms, smell, sound, social space, and historical atmosphere."/><meta property="og:image:alt" content="Rooms, smell, sound, social space, and historical atmosphere."/><meta property="og:image" content="https://studere-alarcherche.github.io/Proustian/static/og-image.png"/><meta property="og:image:url" content="https://studere-alarcherche.github.io/Proustian/static/og-image.png"/><meta name="twitter:image" content="https://studere-alarcherche.github.io/Proustian/static/og-image.png"/><meta property="og:image:type" content="image/.png"/><meta property="twitter:domain" content="studere-alarcherche.github.io/Proustian"/><meta property="og:url" content="https://studere-alarcherche.github.io/Proustian/Proustian/U5-Space-Sensory-History"/><meta property="twitter:url" content="https://studere-alarcherche.github.io/Proustian/Proustian/U5-Space-Sensory-History"/><link rel="icon" href="../static/icon.png"/><meta name="description" content="Rooms, smell, sound, social space, and historical atmosphere."/><meta name="generator" content="Quartz"/><link href="../index.css" rel="stylesheet" type="text/css" data-persist="true"/><style>.expand-button {
+  position: absolute;
+  display: flex;
+  float: right;
+  padding: 0.4rem;
+  margin: 0.3rem;
+  right: 0;
+  color: var(--gray);
+  border-color: var(--dark);
+  background-color: var(--light);
+  border: 1px solid;
+  border-radius: 5px;
+  opacity: 0;
+  transition: 0.2s;
+}
+.expand-button > svg {
+  fill: var(--light);
+  filter: contrast(0.3);
+}
+.expand-button:hover {
+  cursor: pointer;
+  border-color: var(--secondary);
+}
+.expand-button:focus {
+  outline: 0;
+}
+
+pre:hover > .expand-button {
+  opacity: 1;
+  transition: 0.2s;
+}
+
+#mermaid-container {
+  position: fixed;
+  contain: layout;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: none;
+  backdrop-filter: blur(4px);
+  background: rgba(0, 0, 0, 0.5);
+}
+#mermaid-container.active {
+  display: inline-block;
+}
+#mermaid-container > #mermaid-space {
+  border: 1px solid var(--lightgray);
+  background-color: var(--light);
+  border-radius: 5px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 80vh;
+  width: 80vw;
+  overflow: hidden;
+}
+#mermaid-container > #mermaid-space > .mermaid-content {
+  position: relative;
+  transform-origin: 0 0;
+  transition: transform 0.1s ease;
+  overflow: visible;
+  min-height: 200px;
+  min-width: 200px;
+}
+#mermaid-container > #mermaid-space > .mermaid-content pre {
+  margin: 0;
+  border: none;
+}
+#mermaid-container > #mermaid-space > .mermaid-content svg {
+  max-width: none;
+  height: auto;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  gap: 8px;
+  padding: 8px;
+  background: var(--light);
+  border: 1px solid var(--lightgray);
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: 1px solid var(--lightgray);
+  background: var(--light);
+  color: var(--dark);
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: var(--bodyFont);
+  transition: all 0.2s ease;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:hover {
+  background: var(--lightgray);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:active {
+  transform: translateY(1px);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:nth-child(2) {
+  width: auto;
+  padding: 0 12px;
+  font-size: 14px;
+}
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VSb290IjoiL1VzZXJzL2FwcGxlL0RvY3VtZW50cy9Qcm91c3RpYW4vcXVhcnR6L2NvbXBvbmVudHMvc3R5bGVzIiwic291cmNlcyI6WyJtZXJtYWlkLmlubGluZS5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTtFQUNBOztBQUdGO0VBQ0U7RUFDQTs7QUFHRjtFQUNFOzs7QUFLRjtFQUNFO0VBQ0E7OztBQUlKO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFOztBQUdGO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTtFQUNBOztBQUdGO0VBQ0U7RUFDQTs7QUFJSjtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7O0FBR0Y7RUFDRTs7QUFJRjtFQUNFO0VBQ0E7RUFDQSIsInNvdXJjZXNDb250ZW50IjpbIi5leHBhbmQtYnV0dG9uIHtcbiAgcG9zaXRpb246IGFic29sdXRlO1xuICBkaXNwbGF5OiBmbGV4O1xuICBmbG9hdDogcmlnaHQ7XG4gIHBhZGRpbmc6IDAuNHJlbTtcbiAgbWFyZ2luOiAwLjNyZW07XG4gIHJpZ2h0OiAwOyAvLyBOT1RFOiByaWdodCB3aWxsIGJlIHNldCBpbiBtZXJtYWlkLmlubGluZS50c1xuICBjb2xvcjogdmFyKC0tZ3JheSk7XG4gIGJvcmRlci1jb2xvcjogdmFyKC0tZGFyayk7XG4gIGJhY2tncm91bmQtY29sb3I6IHZhcigtLWxpZ2h0KTtcbiAgYm9yZGVyOiAxcHggc29saWQ7XG4gIGJvcmRlci1yYWRpdXM6IDVweDtcbiAgb3BhY2l0eTogMDtcbiAgdHJhbnNpdGlvbjogMC4ycztcblxuICAmID4gc3ZnIHtcbiAgICBmaWxsOiB2YXIoLS1saWdodCk7XG4gICAgZmlsdGVyOiBjb250cmFzdCgwLjMpO1xuICB9XG5cbiAgJjpob3ZlciB7XG4gICAgY3Vyc29yOiBwb2ludGVyO1xuICAgIGJvcmRlci1jb2xvcjogdmFyKC0tc2Vjb25kYXJ5KTtcbiAgfVxuXG4gICY6Zm9jdXMge1xuICAgIG91dGxpbmU6IDA7XG4gIH1cbn1cblxucHJlIHtcbiAgJjpob3ZlciA+IC5leHBhbmQtYnV0dG9uIHtcbiAgICBvcGFjaXR5OiAxO1xuICAgIHRyYW5zaXRpb246IDAuMnM7XG4gIH1cbn1cblxuI21lcm1haWQtY29udGFpbmVyIHtcbiAgcG9zaXRpb246IGZpeGVkO1xuICBjb250YWluOiBsYXlvdXQ7XG4gIHotaW5kZXg6IDk5OTtcbiAgbGVmdDogMDtcbiAgdG9wOiAwO1xuICB3aWR0aDogMTAwdnc7XG4gIGhlaWdodDogMTAwdmg7XG4gIG92ZXJmbG93OiBoaWRkZW47XG4gIGRpc3BsYXk6IG5vbmU7XG4gIGJhY2tkcm9wLWZpbHRlcjogYmx1cig0cHgpO1xuICBiYWNrZ3JvdW5kOiByZ2JhKDAsIDAsIDAsIDAuNSk7XG5cbiAgJi5hY3RpdmUge1xuICAgIGRpc3BsYXk6IGlubGluZS1ibG9jaztcbiAgfVxuXG4gICYgPiAjbWVybWFpZC1zcGFjZSB7XG4gICAgYm9yZGVyOiAxcHggc29saWQgdmFyKC0tbGlnaHRncmF5KTtcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiB2YXIoLS1saWdodCk7XG4gICAgYm9yZGVyLXJhZGl1czogNXB4O1xuICAgIHBvc2l0aW9uOiBmaXhlZDtcbiAgICB0b3A6IDUwJTtcbiAgICBsZWZ0OiA1MCU7XG4gICAgdHJhbnNmb3JtOiB0cmFuc2xhdGUoLTUwJSwgLTUwJSk7XG4gICAgaGVpZ2h0OiA4MHZoO1xuICAgIHdpZHRoOiA4MHZ3O1xuICAgIG92ZXJmbG93OiBoaWRkZW47XG5cbiAgICAmID4gLm1lcm1haWQtY29udGVudCB7XG4gICAgICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gICAgICB0cmFuc2Zvcm0tb3JpZ2luOiAwIDA7XG4gICAgICB0cmFuc2l0aW9uOiB0cmFuc2Zvcm0gMC4xcyBlYXNlO1xuICAgICAgb3ZlcmZsb3c6IHZpc2libGU7XG4gICAgICBtaW4taGVpZ2h0OiAyMDBweDtcbiAgICAgIG1pbi13aWR0aDogMjAwcHg7XG5cbiAgICAgIHByZSB7XG4gICAgICAgIG1hcmdpbjogMDtcbiAgICAgICAgYm9yZGVyOiBub25lO1xuICAgICAgfVxuXG4gICAgICBzdmcge1xuICAgICAgICBtYXgtd2lkdGg6IG5vbmU7XG4gICAgICAgIGhlaWdodDogYXV0bztcbiAgICAgIH1cbiAgICB9XG5cbiAgICAmID4gLm1lcm1haWQtY29udHJvbHMge1xuICAgICAgcG9zaXRpb246IGFic29sdXRlO1xuICAgICAgYm90dG9tOiAyMHB4O1xuICAgICAgcmlnaHQ6IDIwcHg7XG4gICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAgZ2FwOiA4cHg7XG4gICAgICBwYWRkaW5nOiA4cHg7XG4gICAgICBiYWNrZ3JvdW5kOiB2YXIoLS1saWdodCk7XG4gICAgICBib3JkZXI6IDFweCBzb2xpZCB2YXIoLS1saWdodGdyYXkpO1xuICAgICAgYm9yZGVyLXJhZGl1czogNnB4O1xuICAgICAgYm94LXNoYWRvdzogMCAycHggNHB4IHJnYmEoMCwgMCwgMCwgMC4xKTtcbiAgICAgIHotaW5kZXg6IDI7XG5cbiAgICAgIC5tZXJtYWlkLWNvbnRyb2wtYnV0dG9uIHtcbiAgICAgICAgZGlzcGxheTogZmxleDtcbiAgICAgICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbiAgICAgICAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XG4gICAgICAgIHdpZHRoOiAzMnB4O1xuICAgICAgICBoZWlnaHQ6IDMycHg7XG4gICAgICAgIHBhZGRpbmc6IDA7XG4gICAgICAgIGJvcmRlcjogMXB4IHNvbGlkIHZhcigtLWxpZ2h0Z3JheSk7XG4gICAgICAgIGJhY2tncm91bmQ6IHZhcigtLWxpZ2h0KTtcbiAgICAgICAgY29sb3I6IHZhcigtLWRhcmspO1xuICAgICAgICBib3JkZXItcmFkaXVzOiA0cHg7XG4gICAgICAgIGN1cnNvcjogcG9pbnRlcjtcbiAgICAgICAgZm9udC1zaXplOiAxNnB4O1xuICAgICAgICBmb250LWZhbWlseTogdmFyKC0tYm9keUZvbnQpO1xuICAgICAgICB0cmFuc2l0aW9uOiBhbGwgMC4ycyBlYXNlO1xuXG4gICAgICAgICY6aG92ZXIge1xuICAgICAgICAgIGJhY2tncm91bmQ6IHZhcigtLWxpZ2h0Z3JheSk7XG4gICAgICAgIH1cblxuICAgICAgICAmOmFjdGl2ZSB7XG4gICAgICAgICAgdHJhbnNmb3JtOiB0cmFuc2xhdGVZKDFweCk7XG4gICAgICAgIH1cblxuICAgICAgICAvLyBTdHlsZSB0aGUgcmVzZXQgYnV0dG9uIGRpZmZlcmVudGx5XG4gICAgICAgICY6bnRoLWNoaWxkKDIpIHtcbiAgICAgICAgICB3aWR0aDogYXV0bztcbiAgICAgICAgICBwYWRkaW5nOiAwIDEycHg7XG4gICAgICAgICAgZm9udC1zaXplOiAxNHB4O1xuICAgICAgICB9XG4gICAgICB9XG4gICAgfVxuICB9XG59XG4iXX0= */</style><link href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" rel="stylesheet" type="text/css" data-persist="true"/><script src="../prescript.js" type="application/javascript" data-persist="true"></script><script type="application/javascript" data-persist="true">const fetchData = fetch("../static/contentIndex.json").then(data => data.json())</script><link rel="alternate" type="application/rss+xml" title="RSS Feed" href="https://studere-alarcherche.github.io/Proustian/index.xml"/></head><body data-slug="Proustian/U5-Space-Sensory-History"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h2 class="page-title"><a href="..">Alarcherche</a></h2><div class="social-links"><a href="https://mmbiz.qpic.cn/sz_mmbiz_jpg/ya34mNKDgtmoMOKhkvQsJ5Gg98XceUeBI1Y0yIzUo0OfFdgSrovC2K501bXicya25rznjAOcZNLxotibWBUo0rkt8WVsT061j7tlGB7o1hGz4/0?wx_fmt=jpeg&amp;from=appmsg" class="social-item mp"><span class="icon">✉</span><span class="label">WeChat</span></a><a href="https://www.xiaohongshu.com/user/profile/5ed25dd2000000000101dc83" class="social-item xhs"><span class="icon">❀</span><span class="label">Xiaohongshu</span></a></div><div class="spacer mobile-only"></div><div class="flex-component" style="flex-direction: row; flex-wrap: nowrap; gap: 1rem;"><div style="flex-grow: 1; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><div class="search"><button class="search-button"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title>Search</title><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg><p>搜索</p></button><div class="search-container"><div class="search-space"><input autocomplete="off" class="search-bar" name="search" type="text" aria-label="搜索些什么" placeholder="搜索些什么"/><div class="search-layout" data-preview="true"></div></div></div></div></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="darkmode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35" xml:space="preserve" aria-label="暗色模式"><title>暗色模式</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100" xml:space="preserve" aria-label="亮色模式"><title>亮色模式</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></button></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="readermode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="readerIcon" fill="currentColor" stroke="currentColor" stroke-width="0.2" stroke-linecap="round" stroke-linejoin="round" width="64px" height="64px" viewBox="0 0 24 24" aria-label="阅读模式"><title>阅读模式</title><g transform="translate(-1.8, -1.8) scale(1.15, 1.2)"><path d="M8.9891247,2.5 C10.1384702,2.5 11.2209868,2.96705384 12.0049645,3.76669482 C12.7883914,2.96705384 13.8709081,2.5 15.0202536,2.5 L18.7549359,2.5 C19.1691495,2.5 19.5049359,2.83578644 19.5049359,3.25 L19.5046891,4.004 L21.2546891,4.00457396 C21.6343849,4.00457396 21.9481801,4.28672784 21.9978425,4.6528034 L22.0046891,4.75457396 L22.0046891,20.25 C22.0046891,20.6296958 21.7225353,20.943491 21.3564597,20.9931534 L21.2546891,21 L2.75468914,21 C2.37499337,21 2.06119817,20.7178461 2.01153575,20.3517706 L2.00468914,20.25 L2.00468914,4.75457396 C2.00468914,4.37487819 2.28684302,4.061083 2.65291858,4.01142057 L2.75468914,4.00457396 L4.50368914,4.004 L4.50444233,3.25 C4.50444233,2.87030423 4.78659621,2.55650904 5.15267177,2.50684662 L5.25444233,2.5 L8.9891247,2.5 Z M4.50368914,5.504 L3.50468914,5.504 L3.50468914,19.5 L10.9478955,19.4998273 C10.4513189,18.9207296 9.73864328,18.5588115 8.96709342,18.5065584 L8.77307039,18.5 L5.25444233,18.5 C4.87474657,18.5 4.56095137,18.2178461 4.51128895,17.8517706 L4.50444233,17.75 L4.50368914,5.504 Z M19.5049359,17.75 C19.5049359,18.1642136 19.1691495,18.5 18.7549359,18.5 L15.2363079,18.5 C14.3910149,18.5 13.5994408,18.8724714 13.0614828,19.4998273 L20.5046891,19.5 L20.5046891,5.504 L19.5046891,5.504 L19.5049359,17.75 Z M18.0059359,3.999 L15.0202536,4 L14.8259077,4.00692283 C13.9889509,4.06666544 13.2254227,4.50975805 12.7549359,5.212 L12.7549359,17.777 L12.7782651,17.7601316 C13.4923805,17.2719483 14.3447024,17 15.2363079,17 L18.0059359,16.999 L18.0056891,4.798 L18.0033792,4.75457396 L18.0056891,4.71 L18.0059359,3.999 Z M8.9891247,4 L6.00368914,3.999 L6.00599909,4.75457396 L6.00599909,4.75457396 L6.00368914,4.783 L6.00368914,16.999 L8.77307039,17 C9.57551536,17 10.3461406,17.2202781 11.0128313,17.6202194 L11.2536891,17.776 L11.2536891,5.211 C10.8200889,4.56369974 10.1361548,4.13636104 9.37521067,4.02745763 L9.18347055,4.00692283 L8.9891247,4 Z"></path></g></svg></button></div></div><div class="explorer" data-behavior="link" data-collapsed="collapsed" data-savestate="false" data-data-fns="{&quot;order&quot;:[&quot;filter&quot;,&quot;map&quot;,&quot;sort&quot;],&quot;sortFn&quot;:&quot;(a,b)=>{let publicOrder=[\&quot;Proustian-2.0\&quot;,\&quot;Reading-Map\&quot;,\&quot;Question-Gradient\&quot;,\&quot;Passage-Cards\&quot;,\&quot;U1-U6-Repository-Index\&quot;,\&quot;Language-Training\&quot;,\&quot;LTF-A0-to-B1-Course-Outline\&quot;,\&quot;LTF-Chapter-001-Cognates-and-Reading-Confidence\&quot;,\&quot;LTF-Chapter-002-False-Friends-and-Controlled-Guessing\&quot;,\&quot;LTF-Chapter-003-Word-Families-and-Recognition-Patterns\&quot;,\&quot;LTF-Chapter-004-Function-Words-I\&quot;,\&quot;LTF-Chapter-005-What-Is-a-French-Sentence\&quot;,\&quot;Build-Log\&quot;,\&quot;U1-General-Introduction-Memory-Cliche-to-Polycentric-Reading\&quot;],aIndex=publicOrder.indexOf(a.slugSegment),bIndex=publicOrder.indexOf(b.slugSegment);return aIndex!==-1||bIndex!==-1?(aIndex===-1?Number.MAX_SAFE_INTEGER:aIndex)-(bIndex===-1?Number.MAX_SAFE_INTEGER:bIndex):a.displayName.localeCompare(b.displayName)}&quot;,&quot;filterFn&quot;:&quot;node=>{if(node.isFolder)return!1;let publicSlugs=[\&quot;Proustian-2.0\&quot;,\&quot;Reading-Map\&quot;,\&quot;Question-Gradient\&quot;,\&quot;Passage-Cards\&quot;,\&quot;U1-U6-Repository-Index\&quot;,\&quot;Language-Training\&quot;,\&quot;LTF-A0-to-B1-Course-Outline\&quot;,\&quot;LTF-Chapter-001-Cognates-and-Reading-Confidence\&quot;,\&quot;LTF-Chapter-002-False-Friends-and-Controlled-Guessing\&quot;,\&quot;LTF-Chapter-003-Word-Families-and-Recognition-Patterns\&quot;,\&quot;LTF-Chapter-004-Function-Words-I\&quot;,\&quot;LTF-Chapter-005-What-Is-a-French-Sentence\&quot;,\&quot;Build-Log\&quot;,\&quot;U1-General-Introduction-Memory-Cliche-to-Polycentric-Reading\&quot;],internalPrefixes=[\&quot;AGENT-\&quot;,\&quot;SKILL-\&quot;,\&quot;CARD-\&quot;,\&quot;DIAG-\&quot;,\&quot;SELFTEST-\&quot;,\&quot;OBS-\&quot;,\&quot;TT-\&quot;,\&quot;LTF-V0-1-\&quot;,\&quot;_archive\&quot;],internalPages=[\&quot;AGENT-Pedagogical-Audit-Principles\&quot;,\&quot;Codex-Operating-Rules\&quot;,\&quot;Repository-Maintenance\&quot;,\&quot;Source-Locator-iBooks\&quot;,\&quot;NotebookLM-Evidence-Packet-Plan\&quot;,\&quot;Literature-Importance-Ranking-V0.1\&quot;,\&quot;Literature Importance Ranking\&quot;,\&quot;Ranking V0.1\&quot;,\&quot;Archive\&quot;,\&quot;private\&quot;],name=node.displayName??\&quot;\&quot;,slug=node.slugSegment??\&quot;\&quot;,filePath=node.data?.filePath??\&quot;\&quot;,title=node.data?.title??\&quot;\&quot;;return publicSlugs.includes(slug)&amp;&amp;!internalPages.some(page=>name.includes(page)||slug.includes(page)||title.includes(page)||filePath.includes(page))&amp;&amp;!internalPrefixes.some(prefix=>name.startsWith(prefix)||slug.startsWith(prefix)||title.startsWith(prefix)||filePath.includes(`/${prefix}`))}&quot;,&quot;mapFn&quot;:&quot;node=>node&quot;}"><button type="button" class="explorer-toggle mobile-explorer hide-until-loaded" data-mobile="true" aria-controls="explorer-38"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-menu"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg></button><button type="button" class="title-button explorer-toggle desktop-explorer" data-mobile="false" aria-expanded="true"><h2>探索</h2><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="explorer-38" class="explorer-content" aria-expanded="false" role="group"><ul class="explorer-ul overflow" id="list-0"><li class="overflow-end"></li></ul></div><template id="template-file"><li><a href="#"></a></li></template><template id="template-folder"><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div><button class="folder-button"><span class="folder-title"></span></button></div></div><div class="folder-outer"><ul class="content"></ul></div></li></template></div></div><div class="center"><div class="page-header"><div class="popover-hint"><nav class="breadcrumb-container" aria-label="breadcrumbs"><div class="breadcrumb-element"><a href="../">Home</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../Proustian/">Proustian</a><p> ❯ </p></div><div class="breadcrumb-element"><a href>U5: Space, Sensory History, and Social Time</a></div></nav><h1 class="article-title">U5: Space, Sensory History, and Social Time</h1><div class="project-meta-dashboard"><div class="meta-desc">“Rooms, smell, sound, social space, and historical atmosphere.”</div><div class="meta-badges"></div></div><p show-comma="true" class="content-meta"><time datetime="2026-05-18T14:50:15.870Z">2026年5月18日</time><span>29分钟阅读</span></p><ul class="tags"><li><a href="../tags/Proustian" class="internal tag-link">Proustian</a></li><li><a href="../tags/Course" class="internal tag-link">Course</a></li><li><a href="../tags/Reading-Garden" class="internal tag-link">Reading-Garden</a></li></ul></div></div><article class="popover-hint"><style>
+    :root {
+      /* U5 Inspired Color Palette - Spatial, Sensory, and Historical */
+      --bg: #f5f4f0;               /* Parchment/Historical base */
+      --paper: #ffffff;
+      --ink: #2c2825;              /* Soft dark brown/black */
+      --muted: #736b63;
+      --line: #e3ddd5;
+      
+      --accent-corbin-bell: #4a5c68;   /* Slate/Iron - Bells and Sound */
+      --accent-corbin-smell: #8c4a4a;  /* Muted Crimson - The Foul and Fragrant */
+      --accent-proust-room: #997b4d;   /* Antique Gold - Salons and Rooms */
+      --accent-balbec: #4b6b72;        /* Marine Blue - Sea and Hotel */
+      --accent-charlus: #5a3c5a;       /* Deep Violet - Social Underground */
+
+      --heat-glow: rgba(140, 74, 74, 0.12);
+      --heat-border: #8c4a4a;
+
+      --radius: 12px;
+      --font-sans: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, Helvetica, Arial, sans-serif;
+      --font-serif: &quot;Georgia&quot;, &quot;Times New Roman&quot;, serif;
+      --max: 1200px;
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      background-color: var(--bg);
+      color: var(--ink);
+      font-family: var(--font-sans);
+      line-height: 1.7;
+      padding: 40px 20px;
+      background-image: radial-gradient(var(--line) 1px, transparent 1px);
+      background-size: 40px 40px;
+    }
+
+    .container {
+      max-width: var(--max);
+      margin: 0 auto;
+    }
+
+    /* Header */
+    .header {
+      text-align: center;
+      margin-bottom: 60px;
+      padding: 60px 40px;
+      background: var(--paper);
+      border-radius: var(--radius);
+      box-shadow: 0 16px 44px rgba(44, 40, 37, 0.06);
+      border: 1px solid var(--line);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .header::before {
+      content: &quot;&quot;;
+      position: absolute;
+      top: 0; left: 0; right: 0; height: 6px;
+      background: linear-gradient(90deg, var(--accent-corbin-bell), var(--accent-corbin-smell), var(--accent-proust-room), var(--accent-balbec), var(--accent-charlus));
+    }
+
+    .unit-label {
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0.15em;
+      color: var(--accent-corbin-smell);
+      font-weight: 700;
+      margin-bottom: 15px;
+      display: block;
+    }
+
+    .header h1 {
+      font-size: clamp(2rem, 3.8vw, 3.2rem);
+      margin: 0 0 20px 0;
+      color: var(--ink);
+      letter-spacing: -0.02em;
+      line-height: 1.1;
+      font-family: var(--font-serif);
+    }
+
+    .header p {
+      font-size: 1.15rem;
+      color: var(--muted);
+      max-width: 880px;
+      margin: 0 auto;
+    }
+
+    /* Masonry Grid for Packs */
+    .pack-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+      gap: 30px;
+      align-items: start;
+    }
+
+    /* Pack Section Base */
+    .packet-section {
+      background: var(--paper);
+      border-radius: var(--radius);
+      padding: 40px;
+      box-shadow: 0 10px 30px rgba(44, 40, 37, 0.03);
+      border: 1px solid var(--line);
+      position: relative;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .packet-section:hover {
+      box-shadow: 0 20px 40px rgba(44, 40, 37, 0.08);
+    }
+
+    /* Top Bars for different theorists/themes */
+    .theme-bell { border-top: 4px solid var(--accent-corbin-bell); }
+    .theme-smell { border-top: 4px solid var(--accent-corbin-smell); }
+    .theme-room { border-top: 4px solid var(--accent-proust-room); }
+    .theme-balbec { border-top: 4px solid var(--accent-balbec); }
+    .theme-charlus { border-top: 4px solid var(--accent-charlus); }
+
+    .pack-header {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 20px;
+    }
+
+    .theorist-tag {
+      align-self: flex-start;
+      padding: 4px 12px;
+      border-radius: 20px;
+      font-size: 0.75rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin-bottom: 15px;
+      background: var(--bg);
+      color: var(--muted);
+      border: 1px solid var(--line);
+    }
+
+    .theme-bell .theorist-tag { color: var(--accent-corbin-bell); border-color: rgba(74, 92, 104, 0.3); background: rgba(74, 92, 104, 0.05); }
+    .theme-smell .theorist-tag { color: var(--accent-corbin-smell); border-color: rgba(140, 74, 74, 0.3); background: rgba(140, 74, 74, 0.05); }
+    .theme-room .theorist-tag { color: #80653d; border-color: rgba(153, 123, 77, 0.4); background: rgba(153, 123, 77, 0.05); }
+    .theme-balbec .theorist-tag { color: var(--accent-balbec); border-color: rgba(75, 107, 114, 0.3); background: rgba(75, 107, 114, 0.05); }
+    .theme-charlus .theorist-tag { color: var(--accent-charlus); border-color: rgba(90, 60, 90, 0.3); background: rgba(90, 60, 90, 0.05); }
+
+    h2 { font-size: 1.6rem; margin: 0; letter-spacing: -0.01em; color: var(--ink); }
+
+    /* Core Pressure */
+    .core-pressure {
+      font-family: var(--font-serif);
+      font-size: 1.1rem;
+      font-style: italic;
+      color: var(--ink);
+      background: var(--bg);
+      padding: 20px 25px;
+      border-radius: 8px;
+      border-left: 3px solid var(--muted);
+      margin: 0 0 25px 0;
+    }
+
+    /* Interactive Questions */
+    .question-list {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      margin-bottom: 25px;
+    }
+
+    .interactive-q {
+      background: var(--paper);
+      border: 1px solid var(--line);
+      padding: 18px 20px;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      position: relative;
+    }
+
+    .interactive-q:hover {
+      background: var(--bg);
+      border-color: #c9c1b7;
+    }
+
+    .interactive-q.heated {
+      border-color: var(--heat-border);
+      background: var(--paper);
+      box-shadow: 0 4px 15px var(--heat-glow), inset 3px 0 0 var(--heat-border);
+    }
+
+    .interactive-q.heated::after {
+      content: &quot;🔥&quot;;
+      position: absolute;
+      top: -10px;
+      right: 10px;
+      font-size: 1.2rem;
+      background: var(--paper);
+      border-radius: 50%;
+      padding: 2px;
+    }
+
+    .q-text { font-size: 1.05rem; color: var(--ink); line-height: 1.5; }
+    .q-sub { font-size: 0.85rem; color: var(--muted); margin-top: 8px; font-style: italic; }
+
+    /* Scene Anchors */
+    .anchor-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 25px;
+    }
+
+    .anchor-tag {
+      background: #eeebe6;
+      color: var(--muted);
+      padding: 4px 12px;
+      border-radius: 6px;
+      font-size: 0.8rem;
+      font-family: monospace;
+      border: 1px solid var(--line);
+      cursor: crosshair;
+      transition: all 0.2s ease;
+    }
+
+    .anchor-tag:hover {
+      background: var(--ink);
+      color: white;
+      border-color: var(--ink);
+    }
+
+    /* Seed Boxes */
+    .seed-module {
+      background: var(--ink);
+      border-radius: 8px;
+      padding: 25px;
+      color: white;
+      position: relative;
+    }
+
+    .seed-header { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.1em; color: #a49e98; margin-bottom: 12px; }
+    .seed-text { font-family: var(--font-serif); font-size: 1.1rem; line-height: 1.6; margin-bottom: 15px;}
+    
+    .blank {
+      display: inline-block;
+      min-width: 80px;
+      border-bottom: 1px solid rgba(255,255,255,0.5);
+      margin: 0 4px;
+    }
+
+    .reveal-btn {
+      background: rgba(255,255,255,0.08);
+      border: 1px solid rgba(255,255,255,0.15);
+      color: #e3ddd5;
+      padding: 6px 12px;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 0.8rem;
+      transition: background 0.2s;
+      width: 100%;
+      text-align: left;
+    }
+    .reveal-btn:hover { background: rgba(255,255,255,0.15); }
+
+    .chinese-seed {
+      display: none;
+      margin-top: 15px;
+      padding-top: 15px;
+      border-top: 1px dashed rgba(255,255,255,0.15);
+      font-size: 0.95rem;
+      color: #c9c1b7;
+      line-height: 1.7;
+    }
+
+    .chinese-seed.active { display: block; animation: fadeIn 0.3s ease; }
+
+    @keyframes fadeIn { from { opacity: 0; transform: translateY(-5px); } to { opacity: 1; transform: translateY(0); } }
+
+    @media (max-width: 900px) {
+      .pack-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+<div class="container">
+  <div class="header">
+    <span class="unit-label">Proustian 2.0 | Unit 5</span>
+    <h1 id="space-sensory-history-and-social-time">SPACE, SENSORY HISTORY, AND SOCIAL TIME<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#space-sensory-history-and-social-time" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h1>
+    <p>Unit 5 bridges private sensation and historical form. How do rooms, smells, bells, and salons function not as mere settings, but as spatial machines that produce class, atmosphere, and social time? A decentralized, roaming digital paper. Scan the 10 micro-packs below. Click the questions that generate heat. Use the scene anchors and bilingual seeds to extract the historical mechanics of Proust's prose.</p>
+  </div>
+  <div class="pack-grid">
+<pre><code>&lt;!-- PACK 1 -->
+&lt;div class=&quot;packet-section theme-bell&quot;>
+  &lt;div class=&quot;pack-header&quot;>
+    &lt;span class=&quot;theorist-tag&quot;>01. Corbin / Auditory Territory&lt;/span>
+    &lt;h2>The Architecture of Sound&lt;/h2>
+  &lt;/div>
+  &lt;div class=&quot;core-pressure&quot;>
+    &quot;Corbin argues that bells define an auditory space, marking the limits of the village and organizing collective time. How does the steeple of Saint-Hilaire in Combray function not just as an image, but as a centralizing acoustic authority?&quot;
+  &lt;/div>
+  &lt;div class=&quot;question-list&quot;>
+    &lt;div class=&quot;interactive-q&quot; onclick=&quot;this.classList.toggle('heated')&quot;>
+      &lt;div class=&quot;q-text&quot;>Examine the twin strokes of the steeple of Saint-Hilaire. How do they dictate the precise rhythm of the family’s Saturday lunch and afternoon walk?&lt;/div>
+      &lt;div class=&quot;q-sub&quot;>声音的律令：钟声如何作为不可违抗的权威，统御着贡布雷的日常作息？&lt;/div>
+    &lt;/div>
+    &lt;div class=&quot;interactive-q&quot; onclick=&quot;this.classList.toggle('heated')&quot;>
+      &lt;div class=&quot;q-text&quot;>How does the ringing bell separate the &quot;inside&quot; (mutual acquaintance, the village) from the &quot;outside&quot; (the alien, the exiled)?&lt;/div>
+      &lt;div class=&quot;q-sub&quot;>听觉的领地：钟声的覆盖范围，如何成为了一种划分“我们”与“他者”的声学边界？&lt;/div>
+    &lt;/div>
+    &lt;div class=&quot;interactive-q&quot; onclick=&quot;this.classList.toggle('heated')&quot;>
+      &lt;div class=&quot;q-text&quot;>Compare this to the &quot;timid, oval, golden&quot; sound of the visitors' bell. How do different acoustic signals choreograph different social responses (e.g., Swann's arrival)?&lt;/div>
+      &lt;div class=&quot;q-sub&quot;>访客的铃声：那串“金色的、卵形的”微小声音，如何启动了一套精密的家庭防御与社交机制？&lt;/div>
+    &lt;/div>
+  &lt;/div>
+  &lt;div class=&quot;anchor-container&quot;>
+    &lt;div class=&quot;anchor-tag&quot;>📍 U5_03_combray_space_rooms_church&lt;/div>
+    &lt;div class=&quot;anchor-tag&quot;>📍 Corbin-U5-01-bells-soundscape&lt;/div>
+  &lt;/div>
+  &lt;div class=&quot;seed-module&quot;>
+    &lt;div class=&quot;seed-header&quot;>Free Restatement Seed (EN/ZH)&lt;/div>
+    &lt;div class=&quot;seed-text&quot;>&quot;Reading Combray through Corbin's history of village bells reveals that sound in Proust is profoundly territorial. The steeple of Saint-Hilaire does not merely strike the hour; it acts as a &lt;span class=&quot;blank&quot;>&lt;/span>, synchronizing the entire community and enforcing a specific &lt;span class=&quot;blank&quot;>&lt;/span>.&quot;&lt;/div>
+    &lt;button class=&quot;reveal-btn&quot; onclick=&quot;this.nextElementSibling.classList.toggle('active')&quot;>👁️ Expand Chinese Seed&lt;/button>
+    &lt;div class=&quot;chinese-seed&quot;>
+      “借助科尔班对钟声的听觉历史学分析，我们发现贡布雷的钟声绝非浪漫的田园点缀，而是一种强烈的‘领土宣告’。当圣伊莱尔教堂的钟声敲响时，它实际上是在&lt;span class=&quot;blank&quot;>&lt;/span>。这种声音的覆盖网，不仅将整个小镇的居民统一在同一种社会时间里，更在无形中筑起了一道抵御外界的声学高墙……”
+    &lt;/div>
+  &lt;/div>
+&lt;/div>
+
+&lt;!-- PACK 2 -->
+&lt;div class=&quot;packet-section theme-smell&quot;>
+  &lt;div class=&quot;pack-header&quot;>
+    &lt;span class=&quot;theorist-tag&quot;>02. Corbin / Domestic Atmospheres&lt;/span>
+    &lt;h2>The Edible Room&lt;/h2>
+  &lt;/div>
+  &lt;div class=&quot;core-pressure&quot;>
+    &quot;Before modern deodorization, the bourgeoisie enclosed themselves in hyper-scented, stagnant domestic spaces. How does Aunt Léonie’s bedroom operate as an olfactory incubator, transforming stale air into a 'country pie'?&quot;
+  &lt;/div>
+  &lt;div class=&quot;question-list&quot;>
+    &lt;div class=&quot;interactive-q&quot; onclick=&quot;this.classList.toggle('heated')&quot;>
+      &lt;div class=&quot;q-text&quot;>Analyze the &quot;appetising smells with which the air of the room was thickly clotted.&quot; How does Proust merge the acts of breathing and eating in this space?&lt;/div>
+      &lt;div class=&quot;q-sub&quot;>可食用的空气：房间里的气味是如何像面团一样被火炉“烘烤”，变成一个巨大馅饼的？&lt;/div>
+    &lt;/div>
+    &lt;div class=&quot;interactive-q&quot; onclick=&quot;this.classList.toggle('heated')&quot;>
+      &lt;div class=&quot;q-text&quot;>How does the extreme olfactory density of the bedroom function as a barrier against the &quot;catastrophic deluge&quot; of the outside world (winter, rain, the unknown)?&lt;/div>
+      &lt;div class=&quot;q-sub&quot;>气味的堡垒：莱奥妮姑妈房间里那种“令人窒息的稠密感”，是如何提供一种病态的安全感的？&lt;/div>
+    &lt;/div>
+    &lt;div class=&quot;interactive-q&quot; onclick=&quot;this.classList.toggle('heated')&quot;>
+      &lt;div class=&quot;q-text&quot;>According to Corbin, how did domestic ventilation and deodorization eventually destroy this very specific 19th-century intimacy?&lt;/div>
+      &lt;div class=&quot;q-sub&quot;>感官的现代化：现代卫生的通风理念，杀死了何种“内部空间的诗意”？&lt;/div>
+    &lt;/div>
+  &lt;/div>
+  &lt;div class=&quot;anchor-container&quot;>
+    &lt;div class=&quot;anchor-tag&quot;>📍 U5_01_combray_space_rooms_church&lt;/div>
+    &lt;div class=&quot;anchor-tag&quot;>📍 11-Ch10-Domestic-Atmospheres&lt;/div>
+  &lt;/div>
+  &lt;div class=&quot;seed-module&quot;>
+    &lt;div class=&quot;seed-header&quot;>Free Restatement Seed (EN/ZH)&lt;/div>
+    &lt;div class=&quot;seed-text&quot;>&quot;Aunt Léonie's bedroom is an olfactory masterpiece of the 19th century. Using Corbin’s concept of 'domestic atmospheres', we can see that the clotted, fruity smell of the room is not a sign of poor hygiene, but rather an intentional &lt;span class=&quot;blank&quot;>&lt;/span>, designed to keep the outside world at bay and foster &lt;span class=&quot;blank&quot;>&lt;/span>.&quot;&lt;/div>
+    &lt;button class=&quot;reveal-btn&quot; onclick=&quot;this.nextElementSibling.classList.toggle('active')&quot;>👁️ Expand Chinese Seed&lt;/button>
+    &lt;div class=&quot;chinese-seed&quot;>
+      “莱奥妮姑妈的房间是一个名副其实的嗅觉孵化器。结合科尔班的‘家庭氛围’史，我们可以看出，那种被火炉烤得黏稠、令人作呕却又充满果香的空气，并不是因为缺乏卫生观念。相反，这种‘气味的闭环’是一种精心的防卫机制。它像蚕茧一样包裹着姑妈，通过极端的气味浓度来隔绝&lt;span class=&quot;blank&quot;>&lt;/span>，从而确立了绝对的室内统治权……”
+    &lt;/div>
+  &lt;/div>
+&lt;/div>
+
+&lt;!-- PACK 3 -->
+&lt;div class=&quot;packet-section theme-balbec&quot;>
+  &lt;div class=&quot;pack-header&quot;>
+    &lt;span class=&quot;theorist-tag&quot;>03. Proust / Resort Space&lt;/span>
+    &lt;h2>The Glass Aquarium of Class&lt;/h2>
+  &lt;/div>
+  &lt;div class=&quot;core-pressure&quot;>
+    &quot;The Grand Hotel at Balbec is an architecture of modern visibility. With its massive plate-glass windows facing the sea, how does it stage a brutal, silent theater of social inequality between those eating inside and those watching from the dark?&quot;
+  &lt;/div>
+  &lt;div class=&quot;question-list&quot;>
+    &lt;div class=&quot;interactive-q&quot; onclick=&quot;this.classList.toggle('heated')&quot;>
+      &lt;div class=&quot;q-text&quot;>Examine the metaphor of the dining room as a brightly lit aquarium. How does the glass wall enforce a rigid separation while maintaining total visibility?&lt;/div>
+      &lt;div class=&quot;q-sub&quot;>阶级的水族箱：一堵透明的玻璃，如何比石墙更残酷地划定了“看”与“被看”、“食客”与“饥民”的界限？&lt;/div>
+    &lt;/div>
+    &lt;div class=&quot;interactive-q&quot; onclick=&quot;this.classList.toggle('heated')&quot;>
+      &lt;div class=&quot;q-text&quot;>How does the &quot;blinding light of the beach&quot; alter social distinctions, making aristocratic women and bourgeois girls momentarily indistinguishable?&lt;/div>
+      &lt;div class=&quot;q-sub&quot;>海滩的民主化：海滨胜地的强光，是如何暂时熔断了巴黎那种森严的社会符号系统的？&lt;/div>
+    &lt;/div>
+    &lt;div class=&quot;interactive-q&quot; onclick=&quot;this.classList.toggle('heated')&quot;>
+      &lt;div class=&quot;q-text&quot;>Why does the narrator feel a &quot;passionate curiosity&quot; toward the strangers passing by, unshielded by the Combray network of mutual acquaintance?&lt;/div>
+      &lt;div class=&quot;q-sub&quot;>匿名的诱惑：在脱离了熟人社会的巴尔贝克，面对完全未知的他者，欲望是如何被重新点燃的？&lt;/div>
+    &lt;/div>
+  &lt;/div>
+  &lt;div class=&quot;anchor-container&quot;>
+    &lt;div class=&quot;anchor-tag&quot;>📍 U5_06_balbec_place_sea_hotel&lt;/div>
+    &lt;div class=&quot;anchor-tag&quot;>📍 U5_05_balbec_place_sea_hotel&lt;/div>
+  &lt;/div>
+  &lt;div class=&quot;seed-module&quot;>
+    &lt;div class=&quot;seed-header&quot;>Free Restatement Seed (EN/ZH)&lt;/div>
+    &lt;div class=&quot;seed-text&quot;>&quot;At Balbec, the architecture of the Grand Hotel materializes the social structure. The plate glass of the dining room operates as a transparent but impenetrable &lt;span class=&quot;blank&quot;>&lt;/span>, creating a cruel diorama where the poor outside watch the wealthy inside feed like &lt;span class=&quot;blank&quot;>&lt;/span>.&quot;&lt;/div>
+    &lt;button class=&quot;reveal-btn&quot; onclick=&quot;this.nextElementSibling.classList.toggle('active')&quot;>👁️ Expand Chinese Seed&lt;/button>
+    &lt;div class=&quot;chinese-seed&quot;>
+      “巴尔贝克大饭店的空间结构，就是 19 世纪末阶级政治的微缩模型。那面巨大的落地玻璃窗，将餐厅变成了一个光鲜亮丽的水族箱。通过这种‘绝对可见但绝对隔离’的建筑设计，普鲁斯特无情地展示了社会财富的傲慢：里面的权贵像奇异的鱼类一样被展示，而外面的穷人则被隔绝在&lt;span class=&quot;blank&quot;>&lt;/span>之中。在这里，风景不仅是审美的，更是权力的……”
+    &lt;/div>
+  &lt;/div>
+&lt;/div>
+
+&lt;!-- PACK 4 -->
+&lt;div class=&quot;packet-section theme-room&quot;>
+  &lt;div class=&quot;pack-header&quot;>
+    &lt;span class=&quot;theorist-tag&quot;>04. Proust / Social Topology&lt;/span>
+    &lt;h2>The Incomprehensible Province&lt;/h2>
+  &lt;/div>
+  &lt;div class=&quot;core-pressure&quot;>
+    &quot;Society is not a unified whole, but a patchwork of 'separate provinces' created by Time. How do the Guermantes actively maintain their incomprehensibility to outsiders as a form of social domination?&quot;
+  &lt;/div>
+  &lt;div class=&quot;question-list&quot;>
+    &lt;div class=&quot;interactive-q&quot; onclick=&quot;this.classList.toggle('heated')&quot;>
+      &lt;div class=&quot;q-text&quot;>Examine the concept of the &quot;Guermantes wit.&quot; Why must it be treated as a localized, non-transferable commodity, &quot;like the minced pork of Tours&quot;?&lt;/div>
+      &lt;div class=&quot;q-sub&quot;>不可译的谈吐：盖尔芒特家的“机智”，为何必须像某种地方特产一样，拒绝被外人真正理解？&lt;/div>
+    &lt;/div>
+    &lt;div class=&quot;interactive-q&quot; onclick=&quot;this.classList.toggle('heated')&quot;>
+      &lt;div class=&quot;q-text&quot;>How does the Duchess's use of obscure names and &quot;ancient history&quot; (e.g., Mme de Varambon) create a poetry of the incomprehensible that humiliates newcomers like Bloch?&lt;/div>
+      &lt;div class=&quot;q-sub&quot;>黑话的权力：公爵夫人如何通过抛出那些早已死去的、无人知晓的贵族名字，在沙龙里建立起知识的鄙视链？&lt;/div>
+    &lt;/div>
+    &lt;div class=&quot;interactive-q&quot; onclick=&quot;this.classList.toggle('heated')&quot;>
+      &lt;div class=&quot;q-text&quot;>How does the spatial hostility of the Courvoisiers towards the Guermantes' guests demonstrate the viciousness of micro-distinctions within the same class?&lt;/div>
+      &lt;div class=&quot;q-sub&quot;>内部的裂痕：为何同一个阶级内部的倾轧（如库尔沃西耶家族对盖尔芒特的嫉妒），比跨阶级的冲突更加致命？&lt;/div>
+    &lt;/div>
+  &lt;/div>
+  &lt;div class=&quot;anchor-container&quot;>
+    &lt;div class=&quot;anchor-tag&quot;>📍 U5_13_guermantes_social_space&lt;/div>
+    &lt;div class=&quot;anchor-tag&quot;>📍 U5_14_guermantes_social_space&lt;/div>
+  &lt;/div>
+  &lt;div class=&quot;seed-module&quot;>
+    &lt;div class=&quot;seed-header&quot;>Free Restatement Seed (EN/ZH)&lt;/div>
+    &lt;div class=&quot;seed-text&quot;>&quot;Proust maps the Guermantes salon not as a room, but as a sovereign state. By cultivating a highly specific 'wit' and relying on a lexicon of forgotten names, the Duchess enforces a profound &lt;span class=&quot;blank&quot;>&lt;/span>, deliberately making her social sphere incomprehensible to those who arrive &lt;span class=&quot;blank&quot;>&lt;/span>.&quot;&lt;/div>
+    &lt;button class=&quot;reveal-btn&quot; onclick=&quot;this.nextElementSibling.classList.toggle('active')&quot;>👁️ Expand Chinese Seed&lt;/button>
+    &lt;div class=&quot;chinese-seed&quot;>
+      “盖尔芒特沙龙并不是一个开放的社交场，而是一个被时间封锁的‘独立行省’。公爵夫人深谙社交隔离的拓扑学。当她对着布洛克谈论起那些无人知晓的陈年旧事时，她实际上是在利用‘不可解（the incomprehensible）’的诗意来行使权力。这种地方性的黑话体系，确保了任何新来者都会被立刻辨认出其&lt;span class=&quot;blank&quot;>&lt;/span>的身份……”
+    &lt;/div>
+  &lt;/div>
+&lt;/div>
+
+&lt;!-- PACK 5 -->
+&lt;div class=&quot;packet-section theme-bell&quot;>
+  &lt;div class=&quot;pack-header&quot;>
+    &lt;span class=&quot;theorist-tag&quot;>05. Proust / Acoustic Memory&lt;/span>
+    &lt;h2>The Tactile Soundscape&lt;/h2>
+  &lt;/div>
+  &lt;div class=&quot;core-pressure&quot;>
+    &quot;How do the mechanical, urban sounds of the modern city (tramcars, motors) act upon the isolated body in the bedroom, transforming noise into a 'dazzling sun of sound' or a spatial map?&quot;
+  &lt;/div>
+  &lt;div class=&quot;question-list&quot;>
+    &lt;div class=&quot;interactive-q&quot; onclick=&quot;this.classList.toggle('heated')&quot;>
+      &lt;div class=&quot;q-text&quot;>When the sick narrator adjusts the wads of cotton-wool in his ears, how does he &quot;press the pedals&quot; of the outer world's sonority?&lt;/div>
+      &lt;div class=&quot;q-sub&quot;>听觉的调音板：塞在耳朵里的棉花，是如何让卧病在床的主人公掌握了对整个巴黎街道噪音的“控制权”的？&lt;/div>
+    &lt;/div>
+    &lt;div class=&quot;interactive-q&quot; onclick=&quot;this.classList.toggle('heated')&quot;>
+      &lt;div class=&quot;q-text&quot;>Examine the &quot;singing tram-cars&quot; and the horns of passing motors. How does the text translate these harsh industrial noises into a poetic &quot;military summons&quot; to live?&lt;/div>
+      &lt;div class=&quot;q-sub&quot;>工业噪音的诗化：电车与汽车喇叭声，如何取代了自然的鸟鸣，成为召唤欲望与生命力的现代晨钟？&lt;/div>
+    &lt;/div>
+    &lt;div class=&quot;interactive-q&quot; onclick=&quot;this.classList.toggle('heated')&quot;>
+      &lt;div class=&quot;q-text&quot;>How does sound function as a &quot;continuous narrative&quot; that describes the invisible street to the confined body?&lt;/div>
+      &lt;div class=&quot;q-sub&quot;>看不见的剧场：对于被囚禁在房间里的人来说，声音如何替代了视觉，为他描绘出了一幅流动的城市地形图？&lt;/div>
+    &lt;/div>
+  &lt;/div>
+  &lt;div class=&quot;anchor-container&quot;>
+    &lt;div class=&quot;anchor-tag&quot;>📍 U5_23_sensory_history_smell_sound&lt;/div>
+    &lt;div class=&quot;anchor-tag&quot;>📍 U5_20_sensory_history_smell_sound&lt;/div>
+  &lt;/div>
+  &lt;div class=&quot;seed-module&quot;>
+    &lt;div class=&quot;seed-header&quot;>Free Restatement Seed (EN/ZH)&lt;/div>
+    &lt;div class=&quot;seed-text&quot;>&quot;In Proust, the soundscape of the modern city invades the domestic interior. The noise of tramcars is not mere disruption; it acts as an acoustic &lt;span class=&quot;blank&quot;>&lt;/span>, transmitting the energy of the street directly into the sick man's room, transforming his bed into a &lt;span class=&quot;blank&quot;>&lt;/span>.&quot;&lt;/div>
+    &lt;button class=&quot;reveal-btn&quot; onclick=&quot;this.nextElementSibling.classList.toggle('active')&quot;>👁️ Expand Chinese Seed&lt;/button>
+    &lt;div class=&quot;chinese-seed&quot;>
+      “在这段极具现象学意味的描写中，听觉取代了视觉成为了感知世界的主导。生病的主人公虽然被困在床上，但他通过调整耳中的棉花，就像踩下钢琴的踏板一样，精妙地调节着巴黎街道传来的声响。电车的声音不再是纯粹的工业噪音，而是化作了&lt;span class=&quot;blank&quot;>&lt;/span>，穿透墙壁，将外部那生机勃勃的城市图景强行注射进了封闭的卧室……”
+    &lt;/div>
+  &lt;/div>
+&lt;/div>
+
+&lt;!-- PACK 6 -->
+&lt;div class=&quot;packet-section theme-smell&quot;>
+  &lt;div class=&quot;pack-header&quot;>
+    &lt;span class=&quot;theorist-tag&quot;>06. Corbin / Social Emanations&lt;/span>
+    &lt;h2>The Stench of the Poor&lt;/h2>
+  &lt;/div>
+  &lt;div class=&quot;core-pressure&quot;>
+    &quot;Smell is a political instrument. Corbin shows how the 19th-century bourgeoisie used 'olfactory vigilance' to pathologize the poor. How does Proust echo this in the sharp sensory boundaries between classes?&quot;
+  &lt;/div>
+  &lt;div class=&quot;question-list&quot;>
+    &lt;div class=&quot;interactive-q&quot; onclick=&quot;this.classList.toggle('heated')&quot;>
+      &lt;div class=&quot;q-text&quot;>Corbin argues that a delicate nose proved one's &quot;ignorance of the sweat of hard labor.&quot; How does Françoise's or the peasants' relation to smell differ from the narrator's hyper-aestheticized nose?&lt;/div>
+      &lt;div class=&quot;q-sub&quot;>阶级的嗅觉：为什么“对气味敏感”成为了不用从事体力劳动的资产阶级的特权标志？&lt;/div>
+    &lt;/div>
+    &lt;div class=&quot;interactive-q&quot; onclick=&quot;this.classList.toggle('heated')&quot;>
+      &lt;div class=&quot;q-text&quot;>How does the &quot;stench of the poor&quot; serve as a miasma that justifies spatial segregation (urban zoning, separate quarters for servants)?&lt;/div>
+      &lt;div class=&quot;q-sub&quot;>气味的隔离带：底层人民的“气味”，是如何在物理空间中被用作正当化阶级隔离的借口的？&lt;/div>
+    &lt;/div>
+    &lt;div class=&quot;interactive-q&quot; onclick=&quot;this.classList.toggle('heated')&quot;>
+      &lt;div class=&quot;q-text&quot;>Look at the public bathroom or street encounters. How does an unexpected smell violently expose a social reality the intellect wants to ignore?&lt;/div>
+      &lt;div class=&quot;q-sub&quot;>气味的刺穿：那些突如其来的恶臭，是如何撕破了上流社会的温情面纱的？&lt;/div>
+    &lt;/div>
+  &lt;/div>
+  &lt;div class=&quot;anchor-container&quot;>
+    &lt;div class=&quot;anchor-tag&quot;>📍 10-Ch09-Stench-of-the-Poor&lt;/div>
+    &lt;div class=&quot;anchor-tag&quot;>📍 04-Ch03-Social-Emanations&lt;/div>
+  &lt;/div>
+  &lt;div class=&quot;seed-module&quot;>
+    &lt;div class=&quot;seed-header&quot;>Free Restatement Seed (EN/ZH)&lt;/div>
+    &lt;div class=&quot;seed-text&quot;>&quot;Corbin’s historical analysis reveals that smell is not politically neutral. The 'olfactory vigilance' of the 19th century transformed the natural sweat of the working class into a &lt;span class=&quot;blank&quot;>&lt;/span>, using hygiene to enforce an absolute &lt;span class=&quot;blank&quot;>&lt;/span>.&quot;&lt;/div>
+    &lt;button class=&quot;reveal-btn&quot; onclick=&quot;this.nextElementSibling.classList.toggle('active')&quot;>👁️ Expand Chinese Seed&lt;/button>
+    &lt;div class=&quot;chinese-seed&quot;>
+      “气味从来都不只关乎美学，它关乎政治。科尔班向我们揭示了 19 世纪的‘嗅觉警惕’是如何将穷人身上的汗味病理化的。在普鲁斯特的文本深处，我们也常常能察觉到这种隐秘的感官阶级论：资产阶级的精致鼻子，实际上是一台用来&lt;span class=&quot;blank&quot;>&lt;/span>的扫描仪。‘除臭’的卫生要求，成为了在城市空间中驱赶底层、划定阶级隔离带的最有效工具……”
+    &lt;/div>
+  &lt;/div>
+&lt;/div>
+
+&lt;!-- PACK 7 -->
+&lt;div class=&quot;packet-section theme-charlus&quot;>
+  &lt;div class=&quot;pack-header&quot;>
+    &lt;span class=&quot;theorist-tag&quot;>07. Proust / Subterranean Networks&lt;/span>
+    &lt;h2>The Topography of Sodom&lt;/h2>
+  &lt;/div>
+  &lt;div class=&quot;core-pressure&quot;>
+    &quot;Beneath the visible maps of Paris and Balbec lies an invisible, parallel geography structured by sexual inversion. How does M. de Charlus navigate and dominate this subterranean space that defies standard class boundaries?&quot;
+  &lt;/div>
+  &lt;div class=&quot;question-list&quot;>
+    &lt;div class=&quot;interactive-q&quot; onclick=&quot;this.classList.toggle('heated')&quot;>
+      &lt;div class=&quot;q-text&quot;>Analyze Charlus's intense, dilated gaze at the young Marcel in Balbec. How does his look function as a coded &quot;radar&quot; searching for a specific sign within the public space?&lt;/div>
+      &lt;div class=&quot;q-sub&quot;>同性恋的雷达：夏尔吕斯在海滨的眼神，如何像间谍或疯子一样，在人群中发送和接收着隐秘的信号？&lt;/div>
+    &lt;/div>
+    &lt;div class=&quot;interactive-q&quot; onclick=&quot;this.classList.toggle('heated')&quot;>
+      &lt;div class=&quot;q-text&quot;>How does Charlus's vice create a &quot;freemasonry&quot; that connects a Guermantes aristocrat with tailors, waiters, and a violinist (Morel), short-circuiting traditional social hierarchies?&lt;/div>
+      &lt;div class=&quot;q-sub&quot;>情欲的跨阶级性：隐秘的欲望法则，是如何轻易击穿了连金钱和头衔都无法跨越的阶级壁垒的？&lt;/div>
+    &lt;/div>
+    &lt;div class=&quot;interactive-q&quot; onclick=&quot;this.classList.toggle('heated')&quot;>
+      &lt;div class=&quot;q-text&quot;>Examine the scene where Charlus hides in Jupien's brothel. How does this space of illicit desire serve as the dark mirror (the inversion) of the Guermantes' elegant salon?&lt;/div>
+      &lt;div class=&quot;q-sub&quot;>沙龙的暗面：男妓院的空间结构，在哪些意义上构成了上流贵族聚会的倒影与嘲讽？&lt;/div>
+    &lt;/div>
+  &lt;/div>
+  &lt;div class=&quot;anchor-container&quot;>
+    &lt;div class=&quot;anchor-tag&quot;>📍 U5_15_charlus_social_signs&lt;/div>
+    &lt;div class=&quot;anchor-tag&quot;>📍 U5_16_charlus_social_signs&lt;/div>
+  &lt;/div>
+  &lt;div class=&quot;seed-module&quot;>
+    &lt;div class=&quot;seed-header&quot;>Free Restatement Seed (EN/ZH)&lt;/div>
+    &lt;div class=&quot;seed-text&quot;>&quot;Charlus does not merely exist in Paris; he inhabits a parallel dimension. His 'malady' forces him to read the city through a different set of coordinates, creating a subterranean network where desire successfully overrides &lt;span class=&quot;blank&quot;>&lt;/span>, making a tailor more significant than a &lt;span class=&quot;blank&quot;>&lt;/span>.&quot;&lt;/div>
+    &lt;button class=&quot;reveal-btn&quot; onclick=&quot;this.nextElementSibling.classList.toggle('active')&quot;>👁️ Expand Chinese Seed&lt;/button>
+    &lt;div class=&quot;chinese-seed&quot;>
+      “夏尔吕斯男爵的游荡，为《追忆》绘制了一幅‘所多玛’的地下地形图。在这个由同性欲望编织的秘密网络中，地表的阶级法则失效了。通过解读他那狂热、闪烁的眼神和夸张的举止，我们发现，情欲的共谋（freemasonry）建立起了一种超越血统和财富的全新联结。在这个不可见的暗网里，一个电梯男孩的地位，完全可能高于&lt;span class=&quot;blank&quot;>&lt;/span>……”
+    &lt;/div>
+  &lt;/div>
+&lt;/div>
+
+&lt;!-- PACK 8 -->
+&lt;div class=&quot;packet-section theme-room&quot;>
+  &lt;div class=&quot;pack-header&quot;>
+    &lt;span class=&quot;theorist-tag&quot;>08. Proust / Somatic Memory&lt;/span>
+    &lt;h2>The Architecture of the Body&lt;/h2>
+  &lt;/div>
+  &lt;div class=&quot;core-pressure&quot;>
+    &quot;When waking in an unfamiliar room, the intellect fails completely. It is the physical body—the thighs, the ribs, the shoulders—that must 'remember' and forcibly align the new space. How does the body act as a spatial archive?&quot;
+  &lt;/div>
+  &lt;div class=&quot;question-list&quot;>
+    &lt;div class=&quot;interactive-q&quot; onclick=&quot;this.classList.toggle('heated')&quot;>
+      &lt;div class=&quot;q-text&quot;>When Marcel creates a woman out of &quot;some misplacing of my thigh,&quot; how does the body's posture hallucinate a missing presence based on past physical habits?&lt;/div>
+      &lt;div class=&quot;q-sub&quot;>肉身的幻觉：睡眠中一条腿的错误摆放，如何让身体“无中生有”地召唤出一个女人？&lt;/div>
+    &lt;/div>
+    &lt;div class=&quot;interactive-q&quot; onclick=&quot;this.classList.toggle('heated')&quot;>
+      &lt;div class=&quot;q-text&quot;>Contrast the &quot;memory of the intellect&quot; (which gives a flat, voluntary picture) with the profound disorientation required for the body to authentically reclaim a lost space.&lt;/div>
+      &lt;div class=&quot;q-sub&quot;>理智的苍白：为什么大脑主动回忆起的房间只是一张二维的废纸，而身体的惊跳却能重建四维的宇宙？&lt;/div>
+    &lt;/div>
+    &lt;div class=&quot;interactive-q&quot; onclick=&quot;this.classList.toggle('heated')&quot;>
+      &lt;div class=&quot;q-text&quot;>How does arriving at a new hotel room in Balbec act as an act of violence against the body, demanding a painful, multi-day process of spatial habituation?&lt;/div>
+      &lt;div class=&quot;q-sub&quot;>陌生物理的暴力：搬入巴尔贝克新房间的那个夜晚，为何被描写得如同经历一场残酷的外科手术？&lt;/div>
+    &lt;/div>
+  &lt;/div>
+  &lt;div class=&quot;anchor-container&quot;>
+    &lt;div class=&quot;anchor-tag&quot;>📍 U5_02_sleep_waking_rooms&lt;/div>
+    &lt;div class=&quot;anchor-tag&quot;>📍 02-awakening-lost-space-localization&lt;/div>
+  &lt;/div>
+  &lt;div class=&quot;seed-module&quot;>
+    &lt;div class=&quot;seed-header&quot;>Free Restatement Seed (EN/ZH)&lt;/div>
+    &lt;div class=&quot;seed-text&quot;>&quot;Before the brain can remember the year, the body must remember the room. Proust demonstrates that the self is not a continuous mental narrative, but a fragile collection of physical habits. Awakening in a strange place forces the body to &lt;span class=&quot;blank&quot;>&lt;/span>, exposing how much our identity relies on &lt;span class=&quot;blank&quot;>&lt;/span>.&quot;&lt;/div>
+    &lt;button class=&quot;reveal-btn&quot; onclick=&quot;this.nextElementSibling.classList.toggle('active')&quot;>👁️ Expand Chinese Seed&lt;/button>
+    &lt;div class=&quot;chinese-seed&quot;>
+      “普鲁斯特是对笛卡尔‘我思故我在’的最彻底的反叛。在那些从黑暗中猛然惊醒的瞬间，‘我思（智力）’彻底瘫痪了，真正出面接管局面的是‘我在（肉身）’。身体的肌肉、骨骼和触觉，像盲人的拐杖一样在虚无中摸索，强行将天花板和门把手拉回正确的位置。这证明了我们的主体性并非储存在大脑的意识流里，而是深刻地铭刻在&lt;span class=&quot;blank&quot;>&lt;/span>之中……”
+    &lt;/div>
+  &lt;/div>
+&lt;/div>
+
+&lt;!-- PACK 9 -->
+&lt;div class=&quot;packet-section theme-balbec&quot;>
+  &lt;div class=&quot;pack-header&quot;>
+    &lt;span class=&quot;theorist-tag&quot;>09. Proust / Imaginary Geography&lt;/span>
+    &lt;h2>The Name vs. The Paving Stones&lt;/h2>
+  &lt;/div>
+  &lt;div class=&quot;core-pressure&quot;>
+    &quot;A Name (Guermantes, Parma, Balbec) is a sealed, perfect linguistic space. But the moment the narrator actually visits the place or meets the person, the material reality destroys the phonetic poetry. How does spatial desire guarantee disappointment?&quot;
+  &lt;/div>
+  &lt;div class=&quot;question-list&quot;>
+    &lt;div class=&quot;interactive-q&quot; onclick=&quot;this.classList.toggle('heated')&quot;>
+      &lt;div class=&quot;q-text&quot;>Examine how the syllables of &quot;Guermantes&quot; initially conjure a mythical forest, a feudal castle, and an ancient lineage, entirely devoid of any &quot;opaque, material element.&quot;&lt;/div>
+      &lt;div class=&quot;q-sub&quot;>语言的炼金术：“盖尔芒特”这几个音节，是如何在童年马塞尔的脑海中建造起一座悬浮在半空中的城堡的？&lt;/div>
+    &lt;/div>
+    &lt;div class=&quot;interactive-q&quot; onclick=&quot;this.classList.toggle('heated')&quot;>
+      &lt;div class=&quot;q-text&quot;>When Marcel finally sees the actual Hôtel de Guermantes in Paris, or meets the Duchess, why is the specific *physicality* of the stones or her flesh felt as an intolerable lack?&lt;/div>
+      &lt;div class=&quot;q-sub&quot;>遭遇物质的悲剧：为什么当神话般的公爵夫人化身为一个长着雀斑、穿着时装的具体女人时，欲望就破灭了？&lt;/div>
+    &lt;/div>
+    &lt;div class=&quot;interactive-q&quot; onclick=&quot;this.classList.toggle('heated')&quot;>
+      &lt;div class=&quot;q-text&quot;>How does the &quot;Name&quot; function similarly to Deleuze's &quot;Worldly Sign&quot;—full of associative promise, but ultimately empty at its core?&lt;/div>
+      &lt;div class=&quot;q-sub&quot;>空转的能指：“名字”如何像一个极其精美的空壳，吸引着我们耗费一生去寻找那个根本不存在的所指？&lt;/div>
+    &lt;/div>
+  &lt;/div>
+  &lt;div class=&quot;anchor-container&quot;>
+    &lt;div class=&quot;anchor-tag&quot;>📍 U5_12_guermantes_social_space&lt;/div>
+    &lt;div class=&quot;anchor-tag&quot;>📍 U2_11_names_and_imagination&lt;/div>
+  &lt;/div>
+  &lt;div class=&quot;seed-module&quot;>
+    &lt;div class=&quot;seed-header&quot;>Free Restatement Seed (EN/ZH)&lt;/div>
+    &lt;div class=&quot;seed-text&quot;>&quot;Proustian geography is primarily phonetic, not physical. The name of a place operates as a magical container that absorbs all historical and aesthetic fantasies. Consequently, the actual act of traveling to Balbec or Guermantes is inherently traumatic, because the physical stones must inevitably &lt;span class=&quot;blank&quot;>&lt;/span> the perfection of the &lt;span class=&quot;blank&quot;>&lt;/span>.&quot;&lt;/div>
+    &lt;button class=&quot;reveal-btn&quot; onclick=&quot;this.nextElementSibling.classList.toggle('active')&quot;>👁️ Expand Chinese Seed&lt;/button>
+    &lt;div class=&quot;chinese-seed&quot;>
+      “在普鲁斯特的认知地图上，词语（名字）的疆域永远大于现实。‘巴尔贝克’或‘盖尔芒特’不是地理学上的存在，而是欲望的投射区。它们被童年的马塞尔塞满了关于哥特式教堂、波浪和封建领主的完美幻想。因此，任何一次真实的旅行或会面，本质上都是一场无可避免的灾难。因为坚硬的铺路石和凡人的肉身，注定会无情地戳破那层由&lt;span class=&quot;blank&quot;>&lt;/span>吹起的华丽肥皂泡……”
+    &lt;/div>
+  &lt;/div>
+&lt;/div>
+
+&lt;!-- PACK 10 -->
+&lt;div class=&quot;packet-section theme-smell&quot;>
+  &lt;div class=&quot;pack-header&quot;>
+    &lt;span class=&quot;theorist-tag&quot;>10. Synthesis / Sensory History&lt;/span>
+    &lt;h2>History in a Bead of Sweat&lt;/h2>
+  &lt;/div>
+  &lt;div class=&quot;core-pressure&quot;>
+    &quot;History is traditionally written through battles, dates, and treaties. By focusing on changing smells, the rhythm of bells, and the micro-politics of the salon, how does Proust invent a profound 'history of mentalities' (Annales school)?&quot;
+  &lt;/div>
+  &lt;div class=&quot;question-list&quot;>
+    &lt;div class=&quot;interactive-q&quot; onclick=&quot;this.classList.toggle('heated')&quot;>
+      &lt;div class=&quot;q-text&quot;>How does Proust trace the tectonic shifts of the Dreyfus Affair or World War I not through battlefields, but through changes in salon guest lists and conversational codes?&lt;/div>
+      &lt;div class=&quot;q-sub&quot;>沙龙里的微观战争：德雷福斯事件或一战的巨变，是如何在公爵夫人客厅的宾客名单和闲话中被精确折射出来的？&lt;/div>
+    &lt;/div>
+    &lt;div class=&quot;interactive-q&quot; onclick=&quot;this.classList.toggle('heated')&quot;>
+      &lt;div class=&quot;q-text&quot;>Consider Corbin’s argument that smells and sounds anchor social representations. How does Proust’s novel function as the ultimate archive of a vanished 19th-century sensorium?&lt;/div>
+      &lt;div class=&quot;q-sub&quot;>感官的档案馆：如果抽离了那些关于霉味、钟声和山楂花的气味描写，我们失去的是怎样一部 19 世纪的精神史？&lt;/div>
+    &lt;/div>
+    &lt;div class=&quot;interactive-q&quot; onclick=&quot;this.classList.toggle('heated')&quot;>
+      &lt;div class=&quot;q-text&quot;>Why is the *body* (with its involuntary memories, reflexes, and sudden alienations) a more accurate historical record than the intellect?&lt;/div>
+      &lt;div class=&quot;q-sub&quot;>身体即编年史：为何比起理性的备忘录，肉身那无法作伪的惊跳与回忆，才是最忠实的刻录机？&lt;/div>
+    &lt;/div>
+  &lt;/div>
+  &lt;div class=&quot;anchor-container&quot;>
+    &lt;div class=&quot;anchor-tag&quot;>📍 14-Ch13-Laughter-in-a-Bead-of-Sweat&lt;/div>
+    &lt;div class=&quot;anchor-tag&quot;>📍 11-Ch09-Deduced-to-Proclaimed&lt;/div>
+  &lt;/div>
+  &lt;div class=&quot;seed-module&quot;>
+    &lt;div class=&quot;seed-header&quot;>Free Restatement Seed (EN/ZH)&lt;/div>
+    &lt;div class=&quot;seed-text&quot;>&quot;Synthesizing U5, we see that Proust is an avant-garde historian of the senses. Instead of documenting political events directly, he captures the macro-historical shifts of French society through the micro-fluctuations of &lt;span class=&quot;blank&quot;>&lt;/span>. The true history of an era, Corbin and Proust suggest, is encoded in its &lt;span class=&quot;blank&quot;>&lt;/span>.&quot;&lt;/div>
+    &lt;button class=&quot;reveal-btn&quot; onclick=&quot;this.nextElementSibling.classList.toggle('active')&quot;>👁️ Expand Chinese Seed&lt;/button>
+    &lt;div class=&quot;chinese-seed&quot;>
+      “对 U5 的总结让我们看到，普鲁斯特不仅是小说家，更是年鉴学派（Annales）意义上的‘心态史学家’。他不写王侯将相的丰功伟绩，而是把历史的巨变塞进了维尔迪兰夫人的一声咳嗽、夏尔吕斯男爵的一丝眼波，以及贡布雷的某一种特定的潮湿霉味中。他和科尔班共同证明了：一个时代的深层真理并不写在官方的文书上，而是被秘密地封印在人们的&lt;span class=&quot;blank&quot;>&lt;/span>之中。解码这些感官，就是重写历史……”
+    &lt;/div>
+  &lt;/div>
+&lt;/div>
+</code></pre>
+  </div> 
+</div>
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    console.log(&quot;Proustian U5 Traversal Pack loaded.&quot;);
+    // Interactive questions toggle logic is handled inline via onclick=&quot;this.classList.toggle('heated')&quot;
+  });
+</script></article><hr/><div class="page-footer"><div class="giscus" data-repo="Studere-Alarcherche/Proustian" data-repo-id="R_kgDORYpwTA" data-category="General" data-category-id="DIC_kwDORYpwTM4C3Q3J" data-mapping="pathname" data-strict="0" data-reactions-enabled="1" data-input-position="bottom" data-light-theme="light" data-dark-theme="dark" data-theme-url="https://studere-alarcherche.github.io/Proustian/static/giscus" data-lang="en"></div></div></div><div class="right sidebar"><div class="recent-notes"><h3>✦ CONSTELLATIONS</h3><ul class="recent-ul"><li class="recent-li"><div class="section"><div class="desc"><h3><a href="../System/CURRENT-STATE" class="internal">Current State</a></h3></div><p class="meta"><time datetime="2026-05-17T15:20:31.074Z">2026年5月17日</time></p><ul class="tags"></ul></div></li><li class="recent-li"><div class="section"><div class="desc"><h3><a href="../System/NEXT-ACTION" class="internal">Next Action</a></h3></div><p class="meta"><time datetime="2026-05-18T14:50:15.871Z">2026年5月18日</time></p><ul class="tags"></ul></div></li><li class="recent-li"><div class="section"><div class="desc"><h3><a href="../System/README-FOR-OBSIDIAN" class="internal">README for Obsidian</a></h3></div><p class="meta"><time datetime="2026-05-18T14:50:15.871Z">2026年5月18日</time></p><ul class="tags"></ul></div></li><li class="recent-li"><div class="section"><div class="desc"><h3><a href="../System/START-HERE" class="internal">Start Here</a></h3></div><p class="meta"><time datetime="2026-05-18T14:50:15.871Z">2026年5月18日</time></p><ul class="tags"></ul></div></li></ul></div><div class="backlinks"><h3>反向链接</h3><ul id="list-2" class="overflow"><li><a href="../Proustian/" class="internal">Proustian</a></li><li class="overflow-end"></li></ul></div></div><footer class><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v4.5.2</a> © 2026</p><ul><li><a href="https://github.com/jackyzha0/quartz">GitHub</a></li></ul></footer></div></div></body><script type="application/javascript" data-persist="true">function n(){let t=this.parentElement;t.classList.toggle("is-collapsed");let e=t.getElementsByClassName("callout-content")[0];if(!e)return;let l=t.classList.contains("is-collapsed");e.style.gridTemplateRows=l?"0fr":"1fr"}function c(){let t=document.getElementsByClassName("callout is-collapsible");for(let e of t){let l=e.getElementsByClassName("callout-title")[0],s=e.getElementsByClassName("callout-content")[0];if(!l||!s)continue;l.addEventListener("click",n),window.addCleanup(()=>l.removeEventListener("click",n));let o=e.classList.contains("is-collapsed");s.style.gridTemplateRows=o?"0fr":"1fr"}}document.addEventListener("nav",c);
+</script><script type="module" data-persist="true">function E(a,e){if(!a)return;function t(o){o.target===this&&(o.preventDefault(),o.stopPropagation(),e())}function n(o){o.key.startsWith("Esc")&&(o.preventDefault(),e())}a?.addEventListener("click",t),window.addCleanup(()=>a?.removeEventListener("click",t)),document.addEventListener("keydown",n),window.addCleanup(()=>document.removeEventListener("keydown",n))}function f(a){for(;a.firstChild;)a.removeChild(a.firstChild)}var m=class{constructor(e,t){this.container=e;this.content=t;this.setupEventListeners(),this.setupNavigationControls(),this.resetTransform()}isDragging=!1;startPan={x:0,y:0};currentPan={x:0,y:0};scale=1;MIN_SCALE=.5;MAX_SCALE=3;cleanups=[];setupEventListeners(){let e=this.onMouseDown.bind(this),t=this.onMouseMove.bind(this),n=this.onMouseUp.bind(this),o=this.onTouchStart.bind(this),r=this.onTouchMove.bind(this),i=this.onTouchEnd.bind(this),s=this.resetTransform.bind(this);this.container.addEventListener("mousedown",e),document.addEventListener("mousemove",t),document.addEventListener("mouseup",n),this.container.addEventListener("touchstart",o,{passive:!1}),document.addEventListener("touchmove",r,{passive:!1}),document.addEventListener("touchend",i),window.addEventListener("resize",s),this.cleanups.push(()=>this.container.removeEventListener("mousedown",e),()=>document.removeEventListener("mousemove",t),()=>document.removeEventListener("mouseup",n),()=>this.container.removeEventListener("touchstart",o),()=>document.removeEventListener("touchmove",r),()=>document.removeEventListener("touchend",i),()=>window.removeEventListener("resize",s))}cleanup(){for(let e of this.cleanups)e()}setupNavigationControls(){let e=document.createElement("div");e.className="mermaid-controls";let t=this.createButton("+",()=>this.zoom(.1)),n=this.createButton("-",()=>this.zoom(-.1)),o=this.createButton("Reset",()=>this.resetTransform());e.appendChild(n),e.appendChild(o),e.appendChild(t),this.container.appendChild(e)}createButton(e,t){let n=document.createElement("button");return n.textContent=e,n.className="mermaid-control-button",n.addEventListener("click",t),window.addCleanup(()=>n.removeEventListener("click",t)),n}onMouseDown(e){e.button===0&&(this.isDragging=!0,this.startPan={x:e.clientX-this.currentPan.x,y:e.clientY-this.currentPan.y},this.container.style.cursor="grabbing")}onMouseMove(e){this.isDragging&&(e.preventDefault(),this.currentPan={x:e.clientX-this.startPan.x,y:e.clientY-this.startPan.y},this.updateTransform())}onMouseUp(){this.isDragging=!1,this.container.style.cursor="grab"}onTouchStart(e){if(e.touches.length!==1)return;this.isDragging=!0;let t=e.touches[0];this.startPan={x:t.clientX-this.currentPan.x,y:t.clientY-this.currentPan.y}}onTouchMove(e){if(!this.isDragging||e.touches.length!==1)return;e.preventDefault();let t=e.touches[0];this.currentPan={x:t.clientX-this.startPan.x,y:t.clientY-this.startPan.y},this.updateTransform()}onTouchEnd(){this.isDragging=!1}zoom(e){let t=Math.min(Math.max(this.scale+e,this.MIN_SCALE),this.MAX_SCALE),n=this.content.getBoundingClientRect(),o=n.width/2,r=n.height/2,i=t-this.scale;this.currentPan.x-=o*i,this.currentPan.y-=r*i,this.scale=t,this.updateTransform()}updateTransform(){this.content.style.transform=`translate(${this.currentPan.x}px, ${this.currentPan.y}px) scale(${this.scale})`}resetTransform(){let t=this.content.querySelector("svg").getBoundingClientRect(),n=t.width/this.scale,o=t.height/this.scale;this.scale=1,this.currentPan={x:(this.container.clientWidth-n)/2,y:(this.container.clientHeight-o)/2},this.updateTransform()}},T=["--secondary","--tertiary","--gray","--light","--lightgray","--highlight","--dark","--darkgray","--codeFont"],y;document.addEventListener("nav",async()=>{let e=document.querySelector(".center").querySelectorAll("code.mermaid");if(e.length===0)return;y||=await import("https://cdnjs.cloudflare.com/ajax/libs/mermaid/11.4.0/mermaid.esm.min.mjs");let t=y.default,n=new WeakMap;for(let r of e)n.set(r,r.innerText);async function o(){for(let s of e){s.removeAttribute("data-processed");let c=n.get(s);c&&(s.innerHTML=c)}let r=T.reduce((s,c)=>(s[c]=window.getComputedStyle(document.documentElement).getPropertyValue(c),s),{}),i=document.documentElement.getAttribute("saved-theme")==="dark";t.initialize({startOnLoad:!1,securityLevel:"loose",theme:i?"dark":"base",themeVariables:{fontFamily:r["--codeFont"],primaryColor:r["--light"],primaryTextColor:r["--darkgray"],primaryBorderColor:r["--tertiary"],lineColor:r["--darkgray"],secondaryColor:r["--secondary"],tertiaryColor:r["--tertiary"],clusterBkg:r["--light"],edgeLabelBackground:r["--highlight"]}}),await t.run({nodes:e})}await o(),document.addEventListener("themechange",o),window.addCleanup(()=>document.removeEventListener("themechange",o));for(let r=0;r<e.length;r++){let v=function(){let g=l.querySelector("#mermaid-space"),h=l.querySelector(".mermaid-content");if(!h)return;f(h);let w=i.querySelector("svg").cloneNode(!0);h.appendChild(w),l.classList.add("active"),g.style.cursor="grab",u=new m(g,h)},M=function(){l.classList.remove("active"),u?.cleanup(),u=null},i=e[r],s=i.parentElement,c=s.querySelector(".clipboard-button"),d=s.querySelector(".expand-button"),p=window.getComputedStyle(c),L=c.offsetWidth+parseFloat(p.marginLeft||"0")+parseFloat(p.marginRight||"0");d.style.right=`calc(${L}px + 0.3rem)`,s.prepend(d);let l=s.querySelector("#mermaid-container");if(!l)return;let u=null;d.addEventListener("click",v),E(l,M),window.addCleanup(()=>{u?.cleanup(),d.removeEventListener("click",v)})}});
+</script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/copy-tex.min.js" type="application/javascript" data-persist="true"></script><script src="../postscript.js" type="module" data-persist="true"></script></html>

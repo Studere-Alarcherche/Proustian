@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html lang="zh" dir="ltr"><head><title>U1: General Introduction</title><meta charset="utf-8"/><link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,700;1,400&amp;family=Lora:ital,wght@0,400;0,700;1,400&amp;family=Noto+Serif+SC:wght@400;700&amp;display=swap" rel="stylesheet"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB Garamond:wght@400;700&amp;family=Inter:ital,wght@0,400;0,600;1,400;1,600&amp;family=JetBrains Mono:wght@400;600&amp;display=swap"/><link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin="anonymous"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="og:site_name" content="Alarcherche"/><meta property="og:title" content="U1: General Introduction"/><meta property="og:type" content="website"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="U1: General Introduction"/><meta name="twitter:description" content="From the memory cliché to polycentric reading."/><meta property="og:description" content="From the memory cliché to polycentric reading."/><meta property="og:image:alt" content="From the memory cliché to polycentric reading."/><meta property="og:image" content="https://studere-alarcherche.github.io/Proustian/static/og-image.png"/><meta property="og:image:url" content="https://studere-alarcherche.github.io/Proustian/static/og-image.png"/><meta name="twitter:image" content="https://studere-alarcherche.github.io/Proustian/static/og-image.png"/><meta property="og:image:type" content="image/.png"/><meta property="twitter:domain" content="studere-alarcherche.github.io/Proustian"/><meta property="og:url" content="https://studere-alarcherche.github.io/Proustian/Proustian/U1-General-Introduction"/><meta property="twitter:url" content="https://studere-alarcherche.github.io/Proustian/Proustian/U1-General-Introduction"/><link rel="icon" href="../static/icon.png"/><meta name="description" content="From the memory cliché to polycentric reading."/><meta name="generator" content="Quartz"/><link href="../index.css" rel="stylesheet" type="text/css" data-persist="true"/><style>.expand-button {
+  position: absolute;
+  display: flex;
+  float: right;
+  padding: 0.4rem;
+  margin: 0.3rem;
+  right: 0;
+  color: var(--gray);
+  border-color: var(--dark);
+  background-color: var(--light);
+  border: 1px solid;
+  border-radius: 5px;
+  opacity: 0;
+  transition: 0.2s;
+}
+.expand-button > svg {
+  fill: var(--light);
+  filter: contrast(0.3);
+}
+.expand-button:hover {
+  cursor: pointer;
+  border-color: var(--secondary);
+}
+.expand-button:focus {
+  outline: 0;
+}
+
+pre:hover > .expand-button {
+  opacity: 1;
+  transition: 0.2s;
+}
+
+#mermaid-container {
+  position: fixed;
+  contain: layout;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: none;
+  backdrop-filter: blur(4px);
+  background: rgba(0, 0, 0, 0.5);
+}
+#mermaid-container.active {
+  display: inline-block;
+}
+#mermaid-container > #mermaid-space {
+  border: 1px solid var(--lightgray);
+  background-color: var(--light);
+  border-radius: 5px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 80vh;
+  width: 80vw;
+  overflow: hidden;
+}
+#mermaid-container > #mermaid-space > .mermaid-content {
+  position: relative;
+  transform-origin: 0 0;
+  transition: transform 0.1s ease;
+  overflow: visible;
+  min-height: 200px;
+  min-width: 200px;
+}
+#mermaid-container > #mermaid-space > .mermaid-content pre {
+  margin: 0;
+  border: none;
+}
+#mermaid-container > #mermaid-space > .mermaid-content svg {
+  max-width: none;
+  height: auto;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  gap: 8px;
+  padding: 8px;
+  background: var(--light);
+  border: 1px solid var(--lightgray);
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: 1px solid var(--lightgray);
+  background: var(--light);
+  color: var(--dark);
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: var(--bodyFont);
+  transition: all 0.2s ease;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:hover {
+  background: var(--lightgray);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:active {
+  transform: translateY(1px);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:nth-child(2) {
+  width: auto;
+  padding: 0 12px;
+  font-size: 14px;
+}
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VSb290IjoiL1VzZXJzL2FwcGxlL0RvY3VtZW50cy9Qcm91c3RpYW4vcXVhcnR6L2NvbXBvbmVudHMvc3R5bGVzIiwic291cmNlcyI6WyJtZXJtYWlkLmlubGluZS5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTtFQUNBOztBQUdGO0VBQ0U7RUFDQTs7QUFHRjtFQUNFOzs7QUFLRjtFQUNFO0VBQ0E7OztBQUlKO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFOztBQUdGO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTtFQUNBOztBQUdGO0VBQ0U7RUFDQTs7QUFJSjtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7O0FBR0Y7RUFDRTs7QUFJRjtFQUNFO0VBQ0E7RUFDQSIsInNvdXJjZXNDb250ZW50IjpbIi5leHBhbmQtYnV0dG9uIHtcbiAgcG9zaXRpb246IGFic29sdXRlO1xuICBkaXNwbGF5OiBmbGV4O1xuICBmbG9hdDogcmlnaHQ7XG4gIHBhZGRpbmc6IDAuNHJlbTtcbiAgbWFyZ2luOiAwLjNyZW07XG4gIHJpZ2h0OiAwOyAvLyBOT1RFOiByaWdodCB3aWxsIGJlIHNldCBpbiBtZXJtYWlkLmlubGluZS50c1xuICBjb2xvcjogdmFyKC0tZ3JheSk7XG4gIGJvcmRlci1jb2xvcjogdmFyKC0tZGFyayk7XG4gIGJhY2tncm91bmQtY29sb3I6IHZhcigtLWxpZ2h0KTtcbiAgYm9yZGVyOiAxcHggc29saWQ7XG4gIGJvcmRlci1yYWRpdXM6IDVweDtcbiAgb3BhY2l0eTogMDtcbiAgdHJhbnNpdGlvbjogMC4ycztcblxuICAmID4gc3ZnIHtcbiAgICBmaWxsOiB2YXIoLS1saWdodCk7XG4gICAgZmlsdGVyOiBjb250cmFzdCgwLjMpO1xuICB9XG5cbiAgJjpob3ZlciB7XG4gICAgY3Vyc29yOiBwb2ludGVyO1xuICAgIGJvcmRlci1jb2xvcjogdmFyKC0tc2Vjb25kYXJ5KTtcbiAgfVxuXG4gICY6Zm9jdXMge1xuICAgIG91dGxpbmU6IDA7XG4gIH1cbn1cblxucHJlIHtcbiAgJjpob3ZlciA+IC5leHBhbmQtYnV0dG9uIHtcbiAgICBvcGFjaXR5OiAxO1xuICAgIHRyYW5zaXRpb246IDAuMnM7XG4gIH1cbn1cblxuI21lcm1haWQtY29udGFpbmVyIHtcbiAgcG9zaXRpb246IGZpeGVkO1xuICBjb250YWluOiBsYXlvdXQ7XG4gIHotaW5kZXg6IDk5OTtcbiAgbGVmdDogMDtcbiAgdG9wOiAwO1xuICB3aWR0aDogMTAwdnc7XG4gIGhlaWdodDogMTAwdmg7XG4gIG92ZXJmbG93OiBoaWRkZW47XG4gIGRpc3BsYXk6IG5vbmU7XG4gIGJhY2tkcm9wLWZpbHRlcjogYmx1cig0cHgpO1xuICBiYWNrZ3JvdW5kOiByZ2JhKDAsIDAsIDAsIDAuNSk7XG5cbiAgJi5hY3RpdmUge1xuICAgIGRpc3BsYXk6IGlubGluZS1ibG9jaztcbiAgfVxuXG4gICYgPiAjbWVybWFpZC1zcGFjZSB7XG4gICAgYm9yZGVyOiAxcHggc29saWQgdmFyKC0tbGlnaHRncmF5KTtcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiB2YXIoLS1saWdodCk7XG4gICAgYm9yZGVyLXJhZGl1czogNXB4O1xuICAgIHBvc2l0aW9uOiBmaXhlZDtcbiAgICB0b3A6IDUwJTtcbiAgICBsZWZ0OiA1MCU7XG4gICAgdHJhbnNmb3JtOiB0cmFuc2xhdGUoLTUwJSwgLTUwJSk7XG4gICAgaGVpZ2h0OiA4MHZoO1xuICAgIHdpZHRoOiA4MHZ3O1xuICAgIG92ZXJmbG93OiBoaWRkZW47XG5cbiAgICAmID4gLm1lcm1haWQtY29udGVudCB7XG4gICAgICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gICAgICB0cmFuc2Zvcm0tb3JpZ2luOiAwIDA7XG4gICAgICB0cmFuc2l0aW9uOiB0cmFuc2Zvcm0gMC4xcyBlYXNlO1xuICAgICAgb3ZlcmZsb3c6IHZpc2libGU7XG4gICAgICBtaW4taGVpZ2h0OiAyMDBweDtcbiAgICAgIG1pbi13aWR0aDogMjAwcHg7XG5cbiAgICAgIHByZSB7XG4gICAgICAgIG1hcmdpbjogMDtcbiAgICAgICAgYm9yZGVyOiBub25lO1xuICAgICAgfVxuXG4gICAgICBzdmcge1xuICAgICAgICBtYXgtd2lkdGg6IG5vbmU7XG4gICAgICAgIGhlaWdodDogYXV0bztcbiAgICAgIH1cbiAgICB9XG5cbiAgICAmID4gLm1lcm1haWQtY29udHJvbHMge1xuICAgICAgcG9zaXRpb246IGFic29sdXRlO1xuICAgICAgYm90dG9tOiAyMHB4O1xuICAgICAgcmlnaHQ6IDIwcHg7XG4gICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAgZ2FwOiA4cHg7XG4gICAgICBwYWRkaW5nOiA4cHg7XG4gICAgICBiYWNrZ3JvdW5kOiB2YXIoLS1saWdodCk7XG4gICAgICBib3JkZXI6IDFweCBzb2xpZCB2YXIoLS1saWdodGdyYXkpO1xuICAgICAgYm9yZGVyLXJhZGl1czogNnB4O1xuICAgICAgYm94LXNoYWRvdzogMCAycHggNHB4IHJnYmEoMCwgMCwgMCwgMC4xKTtcbiAgICAgIHotaW5kZXg6IDI7XG5cbiAgICAgIC5tZXJtYWlkLWNvbnRyb2wtYnV0dG9uIHtcbiAgICAgICAgZGlzcGxheTogZmxleDtcbiAgICAgICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbiAgICAgICAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XG4gICAgICAgIHdpZHRoOiAzMnB4O1xuICAgICAgICBoZWlnaHQ6IDMycHg7XG4gICAgICAgIHBhZGRpbmc6IDA7XG4gICAgICAgIGJvcmRlcjogMXB4IHNvbGlkIHZhcigtLWxpZ2h0Z3JheSk7XG4gICAgICAgIGJhY2tncm91bmQ6IHZhcigtLWxpZ2h0KTtcbiAgICAgICAgY29sb3I6IHZhcigtLWRhcmspO1xuICAgICAgICBib3JkZXItcmFkaXVzOiA0cHg7XG4gICAgICAgIGN1cnNvcjogcG9pbnRlcjtcbiAgICAgICAgZm9udC1zaXplOiAxNnB4O1xuICAgICAgICBmb250LWZhbWlseTogdmFyKC0tYm9keUZvbnQpO1xuICAgICAgICB0cmFuc2l0aW9uOiBhbGwgMC4ycyBlYXNlO1xuXG4gICAgICAgICY6aG92ZXIge1xuICAgICAgICAgIGJhY2tncm91bmQ6IHZhcigtLWxpZ2h0Z3JheSk7XG4gICAgICAgIH1cblxuICAgICAgICAmOmFjdGl2ZSB7XG4gICAgICAgICAgdHJhbnNmb3JtOiB0cmFuc2xhdGVZKDFweCk7XG4gICAgICAgIH1cblxuICAgICAgICAvLyBTdHlsZSB0aGUgcmVzZXQgYnV0dG9uIGRpZmZlcmVudGx5XG4gICAgICAgICY6bnRoLWNoaWxkKDIpIHtcbiAgICAgICAgICB3aWR0aDogYXV0bztcbiAgICAgICAgICBwYWRkaW5nOiAwIDEycHg7XG4gICAgICAgICAgZm9udC1zaXplOiAxNHB4O1xuICAgICAgICB9XG4gICAgICB9XG4gICAgfVxuICB9XG59XG4iXX0= */</style><link href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" rel="stylesheet" type="text/css" data-persist="true"/><script src="../prescript.js" type="application/javascript" data-persist="true"></script><script type="application/javascript" data-persist="true">const fetchData = fetch("../static/contentIndex.json").then(data => data.json())</script><link rel="alternate" type="application/rss+xml" title="RSS Feed" href="https://studere-alarcherche.github.io/Proustian/index.xml"/></head><body data-slug="Proustian/U1-General-Introduction"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h2 class="page-title"><a href="..">Alarcherche</a></h2><div class="social-links"><a href="https://mmbiz.qpic.cn/sz_mmbiz_jpg/ya34mNKDgtmoMOKhkvQsJ5Gg98XceUeBI1Y0yIzUo0OfFdgSrovC2K501bXicya25rznjAOcZNLxotibWBUo0rkt8WVsT061j7tlGB7o1hGz4/0?wx_fmt=jpeg&amp;from=appmsg" class="social-item mp"><span class="icon">✉</span><span class="label">WeChat</span></a><a href="https://www.xiaohongshu.com/user/profile/5ed25dd2000000000101dc83" class="social-item xhs"><span class="icon">❀</span><span class="label">Xiaohongshu</span></a></div><div class="spacer mobile-only"></div><div class="flex-component" style="flex-direction: row; flex-wrap: nowrap; gap: 1rem;"><div style="flex-grow: 1; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><div class="search"><button class="search-button"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title>Search</title><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg><p>搜索</p></button><div class="search-container"><div class="search-space"><input autocomplete="off" class="search-bar" name="search" type="text" aria-label="搜索些什么" placeholder="搜索些什么"/><div class="search-layout" data-preview="true"></div></div></div></div></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="darkmode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35" xml:space="preserve" aria-label="暗色模式"><title>暗色模式</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100" xml:space="preserve" aria-label="亮色模式"><title>亮色模式</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></button></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="readermode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="readerIcon" fill="currentColor" stroke="currentColor" stroke-width="0.2" stroke-linecap="round" stroke-linejoin="round" width="64px" height="64px" viewBox="0 0 24 24" aria-label="阅读模式"><title>阅读模式</title><g transform="translate(-1.8, -1.8) scale(1.15, 1.2)"><path d="M8.9891247,2.5 C10.1384702,2.5 11.2209868,2.96705384 12.0049645,3.76669482 C12.7883914,2.96705384 13.8709081,2.5 15.0202536,2.5 L18.7549359,2.5 C19.1691495,2.5 19.5049359,2.83578644 19.5049359,3.25 L19.5046891,4.004 L21.2546891,4.00457396 C21.6343849,4.00457396 21.9481801,4.28672784 21.9978425,4.6528034 L22.0046891,4.75457396 L22.0046891,20.25 C22.0046891,20.6296958 21.7225353,20.943491 21.3564597,20.9931534 L21.2546891,21 L2.75468914,21 C2.37499337,21 2.06119817,20.7178461 2.01153575,20.3517706 L2.00468914,20.25 L2.00468914,4.75457396 C2.00468914,4.37487819 2.28684302,4.061083 2.65291858,4.01142057 L2.75468914,4.00457396 L4.50368914,4.004 L4.50444233,3.25 C4.50444233,2.87030423 4.78659621,2.55650904 5.15267177,2.50684662 L5.25444233,2.5 L8.9891247,2.5 Z M4.50368914,5.504 L3.50468914,5.504 L3.50468914,19.5 L10.9478955,19.4998273 C10.4513189,18.9207296 9.73864328,18.5588115 8.96709342,18.5065584 L8.77307039,18.5 L5.25444233,18.5 C4.87474657,18.5 4.56095137,18.2178461 4.51128895,17.8517706 L4.50444233,17.75 L4.50368914,5.504 Z M19.5049359,17.75 C19.5049359,18.1642136 19.1691495,18.5 18.7549359,18.5 L15.2363079,18.5 C14.3910149,18.5 13.5994408,18.8724714 13.0614828,19.4998273 L20.5046891,19.5 L20.5046891,5.504 L19.5046891,5.504 L19.5049359,17.75 Z M18.0059359,3.999 L15.0202536,4 L14.8259077,4.00692283 C13.9889509,4.06666544 13.2254227,4.50975805 12.7549359,5.212 L12.7549359,17.777 L12.7782651,17.7601316 C13.4923805,17.2719483 14.3447024,17 15.2363079,17 L18.0059359,16.999 L18.0056891,4.798 L18.0033792,4.75457396 L18.0056891,4.71 L18.0059359,3.999 Z M8.9891247,4 L6.00368914,3.999 L6.00599909,4.75457396 L6.00599909,4.75457396 L6.00368914,4.783 L6.00368914,16.999 L8.77307039,17 C9.57551536,17 10.3461406,17.2202781 11.0128313,17.6202194 L11.2536891,17.776 L11.2536891,5.211 C10.8200889,4.56369974 10.1361548,4.13636104 9.37521067,4.02745763 L9.18347055,4.00692283 L8.9891247,4 Z"></path></g></svg></button></div></div><div class="explorer" data-behavior="link" data-collapsed="collapsed" data-savestate="false" data-data-fns="{&quot;order&quot;:[&quot;filter&quot;,&quot;map&quot;,&quot;sort&quot;],&quot;sortFn&quot;:&quot;(a,b)=>{let publicOrder=[\&quot;Proustian-2.0\&quot;,\&quot;Reading-Map\&quot;,\&quot;Question-Gradient\&quot;,\&quot;Passage-Cards\&quot;,\&quot;U1-U6-Repository-Index\&quot;,\&quot;Language-Training\&quot;,\&quot;LTF-A0-to-B1-Course-Outline\&quot;,\&quot;LTF-Chapter-001-Cognates-and-Reading-Confidence\&quot;,\&quot;LTF-Chapter-002-False-Friends-and-Controlled-Guessing\&quot;,\&quot;LTF-Chapter-003-Word-Families-and-Recognition-Patterns\&quot;,\&quot;LTF-Chapter-004-Function-Words-I\&quot;,\&quot;LTF-Chapter-005-What-Is-a-French-Sentence\&quot;,\&quot;Build-Log\&quot;,\&quot;U1-General-Introduction-Memory-Cliche-to-Polycentric-Reading\&quot;],aIndex=publicOrder.indexOf(a.slugSegment),bIndex=publicOrder.indexOf(b.slugSegment);return aIndex!==-1||bIndex!==-1?(aIndex===-1?Number.MAX_SAFE_INTEGER:aIndex)-(bIndex===-1?Number.MAX_SAFE_INTEGER:bIndex):a.displayName.localeCompare(b.displayName)}&quot;,&quot;filterFn&quot;:&quot;node=>{if(node.isFolder)return!1;let publicSlugs=[\&quot;Proustian-2.0\&quot;,\&quot;Reading-Map\&quot;,\&quot;Question-Gradient\&quot;,\&quot;Passage-Cards\&quot;,\&quot;U1-U6-Repository-Index\&quot;,\&quot;Language-Training\&quot;,\&quot;LTF-A0-to-B1-Course-Outline\&quot;,\&quot;LTF-Chapter-001-Cognates-and-Reading-Confidence\&quot;,\&quot;LTF-Chapter-002-False-Friends-and-Controlled-Guessing\&quot;,\&quot;LTF-Chapter-003-Word-Families-and-Recognition-Patterns\&quot;,\&quot;LTF-Chapter-004-Function-Words-I\&quot;,\&quot;LTF-Chapter-005-What-Is-a-French-Sentence\&quot;,\&quot;Build-Log\&quot;,\&quot;U1-General-Introduction-Memory-Cliche-to-Polycentric-Reading\&quot;],internalPrefixes=[\&quot;AGENT-\&quot;,\&quot;SKILL-\&quot;,\&quot;CARD-\&quot;,\&quot;DIAG-\&quot;,\&quot;SELFTEST-\&quot;,\&quot;OBS-\&quot;,\&quot;TT-\&quot;,\&quot;LTF-V0-1-\&quot;,\&quot;_archive\&quot;],internalPages=[\&quot;AGENT-Pedagogical-Audit-Principles\&quot;,\&quot;Codex-Operating-Rules\&quot;,\&quot;Repository-Maintenance\&quot;,\&quot;Source-Locator-iBooks\&quot;,\&quot;NotebookLM-Evidence-Packet-Plan\&quot;,\&quot;Literature-Importance-Ranking-V0.1\&quot;,\&quot;Literature Importance Ranking\&quot;,\&quot;Ranking V0.1\&quot;,\&quot;Archive\&quot;,\&quot;private\&quot;],name=node.displayName??\&quot;\&quot;,slug=node.slugSegment??\&quot;\&quot;,filePath=node.data?.filePath??\&quot;\&quot;,title=node.data?.title??\&quot;\&quot;;return publicSlugs.includes(slug)&amp;&amp;!internalPages.some(page=>name.includes(page)||slug.includes(page)||title.includes(page)||filePath.includes(page))&amp;&amp;!internalPrefixes.some(prefix=>name.startsWith(prefix)||slug.startsWith(prefix)||title.startsWith(prefix)||filePath.includes(`/${prefix}`))}&quot;,&quot;mapFn&quot;:&quot;node=>node&quot;}"><button type="button" class="explorer-toggle mobile-explorer hide-until-loaded" data-mobile="true" aria-controls="explorer-33"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-menu"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg></button><button type="button" class="title-button explorer-toggle desktop-explorer" data-mobile="false" aria-expanded="true"><h2>探索</h2><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="explorer-33" class="explorer-content" aria-expanded="false" role="group"><ul class="explorer-ul overflow" id="list-0"><li class="overflow-end"></li></ul></div><template id="template-file"><li><a href="#"></a></li></template><template id="template-folder"><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div><button class="folder-button"><span class="folder-title"></span></button></div></div><div class="folder-outer"><ul class="content"></ul></div></li></template></div></div><div class="center"><div class="page-header"><div class="popover-hint"><nav class="breadcrumb-container" aria-label="breadcrumbs"><div class="breadcrumb-element"><a href="../">Home</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../Proustian/">Proustian</a><p> ❯ </p></div><div class="breadcrumb-element"><a href>U1: General Introduction</a></div></nav><h1 class="article-title">U1: General Introduction</h1><div class="project-meta-dashboard"><div class="meta-desc">“From the memory cliché to polycentric reading.”</div><div class="meta-badges"></div></div><p show-comma="true" class="content-meta"><time datetime="2026-05-18T14:50:15.867Z">2026年5月18日</time><span>28分钟阅读</span></p><ul class="tags"><li><a href="../tags/Proustian" class="internal tag-link">Proustian</a></li><li><a href="../tags/Course" class="internal tag-link">Course</a></li><li><a href="../tags/Reading-Garden" class="internal tag-link">Reading-Garden</a></li></ul></div></div><article class="popover-hint"><style>
+    :root {
+      /* U1 Inspired Color Palette - Methodological, Grounding, and Polycentric */
+      --bg: #f7f9fc;               /* Cool light blue/grey base */
+      --paper: #ffffff;
+      --ink: #1a202c;              /* Deep obsidian */
+      --muted: #64748b;
+      --line: #e2e8f0;
+      
+      --accent-deleuze: #2c5282;   /* Deep Slate Blue - Signs &amp; Apprenticeship */
+      --accent-landy: #9b2c2c;     /* Terracotta Red - Fiction &amp; Training */
+      --accent-proust: #b7791f;    /* Antique Gold - Textual Anchors */
+      --accent-method: #2f855a;    /* Forest Green - Kite-Line Reading */
+      --accent-art: #553c9a;       /* Deep Purple - Art Signs &amp; Synthesis */
+
+      --heat-glow: rgba(44, 82, 130, 0.12);
+      --heat-border: #2c5282;
+
+      --radius: 12px;
+      --font-sans: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, Helvetica, Arial, sans-serif;
+      --font-serif: &quot;Georgia&quot;, &quot;Times New Roman&quot;, serif;
+      --max: 1200px;
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      background-color: var(--bg);
+      color: var(--ink);
+      font-family: var(--font-sans);
+      line-height: 1.7;
+      padding: 40px 20px;
+      background-image: radial-gradient(var(--line) 1px, transparent 1px);
+      background-size: 40px 40px;
+    }
+
+    .container {
+      max-width: var(--max);
+      margin: 0 auto;
+    }
+
+    /* Header */
+    .header {
+      text-align: center;
+      margin-bottom: 60px;
+      padding: 60px 40px;
+      background: var(--paper);
+      border-radius: var(--radius);
+      box-shadow: 0 16px 44px rgba(26, 32, 44, 0.05);
+      border: 1px solid var(--line);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .header::before {
+      content: &quot;&quot;;
+      position: absolute;
+      top: 0; left: 0; right: 0; height: 6px;
+      background: linear-gradient(90deg, var(--accent-deleuze), var(--accent-landy), var(--accent-proust), var(--accent-method), var(--accent-art));
+    }
+
+    .unit-label {
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0.15em;
+      color: var(--accent-method);
+      font-weight: 700;
+      margin-bottom: 15px;
+      display: block;
+    }
+
+    .header h1 {
+      font-size: clamp(2rem, 3.8vw, 3.2rem);
+      margin: 0 0 20px 0;
+      color: var(--ink);
+      letter-spacing: -0.02em;
+      line-height: 1.1;
+      font-family: var(--font-serif);
+    }
+
+    .header p {
+      font-size: 1.15rem;
+      color: var(--muted);
+      max-width: 880px;
+      margin: 0 auto;
+    }
+
+    /* Masonry Grid for Packs */
+    .pack-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+      gap: 30px;
+      align-items: start;
+    }
+
+    /* Pack Section Base */
+    .packet-section {
+      background: var(--paper);
+      border-radius: var(--radius);
+      padding: 40px;
+      box-shadow: 0 10px 30px rgba(26, 32, 44, 0.03);
+      border: 1px solid var(--line);
+      position: relative;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .packet-section:hover {
+      box-shadow: 0 20px 40px rgba(26, 32, 44, 0.08);
+    }
+
+    /* Top Bars for different theorists/themes */
+    .theme-deleuze { border-top: 4px solid var(--accent-deleuze); }
+    .theme-landy { border-top: 4px solid var(--accent-landy); }
+    .theme-proust { border-top: 4px solid var(--accent-proust); }
+    .theme-method { border-top: 4px solid var(--accent-method); }
+    .theme-art { border-top: 4px solid var(--accent-art); }
+
+    .pack-header {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 20px;
+    }
+
+    .theorist-tag {
+      align-self: flex-start;
+      padding: 4px 12px;
+      border-radius: 20px;
+      font-size: 0.75rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin-bottom: 15px;
+      background: var(--bg);
+      color: var(--muted);
+      border: 1px solid var(--line);
+    }
+
+    .theme-deleuze .theorist-tag { color: var(--accent-deleuze); border-color: rgba(44, 82, 130, 0.3); background: rgba(44, 82, 130, 0.05); }
+    .theme-landy .theorist-tag { color: var(--accent-landy); border-color: rgba(155, 44, 44, 0.3); background: rgba(155, 44, 44, 0.05); }
+    .theme-proust .theorist-tag { color: var(--accent-proust); border-color: rgba(183, 121, 31, 0.4); background: rgba(183, 121, 31, 0.05); }
+    .theme-method .theorist-tag { color: var(--accent-method); border-color: rgba(47, 133, 90, 0.3); background: rgba(47, 133, 90, 0.05); }
+    .theme-art .theorist-tag { color: var(--accent-art); border-color: rgba(85, 60, 154, 0.3); background: rgba(85, 60, 154, 0.05); }
+
+    h2 { font-size: 1.6rem; margin: 0; letter-spacing: -0.01em; color: var(--ink); }
+
+    /* Core Pressure */
+    .core-pressure {
+      font-family: var(--font-serif);
+      font-size: 1.1rem;
+      font-style: italic;
+      color: var(--ink);
+      background: var(--bg);
+      padding: 20px 25px;
+      border-radius: 8px;
+      border-left: 3px solid var(--muted);
+      margin: 0 0 25px 0;
+    }
+
+    /* Interactive Questions */
+    .question-list {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      margin-bottom: 25px;
+    }
+
+    .interactive-q {
+      background: var(--paper);
+      border: 1px solid var(--line);
+      padding: 18px 20px;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      position: relative;
+    }
+
+    .interactive-q:hover {
+      background: var(--bg);
+      border-color: #cbd5e1;
+    }
+
+    .interactive-q.heated {
+      border-color: var(--heat-border);
+      background: var(--paper);
+      box-shadow: 0 4px 15px var(--heat-glow), inset 3px 0 0 var(--heat-border);
+    }
+
+    .interactive-q.heated::after {
+      content: &quot;🔥&quot;;
+      position: absolute;
+      top: -10px;
+      right: 10px;
+      font-size: 1.2rem;
+      background: var(--paper);
+      border-radius: 50%;
+      padding: 2px;
+    }
+
+    .q-text { font-size: 1.05rem; color: var(--ink); line-height: 1.5; }
+    .q-sub { font-size: 0.85rem; color: var(--muted); margin-top: 8px; font-style: italic; }
+
+    /* Scene Anchors */
+    .anchor-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 25px;
+    }
+
+    .anchor-tag {
+      background: #f1f5f9;
+      color: var(--muted);
+      padding: 4px 12px;
+      border-radius: 6px;
+      font-size: 0.8rem;
+      font-family: monospace;
+      border: 1px solid var(--line);
+      cursor: crosshair;
+      transition: all 0.2s ease;
+    }
+
+    .anchor-tag:hover {
+      background: var(--ink);
+      color: white;
+      border-color: var(--ink);
+    }
+
+    /* Seed Boxes */
+    .seed-module {
+      background: var(--ink);
+      border-radius: 8px;
+      padding: 25px;
+      color: white;
+      position: relative;
+    }
+
+    .seed-header { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.1em; color: #94a3b8; margin-bottom: 12px; }
+    .seed-text { font-family: var(--font-serif); font-size: 1.1rem; line-height: 1.6; margin-bottom: 15px;}
+    
+    .blank {
+      display: inline-block;
+      min-width: 80px;
+      border-bottom: 1px solid rgba(255,255,255,0.5);
+      margin: 0 4px;
+    }
+
+    .reveal-btn {
+      background: rgba(255,255,255,0.08);
+      border: 1px solid rgba(255,255,255,0.15);
+      color: #e2e8f0;
+      padding: 6px 12px;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 0.8rem;
+      transition: background 0.2s;
+      width: 100%;
+      text-align: left;
+    }
+    .reveal-btn:hover { background: rgba(255,255,255,0.15); }
+
+    .chinese-seed {
+      display: none;
+      margin-top: 15px;
+      padding-top: 15px;
+      border-top: 1px dashed rgba(255,255,255,0.15);
+      font-size: 0.95rem;
+      color: #cbd5e1;
+      line-height: 1.7;
+    }
+
+    .chinese-seed.active { display: block; animation: fadeIn 0.3s ease; }
+
+    @keyframes fadeIn { from { opacity: 0; transform: translateY(-5px); } to { opacity: 1; transform: translateY(0); } }
+
+    @media (max-width: 900px) {
+      .pack-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+<div class="container">
+  <div class="header">
+    <span class="unit-label">Proustian 2.0 | Unit 1</span>
+    <h1 id="method-rhizome-and-apprenticeship">METHOD, RHIZOME, AND APPRENTICESHIP<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#method-rhizome-and-apprenticeship" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h1>
+    <p>A decentralized, roaming digital paper. U1 is the methodological entrance. It dismantles the cliché that Proust is solely about &quot;memory,&quot; replacing it with an active apprenticeship in decoding signs, cognitive training, and forced thought. Scan the 10 micro-packs below. Click the questions that generate heat. Use the scene anchors and bilingual seeds to establish your Kite-Line Reading.</p>
+  </div>
+  <div class="pack-grid">
+<pre><code>&lt;!-- PACK 1 -->
+&lt;div class=&quot;packet-section theme-deleuze&quot;>
+  &lt;div class=&quot;pack-header&quot;>
+    &lt;span class=&quot;theorist-tag&quot;>01. Deleuze / Apprenticeship&lt;/span>
+    &lt;h2>The Anti-Memory Novel&lt;/h2>
+  &lt;/div>
+  &lt;div class=&quot;core-pressure&quot;>
+    &quot;What constitutes the unity of In Search of Lost Time? We know, at least, what does not. It is not recollection, memory, even involuntary memory... Proust’s work is based not on the exposition of memory, but on the apprenticeship to signs.&quot;
+  &lt;/div>
+  &lt;div class=&quot;question-list&quot;>
+    &lt;div class=&quot;interactive-q&quot; onclick=&quot;this.classList.toggle('heated')&quot;>
+      &lt;div class=&quot;q-text&quot;>If the novel is an &quot;apprenticeship,&quot; what exactly does the young Marcel need to learn that he does not know at the start?&lt;/div>
+      &lt;div class=&quot;q-sub&quot;>如果小说是一个“学徒期”，那么年轻的马塞尔在开头欠缺的究竟是什么“知识”？&lt;/div>
+    &lt;/div>
+    &lt;div class=&quot;interactive-q&quot; onclick=&quot;this.classList.toggle('heated')&quot;>
+      &lt;div class=&quot;q-text&quot;>Why does Deleuze argue that memory is merely a &quot;secondary&quot; faculty, arriving too late to do the real work of interpretation?&lt;/div>
+      &lt;div class=&quot;q-sub&quot;>记忆的迟到：为什么德勒兹认为记忆只是一种次要的官能，总是错失破译符号的最佳时机？&lt;/div>
+    &lt;/div>
+    &lt;div class=&quot;interactive-q&quot; onclick=&quot;this.classList.toggle('heated')&quot;>
+      &lt;div class=&quot;q-text&quot;>How does reading the Combray sleep passages as an &quot;apprenticeship&quot; alter them from being mere nostalgic reveries?&lt;/div>
+      &lt;div class=&quot;q-sub&quot;>打破乡愁：将贡布雷的失眠视为一种“学徒的受苦”，如何改变了我们对这些唯美段落的阅读？&lt;/div>
+    &lt;/div>
+  &lt;/div>
+  &lt;div class=&quot;anchor-container&quot;>
+    &lt;div class=&quot;anchor-tag&quot;>📍 02-apprenticeship&lt;/div>
+    &lt;div class=&quot;anchor-tag&quot;>📍 U1_01_combray_opening_sleep_habit&lt;/div>
+  &lt;/div>
+  &lt;div class=&quot;seed-module&quot;>
+    &lt;div class=&quot;seed-header&quot;>Free Restatement Seed (EN/ZH)&lt;/div>
+    &lt;div class=&quot;seed-text&quot;>&quot;By reading Proust through Deleuze's concept of apprenticeship, we realize the Search is not a passive memoir. When Marcel wakes in the dark, he is not merely remembering; he is &lt;span class=&quot;blank&quot;>&lt;/span>, proving that time lost is actually time spent &lt;span class=&quot;blank&quot;>&lt;/span>.&quot;&lt;/div>
+    &lt;button class=&quot;reveal-btn&quot; onclick=&quot;this.nextElementSibling.classList.toggle('active')&quot;>👁️ Expand Chinese Seed&lt;/button>
+    &lt;div class=&quot;chinese-seed&quot;>
+      “通过德勒兹‘学徒期’的透镜，我们必须抛弃将《追忆》视为怀旧自传的陈词滥调。当马塞尔在黑暗的房间中醒来、绝望地试图弄清自己在哪里时，他并不是在沉湎于记忆。他正在经历一场严苛的&lt;span class=&quot;blank&quot;>&lt;/span>。这也证明了，那些看似被浪费掉的时间（Lost Time），实际上是主人公用来&lt;span class=&quot;blank&quot;>&lt;/span>的必经之路……”
+    &lt;/div>
+  &lt;/div>
+&lt;/div>
+
+&lt;!-- PACK 2 -->
+&lt;div class=&quot;packet-section theme-deleuze&quot;>
+  &lt;div class=&quot;pack-header&quot;>
+    &lt;span class=&quot;theorist-tag&quot;>02. Deleuze / Forced Thought&lt;/span>
+    &lt;h2>The Violence of the Sign&lt;/h2>
+  &lt;/div>
+  &lt;div class=&quot;core-pressure&quot;>
+    &quot;The philosopher readily presupposes that the mind naturally seeks the truth. Proust sets up an image of thought in opposition to that... Thought is nothing without something that forces and does violence to it.&quot;
+  &lt;/div>
+  &lt;div class=&quot;question-list&quot;>
+    &lt;div class=&quot;interactive-q&quot; onclick=&quot;this.classList.toggle('heated')&quot;>
+      &lt;div class=&quot;q-text&quot;>How does the &quot;violence&quot; of a sign differ from the logical operations of classical philosophy (the Cartesian or Socratic method)?&lt;/div>
+      &lt;div class=&quot;q-sub&quot;>反理性主义：符号的“暴力”，是如何击碎了古典哲学（如笛卡尔或苏格拉底）关于“主动求知”的神话的？&lt;/div>
+    &lt;/div>
+    &lt;div class=&quot;interactive-q&quot; onclick=&quot;this.classList.toggle('heated')&quot;>
+      &lt;div class=&quot;q-text&quot;>Find a moment where Swann or Marcel is &quot;forced&quot; to think by a sudden shock (e.g., a lie, an unreadable face). Why does goodwill fail them here?&lt;/div>
+      &lt;div class=&quot;q-sub&quot;>善意的失效：找出斯万或马塞尔被某个突如其来的谎言“逼迫”着去思考的瞬间。为什么主观上的善意在这里毫无用处？&lt;/div>
+    &lt;/div>
+    &lt;div class=&quot;interactive-q&quot; onclick=&quot;this.classList.toggle('heated')&quot;>
+      &lt;div class=&quot;q-text&quot;>If intelligence &quot;always comes after,&quot; what faculty is actually the first to receive the wound of the sign?&lt;/div>
+      &lt;div class=&quot;q-sub&quot;>理智的滞后：如果智力“总是迟到”，那么究竟是哪种官能最先承受了符号的创伤？&lt;/div>
+    &lt;/div>
+  &lt;/div>
+  &lt;div class=&quot;anchor-container&quot;>
+    &lt;div class=&quot;anchor-tag&quot;>📍 10-image-of-thought&lt;/div>
+    &lt;div class=&quot;anchor-tag&quot;>📍 07-truth-as-forced-thought&lt;/div>
+  &lt;/div>
+  &lt;div class=&quot;seed-module&quot;>
+    &lt;div class=&quot;seed-header&quot;>Free Restatement Seed (EN/ZH)&lt;/div>
+    &lt;div class=&quot;seed-text&quot;>&quot;Proust destroys the classical image of thought. In the Search, truth is never achieved by a willing intellect. When Swann is confronted with Odette's lie, his thought is &lt;span class=&quot;blank&quot;>&lt;/span>, demonstrating that true interpretation only begins under the condition of &lt;span class=&quot;blank&quot;>&lt;/span>.&quot;&lt;/div>
+    &lt;button class=&quot;reveal-btn&quot; onclick=&quot;this.nextElementSibling.classList.toggle('active')&quot;>👁️ Expand Chinese Seed&lt;/button>
+    &lt;div class=&quot;chinese-seed&quot;>
+      “普鲁斯特彻底颠覆了古典的思维意象。在《追忆》中，真理从来不是一颗善意的大脑主动求索的结果。当斯万面对奥黛特那漏洞百出的谎言时，他的思考是被&lt;span class=&quot;blank&quot;>&lt;/span>的。这证明了，真正的破译与认知，只有在主体遭受到&lt;span class=&quot;blank&quot;>&lt;/span>的条件下才会启动。思想不是一种散步，而是一种被迫的自卫……”
+    &lt;/div>
+  &lt;/div>
+&lt;/div>
+
+&lt;!-- PACK 3 -->
+&lt;div class=&quot;packet-section theme-landy&quot;>
+  &lt;div class=&quot;pack-header&quot;>
+    &lt;span class=&quot;theorist-tag&quot;>03. Landy / Fiction as Training&lt;/span>
+    &lt;h2>The Reader's Gym&lt;/h2>
+  &lt;/div>
+  &lt;div class=&quot;core-pressure&quot;>
+    &quot;Fiction does not merely state philosophical doctrines; it trains the reader to experience error, delay, correction, and self-recognition... The massive novel is a training ground for lucid self-delusion.&quot;
+  &lt;/div>
+  &lt;div class=&quot;question-list&quot;>
+    &lt;div class=&quot;interactive-q&quot; onclick=&quot;this.classList.toggle('heated')&quot;>
+      &lt;div class=&quot;q-text&quot;>If Proust wanted to deliver a theory of time or memory, why did he bury it in a 3,000-page fictional narrative full of errors?&lt;/div>
+      &lt;div class=&quot;q-sub&quot;>虚构的必要性：如果普鲁斯特只是想宣讲一套时间哲学，他为什么要把这些理论埋藏在充满错误的庞大虚构故事中？&lt;/div>
+    &lt;/div>
+    &lt;div class=&quot;interactive-q&quot; onclick=&quot;this.classList.toggle('heated')&quot;>
+      &lt;div class=&quot;q-text&quot;>How does experiencing Swann's jealousy step-by-step train the reader differently than reading a philosophical essay about jealousy?&lt;/div>
+      &lt;div class=&quot;q-sub&quot;>体验与训诫的对立：跟着斯万一步步经历嫉妒的折磨，与阅读一篇关于嫉妒的哲学论文，两者在对读者的“规训”上有何根本不同？&lt;/div>
+    &lt;/div>
+    &lt;div class=&quot;interactive-q&quot; onclick=&quot;this.classList.toggle('heated')&quot;>
+      &lt;div class=&quot;q-text&quot;>Where does the text deliberately lead the reader into a &quot;false trail&quot; to expose our own cognitive blind spots?&lt;/div>
+      &lt;div class=&quot;q-sub&quot;>预设的陷阱：文本在何处故意将读者引入了“错误的期待”，以此来暴露我们自身的认知盲区？&lt;/div>
+    &lt;/div>
+  &lt;/div>
+  &lt;div class=&quot;anchor-container&quot;>
+    &lt;div class=&quot;anchor-tag&quot;>📍 01-fiction-as-training&lt;/div>
+    &lt;div class=&quot;anchor-tag&quot;>📍 00-Landy-Philosophy-as-Fiction-Source-Card&lt;/div>
+  &lt;/div>
+  &lt;div class=&quot;seed-module&quot;>
+    &lt;div class=&quot;seed-header&quot;>Free Restatement Seed (EN/ZH)&lt;/div>
+    &lt;div class=&quot;seed-text&quot;>&quot;According to Landy, we do not read Proust to extract a set of maxims. The novel is a machine for training. By forcing us to wade through Marcel's epistemic failures regarding &lt;span class=&quot;blank&quot;>&lt;/span>, the text actually trains us in the art of &lt;span class=&quot;blank&quot;>&lt;/span>.&quot;&lt;/div>
+    &lt;button class=&quot;reveal-btn&quot; onclick=&quot;this.nextElementSibling.classList.toggle('active')&quot;>👁️ Expand Chinese Seed&lt;/button>
+    &lt;div class=&quot;chinese-seed&quot;>
+      “正如 Landy 所言，我们阅读普鲁斯特绝不是为了摘抄几句金玉良言。这部小说是一台精密的认知训练仪。通过迫使读者全程参与马塞尔在&lt;span class=&quot;blank&quot;>&lt;/span>上的屡屡犯错与自我欺骗，文本实际上是在暗中训练我们&lt;span class=&quot;blank&quot;>&lt;/span>的能力。哲学在这里不再是说教，而是一种必须亲身经历的精神体操……”
+    &lt;/div>
+  &lt;/div>
+&lt;/div>
+
+&lt;!-- PACK 4 -->
+&lt;div class=&quot;packet-section theme-deleuze&quot;>
+  &lt;div class=&quot;pack-header&quot;>
+    &lt;span class=&quot;theorist-tag&quot;>04. Deleuze / Love Signs&lt;/span>
+    &lt;h2>The Epistemology of Jealousy&lt;/h2>
+  &lt;/div>
+  &lt;div class=&quot;core-pressure&quot;>
+    &quot;Love signs are deceptive signs that express unknown worlds and produce jealousy, interpretation, and suffering. The beloved is essentially a liar, and the lover is an exhausted detective.&quot;
+  &lt;/div>
+  &lt;div class=&quot;question-list&quot;>
+    &lt;div class=&quot;interactive-q&quot; onclick=&quot;this.classList.toggle('heated')&quot;>
+      &lt;div class=&quot;q-text&quot;>Why does Deleuze argue that we fall in love not with a person, but with the &quot;unknown worlds&quot; they appear to envelop?&lt;/div>
+      &lt;div class=&quot;q-sub&quot;>爱上一个世界：为什么德勒兹认为我们爱的从来不是一个人，而是他们所包裹的那个“未知的世界”？&lt;/div>
+    &lt;/div>
+    &lt;div class=&quot;interactive-q&quot; onclick=&quot;this.classList.toggle('heated')&quot;>
+      &lt;div class=&quot;q-text&quot;>How does Swann's jealous investigation of Odette mirror the deciphering of a difficult, hostile text?&lt;/div>
+      &lt;div class=&quot;q-sub&quot;>痛苦的文本：斯万对奥黛特的疯狂调查，是如何像极了一个学者在破译一份充满敌意的古老文献的？&lt;/div>
+    &lt;/div>
+    &lt;div class=&quot;interactive-q&quot; onclick=&quot;this.classList.toggle('heated')&quot;>
+      &lt;div class=&quot;q-text&quot;>Why is the lie considered the most profound &quot;love sign&quot;? What truth does the lie ironically reveal?&lt;/div>
+      &lt;div class=&quot;q-sub&quot;>谎言的深度：为什么谎言被视为最深刻的“爱情符号”？它讽刺性地揭示了什么真理？&lt;/div>
+    &lt;/div>
+  &lt;/div>
+  &lt;div class=&quot;anchor-container&quot;>
+    &lt;div class=&quot;anchor-tag&quot;>📍 04-love-signs&lt;/div>
+    &lt;div class=&quot;anchor-tag&quot;>📍 U1_06_swann_signs_apprenticeship_anchor&lt;/div>
+  &lt;/div>
+  &lt;div class=&quot;seed-module&quot;>
+    &lt;div class=&quot;seed-header&quot;>Free Restatement Seed (EN/ZH)&lt;/div>
+    &lt;div class=&quot;seed-text&quot;>&quot;Love in Proust is never a site of mutual understanding; it is an epistemological crisis. As Deleuze shows, Odette functions for Swann as an emitter of deceptive love signs. Her lies force Swann to become a &lt;span class=&quot;blank&quot;>&lt;/span>, proving that love is fundamentally an apprenticeship in &lt;span class=&quot;blank&quot;>&lt;/span>.&quot;&lt;/div>
+    &lt;button class=&quot;reveal-btn&quot; onclick=&quot;this.nextElementSibling.classList.toggle('active')&quot;>👁️ Expand Chinese Seed&lt;/button>
+    &lt;div class=&quot;chinese-seed&quot;>
+      “在普鲁斯特的宇宙里，爱情绝非心心相印的温床，而是一场彻头彻尾的认识论危机。通过德勒兹的透镜，我们看到奥黛特对斯万而言，就是一个不断发射欺骗性符号的源头。她的谎言迫使斯万化身为一个&lt;span class=&quot;blank&quot;>&lt;/span>。这证明了，所谓的爱情，本质上就是一场关于&lt;span class=&quot;blank&quot;>&lt;/span>的残酷学徒期……”
+    &lt;/div>
+  &lt;/div>
+&lt;/div>
+
+&lt;!-- PACK 5 -->
+&lt;div class=&quot;packet-section theme-landy&quot;>
+  &lt;div class=&quot;pack-header&quot;>
+    &lt;span class=&quot;theorist-tag&quot;>05. Landy / Proust vs. Marcel&lt;/span>
+    &lt;h2>The Unreliable Guide&lt;/h2>
+  &lt;/div>
+  &lt;div class=&quot;core-pressure&quot;>
+    &quot;The narrator Marcel is not simply Proust's mouthpiece. Some narrator claims are provisional, subjective, ironic, or later revised... We must distinguish what the novel says from what the novel makes the reader undergo.&quot;
+  &lt;/div>
+  &lt;div class=&quot;question-list&quot;>
+    &lt;div class=&quot;interactive-q&quot; onclick=&quot;this.classList.toggle('heated')&quot;>
+      &lt;div class=&quot;q-text&quot;>Find a moment where Marcel makes a grand, philosophical generalization about love or women. How does the text quietly undermine his authority?&lt;/div>
+      &lt;div class=&quot;q-sub&quot;>主观法则的破产：找出马塞尔对爱情发表的某句宏大哲理。文本是如何在暗中拆解他的权威，暗示这不过是他的自我安慰的？&lt;/div>
+    &lt;/div>
+    &lt;div class=&quot;interactive-q&quot; onclick=&quot;this.classList.toggle('heated')&quot;>
+      &lt;div class=&quot;q-text&quot;>If Marcel is frequently self-deceived, how does this shift the burden of interpretation onto us, the readers?&lt;/div>
+      &lt;div class=&quot;q-sub&quot;>责任的转移：如果叙述者自己也常常陷入自欺欺人，这如何将“破译”的责任强行推给了我们读者？&lt;/div>
+    &lt;/div>
+    &lt;div class=&quot;interactive-q&quot; onclick=&quot;this.classList.toggle('heated')&quot;>
+      &lt;div class=&quot;q-text&quot;>How do we discern the &quot;Proustian architecture&quot; (the invisible author) operating behind &quot;Marcel's errors&quot; (the visible character)?&lt;/div>
+      &lt;div class=&quot;q-sub&quot;>幕后的建筑师：我们如何学会在“马塞尔的愚蠢错误”背后，察觉到那个隐形作者（普鲁斯特）的精密布局？&lt;/div>
+    &lt;/div>
+  &lt;/div>
+  &lt;div class=&quot;anchor-container&quot;>
+    &lt;div class=&quot;anchor-tag&quot;>📍 02-proust-marcel-distinction&lt;/div>
+    &lt;div class=&quot;anchor-tag&quot;>📍 04-objective-and-subjective-laws&lt;/div>
+  &lt;/div>
+  &lt;div class=&quot;seed-module&quot;>
+    &lt;div class=&quot;seed-header&quot;>Free Restatement Seed (EN/ZH)&lt;/div>
+    &lt;div class=&quot;seed-text&quot;>&quot;Landy warns us against reading the *Recherche* as a collection of wise quotes. The narrator, Marcel, is often an unreliable guide who masks his personal failures as universal laws. When Marcel claims that &lt;span class=&quot;blank&quot;>&lt;/span>, we are actually meant to see his &lt;span class=&quot;blank&quot;>&lt;/span>.&quot;&lt;/div>
+    &lt;button class=&quot;reveal-btn&quot; onclick=&quot;this.nextElementSibling.classList.toggle('active')&quot;>👁️ Expand Chinese Seed&lt;/button>
+    &lt;div class=&quot;chinese-seed&quot;>
+      “Landy 警告我们：千万不要把《追忆》当成一本哲理金句集来读。叙述者马塞尔是一个极不可靠的向导，他经常用看似客观的宇宙法则来掩饰自己个人的无能。比如当马塞尔信誓旦旦地宣称&lt;span class=&quot;blank&quot;>&lt;/span>时，作为受过训练的读者，我们应该立刻意识到，文本真正想向我们展示的，其实是他的&lt;span class=&quot;blank&quot;>&lt;/span>……”
+    &lt;/div>
+  &lt;/div>
+&lt;/div>
+
+&lt;!-- PACK 6 -->
+&lt;div class=&quot;packet-section theme-deleuze&quot;>
+  &lt;div class=&quot;pack-header&quot;>
+    &lt;span class=&quot;theorist-tag&quot;>06. Deleuze / Worldly Signs&lt;/span>
+    &lt;h2>The Empty Ritual&lt;/h2>
+  &lt;/div>
+  &lt;div class=&quot;core-pressure&quot;>
+    &quot;Worldly signs replace action and thought; they are empty but ritually powerful signs of social codes. Why is the superficiality of the salon a necessary stage in the apprentice's journey?&quot;
+  &lt;/div>
+  &lt;div class=&quot;question-list&quot;>
+    &lt;div class=&quot;interactive-q&quot; onclick=&quot;this.classList.toggle('heated')&quot;>
+      &lt;div class=&quot;q-text&quot;>Analyze a gesture from the Guermantes or Verdurin salon. How does this gesture mean nothing in itself, yet strictly enforce inclusion or exclusion?&lt;/div>
+      &lt;div class=&quot;q-sub&quot;>空洞的权力：分析沙龙中的某个礼仪动作。它本身虽然毫无意义，却如何严酷地执行着阶级的接纳与排斥？&lt;/div>
+    &lt;/div>
+    &lt;div class=&quot;interactive-q&quot; onclick=&quot;this.classList.toggle('heated')&quot;>
+      &lt;div class=&quot;q-text&quot;>Why does Deleuze call the habitués of the salon &quot;prophetic birds&quot; or &quot;parrots&quot;? What law do they unconsciously emit?&lt;/div>
+      &lt;div class=&quot;q-sub&quot;>鹦鹉与先知：为何德勒兹将沙龙里的常客比作“鹦鹉”？他们无意识地泄露了什么社会法则？&lt;/div>
+    &lt;/div>
+    &lt;div class=&quot;interactive-q&quot; onclick=&quot;this.classList.toggle('heated')&quot;>
+      &lt;div class=&quot;q-text&quot;>If worldly signs are &quot;empty,&quot; why couldn't Marcel simply skip the salons and go straight to the revelation of Art?&lt;/div>
+      &lt;div class=&quot;q-sub&quot;>世俗的必要性：既然世俗符号是“空洞”的，马塞尔为什么不能直接跳过沙龙，直接去追求艺术的真理？&lt;/div>
+    &lt;/div>
+  &lt;/div>
+  &lt;div class=&quot;anchor-container&quot;>
+    &lt;div class=&quot;anchor-tag&quot;>📍 03-worldly-signs&lt;/div>
+    &lt;div class=&quot;anchor-tag&quot;>📍 06-chapter-6-series-and-group&lt;/div>
+  &lt;/div>
+  &lt;div class=&quot;seed-module&quot;>
+    &lt;div class=&quot;seed-header&quot;>Free Restatement Seed (EN/ZH)&lt;/div>
+    &lt;div class=&quot;seed-text&quot;>&quot;The salons of Proust are not mere social realism; they are machines for emitting Worldly Signs. When Mme Verdurin performs her exaggerated reactions, she is not expressing a true self, but executing a &lt;span class=&quot;blank&quot;>&lt;/span>. The apprentice must learn to decode these empty rituals because they &lt;span class=&quot;blank&quot;>&lt;/span>.&quot;&lt;/div>
+    &lt;button class=&quot;reveal-btn&quot; onclick=&quot;this.nextElementSibling.classList.toggle('active')&quot;>👁️ Expand Chinese Seed&lt;/button>
+    &lt;div class=&quot;chinese-seed&quot;>
+      “普鲁斯特笔下的沙龙绝不仅仅是社会写实，它们是不断发射‘世俗符号’的机器。当维尔迪兰夫人做出那些夸张的表情时，她并没有表达任何内在的真实自我，而是在执行一种&lt;span class=&quot;blank&quot;>&lt;/span>。学徒必须学会在这些令人窒息的空洞仪式中摸爬滚打，因为只有识破了这些虚空，他才能&lt;span class=&quot;blank&quot;>&lt;/span>……”
+    &lt;/div>
+  &lt;/div>
+&lt;/div>
+
+&lt;!-- PACK 7 -->
+&lt;div class=&quot;packet-section theme-proust&quot;>
+  &lt;div class=&quot;pack-header&quot;>
+    &lt;span class=&quot;theorist-tag&quot;>07. Deleuze / Sensuous Signs&lt;/span>
+    &lt;h2>The Failure of the Madeleine&lt;/h2>
+  &lt;/div>
+  &lt;div class=&quot;core-pressure&quot;>
+    &quot;Sensuous signs give joy and force interpretation, but remain material and incomplete until art reveals their essence. The madeleine is a success of memory, but a failure of ultimate truth.&quot;
+  &lt;/div>
+  &lt;div class=&quot;question-list&quot;>
+    &lt;div class=&quot;interactive-q&quot; onclick=&quot;this.classList.toggle('heated')&quot;>
+      &lt;div class=&quot;q-text&quot;>Why does Deleuze provocatively claim that the Madeleine episode is ultimately a &quot;failure&quot; in the grand architecture of the Search?&lt;/div>
+      &lt;div class=&quot;q-sub&quot;>玛德莱娜的失败：为什么德勒兹敢于挑衅地断言，玛德莱娜蛋糕的体验在整个《追忆》的架构中，最终是一次“失败”？&lt;/div>
+    &lt;/div>
+    &lt;div class=&quot;interactive-q&quot; onclick=&quot;this.classList.toggle('heated')&quot;>
+      &lt;div class=&quot;q-text&quot;>How does the joy of the Sensuous Sign (the taste of tea) differ from the anxiety produced by Love Signs?&lt;/div>
+      &lt;div class=&quot;q-sub&quot;>感官的狂喜 vs 爱情的焦虑：同样是遭遇符号，为什么茶水的味道带来狂喜，而爱人的眼神带来恐慌？&lt;/div>
+    &lt;/div>
+    &lt;div class=&quot;interactive-q&quot; onclick=&quot;this.classList.toggle('heated')&quot;>
+      &lt;div class=&quot;q-text&quot;>&quot;I had then postponed seeking the profound causes.&quot; What prevents Marcel from fully grasping the essence of the madeleine at the very beginning of the novel?&lt;/div>
+      &lt;div class=&quot;q-sub&quot;>被推迟的本质：“我推迟了寻找那深刻的原因”。是什么阻碍了马塞尔在小说开头就彻底抓住玛德莱娜的本质？&lt;/div>
+    &lt;/div>
+  &lt;/div>
+  &lt;div class=&quot;anchor-container&quot;>
+    &lt;div class=&quot;anchor-tag&quot;>📍 05-sensuous-signs&lt;/div>
+    &lt;div class=&quot;anchor-tag&quot;>📍 U1_04_madeleine_as_method_anchor&lt;/div>
+  &lt;/div>
+  &lt;div class=&quot;seed-module&quot;>
+    &lt;div class=&quot;seed-header&quot;>Free Restatement Seed (EN/ZH)&lt;/div>
+    &lt;div class=&quot;seed-text&quot;>&quot;Deleuze radically decenters the Madeleine. While it successfully resurrects Combray, it remains a Sensuous Sign—still tied to material taste. Its ultimate meaning is &lt;span class=&quot;blank&quot;>&lt;/span>, proving that memory alone cannot yield the absolute truth; it must wait for the revelation of &lt;span class=&quot;blank&quot;>&lt;/span>.&quot;&lt;/div>
+    &lt;button class=&quot;reveal-btn&quot; onclick=&quot;this.nextElementSibling.classList.toggle('active')&quot;>👁️ Expand Chinese Seed&lt;/button>
+    &lt;div class=&quot;chinese-seed&quot;>
+      “德勒兹极其激进地将‘玛德莱娜蛋糕’从神坛上拉了下来。虽然它成功复活了贡布雷，但它终究只是一个‘感官符号’——依然被死死绑在物质的味觉上。它的终极意义在这里是&lt;span class=&quot;blank&quot;>&lt;/span>的。这证明了，仅仅依靠记忆是无法提炼出绝对真理的，它必须耐心等待&lt;span class=&quot;blank&quot;>&lt;/span>的最终降临……”
+    &lt;/div>
+  &lt;/div>
+&lt;/div>
+
+&lt;!-- PACK 8 -->
+&lt;div class=&quot;packet-section theme-deleuze&quot;>
+  &lt;div class=&quot;pack-header&quot;>
+    &lt;span class=&quot;theorist-tag&quot;>08. Deleuze / Pluralism&lt;/span>
+    &lt;h2>The Hieroglyphic World&lt;/h2>
+  &lt;/div>
+  &lt;div class=&quot;core-pressure&quot;>
+    &quot;There is no Logos; there are only hieroglyphs. To think is therefore to interpret, is therefore to translate. Everything is implicated, everything is complicated, everything is sign.&quot;
+  &lt;/div>
+  &lt;div class=&quot;question-list&quot;>
+    &lt;div class=&quot;interactive-q&quot; onclick=&quot;this.classList.toggle('heated')&quot;>
+      &lt;div class=&quot;q-text&quot;>If there is no central &quot;Logos&quot; (rational organizing principle) in Proust's world, how do the different fragments and signs manage to communicate?&lt;/div>
+      &lt;div class=&quot;q-sub&quot;>没有逻各斯的世界：如果在普鲁斯特的宇宙中没有一个理性的中心原则，那些散落的碎片和符号是如何发生联系的？&lt;/div>
+    &lt;/div>
+    &lt;div class=&quot;interactive-q&quot; onclick=&quot;this.classList.toggle('heated')&quot;>
+      &lt;div class=&quot;q-text&quot;>What does it mean to say the writer is not a philosopher but an &quot;Egyptologist&quot;? How does this alter the act of reading?&lt;/div>
+      &lt;div class=&quot;q-sub&quot;>作家即埃及学家：把作家比作“埃及学家”而非哲学家，这意味着什么？这如何改变了我们对“阅读”的定义？&lt;/div>
+    &lt;/div>
+    &lt;div class=&quot;interactive-q&quot; onclick=&quot;this.classList.toggle('heated')&quot;>
+      &lt;div class=&quot;q-text&quot;>How do the different sign systems (Worldly, Love, Sensuous, Art) intersect and interfere with each other in a single passage?&lt;/div>
+      &lt;div class=&quot;q-sub&quot;>符号的交响：世俗、爱情、感官和艺术这四大符号系统，是如何在同一个段落中相互干涉、重叠的？&lt;/div>
+    &lt;/div>
+  &lt;/div>
+  &lt;div class=&quot;anchor-container&quot;>
+    &lt;div class=&quot;anchor-tag&quot;>📍 09-pluralism-of-signs&lt;/div>
+    &lt;div class=&quot;anchor-tag&quot;>📍 07-chapter-7-pluralism-system-of-signs&lt;/div>
+  &lt;/div>
+  &lt;div class=&quot;seed-module&quot;>
+    &lt;div class=&quot;seed-header&quot;>Free Restatement Seed (EN/ZH)&lt;/div>
+    &lt;div class=&quot;seed-text&quot;>&quot;Proust's universe is not a harmonious unity, but a pluralism of signs. The narrator is cast as an Egyptologist decoding hieroglyphs. When he encounters &lt;span class=&quot;blank&quot;>&lt;/span>, he cannot simply look up its meaning in a dictionary; he must &lt;span class=&quot;blank&quot;>&lt;/span>.&quot;&lt;/div>
+    &lt;button class=&quot;reveal-btn&quot; onclick=&quot;this.nextElementSibling.classList.toggle('active')&quot;>👁️ Expand Chinese Seed&lt;/button>
+    &lt;div class=&quot;chinese-seed&quot;>
+      “普鲁斯特的宇宙绝不是一个和谐统一的整体，而是一个充满断裂与重叠的‘符号多元论’。叙述者就像是一个在黑暗中摸索的埃及学家，面对着满墙的象形文字。当他遭遇&lt;span class=&quot;blank&quot;>&lt;/span>时，他无法在任何现成的字典里查到答案，他必须&lt;span class=&quot;blank&quot;>&lt;/span>。在这个世界里，没有现成的真理，只有无尽的翻译……”
+    &lt;/div>
+  &lt;/div>
+&lt;/div>
+
+&lt;!-- PACK 9 -->
+&lt;div class=&quot;packet-section theme-art&quot;>
+  &lt;div class=&quot;pack-header&quot;>
+    &lt;span class=&quot;theorist-tag&quot;>09. Deleuze / Art Signs&lt;/span>
+    &lt;h2>The Immaterial Revelation&lt;/h2>
+  &lt;/div>
+  &lt;div class=&quot;core-pressure&quot;>
+    &quot;Art signs are the highest signs because they reveal essence and transform all other signs retrospectively... The piano here is merely the spatial image of an entirely different keyboard.&quot;
+  &lt;/div>
+  &lt;div class=&quot;question-list&quot;>
+    &lt;div class=&quot;interactive-q&quot; onclick=&quot;this.classList.toggle('heated')&quot;>
+      &lt;div class=&quot;q-text&quot;>How does the Art Sign (e.g., Vinteuil's music or Elstir's painting) &quot;dematerialize&quot; the matter it uses to express itself?&lt;/div>
+      &lt;div class=&quot;q-sub&quot;>去物质化：艺术符号（如凡特伊的音乐或埃尔斯蒂尔的画）是如何将其赖以显现的“物质载体”彻底蒸发的？&lt;/div>
+    &lt;/div>
+    &lt;div class=&quot;interactive-q&quot; onclick=&quot;this.classList.toggle('heated')&quot;>
+      &lt;div class=&quot;q-text&quot;>Why does Deleuze argue that Art Signs retrospectively organize and justify all the wasted time spent on Worldly and Love Signs?&lt;/div>
+      &lt;div class=&quot;q-sub&quot;>回溯性的救赎：为什么德勒兹认为，只有艺术符号才能在事后为那些浪费在沙龙和嫉妒上的岁月赋予意义？&lt;/div>
+    &lt;/div>
+    &lt;div class=&quot;interactive-q&quot; onclick=&quot;this.classList.toggle('heated')&quot;>
+      &lt;div class=&quot;q-text&quot;>If Art Signs reveal &quot;essence,&quot; what exactly is a Proustian essence, and why can it not be shared through ordinary language?&lt;/div>
+      &lt;div class=&quot;q-sub&quot;>本质的孤独：如果艺术揭示了“本质”，那么普鲁斯特意义上的“本质”究竟是什么？为什么它无法通过日常语言共享？&lt;/div>
+    &lt;/div>
+  &lt;/div>
+  &lt;div class=&quot;anchor-container&quot;>
+    &lt;div class=&quot;anchor-tag&quot;>📍 06-art-signs&lt;/div>
+    &lt;div class=&quot;anchor-tag&quot;>📍 U1_08_time_regained_art_method_anchor&lt;/div>
+  &lt;/div>
+  &lt;div class=&quot;seed-module&quot;>
+    &lt;div class=&quot;seed-header&quot;>Free Restatement Seed (EN/ZH)&lt;/div>
+    &lt;div class=&quot;seed-text&quot;>&quot;For Deleuze, the Art Sign sits at the apex of the Proustian pyramid because it alone is immaterial. While love and society offer only deceptive surfaces, Art forces us to confront &lt;span class=&quot;blank&quot;>&lt;/span>, retrospectively proving that all our earlier 'wasted time' was actually &lt;span class=&quot;blank&quot;>&lt;/span>.&quot;&lt;/div>
+    &lt;button class=&quot;reveal-btn&quot; onclick=&quot;this.nextElementSibling.classList.toggle('active')&quot;>👁️ Expand Chinese Seed&lt;/button>
+    &lt;div class=&quot;chinese-seed&quot;>
+      “在德勒兹的阶层中，艺术符号稳居普鲁斯特金字塔的塔尖，因为只有它摆脱了物质的沉重。当爱情和社交只提供令人疲惫的谎言时，艺术却强迫我们直面&lt;span class=&quot;blank&quot;>&lt;/span>。它的出现，产生了一种巨大的回溯性力量，向我们证明了：之前所有那些看似被‘浪费的时间’，实际上都是&lt;span class=&quot;blank&quot;>&lt;/span>……”
+    &lt;/div>
+  &lt;/div>
+&lt;/div>
+
+&lt;!-- PACK 10 -->
+&lt;div class=&quot;packet-section theme-method&quot;>
+  &lt;div class=&quot;pack-header&quot;>
+    &lt;span class=&quot;theorist-tag&quot;>10. Synthesis / Kite-Line Reading&lt;/span>
+    &lt;h2>The Polycentric Method&lt;/h2>
+  &lt;/div>
+  &lt;div class=&quot;core-pressure&quot;>
+    &quot;Proust is the spine. Theory is the kite-line. Reading is the disciplined release and return. The center is not memory, not signs, not Deleuze, not Poulet... The center is the effort to understand and approach the novel itself.&quot;
+  &lt;/div>
+  &lt;div class=&quot;question-list&quot;>
+    &lt;div class=&quot;interactive-q&quot; onclick=&quot;this.classList.toggle('heated')&quot;>
+      &lt;div class=&quot;q-text&quot;>What happens when we let theory (like Deleuze's taxonomy) override the specific sensory details of Proust's prose? How do we prevent this?&lt;/div>
+      &lt;div class=&quot;q-sub&quot;>理论的暴政：当我们让理论（如德勒兹的分类法）压倒普鲁斯特散文中的具体感官细节时，会发生什么？我们该如何防范？&lt;/div>
+    &lt;/div>
+    &lt;div class=&quot;interactive-q&quot; onclick=&quot;this.classList.toggle('heated')&quot;>
+      &lt;div class=&quot;q-text&quot;>How does the concept of &quot;Kite-Line Reading&quot; change your approach to analyzing the text compared to traditional literary criticism?&lt;/div>
+      &lt;div class=&quot;q-sub&quot;>风筝线阅读法：“风筝线阅读法”如何改变了你分析文本的方式（相较于传统的文学批评）？&lt;/div>
+    &lt;/div>
+    &lt;div class=&quot;interactive-q&quot; onclick=&quot;this.classList.toggle('heated')&quot;>
+      &lt;div class=&quot;q-text&quot;>If Proustian 2.0 is &quot;polycentric,&quot; how do you hold Deleuze (signs), Poulet (space), and Landy (fiction/training) in tension without forcing them to agree?&lt;/div>
+      &lt;div class=&quot;q-sub&quot;>保持张力：如果本课程是“多中心的”，你将如何在德勒兹、普莱和 Landy 之间保持思想的张力，而不是强迫他们达成共识？&lt;/div>
+    &lt;/div>
+  &lt;/div>
+  &lt;div class=&quot;anchor-container&quot;>
+    &lt;div class=&quot;anchor-tag&quot;>📍 U1-Method-Kite-Line-Reading&lt;/div>
+    &lt;div class=&quot;anchor-tag&quot;>📍 UNIT-README.md&lt;/div>
+  &lt;/div>
+  &lt;div class=&quot;seed-module&quot;>
+    &lt;div class=&quot;seed-header&quot;>Free Restatement Seed (EN/ZH)&lt;/div>
+    &lt;div class=&quot;seed-text&quot;>&quot;U1 establishes the foundational method of Proustian 2.0: Kite-Line Reading. We use theories from Deleuze and Landy not as ultimate dogmas, but as analytical tensions. When analyzing a passage, theory allows the mind to fly high, but we must always &lt;span class=&quot;blank&quot;>&lt;/span>, because the ultimate ground of truth is &lt;span class=&quot;blank&quot;>&lt;/span>.&quot;&lt;/div>
+    &lt;button class=&quot;reveal-btn&quot; onclick=&quot;this.nextElementSibling.classList.toggle('active')&quot;>👁️ Expand Chinese Seed&lt;/button>
+    &lt;div class=&quot;chinese-seed&quot;>
+      “U1 确立了整个 Proustian 2.0 的基石：风筝线阅读法。我们不把德勒兹或 Landy 的理论当作不容置疑的教条，而是将其视为创造分析张力的工具。在面对一段文本时，理论确实能让我们的思维飞入高空，但我们必须时刻记得&lt;span class=&quot;blank&quot;>&lt;/span>。因为在这个庞大的阅读工程中，最终检验真理的唯一地面，永远是&lt;span class=&quot;blank&quot;>&lt;/span>……”
+    &lt;/div>
+  &lt;/div>
+&lt;/div>
+</code></pre>
+  </div> 
+</div>
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    console.log(&quot;Proustian U1 Traversal Pack loaded.&quot;);
+    // Interactive questions toggle logic is handled inline via onclick=&quot;this.classList.toggle('heated')&quot;
+  });
+</script></article><hr/><div class="page-footer"><div class="giscus" data-repo="Studere-Alarcherche/Proustian" data-repo-id="R_kgDORYpwTA" data-category="General" data-category-id="DIC_kwDORYpwTM4C3Q3J" data-mapping="pathname" data-strict="0" data-reactions-enabled="1" data-input-position="bottom" data-light-theme="light" data-dark-theme="dark" data-theme-url="https://studere-alarcherche.github.io/Proustian/static/giscus" data-lang="en"></div></div></div><div class="right sidebar"><div class="recent-notes"><h3>✦ CONSTELLATIONS</h3><ul class="recent-ul"><li class="recent-li"><div class="section"><div class="desc"><h3><a href="../System/CURRENT-STATE" class="internal">Current State</a></h3></div><p class="meta"><time datetime="2026-05-17T15:20:31.074Z">2026年5月17日</time></p><ul class="tags"></ul></div></li><li class="recent-li"><div class="section"><div class="desc"><h3><a href="../System/NEXT-ACTION" class="internal">Next Action</a></h3></div><p class="meta"><time datetime="2026-05-18T14:50:15.871Z">2026年5月18日</time></p><ul class="tags"></ul></div></li><li class="recent-li"><div class="section"><div class="desc"><h3><a href="../System/README-FOR-OBSIDIAN" class="internal">README for Obsidian</a></h3></div><p class="meta"><time datetime="2026-05-18T14:50:15.871Z">2026年5月18日</time></p><ul class="tags"></ul></div></li><li class="recent-li"><div class="section"><div class="desc"><h3><a href="../System/START-HERE" class="internal">Start Here</a></h3></div><p class="meta"><time datetime="2026-05-18T14:50:15.871Z">2026年5月18日</time></p><ul class="tags"></ul></div></li></ul></div><div class="backlinks"><h3>反向链接</h3><ul id="list-2" class="overflow"><li><a href="../Proustian/" class="internal">Proustian</a></li><li class="overflow-end"></li></ul></div></div><footer class><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v4.5.2</a> © 2026</p><ul><li><a href="https://github.com/jackyzha0/quartz">GitHub</a></li></ul></footer></div></div></body><script type="application/javascript" data-persist="true">function n(){let t=this.parentElement;t.classList.toggle("is-collapsed");let e=t.getElementsByClassName("callout-content")[0];if(!e)return;let l=t.classList.contains("is-collapsed");e.style.gridTemplateRows=l?"0fr":"1fr"}function c(){let t=document.getElementsByClassName("callout is-collapsible");for(let e of t){let l=e.getElementsByClassName("callout-title")[0],s=e.getElementsByClassName("callout-content")[0];if(!l||!s)continue;l.addEventListener("click",n),window.addCleanup(()=>l.removeEventListener("click",n));let o=e.classList.contains("is-collapsed");s.style.gridTemplateRows=o?"0fr":"1fr"}}document.addEventListener("nav",c);
+</script><script type="module" data-persist="true">function E(a,e){if(!a)return;function t(o){o.target===this&&(o.preventDefault(),o.stopPropagation(),e())}function n(o){o.key.startsWith("Esc")&&(o.preventDefault(),e())}a?.addEventListener("click",t),window.addCleanup(()=>a?.removeEventListener("click",t)),document.addEventListener("keydown",n),window.addCleanup(()=>document.removeEventListener("keydown",n))}function f(a){for(;a.firstChild;)a.removeChild(a.firstChild)}var m=class{constructor(e,t){this.container=e;this.content=t;this.setupEventListeners(),this.setupNavigationControls(),this.resetTransform()}isDragging=!1;startPan={x:0,y:0};currentPan={x:0,y:0};scale=1;MIN_SCALE=.5;MAX_SCALE=3;cleanups=[];setupEventListeners(){let e=this.onMouseDown.bind(this),t=this.onMouseMove.bind(this),n=this.onMouseUp.bind(this),o=this.onTouchStart.bind(this),r=this.onTouchMove.bind(this),i=this.onTouchEnd.bind(this),s=this.resetTransform.bind(this);this.container.addEventListener("mousedown",e),document.addEventListener("mousemove",t),document.addEventListener("mouseup",n),this.container.addEventListener("touchstart",o,{passive:!1}),document.addEventListener("touchmove",r,{passive:!1}),document.addEventListener("touchend",i),window.addEventListener("resize",s),this.cleanups.push(()=>this.container.removeEventListener("mousedown",e),()=>document.removeEventListener("mousemove",t),()=>document.removeEventListener("mouseup",n),()=>this.container.removeEventListener("touchstart",o),()=>document.removeEventListener("touchmove",r),()=>document.removeEventListener("touchend",i),()=>window.removeEventListener("resize",s))}cleanup(){for(let e of this.cleanups)e()}setupNavigationControls(){let e=document.createElement("div");e.className="mermaid-controls";let t=this.createButton("+",()=>this.zoom(.1)),n=this.createButton("-",()=>this.zoom(-.1)),o=this.createButton("Reset",()=>this.resetTransform());e.appendChild(n),e.appendChild(o),e.appendChild(t),this.container.appendChild(e)}createButton(e,t){let n=document.createElement("button");return n.textContent=e,n.className="mermaid-control-button",n.addEventListener("click",t),window.addCleanup(()=>n.removeEventListener("click",t)),n}onMouseDown(e){e.button===0&&(this.isDragging=!0,this.startPan={x:e.clientX-this.currentPan.x,y:e.clientY-this.currentPan.y},this.container.style.cursor="grabbing")}onMouseMove(e){this.isDragging&&(e.preventDefault(),this.currentPan={x:e.clientX-this.startPan.x,y:e.clientY-this.startPan.y},this.updateTransform())}onMouseUp(){this.isDragging=!1,this.container.style.cursor="grab"}onTouchStart(e){if(e.touches.length!==1)return;this.isDragging=!0;let t=e.touches[0];this.startPan={x:t.clientX-this.currentPan.x,y:t.clientY-this.currentPan.y}}onTouchMove(e){if(!this.isDragging||e.touches.length!==1)return;e.preventDefault();let t=e.touches[0];this.currentPan={x:t.clientX-this.startPan.x,y:t.clientY-this.startPan.y},this.updateTransform()}onTouchEnd(){this.isDragging=!1}zoom(e){let t=Math.min(Math.max(this.scale+e,this.MIN_SCALE),this.MAX_SCALE),n=this.content.getBoundingClientRect(),o=n.width/2,r=n.height/2,i=t-this.scale;this.currentPan.x-=o*i,this.currentPan.y-=r*i,this.scale=t,this.updateTransform()}updateTransform(){this.content.style.transform=`translate(${this.currentPan.x}px, ${this.currentPan.y}px) scale(${this.scale})`}resetTransform(){let t=this.content.querySelector("svg").getBoundingClientRect(),n=t.width/this.scale,o=t.height/this.scale;this.scale=1,this.currentPan={x:(this.container.clientWidth-n)/2,y:(this.container.clientHeight-o)/2},this.updateTransform()}},T=["--secondary","--tertiary","--gray","--light","--lightgray","--highlight","--dark","--darkgray","--codeFont"],y;document.addEventListener("nav",async()=>{let e=document.querySelector(".center").querySelectorAll("code.mermaid");if(e.length===0)return;y||=await import("https://cdnjs.cloudflare.com/ajax/libs/mermaid/11.4.0/mermaid.esm.min.mjs");let t=y.default,n=new WeakMap;for(let r of e)n.set(r,r.innerText);async function o(){for(let s of e){s.removeAttribute("data-processed");let c=n.get(s);c&&(s.innerHTML=c)}let r=T.reduce((s,c)=>(s[c]=window.getComputedStyle(document.documentElement).getPropertyValue(c),s),{}),i=document.documentElement.getAttribute("saved-theme")==="dark";t.initialize({startOnLoad:!1,securityLevel:"loose",theme:i?"dark":"base",themeVariables:{fontFamily:r["--codeFont"],primaryColor:r["--light"],primaryTextColor:r["--darkgray"],primaryBorderColor:r["--tertiary"],lineColor:r["--darkgray"],secondaryColor:r["--secondary"],tertiaryColor:r["--tertiary"],clusterBkg:r["--light"],edgeLabelBackground:r["--highlight"]}}),await t.run({nodes:e})}await o(),document.addEventListener("themechange",o),window.addCleanup(()=>document.removeEventListener("themechange",o));for(let r=0;r<e.length;r++){let v=function(){let g=l.querySelector("#mermaid-space"),h=l.querySelector(".mermaid-content");if(!h)return;f(h);let w=i.querySelector("svg").cloneNode(!0);h.appendChild(w),l.classList.add("active"),g.style.cursor="grab",u=new m(g,h)},M=function(){l.classList.remove("active"),u?.cleanup(),u=null},i=e[r],s=i.parentElement,c=s.querySelector(".clipboard-button"),d=s.querySelector(".expand-button"),p=window.getComputedStyle(c),L=c.offsetWidth+parseFloat(p.marginLeft||"0")+parseFloat(p.marginRight||"0");d.style.right=`calc(${L}px + 0.3rem)`,s.prepend(d);let l=s.querySelector("#mermaid-container");if(!l)return;let u=null;d.addEventListener("click",v),E(l,M),window.addCleanup(()=>{u?.cleanup(),d.removeEventListener("click",v)})}});
+</script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/copy-tex.min.js" type="application/javascript" data-persist="true"></script><script src="../postscript.js" type="module" data-persist="true"></script></html>

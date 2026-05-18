@@ -1,0 +1,825 @@
+<!DOCTYPE html>
+<html lang="zh" dir="ltr"><head><title>U3: Music, the Ineffable, and Novelistic Structure</title><meta charset="utf-8"/><link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,700;1,400&amp;family=Lora:ital,wght@0,400;0,700;1,400&amp;family=Noto+Serif+SC:wght@400;700&amp;display=swap" rel="stylesheet"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB Garamond:wght@400;700&amp;family=Inter:ital,wght@0,400;0,600;1,400;1,600&amp;family=JetBrains Mono:wght@400;600&amp;display=swap"/><link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin="anonymous"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="og:site_name" content="Alarcherche"/><meta property="og:title" content="U3: Music, the Ineffable, and Novelistic Structure"/><meta property="og:type" content="website"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="U3: Music, the Ineffable, and Novelistic Structure"/><meta name="twitter:description" content="Music, artistic signs, and the structure of the novel."/><meta property="og:description" content="Music, artistic signs, and the structure of the novel."/><meta property="og:image:alt" content="Music, artistic signs, and the structure of the novel."/><meta property="og:image" content="https://studere-alarcherche.github.io/Proustian/static/og-image.png"/><meta property="og:image:url" content="https://studere-alarcherche.github.io/Proustian/static/og-image.png"/><meta name="twitter:image" content="https://studere-alarcherche.github.io/Proustian/static/og-image.png"/><meta property="og:image:type" content="image/.png"/><meta property="twitter:domain" content="studere-alarcherche.github.io/Proustian"/><meta property="og:url" content="https://studere-alarcherche.github.io/Proustian/Proustian/U3-Music-Ineffable-Structure"/><meta property="twitter:url" content="https://studere-alarcherche.github.io/Proustian/Proustian/U3-Music-Ineffable-Structure"/><link rel="icon" href="../static/icon.png"/><meta name="description" content="Music, artistic signs, and the structure of the novel."/><meta name="generator" content="Quartz"/><link href="../index.css" rel="stylesheet" type="text/css" data-persist="true"/><style>.expand-button {
+  position: absolute;
+  display: flex;
+  float: right;
+  padding: 0.4rem;
+  margin: 0.3rem;
+  right: 0;
+  color: var(--gray);
+  border-color: var(--dark);
+  background-color: var(--light);
+  border: 1px solid;
+  border-radius: 5px;
+  opacity: 0;
+  transition: 0.2s;
+}
+.expand-button > svg {
+  fill: var(--light);
+  filter: contrast(0.3);
+}
+.expand-button:hover {
+  cursor: pointer;
+  border-color: var(--secondary);
+}
+.expand-button:focus {
+  outline: 0;
+}
+
+pre:hover > .expand-button {
+  opacity: 1;
+  transition: 0.2s;
+}
+
+#mermaid-container {
+  position: fixed;
+  contain: layout;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: none;
+  backdrop-filter: blur(4px);
+  background: rgba(0, 0, 0, 0.5);
+}
+#mermaid-container.active {
+  display: inline-block;
+}
+#mermaid-container > #mermaid-space {
+  border: 1px solid var(--lightgray);
+  background-color: var(--light);
+  border-radius: 5px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 80vh;
+  width: 80vw;
+  overflow: hidden;
+}
+#mermaid-container > #mermaid-space > .mermaid-content {
+  position: relative;
+  transform-origin: 0 0;
+  transition: transform 0.1s ease;
+  overflow: visible;
+  min-height: 200px;
+  min-width: 200px;
+}
+#mermaid-container > #mermaid-space > .mermaid-content pre {
+  margin: 0;
+  border: none;
+}
+#mermaid-container > #mermaid-space > .mermaid-content svg {
+  max-width: none;
+  height: auto;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  gap: 8px;
+  padding: 8px;
+  background: var(--light);
+  border: 1px solid var(--lightgray);
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: 1px solid var(--lightgray);
+  background: var(--light);
+  color: var(--dark);
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: var(--bodyFont);
+  transition: all 0.2s ease;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:hover {
+  background: var(--lightgray);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:active {
+  transform: translateY(1px);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:nth-child(2) {
+  width: auto;
+  padding: 0 12px;
+  font-size: 14px;
+}
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VSb290IjoiL1VzZXJzL2FwcGxlL0RvY3VtZW50cy9Qcm91c3RpYW4vcXVhcnR6L2NvbXBvbmVudHMvc3R5bGVzIiwic291cmNlcyI6WyJtZXJtYWlkLmlubGluZS5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTtFQUNBOztBQUdGO0VBQ0U7RUFDQTs7QUFHRjtFQUNFOzs7QUFLRjtFQUNFO0VBQ0E7OztBQUlKO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFOztBQUdGO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTtFQUNBOztBQUdGO0VBQ0U7RUFDQTs7QUFJSjtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7O0FBR0Y7RUFDRTs7QUFJRjtFQUNFO0VBQ0E7RUFDQSIsInNvdXJjZXNDb250ZW50IjpbIi5leHBhbmQtYnV0dG9uIHtcbiAgcG9zaXRpb246IGFic29sdXRlO1xuICBkaXNwbGF5OiBmbGV4O1xuICBmbG9hdDogcmlnaHQ7XG4gIHBhZGRpbmc6IDAuNHJlbTtcbiAgbWFyZ2luOiAwLjNyZW07XG4gIHJpZ2h0OiAwOyAvLyBOT1RFOiByaWdodCB3aWxsIGJlIHNldCBpbiBtZXJtYWlkLmlubGluZS50c1xuICBjb2xvcjogdmFyKC0tZ3JheSk7XG4gIGJvcmRlci1jb2xvcjogdmFyKC0tZGFyayk7XG4gIGJhY2tncm91bmQtY29sb3I6IHZhcigtLWxpZ2h0KTtcbiAgYm9yZGVyOiAxcHggc29saWQ7XG4gIGJvcmRlci1yYWRpdXM6IDVweDtcbiAgb3BhY2l0eTogMDtcbiAgdHJhbnNpdGlvbjogMC4ycztcblxuICAmID4gc3ZnIHtcbiAgICBmaWxsOiB2YXIoLS1saWdodCk7XG4gICAgZmlsdGVyOiBjb250cmFzdCgwLjMpO1xuICB9XG5cbiAgJjpob3ZlciB7XG4gICAgY3Vyc29yOiBwb2ludGVyO1xuICAgIGJvcmRlci1jb2xvcjogdmFyKC0tc2Vjb25kYXJ5KTtcbiAgfVxuXG4gICY6Zm9jdXMge1xuICAgIG91dGxpbmU6IDA7XG4gIH1cbn1cblxucHJlIHtcbiAgJjpob3ZlciA+IC5leHBhbmQtYnV0dG9uIHtcbiAgICBvcGFjaXR5OiAxO1xuICAgIHRyYW5zaXRpb246IDAuMnM7XG4gIH1cbn1cblxuI21lcm1haWQtY29udGFpbmVyIHtcbiAgcG9zaXRpb246IGZpeGVkO1xuICBjb250YWluOiBsYXlvdXQ7XG4gIHotaW5kZXg6IDk5OTtcbiAgbGVmdDogMDtcbiAgdG9wOiAwO1xuICB3aWR0aDogMTAwdnc7XG4gIGhlaWdodDogMTAwdmg7XG4gIG92ZXJmbG93OiBoaWRkZW47XG4gIGRpc3BsYXk6IG5vbmU7XG4gIGJhY2tkcm9wLWZpbHRlcjogYmx1cig0cHgpO1xuICBiYWNrZ3JvdW5kOiByZ2JhKDAsIDAsIDAsIDAuNSk7XG5cbiAgJi5hY3RpdmUge1xuICAgIGRpc3BsYXk6IGlubGluZS1ibG9jaztcbiAgfVxuXG4gICYgPiAjbWVybWFpZC1zcGFjZSB7XG4gICAgYm9yZGVyOiAxcHggc29saWQgdmFyKC0tbGlnaHRncmF5KTtcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiB2YXIoLS1saWdodCk7XG4gICAgYm9yZGVyLXJhZGl1czogNXB4O1xuICAgIHBvc2l0aW9uOiBmaXhlZDtcbiAgICB0b3A6IDUwJTtcbiAgICBsZWZ0OiA1MCU7XG4gICAgdHJhbnNmb3JtOiB0cmFuc2xhdGUoLTUwJSwgLTUwJSk7XG4gICAgaGVpZ2h0OiA4MHZoO1xuICAgIHdpZHRoOiA4MHZ3O1xuICAgIG92ZXJmbG93OiBoaWRkZW47XG5cbiAgICAmID4gLm1lcm1haWQtY29udGVudCB7XG4gICAgICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gICAgICB0cmFuc2Zvcm0tb3JpZ2luOiAwIDA7XG4gICAgICB0cmFuc2l0aW9uOiB0cmFuc2Zvcm0gMC4xcyBlYXNlO1xuICAgICAgb3ZlcmZsb3c6IHZpc2libGU7XG4gICAgICBtaW4taGVpZ2h0OiAyMDBweDtcbiAgICAgIG1pbi13aWR0aDogMjAwcHg7XG5cbiAgICAgIHByZSB7XG4gICAgICAgIG1hcmdpbjogMDtcbiAgICAgICAgYm9yZGVyOiBub25lO1xuICAgICAgfVxuXG4gICAgICBzdmcge1xuICAgICAgICBtYXgtd2lkdGg6IG5vbmU7XG4gICAgICAgIGhlaWdodDogYXV0bztcbiAgICAgIH1cbiAgICB9XG5cbiAgICAmID4gLm1lcm1haWQtY29udHJvbHMge1xuICAgICAgcG9zaXRpb246IGFic29sdXRlO1xuICAgICAgYm90dG9tOiAyMHB4O1xuICAgICAgcmlnaHQ6IDIwcHg7XG4gICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAgZ2FwOiA4cHg7XG4gICAgICBwYWRkaW5nOiA4cHg7XG4gICAgICBiYWNrZ3JvdW5kOiB2YXIoLS1saWdodCk7XG4gICAgICBib3JkZXI6IDFweCBzb2xpZCB2YXIoLS1saWdodGdyYXkpO1xuICAgICAgYm9yZGVyLXJhZGl1czogNnB4O1xuICAgICAgYm94LXNoYWRvdzogMCAycHggNHB4IHJnYmEoMCwgMCwgMCwgMC4xKTtcbiAgICAgIHotaW5kZXg6IDI7XG5cbiAgICAgIC5tZXJtYWlkLWNvbnRyb2wtYnV0dG9uIHtcbiAgICAgICAgZGlzcGxheTogZmxleDtcbiAgICAgICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbiAgICAgICAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XG4gICAgICAgIHdpZHRoOiAzMnB4O1xuICAgICAgICBoZWlnaHQ6IDMycHg7XG4gICAgICAgIHBhZGRpbmc6IDA7XG4gICAgICAgIGJvcmRlcjogMXB4IHNvbGlkIHZhcigtLWxpZ2h0Z3JheSk7XG4gICAgICAgIGJhY2tncm91bmQ6IHZhcigtLWxpZ2h0KTtcbiAgICAgICAgY29sb3I6IHZhcigtLWRhcmspO1xuICAgICAgICBib3JkZXItcmFkaXVzOiA0cHg7XG4gICAgICAgIGN1cnNvcjogcG9pbnRlcjtcbiAgICAgICAgZm9udC1zaXplOiAxNnB4O1xuICAgICAgICBmb250LWZhbWlseTogdmFyKC0tYm9keUZvbnQpO1xuICAgICAgICB0cmFuc2l0aW9uOiBhbGwgMC4ycyBlYXNlO1xuXG4gICAgICAgICY6aG92ZXIge1xuICAgICAgICAgIGJhY2tncm91bmQ6IHZhcigtLWxpZ2h0Z3JheSk7XG4gICAgICAgIH1cblxuICAgICAgICAmOmFjdGl2ZSB7XG4gICAgICAgICAgdHJhbnNmb3JtOiB0cmFuc2xhdGVZKDFweCk7XG4gICAgICAgIH1cblxuICAgICAgICAvLyBTdHlsZSB0aGUgcmVzZXQgYnV0dG9uIGRpZmZlcmVudGx5XG4gICAgICAgICY6bnRoLWNoaWxkKDIpIHtcbiAgICAgICAgICB3aWR0aDogYXV0bztcbiAgICAgICAgICBwYWRkaW5nOiAwIDEycHg7XG4gICAgICAgICAgZm9udC1zaXplOiAxNHB4O1xuICAgICAgICB9XG4gICAgICB9XG4gICAgfVxuICB9XG59XG4iXX0= */</style><link href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" rel="stylesheet" type="text/css" data-persist="true"/><script src="../prescript.js" type="application/javascript" data-persist="true"></script><script type="application/javascript" data-persist="true">const fetchData = fetch("../static/contentIndex.json").then(data => data.json())</script><link rel="alternate" type="application/rss+xml" title="RSS Feed" href="https://studere-alarcherche.github.io/Proustian/index.xml"/></head><body data-slug="Proustian/U3-Music-Ineffable-Structure"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h2 class="page-title"><a href="..">Alarcherche</a></h2><div class="social-links"><a href="https://mmbiz.qpic.cn/sz_mmbiz_jpg/ya34mNKDgtmoMOKhkvQsJ5Gg98XceUeBI1Y0yIzUo0OfFdgSrovC2K501bXicya25rznjAOcZNLxotibWBUo0rkt8WVsT061j7tlGB7o1hGz4/0?wx_fmt=jpeg&amp;from=appmsg" class="social-item mp"><span class="icon">✉</span><span class="label">WeChat</span></a><a href="https://www.xiaohongshu.com/user/profile/5ed25dd2000000000101dc83" class="social-item xhs"><span class="icon">❀</span><span class="label">Xiaohongshu</span></a></div><div class="spacer mobile-only"></div><div class="flex-component" style="flex-direction: row; flex-wrap: nowrap; gap: 1rem;"><div style="flex-grow: 1; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><div class="search"><button class="search-button"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title>Search</title><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg><p>搜索</p></button><div class="search-container"><div class="search-space"><input autocomplete="off" class="search-bar" name="search" type="text" aria-label="搜索些什么" placeholder="搜索些什么"/><div class="search-layout" data-preview="true"></div></div></div></div></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="darkmode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35" xml:space="preserve" aria-label="暗色模式"><title>暗色模式</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100" xml:space="preserve" aria-label="亮色模式"><title>亮色模式</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></button></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="readermode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="readerIcon" fill="currentColor" stroke="currentColor" stroke-width="0.2" stroke-linecap="round" stroke-linejoin="round" width="64px" height="64px" viewBox="0 0 24 24" aria-label="阅读模式"><title>阅读模式</title><g transform="translate(-1.8, -1.8) scale(1.15, 1.2)"><path d="M8.9891247,2.5 C10.1384702,2.5 11.2209868,2.96705384 12.0049645,3.76669482 C12.7883914,2.96705384 13.8709081,2.5 15.0202536,2.5 L18.7549359,2.5 C19.1691495,2.5 19.5049359,2.83578644 19.5049359,3.25 L19.5046891,4.004 L21.2546891,4.00457396 C21.6343849,4.00457396 21.9481801,4.28672784 21.9978425,4.6528034 L22.0046891,4.75457396 L22.0046891,20.25 C22.0046891,20.6296958 21.7225353,20.943491 21.3564597,20.9931534 L21.2546891,21 L2.75468914,21 C2.37499337,21 2.06119817,20.7178461 2.01153575,20.3517706 L2.00468914,20.25 L2.00468914,4.75457396 C2.00468914,4.37487819 2.28684302,4.061083 2.65291858,4.01142057 L2.75468914,4.00457396 L4.50368914,4.004 L4.50444233,3.25 C4.50444233,2.87030423 4.78659621,2.55650904 5.15267177,2.50684662 L5.25444233,2.5 L8.9891247,2.5 Z M4.50368914,5.504 L3.50468914,5.504 L3.50468914,19.5 L10.9478955,19.4998273 C10.4513189,18.9207296 9.73864328,18.5588115 8.96709342,18.5065584 L8.77307039,18.5 L5.25444233,18.5 C4.87474657,18.5 4.56095137,18.2178461 4.51128895,17.8517706 L4.50444233,17.75 L4.50368914,5.504 Z M19.5049359,17.75 C19.5049359,18.1642136 19.1691495,18.5 18.7549359,18.5 L15.2363079,18.5 C14.3910149,18.5 13.5994408,18.8724714 13.0614828,19.4998273 L20.5046891,19.5 L20.5046891,5.504 L19.5046891,5.504 L19.5049359,17.75 Z M18.0059359,3.999 L15.0202536,4 L14.8259077,4.00692283 C13.9889509,4.06666544 13.2254227,4.50975805 12.7549359,5.212 L12.7549359,17.777 L12.7782651,17.7601316 C13.4923805,17.2719483 14.3447024,17 15.2363079,17 L18.0059359,16.999 L18.0056891,4.798 L18.0033792,4.75457396 L18.0056891,4.71 L18.0059359,3.999 Z M8.9891247,4 L6.00368914,3.999 L6.00599909,4.75457396 L6.00599909,4.75457396 L6.00368914,4.783 L6.00368914,16.999 L8.77307039,17 C9.57551536,17 10.3461406,17.2202781 11.0128313,17.6202194 L11.2536891,17.776 L11.2536891,5.211 C10.8200889,4.56369974 10.1361548,4.13636104 9.37521067,4.02745763 L9.18347055,4.00692283 L8.9891247,4 Z"></path></g></svg></button></div></div><div class="explorer" data-behavior="link" data-collapsed="collapsed" data-savestate="false" data-data-fns="{&quot;order&quot;:[&quot;filter&quot;,&quot;map&quot;,&quot;sort&quot;],&quot;sortFn&quot;:&quot;(a,b)=>{let publicOrder=[\&quot;Proustian-2.0\&quot;,\&quot;Reading-Map\&quot;,\&quot;Question-Gradient\&quot;,\&quot;Passage-Cards\&quot;,\&quot;U1-U6-Repository-Index\&quot;,\&quot;Language-Training\&quot;,\&quot;LTF-A0-to-B1-Course-Outline\&quot;,\&quot;LTF-Chapter-001-Cognates-and-Reading-Confidence\&quot;,\&quot;LTF-Chapter-002-False-Friends-and-Controlled-Guessing\&quot;,\&quot;LTF-Chapter-003-Word-Families-and-Recognition-Patterns\&quot;,\&quot;LTF-Chapter-004-Function-Words-I\&quot;,\&quot;LTF-Chapter-005-What-Is-a-French-Sentence\&quot;,\&quot;Build-Log\&quot;,\&quot;U1-General-Introduction-Memory-Cliche-to-Polycentric-Reading\&quot;],aIndex=publicOrder.indexOf(a.slugSegment),bIndex=publicOrder.indexOf(b.slugSegment);return aIndex!==-1||bIndex!==-1?(aIndex===-1?Number.MAX_SAFE_INTEGER:aIndex)-(bIndex===-1?Number.MAX_SAFE_INTEGER:bIndex):a.displayName.localeCompare(b.displayName)}&quot;,&quot;filterFn&quot;:&quot;node=>{if(node.isFolder)return!1;let publicSlugs=[\&quot;Proustian-2.0\&quot;,\&quot;Reading-Map\&quot;,\&quot;Question-Gradient\&quot;,\&quot;Passage-Cards\&quot;,\&quot;U1-U6-Repository-Index\&quot;,\&quot;Language-Training\&quot;,\&quot;LTF-A0-to-B1-Course-Outline\&quot;,\&quot;LTF-Chapter-001-Cognates-and-Reading-Confidence\&quot;,\&quot;LTF-Chapter-002-False-Friends-and-Controlled-Guessing\&quot;,\&quot;LTF-Chapter-003-Word-Families-and-Recognition-Patterns\&quot;,\&quot;LTF-Chapter-004-Function-Words-I\&quot;,\&quot;LTF-Chapter-005-What-Is-a-French-Sentence\&quot;,\&quot;Build-Log\&quot;,\&quot;U1-General-Introduction-Memory-Cliche-to-Polycentric-Reading\&quot;],internalPrefixes=[\&quot;AGENT-\&quot;,\&quot;SKILL-\&quot;,\&quot;CARD-\&quot;,\&quot;DIAG-\&quot;,\&quot;SELFTEST-\&quot;,\&quot;OBS-\&quot;,\&quot;TT-\&quot;,\&quot;LTF-V0-1-\&quot;,\&quot;_archive\&quot;],internalPages=[\&quot;AGENT-Pedagogical-Audit-Principles\&quot;,\&quot;Codex-Operating-Rules\&quot;,\&quot;Repository-Maintenance\&quot;,\&quot;Source-Locator-iBooks\&quot;,\&quot;NotebookLM-Evidence-Packet-Plan\&quot;,\&quot;Literature-Importance-Ranking-V0.1\&quot;,\&quot;Literature Importance Ranking\&quot;,\&quot;Ranking V0.1\&quot;,\&quot;Archive\&quot;,\&quot;private\&quot;],name=node.displayName??\&quot;\&quot;,slug=node.slugSegment??\&quot;\&quot;,filePath=node.data?.filePath??\&quot;\&quot;,title=node.data?.title??\&quot;\&quot;;return publicSlugs.includes(slug)&amp;&amp;!internalPages.some(page=>name.includes(page)||slug.includes(page)||title.includes(page)||filePath.includes(page))&amp;&amp;!internalPrefixes.some(prefix=>name.startsWith(prefix)||slug.startsWith(prefix)||title.startsWith(prefix)||filePath.includes(`/${prefix}`))}&quot;,&quot;mapFn&quot;:&quot;node=>node&quot;}"><button type="button" class="explorer-toggle mobile-explorer hide-until-loaded" data-mobile="true" aria-controls="explorer-36"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-menu"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg></button><button type="button" class="title-button explorer-toggle desktop-explorer" data-mobile="false" aria-expanded="true"><h2>探索</h2><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="explorer-36" class="explorer-content" aria-expanded="false" role="group"><ul class="explorer-ul overflow" id="list-0"><li class="overflow-end"></li></ul></div><template id="template-file"><li><a href="#"></a></li></template><template id="template-folder"><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div><button class="folder-button"><span class="folder-title"></span></button></div></div><div class="folder-outer"><ul class="content"></ul></div></li></template></div></div><div class="center"><div class="page-header"><div class="popover-hint"><nav class="breadcrumb-container" aria-label="breadcrumbs"><div class="breadcrumb-element"><a href="../">Home</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../Proustian/">Proustian</a><p> ❯ </p></div><div class="breadcrumb-element"><a href>U3: Music, the Ineffable, and Novelistic Structure</a></div></nav><h1 class="article-title">U3: Music, the Ineffable, and Novelistic Structure</h1><div class="project-meta-dashboard"><div class="meta-desc">“Music, artistic signs, and the structure of the novel.”</div><div class="meta-badges"></div></div><p show-comma="true" class="content-meta"><time datetime="2026-05-18T14:50:15.868Z">2026年5月18日</time><span>30分钟阅读</span></p><ul class="tags"><li><a href="../tags/Proustian" class="internal tag-link">Proustian</a></li><li><a href="../tags/Course" class="internal tag-link">Course</a></li><li><a href="../tags/Reading-Garden" class="internal tag-link">Reading-Garden</a></li></ul></div></div><article class="popover-hint"><style>
+    :root {
+      /* U3 Inspired Color Palette - Deepened for Music/Ineffable */
+      --bg: #f9fafb;
+      --paper: #ffffff;
+      --ink: #1f2933;
+      --muted: #616e7c;
+      --line: #e4e7eb;
+      
+      --accent-rust: #8a4d3d;    /* Deleuze */
+      --accent-slate: #3e566a;   /* Nattiez */
+      --accent-green: #375a45;   /* Jankélévitch */
+      --accent-ochre: #a56a30;   /* Proust Social */
+      --accent-purple: #5a3c82;  /* Synthesis */
+
+      --heat-glow: rgba(138, 77, 61, 0.12);
+      --heat-border: #8a4d3d;
+
+      --radius: 12px;
+      --font-sans: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, Helvetica, Arial, sans-serif;
+      --font-serif: &quot;Georgia&quot;, &quot;Times New Roman&quot;, serif;
+      --max: 1200px;
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      background-color: var(--bg);
+      color: var(--ink);
+      font-family: var(--font-sans);
+      line-height: 1.7;
+      padding: 40px 20px;
+      background-image: radial-gradient(var(--line) 1px, transparent 1px);
+      background-size: 40px 40px;
+    }
+
+    .container {
+      max-width: var(--max);
+      margin: 0 auto;
+    }
+
+    /* Header */
+    .header {
+      text-align: center;
+      margin-bottom: 60px;
+      padding: 60px 40px;
+      background: var(--paper);
+      border-radius: var(--radius);
+      box-shadow: 0 16px 44px rgba(31, 41, 51, 0.05);
+      border: 1px solid var(--line);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .header::before {
+      content: &quot;&quot;;
+      position: absolute;
+      top: 0; left: 0; right: 0; height: 6px;
+      background: linear-gradient(90deg, var(--accent-slate), var(--accent-rust), var(--accent-green), var(--accent-ochre));
+    }
+
+    .unit-label {
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0.15em;
+      color: var(--accent-slate);
+      font-weight: 700;
+      margin-bottom: 15px;
+      display: block;
+    }
+
+    .header h1 {
+      font-size: clamp(2.2rem, 4vw, 3.5rem);
+      margin: 0 0 20px 0;
+      color: var(--ink);
+      letter-spacing: -0.02em;
+      line-height: 1.1;
+      font-family: var(--font-serif);
+    }
+
+    .header p {
+      font-size: 1.15rem;
+      color: var(--muted);
+      max-width: 850px;
+      margin: 0 auto;
+    }
+
+    /* Masonry Grid for Packs */
+    .pack-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+      gap: 30px;
+      align-items: start;
+    }
+
+    /* Pack Section Base */
+    .packet-section {
+      background: var(--paper);
+      border-radius: var(--radius);
+      padding: 40px;
+      box-shadow: 0 10px 30px rgba(31, 41, 51, 0.03);
+      border: 1px solid var(--line);
+      position: relative;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .packet-section:hover {
+      box-shadow: 0 20px 40px rgba(31, 41, 51, 0.08);
+    }
+
+    /* Top Bars for different theorists/themes */
+    .theme-nattiez { border-top: 4px solid var(--accent-slate); }
+    .theme-deleuze { border-top: 4px solid var(--accent-rust); }
+    .theme-jankelevitch { border-top: 4px solid var(--accent-green); }
+    .theme-social { border-top: 4px solid var(--accent-ochre); }
+    .theme-synthesis { border-top: 4px solid var(--accent-purple); }
+
+    .pack-header {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 20px;
+    }
+
+    .theorist-tag {
+      align-self: flex-start;
+      padding: 4px 12px;
+      border-radius: 20px;
+      font-size: 0.75rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin-bottom: 15px;
+      background: var(--bg);
+      color: var(--muted);
+      border: 1px solid var(--line);
+    }
+
+    .theme-nattiez .theorist-tag { color: var(--accent-slate); border-color: rgba(62, 86, 106, 0.3); background: rgba(62, 86, 106, 0.05); }
+    .theme-deleuze .theorist-tag { color: var(--accent-rust); border-color: rgba(138, 77, 61, 0.3); background: rgba(138, 77, 61, 0.05); }
+    .theme-jankelevitch .theorist-tag { color: var(--accent-green); border-color: rgba(55, 90, 69, 0.3); background: rgba(55, 90, 69, 0.05); }
+    .theme-social .theorist-tag { color: var(--accent-ochre); border-color: rgba(165, 106, 48, 0.3); background: rgba(165, 106, 48, 0.05); }
+    .theme-synthesis .theorist-tag { color: var(--accent-purple); border-color: rgba(90, 60, 130, 0.3); background: rgba(90, 60, 130, 0.05); }
+
+    h2 { font-size: 1.6rem; margin: 0; letter-spacing: -0.01em; color: var(--ink); }
+
+    /* Core Pressure */
+    .core-pressure {
+      font-family: var(--font-serif);
+      font-size: 1.1rem;
+      font-style: italic;
+      color: var(--ink);
+      background: var(--bg);
+      padding: 20px 25px;
+      border-radius: 8px;
+      border-left: 3px solid var(--muted);
+      margin: 0 0 25px 0;
+    }
+
+    /* Interactive Questions */
+    .question-list {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      margin-bottom: 25px;
+    }
+
+    .interactive-q {
+      background: var(--paper);
+      border: 1px solid var(--line);
+      padding: 18px 20px;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      position: relative;
+    }
+
+    .interactive-q:hover {
+      background: var(--bg);
+      border-color: #d0d7de;
+    }
+
+    .interactive-q.heated {
+      border-color: var(--heat-border);
+      background: var(--paper);
+      box-shadow: 0 4px 15px var(--heat-glow), inset 3px 0 0 var(--heat-border);
+    }
+
+    .interactive-q.heated::after {
+      content: &quot;🔥&quot;;
+      position: absolute;
+      top: -10px;
+      right: 10px;
+      font-size: 1.2rem;
+      background: var(--paper);
+      border-radius: 50%;
+      padding: 2px;
+    }
+
+    .q-text { font-size: 1.05rem; color: var(--ink); line-height: 1.5; }
+    .q-sub { font-size: 0.85rem; color: var(--muted); margin-top: 8px; font-style: italic; }
+
+    /* Scene Anchors */
+    .anchor-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 25px;
+    }
+
+    .anchor-tag {
+      background: #f0f2f5;
+      color: var(--muted);
+      padding: 4px 12px;
+      border-radius: 6px;
+      font-size: 0.8rem;
+      font-family: monospace;
+      border: 1px solid var(--line);
+      cursor: crosshair;
+      transition: all 0.2s ease;
+    }
+
+    .anchor-tag:hover {
+      background: var(--ink);
+      color: white;
+      border-color: var(--ink);
+    }
+
+    /* Seed Boxes */
+    .seed-module {
+      background: var(--ink);
+      border-radius: 8px;
+      padding: 25px;
+      color: white;
+      position: relative;
+    }
+
+    .seed-header { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.1em; color: #9da8b6; margin-bottom: 12px; }
+    .seed-text { font-family: var(--font-serif); font-size: 1.1rem; line-height: 1.6; margin-bottom: 15px;}
+    
+    .blank {
+      display: inline-block;
+      min-width: 80px;
+      border-bottom: 1px solid rgba(255,255,255,0.5);
+      margin: 0 4px;
+    }
+
+    .reveal-btn {
+      background: rgba(255,255,255,0.08);
+      border: 1px solid rgba(255,255,255,0.15);
+      color: #d1d9e2;
+      padding: 6px 12px;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 0.8rem;
+      transition: background 0.2s;
+      width: 100%;
+      text-align: left;
+    }
+    .reveal-btn:hover { background: rgba(255,255,255,0.15); }
+
+    .chinese-seed {
+      display: none;
+      margin-top: 15px;
+      padding-top: 15px;
+      border-top: 1px dashed rgba(255,255,255,0.15);
+      font-size: 0.95rem;
+      color: #b7c1cd;
+      line-height: 1.7;
+    }
+
+    .chinese-seed.active { display: block; animation: fadeIn 0.3s ease; }
+
+    @keyframes fadeIn { from { opacity: 0; transform: translateY(-5px); } to { opacity: 1; transform: translateY(0); } }
+
+    @media (max-width: 900px) {
+      .pack-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+<div class="container">
+  <div class="header">
+    <span class="unit-label">Proustian 2.0 | Unit 3</span>
+    <h1 id="music-the-ineffable-and-novelistic-structure">MUSIC, THE INEFFABLE, AND NOVELISTIC STRUCTURE<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#music-the-ineffable-and-novelistic-structure" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h1>
+    <p>Unit 3 turns Proustian memory towards the ultimate sign system: Music. How does Vinteuil's little phrase evolve from a mere anchor of romantic nostalgia (Swann) into the ineffable architecture of the Septet (The Captive), ultimately serving as the redemptive model for literature itself? A decentralized, roaming digital paper. Scan the 10 micro-packs below. Click the questions that generate heat. Use the scene anchors and bilingual seeds to extract the mechanics of Proust's musical epistemology.</p>
+  </div>
+  <div class="pack-grid">
+<pre><code>&lt;!-- PACK 1 -->
+&lt;div class=&quot;packet-section theme-deleuze&quot;>
+  &lt;div class=&quot;pack-header&quot;>
+    &lt;span class=&quot;theorist-tag&quot;>01. Deleuze / Art Signs&lt;/span>
+    &lt;h2>The Immaterial Keyboard&lt;/h2>
+  &lt;/div>
+  &lt;div class=&quot;core-pressure&quot;>
+    &quot;Why is art the ultimate realm of signs? Deleuze argues that while sensuous signs (the madeleine) are 'half sheathed in the object bearing them,' the signs of art are dematerialized. The piano is merely the spatial image of an entirely spiritual entity.&quot;
+  &lt;/div>
+  &lt;div class=&quot;question-list&quot;>
+    &lt;div class=&quot;interactive-q&quot; onclick=&quot;this.classList.toggle('heated')&quot;>
+      &lt;div class=&quot;q-text&quot;>Examine the phrase &quot;sine materia.&quot; How does Proust describe Vinteuil's music as existing independently of the instruments that produce it?&lt;/div>
+      &lt;div class=&quot;q-sub&quot;>非物质的显现：为何乐器只是召唤音乐“精灵”的祭坛？&lt;/div>
+    &lt;/div>
+    &lt;div class=&quot;interactive-q&quot; onclick=&quot;this.classList.toggle('heated')&quot;>
+      &lt;div class=&quot;q-text&quot;>Why does Deleuze claim that breaking the music down into &quot;five notes very close together&quot; (3 + 2) explains absolutely nothing about its power?&lt;/div>
+      &lt;div class=&quot;q-sub&quot;>分析的失效：为什么物理和乐理的拆解无法触及音乐的“本质”？&lt;/div>
+    &lt;/div>
+    &lt;div class=&quot;interactive-q&quot; onclick=&quot;this.classList.toggle('heated')&quot;>
+      &lt;div class=&quot;q-text&quot;>How do the performers act less like musicians and more like &quot;hierophants&quot; executing a supernatural rite for the phrase to appear?&lt;/div>
+      &lt;div class=&quot;q-sub&quot;>降神仪式：演奏者如何退位成为不可言说之物的祭司？&lt;/div>
+    &lt;/div>
+    &lt;div class=&quot;interactive-q&quot; onclick=&quot;this.classList.toggle('heated')&quot;>
+      &lt;div class=&quot;q-text&quot;>If sensuous signs (taste, smell) rely on material contiguity, how does the little phrase transcend the limits of matter entirely?&lt;/div>
+      &lt;div class=&quot;q-sub&quot;>超越感官：艺术符号为何比玛德莱娜蛋糕更彻底地击碎了唯物主义？&lt;/div>
+    &lt;/div>
+  &lt;/div>
+  &lt;div class=&quot;anchor-container&quot;>
+    &lt;div class=&quot;anchor-tag&quot;>📍 vinteuil_little_phrase_sonata&lt;/div>
+    &lt;div class=&quot;anchor-tag&quot;>📍 music_retrospective_art&lt;/div>
+  &lt;/div>
+  &lt;div class=&quot;seed-module&quot;>
+    &lt;div class=&quot;seed-header&quot;>Free Restatement Seed (EN/ZH)&lt;/div>
+    &lt;div class=&quot;seed-text&quot;>&quot;Using Deleuze's concept of Art Signs, I notice that when Swann hears the little phrase, the physical piano is forgotten. The music operates not as sound waves, but as a &lt;span class=&quot;blank&quot;>&lt;/span>, proving that...&quot;&lt;/div>
+    &lt;button class=&quot;reveal-btn&quot; onclick=&quot;this.nextElementSibling.classList.toggle('active')&quot;>👁️ Expand Chinese Seed&lt;/button>
+    &lt;div class=&quot;chinese-seed&quot;>
+      “通过德勒兹的‘艺术符号’理论来审视凡特伊的小乐句，我们会发现物质的属性在这里被彻底剥离了。普鲁斯特指出，5个音符的排列组合解释不了任何东西。钢琴和小提琴仅仅是&lt;span class=&quot;blank&quot;>&lt;/span>。音乐成为了某种纯粹的、非物质的（sine materia）实体的降临，它强迫我们思考那些无法被日常语言捕获的‘本质’……”
+    &lt;/div>
+  &lt;/div>
+&lt;/div>
+
+&lt;!-- PACK 2 -->
+&lt;div class=&quot;packet-section theme-nattiez&quot;>
+  &lt;div class=&quot;pack-header&quot;>
+    &lt;span class=&quot;theorist-tag&quot;>02. Nattiez / Musical Perception&lt;/span>
+    &lt;h2>The Three Stages of Listening&lt;/h2>
+  &lt;/div>
+  &lt;div class=&quot;core-pressure&quot;>
+    &quot;Nattiez outlines a three-stage progression in Proust’s musical apprehension: first an indistinct impression, then an intellectual (linguistic/descriptive) mapping, and finally, a purification into pure sonorous form. How does the listener surpass the 'descriptive' trap?&quot;
+  &lt;/div>
+  &lt;div class=&quot;question-list&quot;>
+    &lt;div class=&quot;interactive-q&quot; onclick=&quot;this.classList.toggle('heated')&quot;>
+      &lt;div class=&quot;q-text&quot;>Locate Swann's first hearing of the Sonata. How does Proust describe the music initially as a &quot;pure magma of sound&quot; or an indistinct impression?&lt;/div>
+      &lt;div class=&quot;q-sub&quot;>声音的岩浆：在理性介入之前，音乐如何以混沌的形态冲击听觉？&lt;/div>
+    &lt;/div>
+    &lt;div class=&quot;interactive-q&quot; onclick=&quot;this.classList.toggle('heated')&quot;>
+      &lt;div class=&quot;q-text&quot;>Why is the second stage (attaching specific ideas or images to musical motifs) considered a &quot;false trail&quot; or an illusion of understanding?&lt;/div>
+      &lt;div class=&quot;q-sub&quot;>语言的陷阱：为何将音乐翻译成具体的画面（如“月光”或“森林”）是一种误读？&lt;/div>
+    &lt;/div>
+    &lt;div class=&quot;interactive-q&quot; onclick=&quot;this.classList.toggle('heated')&quot;>
+      &lt;div class=&quot;q-text&quot;>How does the narrator in 'The Captive' finally reach the third stage with the Septet, perceiving it as a &quot;pure play of sonorous forms&quot;?&lt;/div>
+      &lt;div class=&quot;q-sub&quot;>纯粹的声响：在《女囚》中，叙述者如何最终越过了内容的束缚，抵达了纯形式的深邃？&lt;/div>
+    &lt;/div>
+    &lt;div class=&quot;interactive-q&quot; onclick=&quot;this.classList.toggle('heated')&quot;>
+      &lt;div class=&quot;q-text&quot;>How does this three-stage progression of listening mirror the larger structure of Marcel's quest for Truth?&lt;/div>
+      &lt;div class=&quot;q-sub&quot;>认知的同构：听懂一段音乐的过程，为何恰恰是整部《追忆》“寻找真理”的缩影？&lt;/div>
+    &lt;/div>
+  &lt;/div>
+  &lt;div class=&quot;anchor-container&quot;>
+    &lt;div class=&quot;anchor-tag&quot;>📍 vinteuil_little_phrase_sonata&lt;/div>
+    &lt;div class=&quot;anchor-tag&quot;>📍 vinteuil_in_the_captive&lt;/div>
+  &lt;/div>
+  &lt;div class=&quot;seed-module&quot;>
+    &lt;div class=&quot;seed-header&quot;>Free Restatement Seed (EN/ZH)&lt;/div>
+    &lt;div class=&quot;seed-text&quot;>&quot;Nattiez’s three stages perfectly map onto Swann's experience. At first, Swann is lost in a 'magma of sound,' but soon he makes the critical error of the second stage by &lt;span class=&quot;blank&quot;>&lt;/span>. True perception only occurs when...&quot;&lt;/div>
+    &lt;button class=&quot;reveal-btn&quot; onclick=&quot;this.nextElementSibling.classList.toggle('active')&quot;>👁️ Expand Chinese Seed&lt;/button>
+    &lt;div class=&quot;chinese-seed&quot;>
+      “纳蒂埃提出的‘音乐感知的三个阶段’，为我们解剖斯万的聆听提供了手术刀。最初，音乐是一团模糊的感官冲击；接着，斯万不可避免地掉入了第二阶段的陷阱——他试图用&lt;span class=&quot;blank&quot;>&lt;/span>来‘翻译’音乐，赋予它具体的文学含义。他没有意识到，只有彻底抛弃这种将音乐‘词语化’的企图，才能真正进入第三阶段：一种纯粹的、超越理智的本质显现……”
+    &lt;/div>
+  &lt;/div>
+&lt;/div>
+
+&lt;!-- PACK 3 -->
+&lt;div class=&quot;packet-section theme-deleuze&quot;>
+  &lt;div class=&quot;pack-header&quot;>
+    &lt;span class=&quot;theorist-tag&quot;>03. Deleuze / Love Signs&lt;/span>
+    &lt;h2>Swann's Reduction of the Infinite&lt;/h2>
+  &lt;/div>
+  &lt;div class=&quot;core-pressure&quot;>
+    &quot;Swann degrades the art sign into a love sign. Instead of letting Vinteuil’s little phrase lead him to universal essence, he annexes it, turning it into the mere 'national anthem' of his affair with Odette. How does love blind the aesthetic sense?&quot;
+  &lt;/div>
+  &lt;div class=&quot;question-list&quot;>
+    &lt;div class=&quot;interactive-q&quot; onclick=&quot;this.classList.toggle('heated')&quot;>
+      &lt;div class=&quot;q-text&quot;>Examine the moment Swann associates the little phrase with Odette's face. How does this act of &quot;subjective compensation&quot; effectively kill the music's transcendent power?&lt;/div>
+      &lt;div class=&quot;q-sub&quot;>主观的降级：斯万将乐句与奥黛特的脸绑定，是如何“杀死”了这首曲子的？&lt;/div>
+    &lt;/div>
+    &lt;div class=&quot;interactive-q&quot; onclick=&quot;this.classList.toggle('heated')&quot;>
+      &lt;div class=&quot;q-text&quot;>Why does Swann prefer the &quot;love sign&quot; (which brings him jealousy and pain) over the &quot;art sign&quot; (which brings pure joy)? What is the gravity of love?&lt;/div>
+      &lt;div class=&quot;q-sub&quot;>爱情的引力：为何斯万宁愿在嫉妒的痛苦中打转，也不愿追随艺术走向升华？&lt;/div>
+    &lt;/div>
+    &lt;div class=&quot;interactive-q&quot; onclick=&quot;this.classList.toggle('heated')&quot;>
+      &lt;div class=&quot;q-text&quot;>How does the phrase act as an &quot;alibi&quot; for Swann, allowing him to feel profound emotions without actually confronting the truth of his wasted life?&lt;/div>
+      &lt;div class=&quot;q-sub&quot;>情感的代偿：小乐句如何成了斯万逃避现实空虚的“不在场证明”？&lt;/div>
+    &lt;/div>
+    &lt;div class=&quot;interactive-q&quot; onclick=&quot;this.classList.toggle('heated')&quot;>
+      &lt;div class=&quot;q-text&quot;>Contrast Swann's failure with the Sonata to the Narrator's success with the Septet. What does Marcel do differently?&lt;/div>
+      &lt;div class=&quot;q-sub&quot;>对比与超越：同样是凡特伊的音乐，叙述者在《女囚》中做对了什么，而斯万却做错了？&lt;/div>
+    &lt;/div>
+  &lt;/div>
+  &lt;div class=&quot;anchor-container&quot;>
+    &lt;div class=&quot;anchor-tag&quot;>📍 swann_love_as_reading&lt;/div>
+    &lt;div class=&quot;anchor-tag&quot;>📍 music_and_love_signs&lt;/div>
+  &lt;/div>
+  &lt;div class=&quot;seed-module&quot;>
+    &lt;div class=&quot;seed-header&quot;>Free Restatement Seed (EN/ZH)&lt;/div>
+    &lt;div class=&quot;seed-text&quot;>&quot;Viewed through Deleuze, Swann’s relationship to the little phrase is a tragic failure. Instead of following the sign toward its ideal essence, Swann commits an act of 'subjective compensation' by &lt;span class=&quot;blank&quot;>&lt;/span>, effectively turning it into...&quot;&lt;/div>
+    &lt;button class=&quot;reveal-btn&quot; onclick=&quot;this.nextElementSibling.classList.toggle('active')&quot;>👁️ Expand Chinese Seed&lt;/button>
+    &lt;div class=&quot;chinese-seed&quot;>
+      “在德勒兹看来，斯万对小乐句的痴迷是一场悲剧性的降级。艺术符号本该引领他走向永恒的本质，但他却因为自身的软弱，将这无限的音符缩小成了&lt;span class=&quot;blank&quot;>&lt;/span>——他与奥黛特爱情的‘国歌’。这种主观的代偿（Subjective Compensation），让他在爱情的迷象中越陷越深，最终与艺术的真理擦肩而过……”
+    &lt;/div>
+  &lt;/div>
+&lt;/div>
+
+&lt;!-- PACK 4 -->
+&lt;div class=&quot;packet-section theme-jankelevitch&quot;>
+  &lt;div class=&quot;pack-header&quot;>
+    &lt;span class=&quot;theorist-tag&quot;>04. Jankélévitch / Doing vs. Saying&lt;/span>
+    &lt;h2>The Charm and the Alibi&lt;/h2>
+  &lt;/div>
+  &lt;div class=&quot;core-pressure&quot;>
+    &quot;Music is an act of Doing (poiesis), not an act of Saying (logos). It enchants without instructing. How does Jankélévitch's refusal of 'musical hermeneutics' challenge our desire to constantly 'translate' Vinteuil's music into literary ideas?&quot;
+  &lt;/div>
+  &lt;div class=&quot;question-list&quot;>
+    &lt;div class=&quot;interactive-q&quot; onclick=&quot;this.classList.toggle('heated')&quot;>
+      &lt;div class=&quot;q-text&quot;>Jankélévitch argues music has no &quot;dictionary.&quot; Where in the text does Proust emphasize the frustration of trying to map words onto the little phrase?&lt;/div>
+      &lt;div class=&quot;q-sub&quot;>无词典的语言：普鲁斯特在哪里描写了“词不达意”的音乐聆听之苦？&lt;/div>
+    &lt;/div>
+    &lt;div class=&quot;interactive-q&quot; onclick=&quot;this.classList.toggle('heated')&quot;>
+      &lt;div class=&quot;q-text&quot;>If music doesn't &quot;say&quot; anything, how does it &quot;act&quot; upon Swann or Marcel? How is its power drastic and immediate rather than communicative?&lt;/div>
+      &lt;div class=&quot;q-sub&quot;>作为行动的音乐：如果音乐不传递信息，它是如何直接“袭击”听者的神经的？&lt;/div>
+    &lt;/div>
+    &lt;div class=&quot;interactive-q&quot; onclick=&quot;this.classList.toggle('heated')&quot;>
+      &lt;div class=&quot;q-text&quot;>Consider the &quot;performer as re-creator.&quot; How does the act of playing the music (Doing) supersede the act of analyzing it (Knowing)?&lt;/div>
+      &lt;div class=&quot;q-sub&quot;>弹奏即重塑：为何音乐的真理存在于演奏的“动作”中，而不是评论的“文本”里？&lt;/div>
+    &lt;/div>
+    &lt;div class=&quot;interactive-q&quot; onclick=&quot;this.classList.toggle('heated')&quot;>
+      &lt;div class=&quot;q-text&quot;>Does Proust ultimately side with the &quot;ineffable&quot; mystery of music, or does he stubbornly try to enclose it in the prose of his novel?&lt;/div>
+      &lt;div class=&quot;q-sub&quot;>文学的野心：普鲁斯特是否承认了音乐的不可言说，抑或他试图用文学来吞噬音乐？&lt;/div>
+    &lt;/div>
+  &lt;/div>
+  &lt;div class=&quot;anchor-container&quot;>
+    &lt;div class=&quot;anchor-tag&quot;>📍 vinteuil_little_phrase_sonata&lt;/div>
+    &lt;div class=&quot;anchor-tag&quot;>📍 music_retrospective_art&lt;/div>
+  &lt;/div>
+  &lt;div class=&quot;seed-module&quot;>
+    &lt;div class=&quot;seed-header&quot;>Free Restatement Seed (EN/ZH)&lt;/div>
+    &lt;div class=&quot;seed-text&quot;>&quot;Jankélévitch warns us against turning music into a philosophical 'Saying.' When Marcel listens to Vinteuil, the music does not deliver a message; rather, its power is 'drastic' because it &lt;span class=&quot;blank&quot;>&lt;/span>, operating entirely outside of logos.&quot;&lt;/div>
+    &lt;button class=&quot;reveal-btn&quot; onclick=&quot;this.nextElementSibling.classList.toggle('active')&quot;>👁️ Expand Chinese Seed&lt;/button>
+    &lt;div class=&quot;chinese-seed&quot;>
+      “扬凯列维奇警告我们：不要试图让音乐‘说话’。音乐不是传递信息的罗各斯（Logos），而是一种纯粹的行动（Doing）。当马塞尔聆听凡特伊时，那乐句并没有交给他一把解密的钥匙，而是直接&lt;span class=&quot;blank&quot;>&lt;/span>。这种‘不可言说’（Ineffable）不是文学的匮乏，而是音乐本身的终极魅力……”
+    &lt;/div>
+  &lt;/div>
+&lt;/div>
+
+&lt;!-- PACK 5 -->
+&lt;div class=&quot;packet-section theme-nattiez&quot;>
+  &lt;div class=&quot;pack-header&quot;>
+    &lt;span class=&quot;theorist-tag&quot;>05. Nattiez / Schopenhauer&lt;/span>
+    &lt;h2>The Will and the Idea&lt;/h2>
+  &lt;/div>
+  &lt;div class=&quot;core-pressure&quot;>
+    &quot;Unlike painting or literature, which copy the phenomena of the world (Mimesis), Schopenhauer argues that music expresses the 'Will' directly. How does Proust adopt this metaphysical hierarchy to make music the ultimate redemptive model?&quot;
+  &lt;/div>
+  &lt;div class=&quot;question-list&quot;>
+    &lt;div class=&quot;interactive-q&quot; onclick=&quot;this.classList.toggle('heated')&quot;>
+      &lt;div class=&quot;q-text&quot;>In 'The Captive', how does Marcel elevate Vinteuil's music above the visual arts? Why is sound considered &quot;deeper&quot; than images?&lt;/div>
+      &lt;div class=&quot;q-sub&quot;>超越视觉：在《女囚》中，马塞尔为何认为音乐比绘画更能触及宇宙的底色？&lt;/div>
+    &lt;/div>
+    &lt;div class=&quot;interactive-q&quot; onclick=&quot;this.classList.toggle('heated')&quot;>
+      &lt;div class=&quot;q-text&quot;>How does music serve as a &quot;communication of souls&quot; that bypasses the deception of language and worldly signs?&lt;/div>
+      &lt;div class=&quot;q-sub&quot;>灵魂的直连：音乐如何绕开了语言的谎言，实现了人与人之间唯一真实的沟通？&lt;/div>
+    &lt;/div>
+    &lt;div class=&quot;interactive-q&quot; onclick=&quot;this.classList.toggle('heated')&quot;>
+      &lt;div class=&quot;q-text&quot;>Nattiez notes that for Schopenhauer, the listener becomes a &quot;pure, will-less, painless subject of knowledge.&quot; Does Marcel achieve this state while listening?&lt;/div>
+      &lt;div class=&quot;q-sub&quot;>无痛的主体：在音乐响起时，马塞尔是否真的摆脱了嫉妒与意志的折磨，化身为纯粹的认知者？&lt;/div>
+    &lt;/div>
+    &lt;div class=&quot;interactive-q&quot; onclick=&quot;this.classList.toggle('heated')&quot;>
+      &lt;div class=&quot;q-text&quot;>If music is the direct expression of the Will, why must Proust (the novelist) translate it back into words? Is literature ultimately jealous of music?&lt;/div>
+      &lt;div class=&quot;q-sub&quot;>文学的嫉妒：如果音乐已经是最高形式，普鲁斯特写这本小说的终极动力是否是对音乐的模仿与僭越？&lt;/div>
+    &lt;/div>
+  &lt;/div>
+  &lt;div class=&quot;anchor-container&quot;>
+    &lt;div class=&quot;anchor-tag&quot;>📍 vinteuil_in_the_captive&lt;/div>
+    &lt;div class=&quot;anchor-tag&quot;>📍 music_retrospective_art&lt;/div>
+  &lt;/div>
+  &lt;div class=&quot;seed-module&quot;>
+    &lt;div class=&quot;seed-header&quot;>Free Restatement Seed (EN/ZH)&lt;/div>
+    &lt;div class=&quot;seed-text&quot;>&quot;Through Nattiez’s Schopenhauerian lens, Vinteuil’s Septet is not just a beautiful composition; it is the direct manifestation of the Will. While other arts are bound to mimesis (copying reality), music bypasses the intellect by &lt;span class=&quot;blank&quot;>&lt;/span>.&quot;&lt;/div>
+    &lt;button class=&quot;reveal-btn&quot; onclick=&quot;this.nextElementSibling.classList.toggle('active')&quot;>👁️ Expand Chinese Seed&lt;/button>
+    &lt;div class=&quot;chinese-seed&quot;>
+      “借用叔本华的框架，纳蒂埃指出：在普鲁斯特的宇宙中，音乐居于艺术金字塔的顶端。不同于绘画或文学需要通过‘模仿（Mimesis）’现实来表达，凡特伊的七重奏直接显现了宇宙的‘意志（Will）’。当音乐响起，语言的伪装脱落了，它直接越过理智，向听者揭示了&lt;span class=&quot;blank&quot;>&lt;/span>……”
+    &lt;/div>
+  &lt;/div>
+&lt;/div>
+
+&lt;!-- PACK 6 -->
+&lt;div class=&quot;packet-section theme-jankelevitch&quot;>
+  &lt;div class=&quot;pack-header&quot;>
+    &lt;span class=&quot;theorist-tag&quot;>06. Jankélévitch / Spatial Mirage&lt;/span>
+    &lt;h2>The Illusion of Architecture&lt;/h2>
+  &lt;/div>
+  &lt;div class=&quot;core-pressure&quot;>
+    &quot;We constantly describe music as having 'structures,' 'lines,' and 'masses'—comparing it to a cathedral. Jankélévitch warns that this spatialization is an optical idol that kills the pure temporal becoming of music. Where does Proust fall into this trap, and where does he escape it?&quot;
+  &lt;/div>
+  &lt;div class=&quot;question-list&quot;>
+    &lt;div class=&quot;interactive-q&quot; onclick=&quot;this.classList.toggle('heated')&quot;>
+      &lt;div class=&quot;q-text&quot;>Locate passages where Swann or Marcel describes Vinteuil's music using architectural metaphors (building, arches, foundations). What is gained and lost in this translation?&lt;/div>
+      &lt;div class=&quot;q-sub&quot;>听觉的建筑化：用“拱门”和“地基”来形容乐句，掩盖了音乐的什么本质？&lt;/div>
+    &lt;/div>
+    &lt;div class=&quot;interactive-q&quot; onclick=&quot;this.classList.toggle('heated')&quot;>
+      &lt;div class=&quot;q-text&quot;>How does the &quot;diffluence&quot; (flowing away) of time make music impossible to possess simultaneously?&lt;/div>
+      &lt;div class=&quot;q-sub&quot;>流逝的残酷：音乐无法像画作那样被“一眼看全”，这种时间性带来了怎样的占有焦虑？&lt;/div>
+    &lt;/div>
+    &lt;div class=&quot;interactive-q&quot; onclick=&quot;this.classList.toggle('heated')&quot;>
+      &lt;div class=&quot;q-text&quot;>Jankélévitch calls spatial transposition &quot;vision layered upon hearing.&quot; How does Proust's emphasis on memory inherently spatialize the temporal flow of the sonata?&lt;/div>
+      &lt;div class=&quot;q-sub&quot;>记忆的冻结作用：普鲁斯特试图“记住”乐句的冲动，是否本质上是在将流动的音乐空间化、静止化？&lt;/div>
+    &lt;/div>
+    &lt;div class=&quot;interactive-q&quot; onclick=&quot;this.classList.toggle('heated')&quot;>
+      &lt;div class=&quot;q-text&quot;>Does the metaphor of the &quot;invisible cathedral&quot; elevate music, or does it betray music's true nature as an ephemeral vibration?&lt;/div>
+      &lt;div class=&quot;q-sub&quot;>隐形大教堂：这是一个赞美的隐喻，还是对音乐纯粹时间性的背叛？&lt;/div>
+    &lt;/div>
+  &lt;/div>
+  &lt;div class=&quot;anchor-container&quot;>
+    &lt;div class=&quot;anchor-tag&quot;>📍 vinteuil_little_phrase_sonata&lt;/div>
+    &lt;div class=&quot;anchor-tag&quot;>📍 vinteuil_in_the_captive&lt;/div>
+  &lt;/div>
+  &lt;div class=&quot;seed-module&quot;>
+    &lt;div class=&quot;seed-header&quot;>Free Restatement Seed (EN/ZH)&lt;/div>
+    &lt;div class=&quot;seed-text&quot;>&quot;Jankélévitch warns against the 'optical idol' of treating music like architecture. When Marcel describes the Septet as a cathedral, he commits a necessary error: he projects the pure, vanishing temporal flow of music onto &lt;span class=&quot;blank&quot;>&lt;/span>, attempting to arrest time.&quot;&lt;/div>
+    &lt;button class=&quot;reveal-btn&quot; onclick=&quot;this.nextElementSibling.classList.toggle('active')&quot;>👁️ Expand Chinese Seed&lt;/button>
+    &lt;div class=&quot;chinese-seed&quot;>
+      “我们极易落入扬凯列维奇所说的‘空间幻象’之中。当叙述者用宏伟的建筑结构来形容凡特伊的七重奏时，他其实是在用视觉的稳定去抵抗听觉的流逝。音乐本是纯粹的、消散的时间（Temporal Becoming），但为了在记忆中‘占有’它，听者不得不&lt;span class=&quot;blank&quot;>&lt;/span>，把它冻结成一座想象中的大教堂……”
+    &lt;/div>
+  &lt;/div>
+&lt;/div>
+
+&lt;!-- PACK 7 -->
+&lt;div class=&quot;packet-section theme-social&quot;>
+  &lt;div class=&quot;pack-header&quot;>
+    &lt;span class=&quot;theorist-tag&quot;>07. Proust / Social performance&lt;/span>
+    &lt;h2>The Deafness of the Salon&lt;/h2>
+  &lt;/div>
+  &lt;div class=&quot;core-pressure&quot;>
+    &quot;While music contains ineffable truth, it is played in the most banal, worldly settings. How does Proust contrast the transcendent power of Vinteuil’s music with the snobbery, empty formalism, and literal 'deafness' of Mme Verdurin and M. de Charlus?&quot;
+  &lt;/div>
+  &lt;div class=&quot;question-list&quot;>
+    &lt;div class=&quot;interactive-q&quot; onclick=&quot;this.classList.toggle('heated')&quot;>
+      &lt;div class=&quot;q-text&quot;>Observe Mme Verdurin listening to music. How are her physical reactions (migraines, burying her face) a grotesque pantomime of genuine aesthetic appreciation?&lt;/div>
+      &lt;div class=&quot;q-sub&quot;>沙龙的哑剧：维尔迪兰夫人听音乐时的头痛与痉挛，如何沦为了一种社交表演？&lt;/div>
+    &lt;/div>
+    &lt;div class=&quot;interactive-q&quot; onclick=&quot;this.classList.toggle('heated')&quot;>
+      &lt;div class=&quot;q-text&quot;>How does Charlus use musical patronage (Morel) not for the sake of art, but as an instrument of social domination and sexual control?&lt;/div>
+      &lt;div class=&quot;q-sub&quot;>权力的乐器：夏尔吕斯如何将高雅的音乐赞助，扭曲为阶级碾压与情欲控制的工具？&lt;/div>
+    &lt;/div>
+    &lt;div class=&quot;interactive-q&quot; onclick=&quot;this.classList.toggle('heated')&quot;>
+      &lt;div class=&quot;q-text&quot;>Why does Proust place the profound revelation of the Septet in the exact center of a vicious, superficial salon gathering? What does this juxtaposition achieve?&lt;/div>
+      &lt;div class=&quot;q-sub&quot;>神圣与庸俗的并置：最纯粹的艺术启示，为何偏偏发生在最虚伪的社交场中？&lt;/div>
+    &lt;/div>
+    &lt;div class=&quot;interactive-q&quot; onclick=&quot;this.classList.toggle('heated')&quot;>
+      &lt;div class=&quot;q-text&quot;>How do &quot;worldly signs&quot; (Deleuze) operate as a necessary friction against which the &quot;art signs&quot; must struggle to be heard?&lt;/div>
+      &lt;div class=&quot;q-sub&quot;>社交符号的噪音：在满屋子漫不经心的闲聊中，艺术符号如何艰难地穿透世俗的屏蔽？&lt;/div>
+    &lt;/div>
+  &lt;/div>
+  &lt;div class=&quot;anchor-container&quot;>
+    &lt;div class=&quot;anchor-tag&quot;>📍 music_social_performance_charlus&lt;/div>
+    &lt;div class=&quot;anchor-tag&quot;>📍 03-worldly-signs&lt;/div>
+  &lt;/div>
+  &lt;div class=&quot;seed-module&quot;>
+    &lt;div class=&quot;seed-header&quot;>Free Restatement Seed (EN/ZH)&lt;/div>
+    &lt;div class=&quot;seed-text&quot;>&quot;Proust delights in comic juxtaposition: the profound metaphysical truth of the Septet is unveiled amidst the profound idiocy of the Verdurin clan. Mme Verdurin’s theatrical reactions prove that for the worldly society, music is not an essence, but merely &lt;span class=&quot;blank&quot;>&lt;/span>.&quot;&lt;/div>
+    &lt;button class=&quot;reveal-btn&quot; onclick=&quot;this.nextElementSibling.classList.toggle('active')&quot;>👁️ Expand Chinese Seed&lt;/button>
+    &lt;div class=&quot;chinese-seed&quot;>
+      “普鲁斯特在《女囚》中展现了极其辛辣的讽刺：凡特伊最神圣的七重奏，居然是在维尔迪兰夫人那个充满算计的沙龙里首演的。当马塞尔在音乐中经历灵魂的战栗时，周围的人却在进行着权力的角逐和虚荣的表演。对这些‘世俗符号’的俘虏而言，音乐根本不是真理，而仅仅是&lt;span class=&quot;blank&quot;>&lt;/span>的背景音……”
+    &lt;/div>
+  &lt;/div>
+&lt;/div>
+
+&lt;!-- PACK 8 -->
+&lt;div class=&quot;packet-section theme-jankelevitch&quot;>
+  &lt;div class=&quot;pack-header&quot;>
+    &lt;span class=&quot;theorist-tag&quot;>08. Jankélévitch / Inexpressive Espressivo&lt;/span>
+    &lt;h2>The Mirage of Development&lt;/h2>
+  &lt;/div>
+  &lt;div class=&quot;core-pressure&quot;>
+    &quot;We are conditioned by rhetoric to hear 'development' in a sonata—a logical argument moving from A to B. But Jankélévitch suggests music is actually about 'Reprise': returning to the same point, differently. How does Vinteuil's little phrase enact Reprise rather than linear Development?&quot;
+  &lt;/div>
+  &lt;div class=&quot;question-list&quot;>
+    &lt;div class=&quot;interactive-q&quot; onclick=&quot;this.classList.toggle('heated')&quot;>
+      &lt;div class=&quot;q-text&quot;>Track the recurrences of the little phrase. Does it &quot;conclude&quot; an argument like a syllogism, or does it simply return like a ghost or a familiar deity?&lt;/div>
+      &lt;div class=&quot;q-sub&quot;>并非三段论：小乐句的反复出现，是逻辑的推演，还是幽灵般的盘旋？&lt;/div>
+    &lt;/div>
+    &lt;div class=&quot;interactive-q&quot; onclick=&quot;this.classList.toggle('heated')&quot;>
+      &lt;div class=&quot;q-text&quot;>How does the concept of Repetition (Deleuze/Jankélévitch) replace the concept of Progress in listening to Proust's music?&lt;/div>
+      &lt;div class=&quot;q-sub&quot;>重复的魔法：为何在普鲁斯特的音乐体验中，“重现”比“进步”更重要？&lt;/div>
+    &lt;/div>
+    &lt;div class=&quot;interactive-q&quot; onclick=&quot;this.classList.toggle('heated')&quot;>
+      &lt;div class=&quot;q-text&quot;>Jankélévitch claims &quot;one becomes a kithara player in playing the kithara.&quot; How does this relate to Marcel's gradual, iterative process of learning to 'hear' the Septet?&lt;/div>
+      &lt;div class=&quot;q-sub&quot;>做中学的学徒期：马塞尔如何通过一遍遍地被音乐“穿透”，才最终学会了“聆听”？&lt;/div>
+    &lt;/div>
+    &lt;div class=&quot;interactive-q&quot; onclick=&quot;this.classList.toggle('heated')&quot;>
+      &lt;div class=&quot;q-text&quot;>What is the &quot;inexpressive Espressivo&quot;? How can music be overwhelmingly emotional yet devoid of any definable, translatable sentiment?&lt;/div>
+      &lt;div class=&quot;q-sub&quot;>无表情的表情：音乐如何做到饱含极其强烈的情感，却又拒绝表达任何具体的“意思”？&lt;/div>
+    &lt;/div>
+  &lt;/div>
+  &lt;div class=&quot;anchor-container&quot;>
+    &lt;div class=&quot;anchor-tag&quot;>📍 vinteuil_little_phrase_sonata&lt;/div>
+    &lt;div class=&quot;anchor-tag&quot;>📍 vinteuil_in_the_captive&lt;/div>
+  &lt;/div>
+  &lt;div class=&quot;seed-module&quot;>
+    &lt;div class=&quot;seed-header&quot;>Free Restatement Seed (EN/ZH)&lt;/div>
+    &lt;div class=&quot;seed-text&quot;>&quot;To speak of 'development' in Vinteuil's music is to fall into a linguistic trap. As Jankélévitch shows, the little phrase does not argue a point; it operates through Reprise. Its return is not a logical conclusion, but rather a &lt;span class=&quot;blank&quot;>&lt;/span>.&quot;&lt;/div>
+    &lt;button class=&quot;reveal-btn&quot; onclick=&quot;this.nextElementSibling.classList.toggle('active')&quot;>👁️ Expand Chinese Seed&lt;/button>
+    &lt;div class=&quot;chinese-seed&quot;>
+      “用‘主题的发展’来分析凡特伊的奏鸣曲，是一种将音乐修辞化的错觉。扬凯列维奇提醒我们，音乐没有推理，只有‘重现（Reprise）’。小乐句在乐曲后半段的回归，不是一个论点的得出，而是一种&lt;span class=&quot;blank&quot;>&lt;/span>。这种循环往复的降临，构成了无言的（Ineffable）震慑，彻底击碎了理性的线性时间观……”
+    &lt;/div>
+  &lt;/div>
+&lt;/div>
+
+&lt;!-- PACK 9 -->
+&lt;div class=&quot;packet-section theme-synthesis&quot;>
+  &lt;div class=&quot;pack-header&quot;>
+    &lt;span class=&quot;theorist-tag&quot;>09. Proust / The Septet&lt;/span>
+    &lt;h2>The Red of the Morning&lt;/h2>
+  &lt;/div>
+  &lt;div class=&quot;core-pressure&quot;>
+    &quot;The Sonata was lunar, silvery, and melancholy. The Septet is terrestrial, red, and overwhelmingly joyous. How does Marcel’s encounter with the Septet in 'The Captive' mark the leap from the illusions of love to the brutal, necessary truth of Art?&quot;
+  &lt;/div>
+  &lt;div class=&quot;question-list&quot;>
+    &lt;div class=&quot;interactive-q&quot; onclick=&quot;this.classList.toggle('heated')&quot;>
+      &lt;div class=&quot;q-text&quot;>Contrast the descriptive colors of the Sonata (violet, lunar, twilight) with the Septet (scarlet, dawn, rustic). What shift in Vinteuil's soul does this represent?&lt;/div>
+      &lt;div class=&quot;q-sub&quot;>色彩的隐喻：从奏鸣曲的“淡紫”到七重奏的“猩红”，凡特伊的灵魂经历了怎样的蜕变？&lt;/div>
+    &lt;/div>
+    &lt;div class=&quot;interactive-q&quot; onclick=&quot;this.classList.toggle('heated')&quot;>
+      &lt;div class=&quot;q-text&quot;>How does Marcel recognize Vinteuil's &quot;unique signature&quot; underlying both the timid sonata and the triumphant septet?&lt;/div>
+      &lt;div class=&quot;q-sub&quot;>唯一的指纹：马塞尔如何从截然不同的曲风中，辨认出属于凡特伊的那个不可替代的“音色”？&lt;/div>
+    &lt;/div>
+    &lt;div class=&quot;interactive-q&quot; onclick=&quot;this.classList.toggle('heated')&quot;>
+      &lt;div class=&quot;q-text&quot;>Marcel initially finds the joyous motif of the bells &quot;almost ugly&quot; and &quot;laboriously earth-bound.&quot; Why must artistic truth sometimes appear brutal before it appears beautiful?&lt;/div>
+      &lt;div class=&quot;q-sub&quot;>丑陋的真实：为何七重奏中那个如敲击桌面般粗糙的欢乐动机，最初让马塞尔感到抗拒？&lt;/div>
+    &lt;/div>
+    &lt;div class=&quot;interactive-q&quot; onclick=&quot;this.classList.toggle('heated')&quot;>
+      &lt;div class=&quot;q-text&quot;>How does the Septet serve to retrospectively re-evaluate everything Marcel thought he knew about Albertine and his own capacity for creation?&lt;/div>
+      &lt;div class=&quot;q-sub&quot;>艺术的审判：七重奏的光芒，如何反过来照亮并重估了马塞尔那充满谎言的现实生活？&lt;/div>
+    &lt;/div>
+  &lt;/div>
+  &lt;div class=&quot;anchor-container&quot;>
+    &lt;div class=&quot;anchor-tag&quot;>📍 vinteuil_in_the_captive&lt;/div>
+    &lt;div class=&quot;anchor-tag&quot;>📍 music_retrospective_art&lt;/div>
+  &lt;/div>
+  &lt;div class=&quot;seed-module&quot;>
+    &lt;div class=&quot;seed-header&quot;>Free Restatement Seed (EN/ZH)&lt;/div>
+    &lt;div class=&quot;seed-text&quot;>&quot;The Septet breaks the melancholic spell of the Sonata. When Marcel hears the 'scarlet tint' of the opening bars, it acts as a 'mystical cock-crow.' It tells him that true Art is not a retreat into nostalgic sadness, but rather a &lt;span class=&quot;blank&quot;>&lt;/span>.&quot;&lt;/div>
+    &lt;button class=&quot;reveal-btn&quot; onclick=&quot;this.nextElementSibling.classList.toggle('active')&quot;>👁️ Expand Chinese Seed&lt;/button>
+    &lt;div class=&quot;chinese-seed&quot;>
+      “《女囚》中的七重奏是一个决定性的转折点。如果说奏鸣曲是属于月光和遗憾的，那么七重奏就是属于黎明和力量的。那‘破晓般刺耳的猩红音色’犹如一声晨鸡的啼鸣，震碎了马塞尔在爱情和社交中感到的虚无。它向我们宣示：最高的艺术不是悲伤的抚慰，而是一种&lt;span class=&quot;blank&quot;>&lt;/span>，它强迫我们直面宇宙最粗粝、也最本真的生机……”
+    &lt;/div>
+  &lt;/div>
+&lt;/div>
+
+&lt;!-- PACK 10 -->
+&lt;div class=&quot;packet-section theme-nattiez&quot;>
+  &lt;div class=&quot;pack-header&quot;>
+    &lt;span class=&quot;theorist-tag&quot;>10. Nattiez / Denial of Origin&lt;/span>
+    &lt;h2>The Effaced Creator&lt;/h2>
+  &lt;/div>
+  &lt;div class=&quot;core-pressure&quot;>
+    &quot;Nattiez notes that Proust tries to make Vinteuil's music seem like a 'pure object of philosophical contemplation,' independent of history or the labor of composition. Why must the creator be effaced for the artwork to become an Absolute?&quot;
+  &lt;/div>
+  &lt;div class=&quot;question-list&quot;>
+    &lt;div class=&quot;interactive-q&quot; onclick=&quot;this.classList.toggle('heated')&quot;>
+      &lt;div class=&quot;q-text&quot;>Vinteuil the man is described as timid, sad, and unremarkable. How does the sheer power of the Septet retroactively absolve his pathetic biography?&lt;/div>
+      &lt;div class=&quot;q-sub&quot;>作者的死亡：凡特伊作为一个懦弱父亲的世俗身份，如何被他天才的音乐作品彻底抹去？&lt;/div>
+    &lt;/div>
+    &lt;div class=&quot;interactive-q&quot; onclick=&quot;this.classList.toggle('heated')&quot;>
+      &lt;div class=&quot;q-text&quot;>Consider Mlle Vinteuil's friend deciphering the &quot;secret hieroglyphs&quot; of the composer's sketches. How does the messy, physical act of composition threaten the illusion of spontaneous divine creation?&lt;/div>
+      &lt;div class=&quot;q-sub&quot;>草稿的污点：从凌乱的手稿中拼凑出伟大作品，这种“物质性”劳动是否削弱了音乐的神圣感？&lt;/div>
+    &lt;/div>
+    &lt;div class=&quot;interactive-q&quot; onclick=&quot;this.classList.toggle('heated')&quot;>
+      &lt;div class=&quot;q-text&quot;>Nattiez calls this effort to efface the poietic (creative) dimension &quot;Utopian.&quot; How does the text struggle between showing the labor of art and treating art as eternal?&lt;/div>
+      &lt;div class=&quot;q-sub&quot;>乌托邦式的掩盖：普鲁斯特为何极力想让我们忘记这首曲子是被“写”出来的，而更愿称之为被“召唤”出来的？&lt;/div>
+    &lt;/div>
+    &lt;div class=&quot;interactive-q&quot; onclick=&quot;this.classList.toggle('heated')&quot;>
+      &lt;div class=&quot;q-text&quot;>If Vinteuil's music is the redemptive model for Marcel's own book, what does this imply about the structure of the *Recherche* itself?&lt;/div>
+      &lt;div class=&quot;q-sub&quot;>文学的镜像：凡特伊用七重奏救赎了自己的一生，这是否暗示了《追忆》这部小说也将成为马塞尔唯一的不朽证明？&lt;/div>
+    &lt;/div>
+  &lt;/div>
+  &lt;div class=&quot;anchor-container&quot;>
+    &lt;div class=&quot;anchor-tag&quot;>📍 vinteuil_in_the_captive&lt;/div>
+    &lt;div class=&quot;anchor-tag&quot;>📍 Nattiez-U3-05-conclusion&lt;/div>
+  &lt;/div>
+  &lt;div class=&quot;seed-module&quot;>
+    &lt;div class=&quot;seed-header&quot;>Free Restatement Seed (EN/ZH)&lt;/div>
+    &lt;div class=&quot;seed-text&quot;>&quot;To treat the Septet as a pure Idea, Proust must hide the labor of its creation. As Nattiez observes, this 'denial of origin' creates a Utopian illusion. Vinteuil the man must disappear so that Vinteuil the &lt;span class=&quot;blank&quot;>&lt;/span> can speak directly to eternity.&quot;&lt;/div>
+    &lt;button class=&quot;reveal-btn&quot; onclick=&quot;this.nextElementSibling.classList.toggle('active')&quot;>👁️ Expand Chinese Seed&lt;/button>
+    &lt;div class=&quot;chinese-seed&quot;>
+      “为了赋予音乐至高无上的形而上地位，文本进行了一场精妙的‘谋杀’：创作者凡特伊必须在肉体上和传记上被抹除。正如纳蒂埃所剖析的，普鲁斯特试图切断作品与其诞生过程（Poietics）的联系。只有当那些涂改的草稿和卑微的生活烦恼被隐藏起来，七重奏才能化身为&lt;span class=&quot;blank&quot;>&lt;/span>，以一种无时间性的姿态，完成对整个庸俗世界的终极救赎……”
+    &lt;/div>
+  &lt;/div>
+&lt;/div>
+</code></pre>
+  </div> 
+</div>
+<script>
+  // Simple interaction for the digital paper feel
+  document.addEventListener('DOMContentLoaded', () => {
+    console.log(&quot;Proustian U3 Traversal Pack loaded.&quot;);
+    // Interactive questions toggle logic is handled inline via onclick=&quot;this.classList.toggle('heated')&quot;
+  });
+</script></article><hr/><div class="page-footer"><div class="giscus" data-repo="Studere-Alarcherche/Proustian" data-repo-id="R_kgDORYpwTA" data-category="General" data-category-id="DIC_kwDORYpwTM4C3Q3J" data-mapping="pathname" data-strict="0" data-reactions-enabled="1" data-input-position="bottom" data-light-theme="light" data-dark-theme="dark" data-theme-url="https://studere-alarcherche.github.io/Proustian/static/giscus" data-lang="en"></div></div></div><div class="right sidebar"><div class="recent-notes"><h3>✦ CONSTELLATIONS</h3><ul class="recent-ul"><li class="recent-li"><div class="section"><div class="desc"><h3><a href="../System/CURRENT-STATE" class="internal">Current State</a></h3></div><p class="meta"><time datetime="2026-05-17T15:20:31.074Z">2026年5月17日</time></p><ul class="tags"></ul></div></li><li class="recent-li"><div class="section"><div class="desc"><h3><a href="../System/NEXT-ACTION" class="internal">Next Action</a></h3></div><p class="meta"><time datetime="2026-05-18T14:50:15.871Z">2026年5月18日</time></p><ul class="tags"></ul></div></li><li class="recent-li"><div class="section"><div class="desc"><h3><a href="../System/README-FOR-OBSIDIAN" class="internal">README for Obsidian</a></h3></div><p class="meta"><time datetime="2026-05-18T14:50:15.871Z">2026年5月18日</time></p><ul class="tags"></ul></div></li><li class="recent-li"><div class="section"><div class="desc"><h3><a href="../System/START-HERE" class="internal">Start Here</a></h3></div><p class="meta"><time datetime="2026-05-18T14:50:15.871Z">2026年5月18日</time></p><ul class="tags"></ul></div></li></ul></div><div class="backlinks"><h3>反向链接</h3><ul id="list-2" class="overflow"><li><a href="../Proustian/" class="internal">Proustian</a></li><li class="overflow-end"></li></ul></div></div><footer class><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v4.5.2</a> © 2026</p><ul><li><a href="https://github.com/jackyzha0/quartz">GitHub</a></li></ul></footer></div></div></body><script type="application/javascript" data-persist="true">function n(){let t=this.parentElement;t.classList.toggle("is-collapsed");let e=t.getElementsByClassName("callout-content")[0];if(!e)return;let l=t.classList.contains("is-collapsed");e.style.gridTemplateRows=l?"0fr":"1fr"}function c(){let t=document.getElementsByClassName("callout is-collapsible");for(let e of t){let l=e.getElementsByClassName("callout-title")[0],s=e.getElementsByClassName("callout-content")[0];if(!l||!s)continue;l.addEventListener("click",n),window.addCleanup(()=>l.removeEventListener("click",n));let o=e.classList.contains("is-collapsed");s.style.gridTemplateRows=o?"0fr":"1fr"}}document.addEventListener("nav",c);
+</script><script type="module" data-persist="true">function E(a,e){if(!a)return;function t(o){o.target===this&&(o.preventDefault(),o.stopPropagation(),e())}function n(o){o.key.startsWith("Esc")&&(o.preventDefault(),e())}a?.addEventListener("click",t),window.addCleanup(()=>a?.removeEventListener("click",t)),document.addEventListener("keydown",n),window.addCleanup(()=>document.removeEventListener("keydown",n))}function f(a){for(;a.firstChild;)a.removeChild(a.firstChild)}var m=class{constructor(e,t){this.container=e;this.content=t;this.setupEventListeners(),this.setupNavigationControls(),this.resetTransform()}isDragging=!1;startPan={x:0,y:0};currentPan={x:0,y:0};scale=1;MIN_SCALE=.5;MAX_SCALE=3;cleanups=[];setupEventListeners(){let e=this.onMouseDown.bind(this),t=this.onMouseMove.bind(this),n=this.onMouseUp.bind(this),o=this.onTouchStart.bind(this),r=this.onTouchMove.bind(this),i=this.onTouchEnd.bind(this),s=this.resetTransform.bind(this);this.container.addEventListener("mousedown",e),document.addEventListener("mousemove",t),document.addEventListener("mouseup",n),this.container.addEventListener("touchstart",o,{passive:!1}),document.addEventListener("touchmove",r,{passive:!1}),document.addEventListener("touchend",i),window.addEventListener("resize",s),this.cleanups.push(()=>this.container.removeEventListener("mousedown",e),()=>document.removeEventListener("mousemove",t),()=>document.removeEventListener("mouseup",n),()=>this.container.removeEventListener("touchstart",o),()=>document.removeEventListener("touchmove",r),()=>document.removeEventListener("touchend",i),()=>window.removeEventListener("resize",s))}cleanup(){for(let e of this.cleanups)e()}setupNavigationControls(){let e=document.createElement("div");e.className="mermaid-controls";let t=this.createButton("+",()=>this.zoom(.1)),n=this.createButton("-",()=>this.zoom(-.1)),o=this.createButton("Reset",()=>this.resetTransform());e.appendChild(n),e.appendChild(o),e.appendChild(t),this.container.appendChild(e)}createButton(e,t){let n=document.createElement("button");return n.textContent=e,n.className="mermaid-control-button",n.addEventListener("click",t),window.addCleanup(()=>n.removeEventListener("click",t)),n}onMouseDown(e){e.button===0&&(this.isDragging=!0,this.startPan={x:e.clientX-this.currentPan.x,y:e.clientY-this.currentPan.y},this.container.style.cursor="grabbing")}onMouseMove(e){this.isDragging&&(e.preventDefault(),this.currentPan={x:e.clientX-this.startPan.x,y:e.clientY-this.startPan.y},this.updateTransform())}onMouseUp(){this.isDragging=!1,this.container.style.cursor="grab"}onTouchStart(e){if(e.touches.length!==1)return;this.isDragging=!0;let t=e.touches[0];this.startPan={x:t.clientX-this.currentPan.x,y:t.clientY-this.currentPan.y}}onTouchMove(e){if(!this.isDragging||e.touches.length!==1)return;e.preventDefault();let t=e.touches[0];this.currentPan={x:t.clientX-this.startPan.x,y:t.clientY-this.startPan.y},this.updateTransform()}onTouchEnd(){this.isDragging=!1}zoom(e){let t=Math.min(Math.max(this.scale+e,this.MIN_SCALE),this.MAX_SCALE),n=this.content.getBoundingClientRect(),o=n.width/2,r=n.height/2,i=t-this.scale;this.currentPan.x-=o*i,this.currentPan.y-=r*i,this.scale=t,this.updateTransform()}updateTransform(){this.content.style.transform=`translate(${this.currentPan.x}px, ${this.currentPan.y}px) scale(${this.scale})`}resetTransform(){let t=this.content.querySelector("svg").getBoundingClientRect(),n=t.width/this.scale,o=t.height/this.scale;this.scale=1,this.currentPan={x:(this.container.clientWidth-n)/2,y:(this.container.clientHeight-o)/2},this.updateTransform()}},T=["--secondary","--tertiary","--gray","--light","--lightgray","--highlight","--dark","--darkgray","--codeFont"],y;document.addEventListener("nav",async()=>{let e=document.querySelector(".center").querySelectorAll("code.mermaid");if(e.length===0)return;y||=await import("https://cdnjs.cloudflare.com/ajax/libs/mermaid/11.4.0/mermaid.esm.min.mjs");let t=y.default,n=new WeakMap;for(let r of e)n.set(r,r.innerText);async function o(){for(let s of e){s.removeAttribute("data-processed");let c=n.get(s);c&&(s.innerHTML=c)}let r=T.reduce((s,c)=>(s[c]=window.getComputedStyle(document.documentElement).getPropertyValue(c),s),{}),i=document.documentElement.getAttribute("saved-theme")==="dark";t.initialize({startOnLoad:!1,securityLevel:"loose",theme:i?"dark":"base",themeVariables:{fontFamily:r["--codeFont"],primaryColor:r["--light"],primaryTextColor:r["--darkgray"],primaryBorderColor:r["--tertiary"],lineColor:r["--darkgray"],secondaryColor:r["--secondary"],tertiaryColor:r["--tertiary"],clusterBkg:r["--light"],edgeLabelBackground:r["--highlight"]}}),await t.run({nodes:e})}await o(),document.addEventListener("themechange",o),window.addCleanup(()=>document.removeEventListener("themechange",o));for(let r=0;r<e.length;r++){let v=function(){let g=l.querySelector("#mermaid-space"),h=l.querySelector(".mermaid-content");if(!h)return;f(h);let w=i.querySelector("svg").cloneNode(!0);h.appendChild(w),l.classList.add("active"),g.style.cursor="grab",u=new m(g,h)},M=function(){l.classList.remove("active"),u?.cleanup(),u=null},i=e[r],s=i.parentElement,c=s.querySelector(".clipboard-button"),d=s.querySelector(".expand-button"),p=window.getComputedStyle(c),L=c.offsetWidth+parseFloat(p.marginLeft||"0")+parseFloat(p.marginRight||"0");d.style.right=`calc(${L}px + 0.3rem)`,s.prepend(d);let l=s.querySelector("#mermaid-container");if(!l)return;let u=null;d.addEventListener("click",v),E(l,M),window.addCleanup(()=>{u?.cleanup(),d.removeEventListener("click",v)})}});
+</script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/copy-tex.min.js" type="application/javascript" data-persist="true"></script><script src="../postscript.js" type="module" data-persist="true"></script></html>

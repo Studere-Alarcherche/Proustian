@@ -1,88 +1,124 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url>
-    <loc>https://studere-alarcherche.github.io/Proustian/Blog</loc>
-    <lastmod>2026-05-16T15:17:58.948Z</lastmod>
-  </url><url>
-    <loc>https://studere-alarcherche.github.io/Proustian/Build-Log</loc>
-    <lastmod>2026-05-13T14:40:40.271Z</lastmod>
-  </url><url>
-    <loc>https://studere-alarcherche.github.io/Proustian/LTF-A0-to-B1-Course-Outline</loc>
-    <lastmod>2026-05-14T14:58:39.457Z</lastmod>
-  </url><url>
-    <loc>https://studere-alarcherche.github.io/Proustian/LTF-Chapter-001-Cognates-and-Reading-Confidence</loc>
-    <lastmod>2026-05-15T00:32:03.216Z</lastmod>
-  </url><url>
-    <loc>https://studere-alarcherche.github.io/Proustian/LTF-Chapter-002-False-Friends-and-Controlled-Guessing</loc>
-    <lastmod>2026-05-15T00:31:00.522Z</lastmod>
-  </url><url>
-    <loc>https://studere-alarcherche.github.io/Proustian/LTF-Chapter-003-Word-Families-and-Recognition-Patterns</loc>
-    <lastmod>2026-05-15T00:32:03.218Z</lastmod>
-  </url><url>
-    <loc>https://studere-alarcherche.github.io/Proustian/LTF-Chapter-004-Function-Words-I</loc>
-    <lastmod>2026-05-15T00:32:03.219Z</lastmod>
-  </url><url>
-    <loc>https://studere-alarcherche.github.io/Proustian/LTF-Chapter-005-What-Is-a-French-Sentence</loc>
-    <lastmod>2026-05-15T00:32:03.222Z</lastmod>
+    <loc>https://studere-alarcherche.github.io/Proustian/Daily/</loc>
+    <lastmod>2026-05-17T15:20:31.064Z</lastmod>
   </url><url>
     <loc>https://studere-alarcherche.github.io/Proustian/LTF-Chapter-Sequence</loc>
-    <lastmod>2026-05-14T14:58:39.457Z</lastmod>
+    <lastmod>2026-05-17T15:20:31.065Z</lastmod>
   </url><url>
     <loc>https://studere-alarcherche.github.io/Proustian/LTF-Course-Architecture</loc>
-    <lastmod>2026-05-14T14:58:39.458Z</lastmod>
+    <lastmod>2026-05-17T15:20:31.064Z</lastmod>
   </url><url>
     <loc>https://studere-alarcherche.github.io/Proustian/LTF-English-Scaffold-Policy</loc>
-    <lastmod>2026-05-14T14:58:39.458Z</lastmod>
+    <lastmod>2026-05-17T15:20:31.056Z</lastmod>
   </url><url>
     <loc>https://studere-alarcherche.github.io/Proustian/LTF-Proust-Target-Policy</loc>
-    <lastmod>2026-05-14T14:58:39.458Z</lastmod>
+    <lastmod>2026-05-17T15:20:31.058Z</lastmod>
   </url><url>
     <loc>https://studere-alarcherche.github.io/Proustian/LTF-Proustian-Core-Questions</loc>
-    <lastmod>2026-05-14T15:02:08.739Z</lastmod>
+    <lastmod>2026-05-17T15:20:31.078Z</lastmod>
   </url><url>
     <loc>https://studere-alarcherche.github.io/Proustian/LTF-Vocabulary-Progression</loc>
-    <lastmod>2026-05-14T14:58:39.459Z</lastmod>
+    <lastmod>2026-05-17T15:20:31.075Z</lastmod>
   </url><url>
-    <loc>https://studere-alarcherche.github.io/Proustian/Language-Training</loc>
-    <lastmod>2026-05-15T00:37:42.349Z</lastmod>
+    <loc>https://studere-alarcherche.github.io/Proustian/Language-Training/LTF-A0-to-B1-Course-Outline</loc>
+    <lastmod>2026-05-17T15:20:31.061Z</lastmod>
   </url><url>
-    <loc>https://studere-alarcherche.github.io/Proustian/Minimal-Reading-Package</loc>
-    <lastmod>2026-05-13T14:40:40.272Z</lastmod>
+    <loc>https://studere-alarcherche.github.io/Proustian/Language-Training/LTF-Chapter-001-Cognates-and-Reading-Confidence</loc>
+    <lastmod>2026-05-17T15:20:31.060Z</lastmod>
   </url><url>
-    <loc>https://studere-alarcherche.github.io/Proustian/Passage-Cards</loc>
-    <lastmod>2026-05-13T14:40:40.272Z</lastmod>
+    <loc>https://studere-alarcherche.github.io/Proustian/Language-Training/LTF-Chapter-002-False-Friends-and-Controlled-Guessing</loc>
+    <lastmod>2026-05-17T15:20:31.059Z</lastmod>
   </url><url>
-    <loc>https://studere-alarcherche.github.io/Proustian/Proustian-2.0</loc>
-    <lastmod>2026-05-13T14:40:40.273Z</lastmod>
+    <loc>https://studere-alarcherche.github.io/Proustian/Language-Training/LTF-Chapter-003-Word-Families-and-Recognition-Patterns</loc>
+    <lastmod>2026-05-17T15:20:31.062Z</lastmod>
   </url><url>
-    <loc>https://studere-alarcherche.github.io/Proustian/Question-Gradient</loc>
-    <lastmod>2026-05-13T14:40:40.273Z</lastmod>
+    <loc>https://studere-alarcherche.github.io/Proustian/Language-Training/LTF-Chapter-004-Function-Words-I</loc>
+    <lastmod>2026-05-17T15:20:31.062Z</lastmod>
   </url><url>
-    <loc>https://studere-alarcherche.github.io/Proustian/Reading-Map</loc>
-    <lastmod>2026-05-13T14:40:40.273Z</lastmod>
+    <loc>https://studere-alarcherche.github.io/Proustian/Language-Training/LTF-Chapter-005-What-Is-a-French-Sentence</loc>
+    <lastmod>2026-05-17T15:20:31.061Z</lastmod>
   </url><url>
-    <loc>https://studere-alarcherche.github.io/Proustian/U1-General-Introduction-Memory-Cliche-to-Polycentric-Reading</loc>
-    <lastmod>2026-05-14T15:02:08.739Z</lastmod>
+    <loc>https://studere-alarcherche.github.io/Proustian/Language-Training/</loc>
+    <lastmod>2026-05-17T15:20:31.060Z</lastmod>
   </url><url>
-    <loc>https://studere-alarcherche.github.io/Proustian/U1-U6-Repository-Index</loc>
-    <lastmod>2026-05-13T14:40:40.274Z</lastmod>
+    <loc>https://studere-alarcherche.github.io/Proustian/Proustian/Course-Gateway</loc>
+    <lastmod>2026-05-18T14:50:15.866Z</lastmod>
+  </url><url>
+    <loc>https://studere-alarcherche.github.io/Proustian/Proustian/Minimal-Reading-Package</loc>
+    <lastmod>2026-05-17T15:20:31.067Z</lastmod>
+  </url><url>
+    <loc>https://studere-alarcherche.github.io/Proustian/Proustian/Passage-Cards</loc>
+    <lastmod>2026-05-17T15:20:31.066Z</lastmod>
+  </url><url>
+    <loc>https://studere-alarcherche.github.io/Proustian/Proustian/Proustian-2.0</loc>
+    <lastmod>2026-05-17T15:20:31.066Z</lastmod>
+  </url><url>
+    <loc>https://studere-alarcherche.github.io/Proustian/Proustian/Question-Gradient</loc>
+    <lastmod>2026-05-17T15:20:31.065Z</lastmod>
+  </url><url>
+    <loc>https://studere-alarcherche.github.io/Proustian/Proustian/Reading-Map</loc>
+    <lastmod>2026-05-17T15:20:31.068Z</lastmod>
+  </url><url>
+    <loc>https://studere-alarcherche.github.io/Proustian/Proustian/U1-General-Introduction-Memory-Cliche-to-Polycentric-Reading</loc>
+    <lastmod>2026-05-17T15:20:31.068Z</lastmod>
+  </url><url>
+    <loc>https://studere-alarcherche.github.io/Proustian/Proustian/U1-General-Introduction</loc>
+    <lastmod>2026-05-18T14:50:15.867Z</lastmod>
+  </url><url>
+    <loc>https://studere-alarcherche.github.io/Proustian/Proustian/U1-U6-Repository-Index</loc>
+    <lastmod>2026-05-17T15:20:31.068Z</lastmod>
+  </url><url>
+    <loc>https://studere-alarcherche.github.io/Proustian/Proustian/U2-Text-Time-Signs</loc>
+    <lastmod>2026-05-18T14:50:15.868Z</lastmod>
+  </url><url>
+    <loc>https://studere-alarcherche.github.io/Proustian/Proustian/U3-Music-Ineffable-Structure</loc>
+    <lastmod>2026-05-18T14:50:15.868Z</lastmod>
+  </url><url>
+    <loc>https://studere-alarcherche.github.io/Proustian/Proustian/U4-Visuality-Attention</loc>
+    <lastmod>2026-05-18T14:50:15.869Z</lastmod>
+  </url><url>
+    <loc>https://studere-alarcherche.github.io/Proustian/Proustian/U5-Space-Sensory-History</loc>
+    <lastmod>2026-05-18T14:50:15.870Z</lastmod>
+  </url><url>
+    <loc>https://studere-alarcherche.github.io/Proustian/Proustian/U6-Writing-Time-Regained</loc>
+    <lastmod>2026-05-18T14:50:15.870Z</lastmod>
+  </url><url>
+    <loc>https://studere-alarcherche.github.io/Proustian/Proustian/</loc>
+    <lastmod>2026-05-17T15:20:31.067Z</lastmod>
+  </url><url>
+    <loc>https://studere-alarcherche.github.io/Proustian/System/Build-Log</loc>
+    <lastmod>2026-05-17T15:20:31.074Z</lastmod>
+  </url><url>
+    <loc>https://studere-alarcherche.github.io/Proustian/System/CURRENT-STATE</loc>
+    <lastmod>2026-05-17T15:20:31.074Z</lastmod>
+  </url><url>
+    <loc>https://studere-alarcherche.github.io/Proustian/System/NEXT-ACTION</loc>
+    <lastmod>2026-05-18T14:50:15.871Z</lastmod>
+  </url><url>
+    <loc>https://studere-alarcherche.github.io/Proustian/System/README-FOR-OBSIDIAN</loc>
+    <lastmod>2026-05-18T14:50:15.871Z</lastmod>
+  </url><url>
+    <loc>https://studere-alarcherche.github.io/Proustian/System/START-HERE</loc>
+    <lastmod>2026-05-18T14:50:15.871Z</lastmod>
+  </url><url>
+    <loc>https://studere-alarcherche.github.io/Proustian/System/Templates</loc>
+    <lastmod>2026-05-17T15:20:31.071Z</lastmod>
+  </url><url>
+    <loc>https://studere-alarcherche.github.io/Proustian/System/</loc>
+    <lastmod>2026-05-17T15:20:31.073Z</lastmod>
   </url><url>
     <loc>https://studere-alarcherche.github.io/Proustian/VOCAB-Cognate-Bank</loc>
-    <lastmod>2026-05-14T14:58:39.459Z</lastmod>
+    <lastmod>2026-05-17T15:20:31.089Z</lastmod>
   </url><url>
     <loc>https://studere-alarcherche.github.io/Proustian/VOCAB-False-Friends-Bank</loc>
-    <lastmod>2026-05-14T14:58:39.460Z</lastmod>
+    <lastmod>2026-05-17T15:20:31.077Z</lastmod>
   </url><url>
     <loc>https://studere-alarcherche.github.io/Proustian/VOCAB-Function-Words-Bank</loc>
-    <lastmod>2026-05-14T14:58:39.460Z</lastmod>
+    <lastmod>2026-05-17T15:20:31.063Z</lastmod>
   </url><url>
     <loc>https://studere-alarcherche.github.io/Proustian/VOCAB-Proust-Lexical-Fields</loc>
-    <lastmod>2026-05-14T14:58:39.460Z</lastmod>
-  </url><url>
-    <loc>https://studere-alarcherche.github.io/Proustian/archive/2026-03-25</loc>
-    <lastmod>2026-03-24T16:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://studere-alarcherche.github.io/Proustian/archive/%E5%AD%97%E6%95%B0%E5%A4%A7%E6%A6%82</loc>
-    <lastmod>2026-05-13T14:40:40.275Z</lastmod>
+    <lastmod>2026-05-17T15:20:31.069Z</lastmod>
   </url><url>
     <loc>https://studere-alarcherche.github.io/Proustian/</loc>
-    <lastmod>2026-05-15T16:47:30.850Z</lastmod>
+    <lastmod>2026-05-17T15:20:31.075Z</lastmod>
   </url></urlset>
