@@ -11,7 +11,17 @@ This repository is not a blog, not a generic syllabus, and not a file archive. I
 - Quartz publishes from: `Proustian/content/`
 - Codex works from the repository root: `Proustian/`
 - Canonical Codex instruction file: `AGENTS.md` at repository root.
-- Lightweight Obsidian-facing pointer: `content/Codex-Operating-Rules.md`
+- Lightweight Obsidian-facing pointer: `content/System/Codex-Operating-Rules.md`
+
+## Current Architecture
+
+- Quartz archive and public Markdown live under `content/`.
+- Future Web App shell lives under `app/`.
+- Repo-local Codex skills live under `.codex/skills/`.
+- Human-readable skill documentation lives under `skills/`.
+- `PROJECT-MEMORY.md` stores stable project identity and architecture.
+- `THREAD-TEMPLATE.md` controls bounded Codex tasks.
+- Root `BUILD-LOG.md` is the repository infrastructure log, distinct from `content/System/Build-Log.md`.
 
 ## Current Route
 
@@ -78,23 +88,17 @@ Do not restructure the whole repo.
 - RAW first. Structure later. Judgment remains human.
 - Website / Quartz output is downstream of digested material.
 
-## Current Public Entry Files
+## Current Public Areas
 
-These root-level `content/` files are the current public-first V0.1 structure:
+The current public and working structure is area-based inside `content/`. Do not assume older root-level entry files still exist unless verified in the repository.
 
 - `content/index.md`
-- `content/Reading-Guide.md`
-- `content/Reading-Index.md`
-- `content/Literature-Question-Map-V0.1.md`
-- `content/Literature-Importance-Ranking-V0.1.md`
-- `content/Core-Question-Collection.md`
-- `content/Minimal-Entry-Packet-V0.1.md`
-- `content/NotebookLM-Evidence-Packet-Plan.md`
-- `content/Build-Log.md`
-- `content/Reading-Madeleine.md`
-- `content/Reading-Vinteuil.md`
-- `content/Reading-Vermeer-Yellow-Wall.md`
-- `content/Reading-Salon.md`
+- `content/Proustian/`
+- `content/Language-Training/`
+- `content/Essays/`
+- `content/Daily/`
+- `content/System/`
+- `content/99_Archive/`
 
 ## Keep But Do Not Treat As Public-First
 
@@ -111,9 +115,20 @@ These areas may contain useful working material, older structures, essays, or pr
 - `content/90-Essays/`
 - `content/99-Archive/`
 
+Current observed areas include:
+
+- `content/Proustian/`
+- `content/Language-Training/`
+- `content/Essays/`
+- `content/Daily/`
+- `content/System/`
+- `content/99_Archive/`
+
 ## Codex Role
 
 Codex is a structural organizer.
+Codex is an implementation worker, not the intellectual authority.
+Obsidian judgment remains human; Codex prepares structures, drafts, and handoffs.
 
 Codex may:
 - audit files
