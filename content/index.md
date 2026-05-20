@@ -6,11 +6,15 @@ comments: false
 ---
 # Proustian
 
-Read Proust · Learn to Read Proust · From Proust to World Literature · Return to Writing.
+Read Proust · Learn to Read Proust · From Proust to World Literature · Return to Writing
+
+A textual observatory and archive garden centered on *In Search of Lost Time*.
+
+## Enter the Observatory
 
 Proustian is a long-term reading, language, theory, writing, and world-literature training system centered on Marcel Proust's *In Search of Lost Time*.
 
-It is not a normal blog or course. It is a textual observatory and archive garden: a threshold for close reading, language precision, literary comparison, and the return from reading to writing.
+This homepage is a threshold, not a full directory. It opens the public Quartz archive garden while pointing toward a future interactive observatory.
 
 ## Primary Entrances
 
@@ -24,7 +28,7 @@ A precision layer for French, translation, sentence movement, and the habits req
 
 ### [[Proustian/Reading-Map|Textual Promenades]]
 
-Reading paths that begin with Proust and open toward world literature without removing Proust from the center.
+Reading paths that begin with Proust and open toward world literature while keeping Proust at the center.
 
 ### [[System/Build-Log|Archive / Build Log]]
 
@@ -50,6 +54,7 @@ Proust is the center but not the boundary. The long path moves outward through c
 
 ## Current State
 
+- [[System/CURRENT-STATE|Current State]]
 - Infrastructure baseline established.
 - Web App shell planned, not yet implemented.
 - Quartz remains the public archive garden.

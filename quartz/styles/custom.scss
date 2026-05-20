@@ -3544,6 +3544,417 @@ body[data-slug="index"] .page-footer > .graph .graph-outer {
   }
 }
 
+/* Final emergency override: homepage must render as Markdown, not custom HTML. */
+body[data-slug="index"] {
+  --home-bg: #0d0b08;
+  --home-bg-soft: #17120d;
+  --home-panel: rgba(32, 24, 17, 0.72);
+  --home-text: #f3ead8;
+  --home-text-soft: #d4c3a6;
+  --home-muted: #9c8b72;
+  --home-gold: #b8944f;
+  --home-blue: #6f8f9a;
+  --home-rule-soft: rgba(217, 199, 164, 0.12);
+  background:
+    radial-gradient(circle at 18% 8%, rgba(184, 148, 79, 0.16), transparent 24rem),
+    radial-gradient(circle at 84% 18%, rgba(111, 143, 154, 0.13), transparent 28rem),
+    linear-gradient(180deg, var(--home-bg), var(--home-bg-soft) 46%, #0b0907) !important;
+  color: var(--home-text-soft);
+}
+
+body[data-slug="index"] .page,
+body[data-slug="index"] #quartz-root,
+body[data-slug="index"] #quartz-body,
+body[data-slug="index"] .center {
+  background: transparent !important;
+}
+
+body[data-slug="index"] .page.layout-landing > #quartz-body,
+body[data-slug="index"] .center {
+  width: 100% !important;
+  max-width: none !important;
+  display: block !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+body[data-slug="index"] .left.sidebar,
+body[data-slug="index"] .right.sidebar,
+body[data-slug="index"] .page-header,
+body[data-slug="index"] .page-footer,
+body[data-slug="index"] a[role="anchor"] {
+  display: none !important;
+}
+
+body[data-slug="index"] article,
+body[data-slug="index"] article.popover-hint {
+  width: min(1100px, calc(100vw - 32px)) !important;
+  max-width: min(1100px, calc(100vw - 32px)) !important;
+  margin: 0 auto !important;
+  padding: clamp(34px, 6vw, 76px) 0 clamp(52px, 8vw, 92px) !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  color: var(--home-text-soft) !important;
+  font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif !important;
+  font-size: 18px;
+  line-height: 1.68 !important;
+}
+
+body[data-slug="index"] article h1,
+body[data-slug="index"] article h2,
+body[data-slug="index"] article h3 {
+  color: var(--home-text) !important;
+  font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif !important;
+  font-weight: 400 !important;
+  letter-spacing: 0 !important;
+}
+
+body[data-slug="index"] article > h1:first-child {
+  display: block !important;
+  max-width: 10ch !important;
+  margin: 0 !important;
+  padding-top: clamp(38px, 7vw, 92px) !important;
+  font-size: clamp(4rem, 10vw, 8.5rem) !important;
+  line-height: 0.9 !important;
+}
+
+body[data-slug="index"] article > h1:first-child + p {
+  max-width: 780px;
+  margin: 28px 0 0 !important;
+  color: var(--home-gold) !important;
+  font-size: clamp(1.18rem, 2vw, 1.55rem) !important;
+  line-height: 1.38 !important;
+}
+
+body[data-slug="index"] article > h1:first-child + p + p {
+  max-width: 680px;
+  margin: 22px 0 clamp(48px, 7vw, 88px) !important;
+  color: var(--home-text-soft) !important;
+  font-size: clamp(1.08rem, 1.6vw, 1.28rem) !important;
+}
+
+body[data-slug="index"] article > h2 {
+  margin: clamp(42px, 6vw, 72px) 0 20px !important;
+  padding-top: clamp(36px, 5vw, 64px) !important;
+  border-top: 1px solid var(--home-rule-soft) !important;
+  border-bottom: 0 !important;
+  font-size: clamp(2rem, 4vw, 3.7rem) !important;
+  line-height: 1 !important;
+}
+
+body[data-slug="index"] article > h3 {
+  position: relative;
+  margin: 16px 0 0 !important;
+  padding: 22px 22px 0 !important;
+  border-top: 1px solid var(--home-rule-soft) !important;
+  border-right: 1px solid var(--home-rule-soft) !important;
+  border-left: 1px solid var(--home-rule-soft) !important;
+  background: var(--home-panel) !important;
+  font-size: clamp(1.32rem, 2vw, 1.72rem) !important;
+  line-height: 1.16 !important;
+}
+
+body[data-slug="index"] article > h3::before {
+  content: "";
+  position: absolute;
+  inset: 0 0 auto;
+  height: 2px;
+  background: linear-gradient(90deg, var(--home-gold), transparent 70%);
+}
+
+body[data-slug="index"] article > h3 + p {
+  min-height: 5rem;
+  margin: 0 0 16px !important;
+  padding: 12px 22px 22px !important;
+  border-right: 1px solid var(--home-rule-soft) !important;
+  border-bottom: 1px solid var(--home-rule-soft) !important;
+  border-left: 1px solid var(--home-rule-soft) !important;
+  background: var(--home-panel) !important;
+  color: var(--home-muted) !important;
+  font-size: 1rem !important;
+  line-height: 1.52 !important;
+}
+
+body[data-slug="index"] article p,
+body[data-slug="index"] article li {
+  color: var(--home-text-soft) !important;
+}
+
+body[data-slug="index"] article ul {
+  margin: 24px 0 0 !important;
+  padding: 0 !important;
+  list-style: none !important;
+}
+
+body[data-slug="index"] article li {
+  margin: 0 !important;
+  padding: 14px 0 !important;
+  border-bottom: 1px solid var(--home-rule-soft) !important;
+}
+
+body[data-slug="index"] article li:first-child {
+  border-top: 1px solid var(--home-rule-soft) !important;
+}
+
+body[data-slug="index"] article a {
+  color: var(--home-gold) !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  text-shadow: none !important;
+  text-decoration: underline !important;
+  text-decoration-thickness: 1px !important;
+  text-underline-offset: 0.22em !important;
+}
+
+body[data-slug="index"] article a:hover,
+body[data-slug="index"] article a:focus-visible {
+  color: var(--home-text) !important;
+}
+
+body[data-slug="index"] article a:focus-visible {
+  outline: 2px solid var(--home-blue) !important;
+  outline-offset: 4px !important;
+}
+
+body[data-slug="index"] article a::after,
+body[data-slug="index"] article a[href*="Language-Training"]::after {
+  content: none !important;
+  display: none !important;
+}
+
+body[data-slug="index"] article em {
+  color: #d9c7a4 !important;
+}
+
+body[data-slug="index"] article strong {
+  color: var(--home-text) !important;
+  box-shadow: none !important;
+}
+
+@media (max-width: 700px) {
+  body[data-slug="index"] article,
+  body[data-slug="index"] article.popover-hint {
+    width: min(100% - 24px, 1100px) !important;
+    font-size: 16px;
+  }
+
+  body[data-slug="index"] article > h1:first-child {
+    font-size: clamp(3.4rem, 19vw, 5rem) !important;
+  }
+}
+
+/* Emergency homepage reset: Markdown-first Proustian threshold */
+body[data-slug="index"] {
+  --home-bg: #0d0b08;
+  --home-bg-soft: #17120d;
+  --home-panel: rgba(32, 24, 17, 0.72);
+  --home-text: #f3ead8;
+  --home-text-soft: #d4c3a6;
+  --home-muted: #9c8b72;
+  --home-gold: #b8944f;
+  --home-blue: #6f8f9a;
+  --home-rule: rgba(184, 148, 79, 0.28);
+  --home-rule-soft: rgba(217, 199, 164, 0.12);
+  background:
+    radial-gradient(circle at 18% 8%, rgba(184, 148, 79, 0.16), transparent 24rem),
+    radial-gradient(circle at 84% 18%, rgba(111, 143, 154, 0.13), transparent 28rem),
+    linear-gradient(180deg, var(--home-bg), var(--home-bg-soft) 46%, #0b0907) !important;
+  color: var(--home-text-soft);
+}
+
+body[data-slug="index"] .page,
+body[data-slug="index"] #quartz-root,
+body[data-slug="index"] #quartz-body,
+body[data-slug="index"] .center {
+  background: transparent !important;
+}
+
+body[data-slug="index"] .page.layout-landing > #quartz-body {
+  width: 100%;
+  max-width: none;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+body[data-slug="index"] .center {
+  width: 100%;
+  max-width: none;
+  min-height: 100vh;
+  display: block !important;
+}
+
+body[data-slug="index"] .left.sidebar,
+body[data-slug="index"] .right.sidebar,
+body[data-slug="index"] .page-header,
+body[data-slug="index"] .page-footer > .search,
+body[data-slug="index"] .page-footer > .backlinks,
+body[data-slug="index"] .page-footer > .graph,
+body[data-slug="index"] a[role="anchor"] {
+  display: none !important;
+}
+
+body[data-slug="index"] article,
+body[data-slug="index"] article.popover-hint {
+  width: min(1100px, calc(100vw - 32px)) !important;
+  max-width: min(1100px, calc(100vw - 32px)) !important;
+  margin: 0 auto !important;
+  padding: clamp(34px, 6vw, 76px) 0 clamp(52px, 8vw, 92px) !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  color: var(--home-text-soft) !important;
+  font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif !important;
+  font-size: 18px;
+  line-height: 1.68 !important;
+}
+
+body[data-slug="index"] article h1,
+body[data-slug="index"] article h2,
+body[data-slug="index"] article h3 {
+  color: var(--home-text) !important;
+  font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif !important;
+  font-weight: 400 !important;
+  letter-spacing: 0 !important;
+}
+
+body[data-slug="index"] article > h1:first-child {
+  display: block !important;
+  max-width: 10ch;
+  margin: 0;
+  padding-top: clamp(38px, 7vw, 92px);
+  font-size: clamp(4rem, 10vw, 8.5rem);
+  line-height: 0.9;
+}
+
+body[data-slug="index"] article > h1:first-child + p {
+  max-width: 780px;
+  margin: 28px 0 0;
+  color: var(--home-gold) !important;
+  font-size: clamp(1.18rem, 2vw, 1.55rem);
+  line-height: 1.38;
+}
+
+body[data-slug="index"] article > h1:first-child + p + p {
+  max-width: 680px;
+  margin: 22px 0 clamp(48px, 7vw, 88px);
+  color: var(--home-text-soft) !important;
+  font-size: clamp(1.08rem, 1.6vw, 1.28rem);
+}
+
+body[data-slug="index"] article > h2 {
+  margin: clamp(42px, 6vw, 72px) 0 20px;
+  padding-top: clamp(36px, 5vw, 64px);
+  border-top: 1px solid var(--home-rule-soft) !important;
+  border-bottom: 0 !important;
+  font-size: clamp(2rem, 4vw, 3.7rem);
+  line-height: 1;
+}
+
+body[data-slug="index"] article > h3 {
+  position: relative;
+  margin: 16px 0 0;
+  padding: 22px 22px 0;
+  border-top: 1px solid var(--home-rule-soft);
+  border-right: 1px solid var(--home-rule-soft);
+  border-left: 1px solid var(--home-rule-soft);
+  background: var(--home-panel);
+  font-size: clamp(1.32rem, 2vw, 1.72rem);
+  line-height: 1.16;
+}
+
+body[data-slug="index"] article > h3::before {
+  content: "";
+  position: absolute;
+  inset: 0 0 auto;
+  height: 2px;
+  background: linear-gradient(90deg, var(--home-gold), transparent 70%);
+}
+
+body[data-slug="index"] article > h3 + p {
+  min-height: 5rem;
+  margin: 0 0 16px;
+  padding: 12px 22px 22px;
+  border-right: 1px solid var(--home-rule-soft);
+  border-bottom: 1px solid var(--home-rule-soft);
+  border-left: 1px solid var(--home-rule-soft);
+  background: var(--home-panel);
+  color: var(--home-muted) !important;
+  font-size: 1rem;
+  line-height: 1.52;
+}
+
+body[data-slug="index"] article p {
+  color: var(--home-text-soft);
+}
+
+body[data-slug="index"] article ul {
+  margin: 24px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+body[data-slug="index"] article li {
+  margin: 0;
+  padding: 14px 0;
+  border-bottom: 1px solid var(--home-rule-soft);
+  color: var(--home-text-soft);
+}
+
+body[data-slug="index"] article li:first-child {
+  border-top: 1px solid var(--home-rule-soft);
+}
+
+body[data-slug="index"] article a {
+  color: var(--home-gold) !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  text-shadow: none !important;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.22em;
+}
+
+body[data-slug="index"] article a:hover,
+body[data-slug="index"] article a:focus-visible {
+  color: var(--home-text) !important;
+}
+
+body[data-slug="index"] article a:focus-visible {
+  outline: 2px solid var(--home-blue);
+  outline-offset: 4px;
+}
+
+body[data-slug="index"] article a::after,
+body[data-slug="index"] article a[href*="Language-Training"]::after {
+  content: none !important;
+  display: none !important;
+}
+
+body[data-slug="index"] article em {
+  color: #d9c7a4;
+}
+
+body[data-slug="index"] article strong {
+  color: var(--home-text);
+  box-shadow: none;
+}
+
+@media (max-width: 700px) {
+  body[data-slug="index"] article,
+  body[data-slug="index"] article.popover-hint {
+    width: min(100% - 24px, 1100px) !important;
+    font-size: 16px;
+  }
+
+  body[data-slug="index"] article > h1:first-child {
+    font-size: clamp(3.4rem, 19vw, 5rem);
+  }
+}
+
 /* Proustian homepage threshold: dark archive language board */
 body[data-slug="index"] {
   --home-archive-black: #0d0b08;
@@ -4313,5 +4724,206 @@ body[data-slug="index"] .page-footer > .graph .global-graph-outer {
   body[data-slug="index"] .bottom-graph,
   body[data-slug="index"] .page-footer > .graph .graph-outer {
     border-radius: 18px;
+  }
+}
+
+/* Final emergency override: homepage must render as Markdown, not custom HTML. */
+body[data-slug="index"] {
+  --home-bg: #0d0b08;
+  --home-bg-soft: #17120d;
+  --home-panel: rgba(32, 24, 17, 0.72);
+  --home-text: #f3ead8;
+  --home-text-soft: #d4c3a6;
+  --home-muted: #9c8b72;
+  --home-gold: #b8944f;
+  --home-blue: #6f8f9a;
+  --home-rule-soft: rgba(217, 199, 164, 0.12);
+  background:
+    radial-gradient(circle at 18% 8%, rgba(184, 148, 79, 0.16), transparent 24rem),
+    radial-gradient(circle at 84% 18%, rgba(111, 143, 154, 0.13), transparent 28rem),
+    linear-gradient(180deg, var(--home-bg), var(--home-bg-soft) 46%, #0b0907) !important;
+  color: var(--home-text-soft);
+}
+
+body[data-slug="index"] .page,
+body[data-slug="index"] #quartz-root,
+body[data-slug="index"] #quartz-body,
+body[data-slug="index"] .center {
+  background: transparent !important;
+}
+
+body[data-slug="index"] .page.layout-landing > #quartz-body,
+body[data-slug="index"] .center {
+  width: 100% !important;
+  max-width: none !important;
+  display: block !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+body[data-slug="index"] .left.sidebar,
+body[data-slug="index"] .right.sidebar,
+body[data-slug="index"] .page-header,
+body[data-slug="index"] .page-footer,
+body[data-slug="index"] a[role="anchor"] {
+  display: none !important;
+}
+
+body[data-slug="index"] article,
+body[data-slug="index"] article.popover-hint {
+  width: min(1100px, calc(100vw - 32px)) !important;
+  max-width: min(1100px, calc(100vw - 32px)) !important;
+  margin: 0 auto !important;
+  padding: clamp(34px, 6vw, 76px) 0 clamp(52px, 8vw, 92px) !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  color: var(--home-text-soft) !important;
+  font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif !important;
+  font-size: 18px;
+  line-height: 1.68 !important;
+}
+
+body[data-slug="index"] article h1,
+body[data-slug="index"] article h2,
+body[data-slug="index"] article h3 {
+  color: var(--home-text) !important;
+  font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif !important;
+  font-weight: 400 !important;
+  letter-spacing: 0 !important;
+}
+
+body[data-slug="index"] article > h1:first-child {
+  display: block !important;
+  max-width: 10ch !important;
+  margin: 0 !important;
+  padding-top: clamp(38px, 7vw, 92px) !important;
+  font-size: clamp(4rem, 10vw, 8.5rem) !important;
+  line-height: 0.9 !important;
+}
+
+body[data-slug="index"] article > h1:first-child + p {
+  max-width: 780px;
+  margin: 28px 0 0 !important;
+  color: var(--home-gold) !important;
+  font-size: clamp(1.18rem, 2vw, 1.55rem) !important;
+  line-height: 1.38 !important;
+}
+
+body[data-slug="index"] article > h1:first-child + p + p {
+  max-width: 680px;
+  margin: 22px 0 clamp(48px, 7vw, 88px) !important;
+  color: var(--home-text-soft) !important;
+  font-size: clamp(1.08rem, 1.6vw, 1.28rem) !important;
+}
+
+body[data-slug="index"] article > h2 {
+  margin: clamp(42px, 6vw, 72px) 0 20px !important;
+  padding-top: clamp(36px, 5vw, 64px) !important;
+  border-top: 1px solid var(--home-rule-soft) !important;
+  border-bottom: 0 !important;
+  font-size: clamp(2rem, 4vw, 3.7rem) !important;
+  line-height: 1 !important;
+}
+
+body[data-slug="index"] article > h3 {
+  position: relative;
+  margin: 16px 0 0 !important;
+  padding: 22px 22px 0 !important;
+  border-top: 1px solid var(--home-rule-soft) !important;
+  border-right: 1px solid var(--home-rule-soft) !important;
+  border-left: 1px solid var(--home-rule-soft) !important;
+  background: var(--home-panel) !important;
+  font-size: clamp(1.32rem, 2vw, 1.72rem) !important;
+  line-height: 1.16 !important;
+}
+
+body[data-slug="index"] article > h3::before {
+  content: "";
+  position: absolute;
+  inset: 0 0 auto;
+  height: 2px;
+  background: linear-gradient(90deg, var(--home-gold), transparent 70%);
+}
+
+body[data-slug="index"] article > h3 + p {
+  min-height: 5rem;
+  margin: 0 0 16px !important;
+  padding: 12px 22px 22px !important;
+  border-right: 1px solid var(--home-rule-soft) !important;
+  border-bottom: 1px solid var(--home-rule-soft) !important;
+  border-left: 1px solid var(--home-rule-soft) !important;
+  background: var(--home-panel) !important;
+  color: var(--home-muted) !important;
+  font-size: 1rem !important;
+  line-height: 1.52 !important;
+}
+
+body[data-slug="index"] article p,
+body[data-slug="index"] article li {
+  color: var(--home-text-soft) !important;
+}
+
+body[data-slug="index"] article ul {
+  margin: 24px 0 0 !important;
+  padding: 0 !important;
+  list-style: none !important;
+}
+
+body[data-slug="index"] article li {
+  margin: 0 !important;
+  padding: 14px 0 !important;
+  border-bottom: 1px solid var(--home-rule-soft) !important;
+}
+
+body[data-slug="index"] article li:first-child {
+  border-top: 1px solid var(--home-rule-soft) !important;
+}
+
+body[data-slug="index"] article a {
+  color: var(--home-gold) !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  text-shadow: none !important;
+  text-decoration: underline !important;
+  text-decoration-thickness: 1px !important;
+  text-underline-offset: 0.22em !important;
+}
+
+body[data-slug="index"] article a:hover,
+body[data-slug="index"] article a:focus-visible {
+  color: var(--home-text) !important;
+}
+
+body[data-slug="index"] article a:focus-visible {
+  outline: 2px solid var(--home-blue) !important;
+  outline-offset: 4px !important;
+}
+
+body[data-slug="index"] article a::after,
+body[data-slug="index"] article a[href*="Language-Training"]::after {
+  content: none !important;
+  display: none !important;
+}
+
+body[data-slug="index"] article em {
+  color: #d9c7a4 !important;
+}
+
+body[data-slug="index"] article strong {
+  color: var(--home-text) !important;
+  box-shadow: none !important;
+}
+
+@media (max-width: 700px) {
+  body[data-slug="index"] article,
+  body[data-slug="index"] article.popover-hint {
+    width: min(100% - 24px, 1100px) !important;
+    font-size: 16px;
+  }
+
+  body[data-slug="index"] article > h1:first-child {
+    font-size: clamp(3.4rem, 19vw, 5rem) !important;
   }
 }
