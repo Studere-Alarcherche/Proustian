@@ -1,40 +1,55 @@
 ---
-title: "Proustian 2.0"
-description: "A reading garden centered on Proust."
+title: "Proustian"
+description: "A textual observatory and archive garden centered on Proust."
+layout: landing
 comments: false
 ---
-# Proustian 2.0
+# Proustian
 
-Proustian 2.0 is a reading garden centered on Marcel Proust and *À la recherche du temps perdu*.
+Read Proust · Learn to Read Proust · From Proust to World Literature · Return to Writing.
 
-It is a long-term system for reading, language precision, translation practice, aesthetic judgment, and reader-facing course formation.
+Proustian is a long-term reading, language, theory, writing, and world-literature training system centered on Marcel Proust's *In Search of Lost Time*.
 
-## Main Paths
+It is not a normal blog or course. It is a textual observatory and archive garden: a threshold for close reading, language precision, literary comparison, and the return from reading to writing.
 
-### [[Proustian/|Proustian Reading Garden]]
+## Primary Entrances
 
-The central path. Course gateway, recursive reading method, U1-U6, question gradients, and the main problem-field around *In Search of Lost Time*.
+### [[Proustian/|Reading Observatory]]
 
-### [[Language-Training/|Language Training]]
+The central path for entering Proust through memory, signs, scenes, form, and recursive reading.
 
-French reading precision and reading-only training materials for entering Proust gradually.
+### [[Language-Training/|Learn to Read Proust]]
 
-### [[Essays/|Essays]]
+A precision layer for French, translation, sentence movement, and the habits required for reading Proust slowly.
 
-Public-facing and semi-public writing.
+### [[Proustian/Reading-Map|Textual Promenades]]
 
-### [[Daily/|Daily Digestion]]
+Reading paths that begin with Proust and open toward world literature without removing Proust from the center.
 
-Reviewed daily logs and distilled project movement.
+### [[System/Build-Log|Archive / Build Log]]
 
-### [[System/|System]]
+The visible record of infrastructure, publication state, and the archive garden's ongoing construction.
 
-Local Obsidian operating layer: current state, next action, workflow notes, and repository use.
+## Project Orientation
 
-## Current Rule
+### Quartz Archive Garden
 
-Proust remains the center.  
-French serves precision.  
-Essays serve articulation.  
-Daily logs serve digestion.  
-System files serve operation.
+Quartz is the public archive garden: stable pages, reading paths, textual plates, and reader-facing records.
+
+### Future Web App Shell
+
+The future Web App is the interactive observatory. It is planned, but not yet implemented here.
+
+### Learn to Read Proust
+
+Learning to read Proust is a core pillar, not a side course: language, form, attention, and rereading belong together.
+
+### From Proust to World Literature
+
+Proust is the center but not the boundary. The long path moves outward through comparison, translation, and writing.
+
+## Current State
+
+- Infrastructure baseline established.
+- Web App shell planned, not yet implemented.
+- Quartz remains the public archive garden.
