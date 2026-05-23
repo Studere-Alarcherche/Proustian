@@ -16,6 +16,16 @@ Proustian is a long-term reading, language, theory, writing, and world-literatur
 
 This homepage is a threshold, not a full directory. It opens the public Quartz archive garden while pointing toward a future interactive observatory.
 
+## How the Garden Works
+
+Each path begins with a pressure, not with a lesson.
+
+A reader enters through a scene, a question, a sign, a phrase, an image, a room, a sound, or a sentence. The site offers structure, but the structure is not a cage. It helps the reader return to passages, form judgments, and carry those judgments into writing.
+
+Prepare → Encounter → Connect → Distill → Return.
+
+Structure without experience becomes a dead syllabus. Experience without structure becomes scattered wandering. Proustian is built for structured wandering.
+
 ## Primary Entrances
 
 ### [[Proustian/|Reading Observatory]]
@@ -42,7 +52,7 @@ Quartz is the public archive garden: stable pages, reading paths, textual plates
 
 ### Future Web App Shell
 
-The future Web App is the interactive observatory. It is planned, but not yet implemented here.
+The future Web App is the interactive observatory. It is planned, but not implemented in this Markdown-first archive.
 
 ### Learn to Read Proust
 
@@ -58,3 +68,4 @@ Proust is the center but not the boundary. The long path moves outward through c
 - Infrastructure baseline established.
 - Web App shell planned, not yet implemented.
 - Quartz remains the public archive garden.
+- Course pages are being rebuilt as Markdown-first reading surfaces.
