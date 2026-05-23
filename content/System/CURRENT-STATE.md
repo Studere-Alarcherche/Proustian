@@ -6,9 +6,9 @@ thread: "system"
 ---
 # Current State
 
-Date: 2026-05-18
+Date: 2026-05-23
 
-The current repository phase is course entrance stabilization.
+The current repository phase is Control Recovery.
 
 The main correction is now clear:
 
@@ -23,6 +23,12 @@ U2-U6 are recurring interpretive fields.
 
 Current completed / in-progress items:
 
+- Control Recovery Phase recorded.
+- Homepage Markdown-first repair is the first priority.
+- User-centered dashboard added as orientation, not center.
+- No internal Projects module belongs in Obsidian.
+- U1 = Method, Signs, and Non-memory Reading.
+- Signs is not the only method.
 - Recursive Course Gateway drafted.
 - U1-U6 HTML pages ready for 1:1 integration.
 - Obsidian / Quartz index structure being stabilized within the existing directory system.
@@ -37,7 +43,7 @@ Current risk:
 
 Current next action:
 
-Render the Course Gateway and U1-U6 pages inside Quartz, then test navigation from the index pages.
+Clean the homepage first, keep the dashboard clear second, and resume reading and training from the stabilized Control Center.
 
 ## Deployment Note
 

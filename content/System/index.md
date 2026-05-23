@@ -13,5 +13,6 @@ Required links:
 
 - [[START-HERE]]
 - [[NEXT-ACTION]]
+- [[Control-Center]]
 - [[CURRENT-STATE]]
 - [[README-FOR-OBSIDIAN]]

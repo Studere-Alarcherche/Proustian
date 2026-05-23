@@ -1,5 +1,14 @@
 # Build Log
 
+## 2026-05-23
+
+- Control Recovery Phase recorded.
+- Homepage Markdown-first repair started from `content/index.md`.
+- User-centered dashboard added at `content/System/Control-Center.md`.
+- No internal Projects module created.
+- U1 = Method, Signs, and Non-memory Reading.
+- Signs is not the only method.
+
 ## 2026-05-17
 
 - 2026-05-17 — Initialized Proustian Digestion System as Obsidian control plane.
