@@ -2788,3 +2788,252 @@ body[data-slug="index"] .content-meta {
     letter-spacing: -0.045em !important;
   }
 }
+
+/* Homepage readability reset: Dutch day reading surface, no dark observatory haze. */
+:root:has(body[data-slug="index"]) {
+  background: #eee7d8 !important;
+}
+
+body[data-slug="index"] {
+  --home-paper: #eee7d8;
+  --home-paper-lift: #fbf6ea;
+  --home-ink: #201914;
+  --home-ink-soft: #46392d;
+  --home-muted: #6f614f;
+  --home-rule: rgba(72, 58, 38, 0.22);
+  --home-rule-strong: rgba(72, 58, 38, 0.36);
+  --home-accent: #8b641f;
+  --home-accent-soft: rgba(139, 100, 31, 0.16);
+  --home-blue: #4f6268;
+  --home-serif: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+  --home-ui: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+  min-height: 100vh;
+  overflow-x: clip;
+  background:
+    radial-gradient(circle at 16% 8%, rgba(139, 100, 31, 0.12), transparent 30rem),
+    radial-gradient(circle at 88% 74%, rgba(79, 98, 104, 0.1), transparent 34rem),
+    linear-gradient(180deg, var(--home-paper-lift) 0%, var(--home-paper) 52%, #e6ddcb 100%) !important;
+  background-color: var(--home-paper) !important;
+  color: var(--home-ink-soft) !important;
+}
+
+body[data-slug="index"]::before {
+  display: none !important;
+}
+
+body[data-slug="index"] .page,
+body[data-slug="index"] #quartz-root,
+body[data-slug="index"] #quartz-body,
+body[data-slug="index"] .center {
+  background: transparent !important;
+}
+
+body[data-slug="index"] .page.layout-landing > #quartz-body {
+  width: min(1120px, calc(100vw - clamp(32px, 6vw, 96px))) !important;
+  max-width: min(1120px, calc(100vw - clamp(32px, 6vw, 96px))) !important;
+  margin-inline: auto !important;
+  padding-inline: 0 !important;
+  grid-template-columns: minmax(0, 1fr) !important;
+}
+
+body[data-slug="index"] article,
+body[data-slug="index"] article.popover-hint {
+  width: min(860px, 100%) !important;
+  max-width: 860px !important;
+  margin: 0 auto !important;
+  padding: clamp(54px, 8vw, 92px) 0 clamp(64px, 9vw, 112px) !important;
+  overflow: visible !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  color: var(--home-ink-soft) !important;
+  font-family: var(--home-serif) !important;
+}
+
+body[data-slug="index"] article::before {
+  display: none !important;
+}
+
+body[data-slug="index"] article > * {
+  position: relative;
+  z-index: 1;
+}
+
+body[data-slug="index"] article > h1:first-child {
+  max-width: 10ch !important;
+  margin: 0 0 clamp(22px, 4vw, 40px) !important;
+  color: var(--home-ink) !important;
+  font-family: var(--home-serif) !important;
+  font-size: clamp(4.4rem, 10vw, 8.2rem) !important;
+  font-weight: 400 !important;
+  line-height: 0.9 !important;
+  letter-spacing: -0.055em !important;
+  text-wrap: balance;
+}
+
+body[data-slug="index"] article > h1:first-child + p {
+  max-width: 720px !important;
+  margin: 0 0 clamp(24px, 4vw, 42px) !important;
+  padding: 0 0 clamp(22px, 3vw, 34px) !important;
+  border-bottom: 1px solid var(--home-rule-strong) !important;
+  color: var(--home-ink) !important;
+  font-family: var(--home-serif) !important;
+  font-size: clamp(1.55rem, 2.35vw, 2.2rem) !important;
+  line-height: 1.34 !important;
+  letter-spacing: -0.02em !important;
+}
+
+body[data-slug="index"] article > h1:first-child + p + p {
+  border-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+body[data-slug="index"] article > p,
+body[data-slug="index"] article p,
+body[data-slug="index"] article li {
+  max-width: 760px !important;
+  color: var(--home-ink-soft) !important;
+  font-family: var(--home-serif) !important;
+  font-size: clamp(1.12rem, 1.25vw, 1.25rem) !important;
+  line-height: 1.74 !important;
+}
+
+body[data-slug="index"] article > p {
+  margin: 1rem 0 !important;
+}
+
+body[data-slug="index"] article > h2,
+body[data-slug="index"] article > h2:nth-of-type(1),
+body[data-slug="index"] article > h2:nth-of-type(2),
+body[data-slug="index"] article > h2:nth-of-type(3),
+body[data-slug="index"] article > h2:nth-of-type(4) {
+  max-width: 860px !important;
+  margin: clamp(54px, 7vw, 86px) 0 0 !important;
+  padding: clamp(22px, 3vw, 30px) 0 14px !important;
+  border-top: 1px solid var(--home-rule-strong) !important;
+  border-right: 0 !important;
+  border-bottom: 1px solid var(--home-rule) !important;
+  border-left: 0 !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+  color: var(--home-ink) !important;
+  font-family: var(--home-serif) !important;
+  font-size: clamp(2rem, 4vw, 3.8rem) !important;
+  font-weight: 400 !important;
+  line-height: 1.02 !important;
+  letter-spacing: -0.045em !important;
+}
+
+body[data-slug="index"] article > h2 + p,
+body[data-slug="index"] article > h2:nth-of-type(1) + p,
+body[data-slug="index"] article > h2:nth-of-type(2) + p,
+body[data-slug="index"] article > h2:nth-of-type(3) + p,
+body[data-slug="index"] article > h2:nth-of-type(4) + p {
+  max-width: 760px !important;
+  margin: 1.2rem 0 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+  color: var(--home-muted) !important;
+}
+
+body[data-slug="index"] article > h2 + p + ul,
+body[data-slug="index"] article > h2:nth-of-type(1) + p + ul,
+body[data-slug="index"] article > h2:nth-of-type(2) + p + ul,
+body[data-slug="index"] article > h2:nth-of-type(3) + p + ul {
+  display: block !important;
+  max-width: 760px !important;
+  margin: 1rem 0 1.5rem !important;
+  padding: 0 0 0 1.25rem !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+  list-style: disc !important;
+}
+
+body[data-slug="index"] article > h3 {
+  max-width: 760px !important;
+  margin: clamp(24px, 4vw, 38px) 0 0 !important;
+  padding: 18px 0 10px !important;
+  border-top: 1px solid var(--home-rule) !important;
+  color: var(--home-ink) !important;
+  font-family: var(--home-serif) !important;
+  font-size: clamp(1.35rem, 2vw, 1.85rem) !important;
+  font-weight: 400 !important;
+  line-height: 1.12 !important;
+  letter-spacing: -0.025em !important;
+}
+
+body[data-slug="index"] article > h3::before {
+  content: none !important;
+}
+
+body[data-slug="index"] article > h3 + p {
+  max-width: 720px !important;
+  margin: 0.2rem 0 0 !important;
+  color: var(--home-muted) !important;
+  font-size: clamp(1.04rem, 1.14vw, 1.14rem) !important;
+  line-height: 1.66 !important;
+}
+
+body[data-slug="index"] article a,
+body[data-slug="index"] article .internal-link {
+  color: var(--home-accent) !important;
+  background: transparent !important;
+  box-shadow: inset 0 -1px 0 rgba(139, 100, 31, 0.45) !important;
+  text-decoration: none !important;
+  transition: color 140ms ease, box-shadow 140ms ease, background 140ms ease !important;
+}
+
+body[data-slug="index"] article a:hover,
+body[data-slug="index"] article .internal-link:hover {
+  color: var(--home-ink) !important;
+  background: var(--home-accent-soft) !important;
+  box-shadow: inset 0 -1px 0 var(--home-ink) !important;
+}
+
+body[data-slug="index"] article strong,
+body[data-slug="index"] article em {
+  color: var(--home-ink) !important;
+}
+
+body[data-slug="index"] .search,
+body[data-slug="index"] .graph {
+  max-width: 860px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  border: 1px solid var(--home-rule) !important;
+  background: rgba(251, 246, 234, 0.54) !important;
+  color: var(--home-muted) !important;
+  box-shadow: none !important;
+}
+
+body[data-slug="index"] .page-header .article-title,
+body[data-slug="index"] .project-meta-dashboard,
+body[data-slug="index"] .content-meta {
+  display: none !important;
+}
+
+@media (max-width: 700px) {
+  body[data-slug="index"] .page.layout-landing > #quartz-body {
+    width: min(100vw - 28px, 860px) !important;
+    max-width: min(100vw - 28px, 860px) !important;
+  }
+
+  body[data-slug="index"] article,
+  body[data-slug="index"] article.popover-hint {
+    width: 100% !important;
+    padding-top: 38px !important;
+    overflow: visible !important;
+  }
+
+  body[data-slug="index"] article > h1:first-child {
+    font-size: clamp(3.45rem, 19vw, 5.2rem) !important;
+  }
+
+  body[data-slug="index"] article > h1:first-child + p {
+    font-size: clamp(1.28rem, 6vw, 1.58rem) !important;
+  }
+}
