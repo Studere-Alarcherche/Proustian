@@ -6,66 +6,38 @@ comments: false
 ---
 # Proustian
 
-Read Proust · Learn to Read Proust · From Proust to World Literature · Return to Writing
+This is a threshold into a reading chamber: a public archive garden built around Proust, but not fenced by him.
 
-A textual observatory and archive garden centered on *In Search of Lost Time*.
+The work begins with *In Search of Lost Time* because Proust gives the most demanding form of attention I know: memory, yes, but also signs, syntax, jealousy, rooms, music, paintings, names, social weather, and the slow return from reading into writing. The site keeps that center visible without turning it into a course platform or a dashboard.
 
-## Threshold
+To enter here is to follow a movement rather than a menu: read Proust; learn to read Proust with greater precision; let the reading open outward toward world literature; return, finally, to sentences of one's own.
 
-Proustian is a long-term reading garden centered on Marcel Proust's *In Search of Lost Time*.
+French serves this precision. It is not a separate badge of cultivation and not a generic language-learning track. It is the layer that slows the eye, restores pressure to phrases, and makes translation answerable to reading.
 
-This homepage is a threshold, not a dashboard, course portal, or full directory. It opens the public Quartz archive garden and keeps attention on reading, judgment, and return.
+The system pages exist only to keep orientation from collapsing. They are a small lamp beside the desk, not the subject of the room. The Web App can come later; for now the Quartz garden must remain textual, public, and quiet.
 
-## How the Garden Works
+## Reading Chamber
 
-Each path begins with a pressure, not with a lesson.
+The center is Proust, but the boundary is wider than Proust. A passage can begin in Combray and lead toward Ruskin, Woolf, Benjamin, Barthes, or a notebook sentence that has not yet found its essay form.
 
-A reader enters through a scene, a question, a sign, a phrase, an image, a room, a sound, or a sentence. The site offers structure, but the structure is not a cage. It helps the reader return to passages, form judgments, and carry those judgments into writing.
+### [[Proustian/|Proustian Reading Observatory]]
 
-Prepare → Encounter → Connect → Distill → Return.
-
-Structure without experience becomes a dead syllabus. Experience without structure becomes scattered wandering. Proustian is built for structured wandering.
-
-## Primary Entrances
-
-### [[Proustian/|Reading Observatory]]
-
-The central path for entering Proust through memory, signs, scenes, form, and recursive reading. Signs matter, but they are not the only method.
+The main observatory for recursive reading: signs, memory, music, visual attention, sensory history, social space, and the return to writing.
 
 ### [[Language-Training/|Learn to Read Proust]]
 
-The core training path for French precision, translation, sentence movement, and the habits required for reading Proust slowly.
+The French precision layer for Book I: not general French study, but the slow formation of habits needed to read Proust's sentences without flattening them.
 
-### [[Proustian/Reading-Map|Textual Promenades]]
+### [Essays and Public Writing](Essays/)
 
-Reading paths that begin with Proust and open toward world literature while keeping Proust at the center.
+Essays / Public Writing is the public articulation layer for mature judgments, finished arguments, and essays that have passed beyond raw notes.
 
-### [[System/Build-Log|Archive / Build Log]]
+### [[System/Control-Center|Control Center]]
 
-The visible record of infrastructure, publication state, and the archive garden's ongoing construction.
+A private-facing orientation surface for current state, next action, and operational boundaries. It serves reading; it does not replace it.
 
-## Project Orientation
+## Archive Garden
 
-### Quartz Archive Garden
+The garden should not feel complete. It should feel tended: some paths stable, some beds newly planted, some passages waiting for another return. That incompleteness is part of the form. A reading life is not a product release.
 
-Quartz is the public archive garden: stable pages, reading paths, textual plates, and reader-facing records.
-
-### Future Web App Shell
-
-The future Web App belongs later in `app/`. It is planned, but it is not part of the current Markdown-first Quartz archive garden.
-
-### Learn to Read Proust
-
-Learning to read Proust is a core pillar, not a side course: language, form, attention, and rereading belong together.
-
-### From Proust to World Literature
-
-Proust is the center but not the boundary. The long path moves outward through comparison, translation, and writing.
-
-## Current State
-
-- [[System/CURRENT-STATE|Current State]]
-- Infrastructure baseline established.
-- Web App shell planned, not yet implemented.
-- Quartz remains the public archive garden.
-- Course pages are being rebuilt as Markdown-first reading surfaces.
+The first movement is already clear enough: **Read Proust -> Learn to Read Proust -> From Proust to World Literature -> Return to Writing**. Everything else should be judged by whether it protects that movement or distracts from it.
