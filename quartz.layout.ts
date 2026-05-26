@@ -44,6 +44,11 @@ const explorerFilter = Component.Explorer({
       "U5-Space-Sensory-History",
       "U6-Writing-Time-Regained",
       "Language-Training",
+      "VOCAB-Cognate-Bank",
+      "VOCAB-False-Friends-Bank",
+      "VOCAB-Function-Words-Bank",
+      "VOCAB-Proust-Lexical-Fields",
+      "LTF-Vocabulary-Progression",
       "Learn-to-Read-Proust-EN-CN",
       "LTRP-EN-CN-Textbook-Studio",
       "LTRP-EN-CN-Part-Map",
@@ -125,6 +130,11 @@ const explorerFilter = Component.Explorer({
       "U5-Space-Sensory-History",
       "U6-Writing-Time-Regained",
       "Language-Training",
+      "VOCAB-Cognate-Bank",
+      "VOCAB-False-Friends-Bank",
+      "VOCAB-Function-Words-Bank",
+      "VOCAB-Proust-Lexical-Fields",
+      "LTF-Vocabulary-Progression",
       "Learn-to-Read-Proust-EN-CN",
       "LTRP-EN-CN-Textbook-Studio",
       "LTRP-EN-CN-Part-Map",
@@ -181,15 +191,6 @@ const rightRailGraph = Component.Graph({
   },
 })
 
-const homepageGraph = Component.Graph({
-  localGraph: {
-    depth: 1,
-    scale: 1.05,
-    linkDistance: 38,
-    showTags: false,
-  },
-})
-
 // 笔记详情页布局 (长文页)
 export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
@@ -217,25 +218,10 @@ export const defaultContentPageLayout: PageLayout = {
     explorerFilter, 
   ],
   right: [
-    Component.TableOfContents(), 
-    rightRailGraph,
     Component.Backlinks({ hideWhenEmpty: false }),
-    Component.RecentNotes({
-      title: "Recent Notes",
-      limit: 3,
-      filter: (f) => f.frontmatter?.status === "active",
-      sort: (f1, f2) => (f2.dates?.modified.getTime() ?? 0) - (f1.dates?.modified.getTime() ?? 0),
-    }),
+    rightRailGraph,
   ],
   afterBody: [
-    Component.ConditionalRender({
-      component: Component.Search(),
-      condition: (page) => page.fileData.slug === "index",
-    }),
-    Component.ConditionalRender({
-      component: homepageGraph,
-      condition: (page) => page.fileData.slug === "index",
-    }),
     Component.ConditionalRender({
       component: Component.Graph(),
       condition: (page) => isReadingPage(page),
@@ -290,13 +276,7 @@ export const defaultListPageLayout: PageLayout = {
     explorerFilter,
   ],
   right: [
-    rightRailGraph,
     Component.Backlinks({ hideWhenEmpty: false }),
-    Component.RecentNotes({
-      title: "Recent Notes",
-      limit: 3,
-      filter: (f) => f.frontmatter?.status === "active",
-      sort: (f1, f2) => (f2.dates?.modified.getTime() ?? 0) - (f1.dates?.modified.getTime() ?? 0),
-    }),
+    rightRailGraph,
   ],
 }

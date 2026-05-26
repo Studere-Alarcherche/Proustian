@@ -4063,12 +4063,12 @@ body[data-slug="index"] .page-footer .graph > .graph-outer {
 
 @media (min-width: 1200px) {
   .page > #quartz-body {
-    grid-template-columns: minmax(180px, 220px) minmax(0, 820px) minmax(280px, 320px) !important;
-    column-gap: clamp(1.1rem, 2.2vw, 2rem) !important;
+    grid-template-columns: minmax(168px, 196px) minmax(0, 1fr) minmax(236px, 276px) !important;
+    column-gap: clamp(1rem, 1.8vw, 1.8rem) !important;
   }
 
   .sidebar.right {
-    width: min(320px, 100%) !important;
+    width: min(276px, 100%) !important;
     overflow-y: auto !important;
   }
 
@@ -4076,7 +4076,7 @@ body[data-slug="index"] .page-footer .graph > .graph-outer {
   .right .graph,
   .right .backlinks,
   .right .recent-notes {
-    max-width: 320px !important;
+    max-width: 276px !important;
   }
 
   .right .graph > .graph-outer,
@@ -4087,5 +4087,335 @@ body[data-slug="index"] .page-footer .graph > .graph-outer {
 
   .right .graph canvas {
     max-width: 100% !important;
+  }
+}
+
+/* 2026-05-26: Open Design / Kami parchment cleanup. Keep Quartz readable and graph-safe. */
+:root,
+:root[saved-theme="light"] {
+  --light: #f5f4ed !important;
+  --lightgray: #d4d1c5 !important;
+  --gray: #8a8378 !important;
+  --darkgray: #6b665b !important;
+  --dark: #1f1d18 !important;
+  --secondary: #1b365d !important;
+  --tertiary: #556b5f !important;
+  --garden-bg: #f5f4ed !important;
+  --garden-panel: #fbfaf4 !important;
+  --garden-text: #1f1d18 !important;
+  --garden-muted: #6b665b !important;
+  --garden-faint: #8a8378 !important;
+  --garden-line: #d4d1c5 !important;
+  --garden-line-soft: #e2dfd3 !important;
+  --garden-accent: #1b365d !important;
+  --garden-accent-2: #1b365d !important;
+  --garden-accent-soft: #e8ebef !important;
+}
+
+:root[saved-theme="dark"] {
+  --light: #141311 !important;
+  --lightgray: #34302a !important;
+  --gray: #8e8678 !important;
+  --darkgray: #d8d0c2 !important;
+  --dark: #f3eee4 !important;
+  --secondary: #9db7df !important;
+  --tertiary: #b8c4b8 !important;
+}
+
+body[data-slug="index"] .page.layout-landing > #quartz-body {
+  width: min(1500px, calc(100vw - clamp(32px, 5vw, 88px))) !important;
+  max-width: min(1500px, calc(100vw - clamp(32px, 5vw, 88px))) !important;
+}
+
+body[data-slug="index"] article,
+body[data-slug="index"] article.popover-hint {
+  max-width: 1380px !important;
+  padding-top: clamp(3.2rem, 7vw, 7rem) !important;
+}
+
+body[data-slug="index"] article > h1:first-child {
+  max-width: none !important;
+  font-size: clamp(4.25rem, 8vw, 8.9rem) !important;
+  letter-spacing: 0 !important;
+}
+
+body[data-slug="index"] article > h1:first-child + p {
+  max-width: 980px !important;
+  font-size: clamp(1.38rem, 2.2vw, 2.05rem) !important;
+  line-height: 1.42 !important;
+}
+
+body[data-slug="index"] article > p {
+  max-width: 92ch !important;
+}
+
+body[data-slug="index"] article table,
+body[data-slug="index"] .page-footer .search,
+body[data-slug="index"] .page-footer .graph {
+  max-width: 1380px !important;
+}
+
+body[data-slug="index"] article table th,
+body[data-slug="index"] article table td {
+  padding: 0.95rem 1.05rem !important;
+}
+
+.page.layout-landing body,
+body[data-slug="Language-Training/index"] {
+  background: var(--garden-bg) !important;
+}
+
+body[data-slug="Language-Training/index"] .page.layout-landing > #quartz-body {
+  width: min(1320px, calc(100vw - clamp(32px, 5vw, 88px))) !important;
+  max-width: min(1320px, calc(100vw - clamp(32px, 5vw, 88px))) !important;
+}
+
+body[data-slug="Language-Training/index"] article,
+body[data-slug="Language-Training/index"] article.popover-hint {
+  max-width: 1180px !important;
+}
+
+body[data-slug="Language-Training/index"] .language-track-board {
+  grid-template-columns: repeat(2, minmax(320px, 1fr)) !important;
+  gap: clamp(1.2rem, 2vw, 2rem) !important;
+}
+
+body[data-slug="Language-Training/index"] .language-track-card {
+  min-height: 0 !important;
+  padding: clamp(1.4rem, 2.2vw, 2rem) !important;
+  border-radius: 6px !important;
+  box-shadow: 0 0 0 1px var(--garden-line) !important;
+}
+
+.right .graph > .graph-outer {
+  background: #f5f4ed !important;
+}
+
+:root[saved-theme="dark"] .right .graph > .graph-outer {
+  background: #141311 !important;
+}
+
+.right .graph canvas {
+  display: block !important;
+}
+
+.right .toc {
+  max-height: 42vh !important;
+  overflow: auto !important;
+}
+
+.right .backlinks,
+.right .recent-notes {
+  max-height: 18rem !important;
+  overflow: auto !important;
+}
+
+@media (max-width: 900px) {
+  body[data-slug="Language-Training/index"] .language-track-board {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+/* 2026-05-26: constrained entrance cleanup - Markdown-first threshold and relation-only right rail. */
+.page.layout-landing .left.sidebar {
+  display: none !important;
+}
+
+.page.layout-landing .right.sidebar {
+  display: flex !important;
+}
+
+.page.layout-landing > #quartz-body {
+  grid-template-areas:
+    "grid-header grid-sidebar-right"
+    "grid-center grid-sidebar-right"
+    "grid-footer grid-sidebar-right" !important;
+  grid-template-columns: minmax(0, 1fr) minmax(220px, 276px) !important;
+}
+
+.right .toc,
+.right .recent-notes {
+  display: none !important;
+}
+
+.right.sidebar {
+  gap: 1rem !important;
+}
+
+.right .backlinks,
+.right .graph {
+  box-sizing: border-box !important;
+  width: 100% !important;
+  max-width: 276px !important;
+  margin: 0 !important;
+  padding: 0.85rem !important;
+  border: 1px solid var(--garden-line-soft) !important;
+  border-radius: 8px !important;
+  background: color-mix(in srgb, var(--garden-panel) 92%, transparent) !important;
+  box-shadow: none !important;
+}
+
+.right .backlinks {
+  order: 1 !important;
+  max-height: 16rem !important;
+  overflow: auto !important;
+}
+
+.right .graph {
+  order: 2 !important;
+}
+
+.right .backlinks > h3,
+.right .graph > h3 {
+  margin: 0 0 0.65rem !important;
+  color: var(--garden-text) !important;
+  font-family: var(--garden-sans) !important;
+  font-size: 0.78rem !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.08em !important;
+  line-height: 1.25 !important;
+  text-transform: uppercase !important;
+}
+
+.right .graph > .graph-outer,
+.right .graph .graph-container {
+  height: 210px !important;
+  min-height: 210px !important;
+}
+
+body[data-slug="index"] .page.layout-landing > #quartz-body {
+  width: min(1180px, calc(100vw - clamp(32px, 5vw, 88px))) !important;
+  max-width: min(1180px, calc(100vw - clamp(32px, 5vw, 88px))) !important;
+  grid-template-columns: minmax(0, 1fr) minmax(220px, 276px) !important;
+  column-gap: clamp(1.2rem, 2.5vw, 2.4rem) !important;
+}
+
+body[data-slug="index"] article,
+body[data-slug="index"] article.popover-hint {
+  max-width: 1120px !important;
+  padding-top: clamp(3rem, 6vw, 5rem) !important;
+}
+
+body[data-slug="index"] article > h1:first-child {
+  max-width: none !important;
+  margin-bottom: 0.9rem !important;
+  font-size: clamp(4rem, 8vw, 7rem) !important;
+  line-height: 0.95 !important;
+}
+
+body[data-slug="index"] article > h1:first-child + p {
+  max-width: 760px !important;
+  padding-bottom: 1.45rem !important;
+  border-bottom: 1px solid var(--garden-line) !important;
+  color: var(--garden-text) !important;
+  font-size: clamp(1.12rem, 1.7vw, 1.24rem) !important;
+  line-height: 1.72 !important;
+}
+
+body[data-slug="index"] article > p {
+  max-width: 760px !important;
+}
+
+body[data-slug="index"] article > h2 {
+  max-width: 1120px !important;
+}
+
+body[data-slug="index"] article > h2:nth-of-type(1) + ul {
+  display: grid !important;
+  grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  gap: 1rem !important;
+  max-width: 1120px !important;
+  padding-left: 0 !important;
+  list-style: none !important;
+}
+
+body[data-slug="index"] article > h2:nth-of-type(1) + ul > li {
+  max-width: none !important;
+  margin: 0 !important;
+  padding: 1rem 1.1rem !important;
+  border: 1px solid var(--garden-line-soft) !important;
+  border-radius: 8px !important;
+  background: color-mix(in srgb, var(--garden-panel) 90%, transparent) !important;
+}
+
+body[data-slug="index"] article > h2:nth-of-type(1) + ul > li > a {
+  display: inline-block !important;
+  margin-bottom: 0.35rem !important;
+  font-family: var(--garden-sans) !important;
+  font-weight: 700 !important;
+}
+
+body[data-slug="index"] article > h2:nth-of-type(2) ~ h3 {
+  max-width: 760px !important;
+}
+
+body[data-slug="Language-Training/index"] .page.layout-landing > #quartz-body {
+  width: min(1180px, calc(100vw - clamp(32px, 5vw, 88px))) !important;
+  max-width: min(1180px, calc(100vw - clamp(32px, 5vw, 88px))) !important;
+  grid-template-columns: minmax(0, 1fr) minmax(220px, 276px) !important;
+}
+
+body[data-slug="Language-Training/index"] article,
+body[data-slug="Language-Training/index"] article.popover-hint {
+  max-width: 980px !important;
+}
+
+body[data-slug="Proustian/index"] article,
+body[data-slug="Proustian/index"] article.popover-hint,
+body[data-slug="System/Control-Center"] article,
+body[data-slug="System/Control-Center"] article.popover-hint {
+  max-width: 900px !important;
+}
+
+body[data-slug="Proustian/index"] .page-listing,
+body[data-slug="Language-Training/index"] .page-listing {
+  display: none !important;
+}
+
+body[data-slug="Language-Training/index"] article > h2:nth-of-type(2) + ul {
+  display: grid !important;
+  grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+  gap: 1rem !important;
+  max-width: 980px !important;
+  padding-left: 0 !important;
+  list-style: none !important;
+}
+
+body[data-slug="Language-Training/index"] article > h2:nth-of-type(2) + ul > li {
+  max-width: none !important;
+  padding: 1rem !important;
+  border: 1px solid var(--garden-line-soft) !important;
+  border-radius: 8px !important;
+  background: color-mix(in srgb, var(--garden-panel) 92%, transparent) !important;
+}
+
+@media (max-width: 900px) {
+  .page.layout-landing > #quartz-body,
+  body[data-slug="index"] .page.layout-landing > #quartz-body,
+  body[data-slug="Language-Training/index"] .page.layout-landing > #quartz-body {
+    width: min(100vw - 24px, 100%) !important;
+    max-width: min(100vw - 24px, 100%) !important;
+    grid-template-areas:
+      "grid-header"
+      "grid-center"
+      "grid-sidebar-right"
+      "grid-footer" !important;
+    grid-template-columns: minmax(0, 1fr) !important;
+  }
+
+  .page.layout-landing .right.sidebar {
+    width: 100% !important;
+    max-width: none !important;
+    margin: 0 auto 2rem !important;
+  }
+
+  .right .backlinks,
+  .right .graph {
+    max-width: none !important;
+  }
+
+  body[data-slug="index"] article > h2:nth-of-type(1) + ul,
+  body[data-slug="Language-Training/index"] article > h2:nth-of-type(2) + ul {
+    grid-template-columns: 1fr !important;
   }
 }

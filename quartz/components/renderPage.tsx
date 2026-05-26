@@ -260,7 +260,7 @@ export function renderPage(
     </div>
   )
 
-  const RightComponent = isHomepage ? null : (
+  const RightComponent = (
     <div class="right sidebar">
       {right.map((BodyComponent) => (
         <BodyComponent {...componentData} />

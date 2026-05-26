@@ -3,64 +3,59 @@ title: "Learn to Read Proust"
 type: "section-index"
 status: "active"
 thread: "language-training"
-description: "Book I French precision layer for reading Proust."
+description: "French precision and passage-recomposition tracks for reading Proust."
+layout: landing
+comments: false
 ---
 # Learn to Read Proust
 
-This section now has two clearly separated textbook tracks. They serve the same Proustian reading project, but they train different actions and should not be merged into one course.
-
-<div class="language-track-board">
-  <section class="language-track-card language-track-card--french">
-    <p class="language-track-label">French Precision Track</p>
-    <h2>Learn to Read French for Proust</h2>
-    <p>Book I trains the reader to see French on the page: cognates, false friends, word families, function words, sentence skeletons, and the grammar needed to keep Proust's French visible before interpretation becomes too confident.</p>
-    <p><a href="./LTF-A0-to-B1-Course-Outline">Open the French course outline</a></p>
-  </section>
-  <section class="language-track-card language-track-card--encn">
-    <p class="language-track-label">EN-CN Textbook Studio</p>
-    <h2>Learn to Read Proust [EN-CN]</h2>
-    <p>This track works from English passages of <em>In Search of Lost Time</em> into Chinese recomposition. It trains sentence movement, translation judgment, prose formation, and the ability to rebuild delay, perception, and rhythm in Chinese.</p>
-    <p><a href="./Learn-to-Read-Proust-EN-CN">Open the EN-CN textbook studio</a></p>
-  </section>
-</div>
+This is not a general language school inside Proustian. It is a set of reading-formation tracks that serve the same center: returning to Proust with better attention, better sentence judgment, and less false confidence.
 
 ## Track Boundary
 
-The French track is the language precision layer. It asks: what must the reader notice in French before trusting a translation?
+- French is the language precision layer. It trains the reader to see what a translation can smooth over.
+- EN-CN recomposition is the passage movement layer. It trains sentence delay, Chinese recomposition, translation judgment, and prose formation.
+- Comparative Induction is a reading-formation layer. It uses comparison to sharpen perception of *Recherche*, not to become a survey course.
+- Translation Lab is absorbed into the EN-CN studio. It is not a third course.
 
-The EN-CN track is the passage-recomposition layer. It asks: how does an English Proust sentence move, and what must Chinese rebuild rather than merely translate?
+## Current Tracks
 
-Translation Lab is absorbed into the EN-CN track. It is not a third course.
+- [[LTF-A0-to-B1-Course-Outline|Learn to Read French for Proust]]
+  A reading-only French precision track organized by Parts and Modules: recognition organs, sentence machinery, tense as perception, Proustian lexical fields, guided natural input, French labels, and slow entry into literary and theoretical prose.
+- [[Learn-to-Read-Proust-EN-CN|Learn to Read Proust [EN-CN]]]
+  A textbook studio for rebuilding the movement of English Proust passages in Chinese without flattening delay, rhythm, perception, or judgment.
+- [[Learn-to-Read-Proust/Comparative-Induction/index|Proustian Comparative Induction]]
+  A comparative pressure layer for forming reading actions around Proust, Woolf, Faulkner, Yourcenar, and other controlled constellations.
 
-## Current Focus｜Parallel Tracks
+## French Precision Track
 
-<div class="language-focus-board">
-  <section>
-    <p class="language-track-label">French Precision Track</p>
-    <ol>
-      <li><a href="./LTF-Chapter-001-Cognates-and-Reading-Confidence">Chapter 001: Cognates and Reading Confidence</a></li>
-      <li><a href="./LTF-Chapter-002-False-Friends-and-Controlled-Guessing">Chapter 002: False Friends and Controlled Guessing</a></li>
-      <li><a href="./LTF-Chapter-003-Word-Families-and-Recognition-Patterns">Chapter 003: Word Families and Recognition Patterns</a></li>
-      <li><a href="./LTF-Chapter-004-Function-Words-I">Chapter 004: Function Words I</a></li>
-      <li><a href="./LTF-Chapter-005-What-Is-a-French-Sentence">Chapter 005: What Is a French Sentence</a></li>
-    </ol>
-  </section>
-  <section>
-    <p class="language-track-label">EN-CN Textbook Studio</p>
-    <ol>
-      <li><a href="./LTRP-EN-CN-Chapter-001-Waiting-for-the-Main-Clause">Chapter 001: Waiting for the Main Clause</a></li>
-      <li><a href="./LTRP-EN-CN-Chapter-002-Inserted-Phrases-and-Suspended-Attention">Chapter 002: Inserted Phrases and Suspended Attention</a></li>
-      <li><a href="./LTRP-EN-CN-Chapter-003-The-Sentence-That-Refuses-to-End">Chapter 003: The Sentence That Refuses to End</a></li>
-      <li><a href="./LTRP-EN-CN-Chapter-004-Delay-as-a-Form-of-Thought">Chapter 004: Delay as a Form of Thought</a></li>
-      <li><a href="./LTRP-EN-CN-Part-Map">Part 1 map: Chapter 005 remains the next production slot</a></li>
-    </ol>
-  </section>
-</div>
+The French track is reading only. It has no general conversation goal, no exam-centered grammar route, and no promise of language performance detached from Proustian reading.
 
-The French track has five validation chapters. The EN-CN track now has four drafted Part 1 chapters published in the same public column, with Chapter 005 still held as the next production slot rather than a false completed page.
+Its internal architecture is reading ability formation:
+
+- seeing French on the page
+- locating footholds before interpretation
+- building the sentence machine
+- reading tense and aspect as literary perception
+- forming Proustian lexical fields
+- moving from explicit recognition to guided natural input
+- letting French gradually become part of the explanatory medium
+- preparing slow entry into Proust, Deleuze, and French theoretical prose
+
+## EN-CN Textbook Studio
+
+The EN-CN track works from English passages of *In Search of Lost Time* into Chinese recomposition. It trains the reader to follow sentence movement before summarizing it.
+
+Current public anchors:
+
+1. [[LTRP-EN-CN-Chapter-001-Waiting-for-the-Main-Clause|Chapter 001: Waiting for the Main Clause]]
+2. [[LTRP-EN-CN-Chapter-002-Inserted-Phrases-and-Suspended-Attention|Chapter 002: Inserted Phrases and Suspended Attention]]
+3. [[LTRP-EN-CN-Chapter-003-The-Sentence-That-Refuses-to-End|Chapter 003: The Sentence That Refuses to End]]
+4. [[LTRP-EN-CN-Chapter-004-Delay-as-a-Form-of-Thought|Chapter 004: Delay as a Form of Thought]]
+5. [[LTRP-EN-CN-Part-Map|Part 1 Map]]
 
 ## Working Boundary
 
-The task is not fluency as performance. The task is better reading: enough French to notice what a translation smooths over, enough grammar to hold a long sentence in view, enough vocabulary discipline to avoid false confidence.
+The task is not fluency as performance. The task is better reading: enough French to notice what a translation smooths over, enough grammar to hold a long sentence in view, enough recomposition practice to make prose judgment answerable to the passage.
 
-Do not webify this layer yet. The Book I prototype must prove its reading value in Markdown first.
+Do not webify this layer yet. The Markdown prototype must prove its reading value before any app shell is built.
