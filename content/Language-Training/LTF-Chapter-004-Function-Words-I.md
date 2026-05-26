@@ -5,6 +5,7 @@ cycle: "Cycle 1 — Seeing French on the Page"
 chapter: 004
 status: "draft-thickened"
 type: "ltrp-textbook-chapter"
+layout: reading
 ---
 # Chapter 004 — Function Words I
 

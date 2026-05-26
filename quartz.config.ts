@@ -12,7 +12,7 @@ const config: QuartzConfig = {
     enableSPA: true,
     enablePopovers: true,
     analytics: { provider: "plausible" },
-    locale: "zh-CN",
+    locale: "en-US",
     baseUrl: "studere-alarcherche.github.io/Proustian",
     ignorePatterns: [
       "private",

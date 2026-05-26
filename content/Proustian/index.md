@@ -3,45 +3,43 @@ title: "Proustian"
 type: "section-index"
 status: "active"
 thread: "proustian"
-description: "The public-facing Proust course garden."
+description: "The public reading observatory centered on Proust."
 ---
-# Proustian
+# Proustian Reading Observatory
 
-This section is the public-facing Proust course garden: a structured wandering surface for reading *In Search of Lost Time* through signs, memory, music, visual attention, sensory history, and writing.
+This is the central reading observatory of the archive garden. It begins with *In Search of Lost Time* and treats Proust as a center of gravity: not a boundary, not a brand, and not a closed syllabus.
 
-Proust remains the center. French serves precision. Theory serves reading. The site does not replace the act of reading; it gives the reader ways to enter, return, connect, and write.
+The observatory exists to make reading repeatable without making it mechanical. A passage can be entered through memory, signs, syntax, music, visual attention, social atmosphere, sensory history, or the pressure of a sentence that asks to be written through. No single method owns the work.
 
 ## How to Enter
 
-Use each page as a reading surface rather than a finished lecture.
+Begin with a passage or a pressure. Stay close to the text. Name the lens only after the passage has required it. Then return to reading, annotation, translation, or writing with a sharper judgment than before.
 
-Prepare → Encounter → Connect → Distill → Return.
-
-Begin with a pressure. Move toward a passage. Connect it to one or two lenses. Distill a provisional judgment. Return to reading, annotation, translation, or writing.
-
-## Primary Gateway
-
-- [[Course-Gateway|Course Gateway: Recursive Reading Practice]]
+Prepare -> Encounter -> Connect -> Distill -> Return.
 
 ## Core Unit Pages
 
-1. [[U1-General-Introduction|U1: Signs / Method]]
-2. [[U2-Text-Time-Signs|U2: Memory / Time / Space]]
-3. [[U3-Music-Ineffable-Structure|U3: Music / Ineffable]]
-4. [[U4-Visuality-Attention|U4: Visuality / Gaze]]
-5. [[U5-Space-Sensory-History|U5: Sensory History / Social Space]]
-6. [[U6-Writing-Time-Regained|U6: Writing Apparatus]]
+1. [[U1-General-Introduction|U1: Method, Signs, and Non-memory Reading]]
+2. [[U2-Text-Time-Signs|U2: Text, Time, and Signs]]
+3. [[U3-Music-Ineffable-Structure|U3: Music and Ineffable Structure]]
+4. [[U4-Visuality-Attention|U4: Visuality and Attention]]
+5. [[U5-Space-Sensory-History|U5: Space and Sensory History]]
+6. [[U6-Writing-Time-Regained|U6: Writing and Time Regained]]
 
-## Five Initial Passage Entrances
+## U1 Correction
 
-- Madeleine｜memory / sensation / sign
-- Vinteuil little phrase｜music / love sign / artistic truth
-- Vermeer yellow wall｜visual attention / artistic truth
-- Bells / soundscape｜collective time
-- Smell / atmosphere｜sensory history
+U1 opens the problem of non-memory reading. It does not replace memory with signs as a new center, and signs are not the only method. The point is to loosen the familiar memory cliché so that Proust can be read through multiple pressures: signs, habits, scenes, social codes, sensory evidence, form, and return.
+
+## First Passage Entrances
+
+- Madeleine: memory, sensation, and involuntary return.
+- Vinteuil's little phrase: music, love signs, and artistic truth.
+- Vermeer's yellow wall: visual attention and the ethics of looking.
+- Bells and rooms: soundscape, collective time, and situated memory.
+- Names and salons: social space as a reading instrument.
 
 ## Working Rule
 
-The six units are not a rigid linear roadmap. U1 establishes a method lens. U2–U5 are recurring fields that can be entered, left, and re-entered. U6 turns what has been read, marked, and judged into course pages, labs, essays, and writing apparatus.
+The six units are recurring fields, not a rigid roadmap. The reader may enter, leave, and re-enter them as the text demands. The course grows from repeated traversal rather than forced completion.
 
-Course material grows from repeated traversal, not from forced completion.
+The final test is not whether the structure looks complete. It is whether it helps a reader return to Proust with more exact attention.

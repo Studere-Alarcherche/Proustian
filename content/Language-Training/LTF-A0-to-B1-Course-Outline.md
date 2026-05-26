@@ -8,6 +8,14 @@ Plan first: A0 to B1, roughly 50-60 chapters.
 
 Pace: about one chapter per week.
 
+## Track Boundary
+
+This is the **French precision track**, not the EN-CN textbook studio.
+
+- The French track trains the reader to see French before interpretation: cognates, false friends, function words, sentence skeletons, and grammar.
+- The EN-CN track trains passage movement across English and Chinese: sentence delay, Chinese recomposition, translation judgment, and prose formation.
+- The two tracks support the same Proustian reading project, but their chapter lists and exercises should remain separate.
+
 ## Sequence Rationale
 
 The opening sequence follows reading-knowledge French textbook tradition:

@@ -5,6 +5,7 @@ cycle: "Cycle 1 — Seeing French on the Page"
 chapter: 005
 status: "draft-thickened"
 type: "ltrp-textbook-chapter"
+layout: reading
 ---
 # Chapter 005 — What Is a French Sentence?
 
@@ -138,7 +139,18 @@ For each sentence, write the subject and conjugated verb.
 <details class="ltrp-answer">
   <summary>Show answer</summary>
 
-1 subject Le souvenir, verb revient. 2 Une image, apparaît. 3 La mémoire, transforme. 4 Le lecteur, observe. 5 La chambre, reste. 6 Une impression, devient. 7 Le temps, change. 8 La lecture, commence. 9 Le silence, accompagne. 10 Une sensation obscure, revient.
+<ol class="ltrp-answer-list">
+  <li><strong>Subject:</strong> Le souvenir. <strong>Verb:</strong> revient.</li>
+  <li><strong>Subject:</strong> Une image. <strong>Verb:</strong> apparaît.</li>
+  <li><strong>Subject:</strong> La mémoire. <strong>Verb:</strong> transforme.</li>
+  <li><strong>Subject:</strong> Le lecteur. <strong>Verb:</strong> observe.</li>
+  <li><strong>Subject:</strong> La chambre. <strong>Verb:</strong> reste.</li>
+  <li><strong>Subject:</strong> Une impression. <strong>Verb:</strong> devient.</li>
+  <li><strong>Subject:</strong> Le temps. <strong>Verb:</strong> change.</li>
+  <li><strong>Subject:</strong> La lecture. <strong>Verb:</strong> commence.</li>
+  <li><strong>Subject:</strong> Le silence. <strong>Verb:</strong> accompagne.</li>
+  <li><strong>Subject:</strong> Une sensation obscure. <strong>Verb:</strong> revient.</li>
+</ol>
 
 </details>
 
@@ -160,7 +172,18 @@ Write the complement if there is one. If there is no complement, write none.
 <details class="ltrp-answer">
   <summary>Show answer</summary>
 
-1 une sensation; 2 la phrase; 3 none; 4 l'image; 5 visible as complement of state; 6 la chambre; 7 obscure as complement of state; 8 la table; 9 l'image; 10 none.
+<ol class="ltrp-answer-list">
+  <li><strong>Complement:</strong> une sensation.</li>
+  <li><strong>Complement:</strong> la phrase.</li>
+  <li><strong>Complement:</strong> none.</li>
+  <li><strong>Complement:</strong> l'image.</li>
+  <li><strong>Complement:</strong> visible, as a complement of state.</li>
+  <li><strong>Complement:</strong> la chambre.</li>
+  <li><strong>Complement:</strong> obscure, as a complement of state.</li>
+  <li><strong>Complement:</strong> la table.</li>
+  <li><strong>Complement:</strong> l'image.</li>
+  <li><strong>Complement:</strong> none.</li>
+</ol>
 
 </details>
 
@@ -178,7 +201,14 @@ Mark the opening frame, then give the core sentence.
 <details class="ltrp-answer">
   <summary>Show answer</summary>
 
-1 frame Dans la chambre; core la mémoire transforme une sensation. 2 frame Avec attention; core le lecteur relit la phrase. 3 frame Sur la table; core une image reste visible. 4 frame Sans bruit; core le souvenir revient. 5 frame Dans la mémoire; core une impression change. 6 frame Comme une image; core la sensation revient.
+<ol class="ltrp-answer-list">
+  <li><strong>Frame:</strong> Dans la chambre. <strong>Core:</strong> la mémoire transforme une sensation.</li>
+  <li><strong>Frame:</strong> Avec attention. <strong>Core:</strong> le lecteur relit la phrase.</li>
+  <li><strong>Frame:</strong> Sur la table. <strong>Core:</strong> une image reste visible.</li>
+  <li><strong>Frame:</strong> Sans bruit. <strong>Core:</strong> le souvenir revient.</li>
+  <li><strong>Frame:</strong> Dans la mémoire. <strong>Core:</strong> une impression change.</li>
+  <li><strong>Frame:</strong> Comme une image. <strong>Core:</strong> la sensation revient.</li>
+</ol>
 
 </details>
 
@@ -298,7 +328,18 @@ Reduce each sentence to a skeleton note.
 <details class="ltrp-answer">
   <summary>Show answer</summary>
 
-1 memory transforms sensation. 2 reader rereads phrase. 3 image remains visible. 4 memory returns. 5 perception changes reading. 6 sensation becomes image. 7 silence accompanies thought. 8 image returns. 9 memory transforms present. 10 reader observes form.
+<ol class="ltrp-answer-list">
+  <li>Memory transforms sensation.</li>
+  <li>Reader rereads phrase.</li>
+  <li>Image remains visible.</li>
+  <li>Memory returns.</li>
+  <li>Perception changes reading.</li>
+  <li>Sensation becomes image.</li>
+  <li>Silence accompanies thought.</li>
+  <li>Image returns.</li>
+  <li>Memory transforms present.</li>
+  <li>Reader observes form.</li>
+</ol>
 
 </details>
 
@@ -315,7 +356,13 @@ For each sentence, write the order of operations: subject, verb, complement, att
 <details class="ltrp-answer">
   <summary>Show answer</summary>
 
-1 subject La mémoire; verb transforme; complement une sensation obscure; attachment en image. 2 attachment Dans la chambre; subject une impression; verb devient; complement visible. 3 subject Le lecteur; verb relit; complement la phrase; attachment avec attention. 4 attachment Sur la page; subject une distinction; verb reste; complement difficult state. 5 subject Le temps; verb transforme; complement la perception du souvenir.
+<ol class="ltrp-answer-list">
+  <li><strong>Subject:</strong> La mémoire. <strong>Verb:</strong> transforme. <strong>Complement:</strong> une sensation obscure. <strong>Attachment:</strong> en image.</li>
+  <li><strong>Attachment:</strong> Dans la chambre. <strong>Subject:</strong> une impression. <strong>Verb:</strong> devient. <strong>Complement:</strong> visible.</li>
+  <li><strong>Subject:</strong> Le lecteur. <strong>Verb:</strong> relit. <strong>Complement:</strong> la phrase. <strong>Attachment:</strong> avec attention.</li>
+  <li><strong>Attachment:</strong> Sur la page. <strong>Subject:</strong> une distinction. <strong>Verb:</strong> reste. <strong>Complement:</strong> difficult state.</li>
+  <li><strong>Subject:</strong> Le temps. <strong>Verb:</strong> transforme. <strong>Complement:</strong> la perception du souvenir.</li>
+</ol>
 
 </details>
 

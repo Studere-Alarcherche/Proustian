@@ -5,6 +5,7 @@ cycle: "Cycle 1 — Seeing French on the Page"
 chapter: 001
 status: "draft-thickened"
 type: "ltrp-textbook-chapter"
+layout: reading
 ---
 # Chapter 001 — Cognates and Reading Confidence
 
@@ -343,7 +344,7 @@ Your task is not to translate the paragraph. Your task is to list the French anc
 
 This course uses Proustian fields early: memory, sensation, impression, attention, image, time, and form. That does not mean you are already reading Proust. It means the first vocabulary you learn should point toward the future pressure of Proustian reading.
 
-A general French course might begin with travel, food, or classroom phrases. This course begins with words that help you approach literary and theoretical pages.
+A general French course might begin with travel, food, or everyday phrases. This course begins with words that help you approach literary and theoretical pages.
 
 ## 7. Practice
 

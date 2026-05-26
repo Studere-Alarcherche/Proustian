@@ -24,11 +24,53 @@
 :root[reader-mode="on"] {
   & .sidebar.left,
   & .sidebar.right {
-    opacity: 0;
-    transition: opacity 0.2s ease;
+    display: none !important;
+  }
 
-    &:hover {
-      opacity: 1;
+  & .page > #quartz-body {
+    width: min(92vw, 1560px) !important;
+    max-width: min(92vw, 1560px) !important;
+    grid-template-columns: minmax(0, 1fr) !important;
+    grid-template-areas:
+      "grid-header"
+      "grid-center"
+      "grid-footer" !important;
+    column-gap: 0 !important;
+    margin-inline: auto !important;
+    padding-inline: 0 !important;
+  }
+
+  & .center,
+  & .page-header,
+  & .page-footer {
+    width: 100% !important;
+    max-width: none !important;
+  }
+
+  & article,
+  & .center article {
+    width: 100% !important;
+    max-width: none !important;
+    margin-inline: auto !important;
+    padding-inline: clamp(1rem, 3vw, 3rem) !important;
+  }
+
+  & article p,
+  & article li,
+  & article blockquote {
+    max-width: 90ch !important;
+  }
+
+  & article table,
+  & article pre,
+  & article .mermaid {
+    max-width: none !important;
+  }
+
+  @media (max-width: 760px) {
+    & .page > #quartz-body {
+      width: min(100vw - 20px, 100%) !important;
+      max-width: min(100vw - 20px, 100%) !important;
     }
   }
 }

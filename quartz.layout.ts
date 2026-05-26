@@ -6,6 +6,8 @@ import SocialLinks from "./quartz/components/SocialLinks" // <--- 补上！引�
 
 const isLandingPage = (page: any) =>
   page.fileData.frontmatter?.layout === "landing" || page.fileData.frontmatter?.pageType === "landing"
+const isReadingPage = (page: any) =>
+  page.fileData.frontmatter?.layout === "reading" || page.fileData.frontmatter?.pageType === "reading"
 
 // 所有页面通用的组件
 export const sharedPageComponents: SharedLayout = {
@@ -21,18 +23,34 @@ export const sharedPageComponents: SharedLayout = {
 
 // 目录树配置：把 Explorer 当作公共目录，而不是仓库文件浏览器
 const explorerFilter = Component.Explorer({
-  title: "探索",
+  title: "Explore",
+  folderDefaultState: "open",
   useSavedState: false,
   filterFn: (node) => {
-    if (node.isFolder) return false
-
     const publicSlugs = [
       "Proustian-2.0",
       "Reading-Map",
       "Question-Gradient",
       "Passage-Cards",
       "U1-U6-Repository-Index",
+      "Proustian",
+      "Course-Map",
+      "Reading-Map",
+      "Passage-Entrances",
+      "U1-General-Introduction",
+      "U2-Text-Time-Signs",
+      "U3-Music-Ineffable-Structure",
+      "U4-Visuality-Attention",
+      "U5-Space-Sensory-History",
+      "U6-Writing-Time-Regained",
       "Language-Training",
+      "Learn-to-Read-Proust-EN-CN",
+      "LTRP-EN-CN-Textbook-Studio",
+      "LTRP-EN-CN-Part-Map",
+      "LTRP-EN-CN-Chapter-001-Waiting-for-the-Main-Clause",
+      "LTRP-EN-CN-Chapter-002-Inserted-Phrases-and-Suspended-Attention",
+      "LTRP-EN-CN-Chapter-003-The-Sentence-That-Refuses-to-End",
+      "LTRP-EN-CN-Chapter-004-Delay-as-a-Form-of-Thought",
       "LTF-A0-to-B1-Course-Outline",
       "LTF-Chapter-001-Cognates-and-Reading-Confidence",
       "LTF-Chapter-002-False-Friends-and-Controlled-Guessing",
@@ -69,6 +87,11 @@ const explorerFilter = Component.Explorer({
     const slug = node.slugSegment ?? ""
     const filePath = node.data?.filePath ?? ""
     const title = node.data?.title ?? ""
+    const allowedFolders = ["Proustian", "Language-Training", "Essays", "System"]
+
+    if (node.isFolder) {
+      return allowedFolders.includes(slug) || allowedFolders.includes(name)
+    }
 
     return (
       publicSlugs.includes(slug) &&
@@ -91,7 +114,24 @@ const explorerFilter = Component.Explorer({
       "Question-Gradient",
       "Passage-Cards",
       "U1-U6-Repository-Index",
+      "Proustian",
+      "Course-Map",
+      "Reading-Map",
+      "Passage-Entrances",
+      "U1-General-Introduction",
+      "U2-Text-Time-Signs",
+      "U3-Music-Ineffable-Structure",
+      "U4-Visuality-Attention",
+      "U5-Space-Sensory-History",
+      "U6-Writing-Time-Regained",
       "Language-Training",
+      "Learn-to-Read-Proust-EN-CN",
+      "LTRP-EN-CN-Textbook-Studio",
+      "LTRP-EN-CN-Part-Map",
+      "LTRP-EN-CN-Chapter-001-Waiting-for-the-Main-Clause",
+      "LTRP-EN-CN-Chapter-002-Inserted-Phrases-and-Suspended-Attention",
+      "LTRP-EN-CN-Chapter-003-The-Sentence-That-Refuses-to-End",
+      "LTRP-EN-CN-Chapter-004-Delay-as-a-Form-of-Thought",
       "LTF-A0-to-B1-Course-Outline",
       "LTF-Chapter-001-Cognates-and-Reading-Confidence",
       "LTF-Chapter-002-False-Friends-and-Controlled-Guessing",
@@ -107,6 +147,46 @@ const explorerFilter = Component.Explorer({
       return (aIndex === -1 ? Number.MAX_SAFE_INTEGER : aIndex) - (bIndex === -1 ? Number.MAX_SAFE_INTEGER : bIndex)
     }
     return a.displayName.localeCompare(b.displayName)
+  },
+})
+
+const rightRailGraph = Component.Graph({
+  localGraph: {
+    drag: true,
+    zoom: true,
+    depth: 1,
+    scale: 1,
+    repelForce: 0.45,
+    centerForce: 0.35,
+    linkDistance: 34,
+    fontSize: 0.58,
+    opacityScale: 1,
+    removeTags: [],
+    showTags: false,
+    enableRadial: false,
+  },
+  globalGraph: {
+    drag: true,
+    zoom: true,
+    depth: -1,
+    scale: 0.9,
+    repelForce: 0.5,
+    centerForce: 0.25,
+    linkDistance: 30,
+    fontSize: 0.6,
+    opacityScale: 1,
+    removeTags: [],
+    showTags: true,
+    enableRadial: true,
+  },
+})
+
+const homepageGraph = Component.Graph({
+  localGraph: {
+    depth: 1,
+    scale: 1.05,
+    linkDistance: 38,
+    showTags: false,
   },
 })
 
@@ -138,13 +218,14 @@ export const defaultContentPageLayout: PageLayout = {
   ],
   right: [
     Component.TableOfContents(), 
+    rightRailGraph,
+    Component.Backlinks({ hideWhenEmpty: false }),
     Component.RecentNotes({
-      title: "✦ CONSTELLATIONS",
-      limit: 4,
+      title: "Recent Notes",
+      limit: 3,
       filter: (f) => f.frontmatter?.status === "active",
       sort: (f1, f2) => (f2.dates?.modified.getTime() ?? 0) - (f1.dates?.modified.getTime() ?? 0),
     }),
-    Component.Backlinks(),
   ],
   afterBody: [
     Component.ConditionalRender({
@@ -152,8 +233,16 @@ export const defaultContentPageLayout: PageLayout = {
       condition: (page) => page.fileData.slug === "index",
     }),
     Component.ConditionalRender({
-      component: Component.Graph(),
+      component: homepageGraph,
       condition: (page) => page.fileData.slug === "index",
+    }),
+    Component.ConditionalRender({
+      component: Component.Graph(),
+      condition: (page) => isReadingPage(page),
+    }),
+    Component.ConditionalRender({
+      component: Component.Backlinks(),
+      condition: (page) => isReadingPage(page),
     }),
     Component.ConditionalRender({
       component: Component.Comments({
@@ -171,7 +260,10 @@ export const defaultContentPageLayout: PageLayout = {
         }
       }),
       condition: (page) =>
-        page.fileData.slug !== "index" && !isLandingPage(page) && page.fileData.frontmatter?.comments !== false,
+        page.fileData.slug !== "index" &&
+        !isLandingPage(page) &&
+        !isReadingPage(page) &&
+        page.fileData.frontmatter?.comments !== false,
     }),
   ],
 }
@@ -198,9 +290,11 @@ export const defaultListPageLayout: PageLayout = {
     explorerFilter,
   ],
   right: [
+    rightRailGraph,
+    Component.Backlinks({ hideWhenEmpty: false }),
     Component.RecentNotes({
-      title: "✦ CONSTELLATIONS",
-      limit: 4,
+      title: "Recent Notes",
+      limit: 3,
       filter: (f) => f.frontmatter?.status === "active",
       sort: (f1, f2) => (f2.dates?.modified.getTime() ?? 0) - (f1.dates?.modified.getTime() ?? 0),
     }),
