@@ -11,19 +11,26 @@ parent: "Learn to Read Proust [EN-CN]"
 ---
 # Chapter 3｜The Sentence That Refuses to End
 
-## 0. Chapter Function
+## 1. What You Train
 
-Train the reader to follow a sentence that keeps extending through clauses, sensory additions, qualifications, or delayed completion.
+> [!note] What You Train
+> Tracking continuation without forcing premature closure.
+>
+> You are training how to follow a sentence that keeps extending through clauses, qualifications, remembered scenes, and delayed completion.
 
-The concrete action is: track continuation without forcing premature closure.
+## 2. Core Explanation
 
-## 1. Before You Begin
+> [!note] Core Explanation
+> A sentence may seem ready to stop, then keep going because the thought has not finished forming. Do not cut the passage into neat Chinese units before you know what each extension contributes.
+>
+> The first task is to identify where the sentence could have stopped and why it refuses to stop there.
 
-1. When a sentence keeps adding material, do you cut it into summary units too quickly?
-2. Can you tell whether each extension adds perception, qualification, time, or judgment?
-3. Can Chinese divide a long sentence while preserving the feeling of continuation?
+> [!warning] Do Not Ask For This Yet
+> Do not ask AI for a final translation.
+>
+> Do not read the Teacher Note before you have numbered the extensions and drafted a rough Chinese recomposition.
 
-## 2. Passage Entrance
+## 3. Input
 
 Source: Marcel Proust, *Swann's Way*, Volume One of *Remembrance of Things Past* / *In Search of Lost Time*
 
@@ -37,36 +44,77 @@ End Words: Go and comfort him
 
 Passage status: selected
 
-### Original Text
-
-### Original Text Citation and Annotation Layer
+### Source Passage
 
 > Even at the moment when it manifested itself in this crowning mercy, my father's conduct towards me was still somewhat arbitrary, and regardless of my deserts, as was characteristic of him and due to the fact that his actions were generally dictated by chance expediencies rather than based on any formal plan. And perhaps even what I called his strictness, when he sent me off to bed, deserved that title less, really, than my mother's or grandmother's attitude, for his nature, which in some respects differed more than theirs from my own, had probably prevented him from guessing, until then, how wretched I was every evening, a thing which my mother and grandmother knew well; but they loved me enough to be unwilling to spare me that suffering, which they hoped to teach me to overcome, so as to reduce my nervous sensibility and to strengthen my will. As for my father, whose affection for me was of another kind, I doubt if he would have shewn so much courage, for as soon as he had grasped the fact that I was unhappy he had said to my mother: "Go and comfort him."
 
-Annotation table:
+## 4. Recognition Drill
 
-| Short citation anchor | Citation function | Grammar note | Movement note | CN recomposition note | Writing transfer note |
-|---|---|---|---|---|---|
-| "my father's conduct" | Sentence center | Subject of the first evaluative sentence. | The passage begins by judging conduct, not narrating action. | Chinese should keep evaluation tied to conduct. | Start from judgment, then complicate it. |
-| "as was characteristic of him" | Extension 1 | Appositional explanation extends the judgment. | The sentence refuses to stop at "arbitrary." | Chinese may divide but should keep the explanatory chain. | Extend a judgment through cause. |
-| "when he sent me off to bed" | Inserted scene | Temporal clause interrupts the reconsideration of strictness. | A remembered action enters inside evaluation. | Chinese can embed this as a recalled circumstance. | Let a scene interrupt analysis. |
-| "for his nature" | Extension 2 | Causal clause opens a longer explanation. | The sentence moves from event to temperament. | Preserve causal extension without flattening into a moral label. | Extend thought from action to nature. |
-| "until then" | Delayed recognition | Temporal marker delays the father's understanding. | The chain turns on late recognition. | Keep the lateness visible in Chinese. | Use a small time marker to shift judgment. |
-| "Go and comfort him" | Final arrival | Direct speech closes the chain. | After long qualification, the father acts simply. | Chinese should let the direct command arrive cleanly. | End a long reflective chain with a plain spoken sentence. |
+> [!task] Recognition Drill｜Build the Extension Chain
+> Number exactly three extensions.
+>
+> For each extension, write one word beside it:
+> cause / contrast / memory / qualification / judgment / action
+>
+> Then ask:
+> What would be lost if this extension were cut?
 
-Open annotation question: Which short anchor proves that the sentence continues because thought or perception is still unfolding?
+## 5. Recomposition Drill
 
-## 3. First Reading
+> [!task] Recomposition Drill｜Rough Chinese First
+> Write a rough Chinese version that preserves continuation.
+>
+> 1. Draft one version that keeps at least one long continuation pressure.
+> 2. If you divide the sentence, mark why each division is functional.
+> 3. Underline the point where your Chinese stops too early.
+> 4. Mark whether your version becomes a list instead of a moving thought.
+> 5. Do not polish before you have tested continuation.
 
-- Read without translating first.
-- Mark the first complete-looking unit.
-- Mark every place where the sentence refuses to stop.
-- Label what each extension adds: sensory detail, time, qualification, memory, judgment, or rhythm.
-- Copy only the shortest necessary citation anchors into the annotation table.
+## 6. AI Feedback
 
-Do not force the sentence into short Chinese clauses before you know why it keeps going.
+> [!tip] AI Feedback Prompt
+> I will give you my attempt first.
+>
+> Do not give a final translation.
+> Do not rewrite the whole passage for me.
+>
+> Evaluate my attempt as a training draft.
+>
+> Focus on:
+> 1. whether I preserved the extended clause-chain movement;
+> 2. whether I closed the thought too early;
+> 3. whether the Chinese recomposition flattened continuation into summary;
+> 4. the one repair I should make now.
+>
+> Give no more than 3 feedback points, one repair instruction, and one thinking question.
 
-## 4. Sentence Skeleton
+## 7. Repair Drill
+
+> [!example] Repair Drill
+> Repair only the break that most damages continuation.
+>
+> If the chain has become a list, reconnect one extension to the main movement. If the final arrival is weak, delay it more carefully. If the draft works, move to the card.
+
+## 8. Thinking Question
+
+> [!question] Thinking Question
+> Which is more important here: informational clarity or preserving the pressure of a thought that has not finished forming?
+
+## 9. Transfer Drill
+
+> [!example] Transfer Drill
+> Write one Chinese sentence that begins with a judgment, then extends it through three additions before arriving at a plain final action.
+>
+> Keep the sentence controlled. The point is continuation, not length for its own sake.
+
+## 10. Teacher Note
+
+> [!warning] Read after attempting
+> The following Teacher Note is not the starting point.
+>
+> Use it only after you have completed your recognition drill, rough Chinese recomposition, and AI feedback step.
+
+### Sentence Skeleton
 
 Main clause: "my father's conduct ... was still somewhat arbitrary"; "what I called his strictness ... deserved that title less"; "I doubt if he would have shewn so much courage."
 
@@ -88,7 +136,7 @@ Completion: Direct speech closes the long evaluative chain with action.
 
 Working rule: continuation is a form of meaning. Cutting the sentence too early can remove the trained movement.
 
-## 5. Movement Map
+### Movement Map
 
 Opening: The passage begins with an evaluation of the father's conduct.
 
@@ -104,7 +152,7 @@ Completion: "Go and comfort him" matters because it comes after long moral and p
 
 The movement is cumulative. The sentence refuses to end because thought or perception has not finished forming.
 
-## 5A. Sentence Diagram
+### Sentence Diagram
 
 ```mermaid
 flowchart LR
@@ -125,7 +173,20 @@ Reading use:
 - Each extension revises the moral judgment.
 - The direct speech works because the sentence has delayed simple action through analysis.
 
-## 6. English Style Studio
+### Citation and Annotation Layer
+
+| Short citation anchor | Citation function | Grammar note | Movement note | CN recomposition note | Writing transfer note |
+|---|---|---|---|---|---|
+| "my father's conduct" | Sentence center | Subject of the first evaluative sentence. | The passage begins by judging conduct, not narrating action. | Chinese should keep evaluation tied to conduct. | Start from judgment, then complicate it. |
+| "as was characteristic of him" | Extension 1 | Appositional explanation extends the judgment. | The sentence refuses to stop at "arbitrary." | Chinese may divide but should keep the explanatory chain. | Extend a judgment through cause. |
+| "when he sent me off to bed" | Inserted scene | Temporal clause interrupts the reconsideration of strictness. | A remembered action enters inside evaluation. | Chinese can embed this as a recalled circumstance. | Let a scene interrupt analysis. |
+| "for his nature" | Extension 2 | Causal clause opens a longer explanation. | The sentence moves from event to temperament. | Preserve causal extension without flattening into a moral label. | Extend thought from action to nature. |
+| "until then" | Delayed recognition | Temporal marker delays the father's understanding. | The chain turns on late recognition. | Keep the lateness visible in Chinese. | Use a small time marker to shift judgment. |
+| "Go and comfort him" | Final arrival | Direct speech closes the chain. | After long qualification, the father acts simply. | Chinese should let the direct command arrive cleanly. | End a long reflective chain with a plain spoken sentence. |
+
+Question: Which short anchor proves that the sentence continues because thought or perception is still unfolding?
+
+### English Style Note
 
 Extended clause chains create a rhythm of continuation. The sentence may seem to finish, then keep breathing. The reader must hear which additions are merely attached and which ones transform the movement.
 
@@ -141,7 +202,7 @@ Watch for:
 
 The style lesson is to read "and still..." as a structural pressure, not a mistake.
 
-## 7. Chinese Recomposition Studio
+### Chinese Recomposition Note
 
 Literal Chinese may become overloaded if it follows every English extension in one sentence. But cutting too aggressively can destroy the experience of ongoing perception.
 
@@ -161,7 +222,7 @@ Decide:
 
 Do not search for a neat final answer. Build a movement map first, then let Chinese length follow function.
 
-## 7A. CN Recomposition Decision Table
+### CN Recomposition Decision Table
 
 | Source Pressure | Literal Chinese Risk | Better Move | Test Question |
 |---|---|---|---|
@@ -171,7 +232,7 @@ Do not search for a neat final answer. Build a movement map first, then let Chin
 | Long chain about mother and grandmother | Cut into unrelated summaries | Divide only by argumentative movement | Does each Chinese unit still push the same thought? |
 | "Go and comfort him" closes plainly | Overload the command with explanation | Let direct speech arrive cleanly | Does simplicity gain force after extension? |
 
-## 8. Pattern Work
+### Pattern Explanation
 
 Pattern name: PATTERN-Extended-Clause-Chain
 
@@ -189,51 +250,34 @@ Chinese adaptation: Preserve continuation through sequence, punctuation, and con
 
 Used in: Chapter 3｜The Sentence That Refuses to End
 
-## 9. Practice
+## 11. Movement Card
 
-### Minimum Mode｜30 min
+> [!abstract] Movement Card｜The Sentence That Refuses to End
+> **Source**
+> Combray, after the night of the mother's visit; "Even at the moment" to "Go and comfort him."
+>
+> **My Try**
+> One sentence about how I first handled continuation and possible stopping points.
+>
+> **AI Feedback**
+> No more than 3 points.
+>
+> **Repair**
+> What I changed after feedback.
+>
+> **Pattern**
+> The sentence extends through linked qualifications so that judgment forms gradually.
+>
+> **CN Recomposition Rule**
+> Divide only when division preserves continuation; do not turn the chain into disconnected summary.
+>
+> **Reuse**
+> Before translating a long sentence, number its first three extensions and name what each extension adds.
 
-1. Skeleton-marking exercise: Number three extensions after the first apparent sentence center.
-2. Movement-map exercise: Mark how each extension changes the path.
-3. English style observation: Identify one place where the sentence could have ended but does not.
-4. Chinese recomposition attempt: Draft a Chinese version that keeps at least one continuation pressure.
-5. Writing imitation task: Write one sentence that extends through three additions.
-6. Citation-annotation task: Choose one short anchor that marks an apparent stopping point.
+## 12. Self-Check
 
-### Standard Mode｜60 min
-
-1. Skeleton-marking exercise: Label each clause as center, extension, qualification, or return.
-2. Movement-map exercise: Build a chain map from Opening to Completion.
-3. English style observation: Explain whether the extensions create rhythm, thought, or perception.
-4. Chinese recomposition attempt: Produce two drafts: one long Chinese sentence, one divided but continuous draft.
-5. Writing imitation task: Write a paragraph whose first sentence refuses to close until perception has expanded.
-6. Citation-annotation task: Fill the annotation table with at least two extension anchors.
-
-### Studio Mode｜90-120 min
-
-1. Skeleton-marking exercise: Build a full clause-chain diagram.
-2. Movement-map exercise: Identify the cost of cutting after each possible stopping point.
-3. English style observation: Mark breath units and compare them with semantic units.
-4. Chinese recomposition attempt: Produce three drafts and annotate which one best preserves continuation.
-5. Writing imitation task: Write a 150-220 word scene using extension without turning the sentence into a list.
-6. Citation-annotation task: Write a source-grounded note explaining which extension would be lost in an over-short Chinese draft.
-
-## 10. Self-Check
-
-- Did I find the sentence center?
-- Did I translate too early?
-- Did I preserve delay?
-- Did I confuse insertion with main movement?
-- Did my Chinese rebuild movement rather than merely transfer meaning?
-- Can I reuse this pattern in my own prose?
-- Did each annotation point back to a real short source anchor?
-
-Also ask: did I cut because Chinese needed it, or because I became impatient?
-
-## 11. What You Can Now Do
-
-You can follow an extended sentence across multiple additions and make Chinese recomposition decisions based on movement rather than impatience.
-
-## 12. Next Chapter
-
-Chapter 4 asks why these delays matter. The next move is to read delay not merely as syntax, but as a way the sentence thinks.
+- Can I mark at least three continuation points?
+- Can I explain what each extension contributes?
+- Can I tell whether my Chinese stopped too early?
+- Can I preserve movement without creating an overloaded list?
+- Can I save one Movement Card from this training?

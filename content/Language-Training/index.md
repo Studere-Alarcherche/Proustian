@@ -1,61 +1,69 @@
 ---
-title: "Learn to Read Proust"
+title: "Language Training"
 type: "section-index"
 status: "active"
 thread: "language-training"
-description: "French precision and passage-recomposition tracks for reading Proust."
+description: "The precision and recomposition layer of Proustian."
 layout: landing
 comments: false
 ---
-# Learn to Read Proust
+# Language Training
 
-This is not a general language school inside Proustian. It is a set of reading-formation tracks that serve the same center: returning to Proust with better attention, better sentence judgment, and less false confidence.
+Language Training is the precision and recomposition layer of Proustian.
 
-## Track Boundary
+It is not a general language-learning program. It exists to support reading, translation, sentence movement, and writing formation around Proustian materials.
 
-- French is the language precision layer. It trains the reader to see what a translation can smooth over.
-- EN-CN recomposition is the passage movement layer. It trains sentence delay, Chinese recomposition, translation judgment, and prose formation.
-- Comparative Induction is a reading-formation layer. It uses comparison to sharpen perception of *Recherche*, not to become a survey course.
-- Translation Lab is absorbed into the EN-CN studio. It is not a third course.
+## Tracks
 
-## Current Tracks
+### French Precision
 
-- [[LTF-A0-to-B1-Course-Outline|Learn to Read French for Proust]]
-  A reading-only French precision track organized by Parts and Modules: recognition organs, sentence machinery, tense as perception, Proustian lexical fields, guided natural input, French labels, and slow entry into literary and theoretical prose.
-- [[Learn-to-Read-Proust-EN-CN|Learn to Read Proust [EN-CN]]]
-  A textbook studio for rebuilding the movement of English Proust passages in Chinese without flattening delay, rhythm, perception, or judgment.
-- [[Learn-to-Read-Proust/Comparative-Induction/index|Proustian Comparative Induction]]
-  A comparative pressure layer for forming reading actions around Proust, Woolf, Faulkner, Yourcenar, and other controlled constellations.
+French reading recognition, sentence skeletons, function words, word families, false friends, and French anchors.
 
-## French Precision Track
+Status: active working track.
 
-The French track is reading only. It has no general conversation goal, no exam-centered grammar route, and no promise of language performance detached from Proustian reading.
+Public surface: [[LTF-A0-to-B1-Course-Outline|Learn to Read French for Proust]].
 
-Its internal architecture is reading ability formation:
+Current training pages:
 
-- seeing French on the page
-- locating footholds before interpretation
-- building the sentence machine
-- reading tense and aspect as literary perception
-- forming Proustian lexical fields
-- moving from explicit recognition to guided natural input
-- letting French gradually become part of the explanatory medium
-- preparing slow entry into Proust, Deleuze, and French theoretical prose
+1. [[LTF-Chapter-001-Cognates-and-Reading-Confidence|Cognates and Reading Confidence]]
+2. [[LTF-Chapter-002-False-Friends-and-Controlled-Guessing|False Friends and Controlled Guessing]]
+3. [[LTF-Chapter-003-Word-Families-and-Recognition-Patterns|Word Families and Recognition Patterns]]
+4. [[LTF-Chapter-004-Function-Words-I|Function Words I]]
+5. [[LTF-Chapter-005-What-Is-a-French-Sentence|What Is a French Sentence?]]
 
-## EN-CN Textbook Studio
+### EN-CN Recomposition Studio
 
-The EN-CN track works from English passages of *In Search of Lost Time* into Chinese recomposition. It trains the reader to follow sentence movement before summarizing it.
+English sentence movement, Chinese recomposition, Proustian rhythm, translation judgment, and writing training.
 
-Current public anchors:
+Status: strongest current working draft line.
 
-1. [[LTRP-EN-CN-Chapter-001-Waiting-for-the-Main-Clause|Chapter 001: Waiting for the Main Clause]]
-2. [[LTRP-EN-CN-Chapter-002-Inserted-Phrases-and-Suspended-Attention|Chapter 002: Inserted Phrases and Suspended Attention]]
-3. [[LTRP-EN-CN-Chapter-003-The-Sentence-That-Refuses-to-End|Chapter 003: The Sentence That Refuses to End]]
-4. [[LTRP-EN-CN-Chapter-004-Delay-as-a-Form-of-Thought|Chapter 004: Delay as a Form of Thought]]
-5. [[LTRP-EN-CN-Part-Map|Part 1 Map]]
+Public surface: [[Learn-to-Read-Proust-EN-CN|Learn to Read Proust [EN-CN]]].
 
-## Working Boundary
+Current training pages:
 
-The task is not fluency as performance. The task is better reading: enough French to notice what a translation smooths over, enough grammar to hold a long sentence in view, enough recomposition practice to make prose judgment answerable to the passage.
+1. [[LTRP-EN-CN-Part-Map|Part Map]]
+2. [[LTRP-EN-CN-Chapter-001-Waiting-for-the-Main-Clause|Waiting for the Main Clause]]
+3. [[LTRP-EN-CN-Chapter-002-Inserted-Phrases-and-Suspended-Attention|Inserted Phrases and Suspended Attention]]
+4. [[LTRP-EN-CN-Chapter-003-The-Sentence-That-Refuses-to-End|The Sentence That Refuses to End]]
+5. [[LTRP-EN-CN-Chapter-004-Delay-as-a-Form-of-Thought|Delay as a Form of Thought]]
 
-Do not webify this layer yet. The Markdown prototype must prove its reading value before any app shell is built.
+### Comparative Induction
+
+Cross-language and cross-literary pattern discovery. This track uses comparison to sharpen perception of *Recherche*, not to become a survey course.
+
+Status: internal / working unless explicitly marked public. It remains an Obsidian/Harness packet, not a public reader path.
+
+## Source of Truth
+
+This page is the current public-facing surface for the language layer.
+
+The stable public entrances are:
+
+1. [[LTF-A0-to-B1-Course-Outline|Learn to Read French for Proust]]
+2. [[Learn-to-Read-Proust-EN-CN|Learn to Read Proust [EN-CN]]]
+
+Training pages exposed from those entrances are working reading pages, not finished textbook claims. Studio materials, templates, prompts, editorial boards, and unreviewed comparative-induction files remain backstage until reviewed through the appropriate Harness. Root-level duplicate drafts are pending merge or archive and should not be treated as the authoritative public version.
+
+## Public Rule
+
+Only stable entrances and explicitly exposed working training pages are shown here. Long source passages, prompts, templates, editorial boards, and internal studio materials remain backstage.

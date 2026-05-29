@@ -11,19 +11,26 @@ parent: "Learn to Read Proust [EN-CN]"
 ---
 # Chapter 2｜Inserted Phrases and Suspended Attention
 
-## 0. Chapter Function
+## 1. What You Train
 
-Train the reader to recognize inserted phrases, parenthetical expansions, and descriptive interruptions without mistaking them for the sentence center.
+> [!note] What You Train
+> Bracketing inserted phrases without losing the sentence center.
+>
+> You are training how to hold a suspended segment in memory, then return to the governing structure.
 
-The concrete action is: bracket inserted material, then return to the governing structure.
+## 2. Core Explanation
 
-## 1. Before You Begin
+> [!note] Core Explanation
+> An inserted phrase can interrupt the sentence without becoming the main movement. The task is not to erase the interruption. The task is to keep the center visible while the interruption changes pressure.
+>
+> In Chinese, the danger is either smoothing the insertion away or letting it take over the sentence.
 
-1. When a sentence interrupts itself, do you forget what it was originally doing?
-2. Can you tell the difference between an inserted perception and a main grammatical movement?
-3. In Chinese, do you remove interruptions too quickly because they feel inconvenient?
+> [!warning] Do Not Ask For This Yet
+> Do not ask AI for a final translation.
+>
+> Do not read the Teacher Note before you have marked the inserted material and written a rough Chinese attempt.
 
-## 2. Passage Entrance
+## 3. Input
 
 Source: Marcel Proust, *Swann's Way*, Volume One of *Remembrance of Things Past* / *In Search of Lost Time*
 
@@ -37,35 +44,77 @@ End Words: varnish upon that staircase
 
 Passage status: selected
 
-### Original Text
-
-### Original Text Citation and Annotation Layer
+### Source Passage
 
 > That hateful staircase, up which I always passed with such dismay, gave out a smell of varnish which had to some extent absorbed, made definite and fixed the special quality of sorrow that I felt each evening, and made it perhaps even more cruel to my sensibility because, when it assumed this olfactory guise, my intellect was powerless to resist it. When we have gone to sleep with a maddening toothache and are conscious of it only as a little girl whom we attempt, time after time, to pull out of the water, or as a line of Molière which we repeat incessantly to ourselves, it is a great relief to wake up, so that our intelligence can disentangle the idea of toothache from any artificial semblance of heroism or rhythmic cadence. It was the precise converse of this relief which I felt when my anguish at having to go up to my room invaded my consciousness in a manner infinitely more rapid, instantaneous almost, a manner at once insidious and brutal as I breathed in--a far more poisonous thing than any moral penetration--the peculiar smell of the varnish upon that staircase.
 
-Annotation table:
+> [!task] Primary Work Zone
+> First pass: work only on the opening sentence from "That hateful staircase" to "my intellect was powerless to resist it."
 
-| Short citation anchor | Citation function | Grammar note | Movement note | CN recomposition note | Writing transfer note |
-|---|---|---|---|---|---|
-| "That hateful staircase" | Sentence center | Subject before interruption. | The object is named before its sensory force unfolds. | Keep the staircase as the grammatical anchor. | Begin with an object that will carry feeling. |
-| "up which I always passed" | Inserted habit | Relative clause interrupts the subject before the main verb. | Habit enters before smell. | Chinese can front habit or embed it, but must not lose interruption. | Insert repeated action before sensory arrival. |
-| "gave out a smell of varnish" | Return point | Main verb returns after relative insertion. | The sentence resumes through smell. | Chinese should let smell become the governing sensory event. | Let the sentence return through a sense impression. |
-| "when it assumed this olfactory guise" | Inserted abstraction | Temporal clause re-enters inside the causal explanation. | The smell becomes a form that defeats intellect. | Preserve "olfactory guise" as sensory-thinking pressure, not a plain smell. | Use sensory form to interrupt rational control. |
-| "a far more poisonous thing" | Parenthetical force | Dash insertion intensifies comparison. | The interruption sharpens rather than decorates. | Chinese punctuation can keep the sudden toxic emphasis. | Use inserted comparison to change intensity. |
+## 4. Recognition Drill
 
-Open annotation question: Which short phrase is important precisely because it interrupts the sentence instead of advancing it?
+> [!task] Recognition Drill｜Center, Insertion, Return
+> 1. Mark the center of the sentence.
+> 2. Bracket exactly one inserted phrase first.
+> 3. Circle where the sentence returns after the insertion.
+> 4. Only after this first pass, mark any additional interruptions.
 
-## 3. First Reading
+## 5. Recomposition Drill
 
-- Read without translating first.
-- Mark where the governing sentence begins.
-- Put brackets around anything that interrupts, qualifies, or describes before the sentence returns.
-- Mark the return point where the sentence resumes its main movement.
-- Copy only the shortest necessary citation anchors into the annotation table.
+> [!task] Recomposition Drill｜Rough Chinese First
+> Write a rough Chinese version that keeps the interruption visible.
+>
+> 1. Do not delete the insertion for smoothness.
+> 2. Do not let the insertion become the sentence center.
+> 3. Mark where your Chinese sentence returns to its governing path.
+> 4. Mark where your Chinese becomes too smooth.
+> 5. Ask whether the interruption still thickens perception.
 
-The goal is not to delete inserted material. The goal is to keep it from stealing the sentence center.
+## 6. AI Feedback
 
-## 4. Sentence Skeleton
+> [!tip] AI Feedback Prompt
+> I will give you my attempt first.
+>
+> Do not give a final translation.
+> Do not rewrite the whole passage for me.
+>
+> Evaluate my attempt as a training draft.
+>
+> Focus on:
+> 1. whether I preserved the center / insertion / return movement;
+> 2. whether I made the interruption too smooth;
+> 3. whether the Chinese recomposition flattened the suspended attention;
+> 4. the one repair I should make now.
+>
+> Give no more than 3 feedback points, one repair instruction, and one thinking question.
+
+## 7. Repair Drill
+
+> [!example] Repair Drill
+> Repair one local problem.
+>
+> If the center is lost, restore the center. If the insertion is flattened, revise that phrase only. If the draft works, move to the card.
+
+## 8. Thinking Question
+
+> [!question] Thinking Question
+> Where does your Chinese version become too smooth, and what does that smoothness destroy?
+
+## 9. Transfer Drill
+
+> [!example] Transfer Drill
+> Find one sentence from another text where an inserted phrase interrupts the main movement.
+>
+> Mark center, insertion, and return before asking AI for help.
+
+## 10. Teacher Note
+
+> [!warning] Read after attempting
+> The following Teacher Note is not the starting point.
+>
+> Use it only after you have completed your recognition drill, rough Chinese recomposition, and AI feedback step.
+
+### Sentence Skeleton
 
 Main clause: "That hateful staircase ... gave out a smell of varnish"; later "It was the precise converse of this relief."
 
@@ -87,7 +136,7 @@ Completion: The smell invades consciousness more rapidly than moral thought can 
 
 Working rule: an insertion can be important without being the governing structure.
 
-## 5. Movement Map
+### Movement Map
 
 Opening: "That hateful staircase" establishes the object and emotional charge.
 
@@ -103,7 +152,7 @@ Completion: The final pressure is not "I was sad"; it is that smell invades cons
 
 The movement is a controlled interruption. The reader learns to hold two tasks at once: follow the center and register the inserted perception.
 
-## 5A. Sentence Diagram
+### Sentence Diagram
 
 ```mermaid
 flowchart LR
@@ -122,7 +171,19 @@ Reading use:
 - Treat smell as the return point, not as decorative detail.
 - The toothache analogy is an extension of sensory helplessness, not a new topic.
 
-## 6. English Style Studio
+### Citation and Annotation Layer
+
+| Short citation anchor | Citation function | Grammar note | Movement note | CN recomposition note | Writing transfer note |
+|---|---|---|---|---|---|
+| "That hateful staircase" | Sentence center | Subject before interruption. | The object is named before its sensory force unfolds. | Keep the staircase as the grammatical anchor. | Begin with an object that will carry feeling. |
+| "up which I always passed" | Inserted habit | Relative clause interrupts the subject before the main verb. | Habit enters before smell. | Chinese can front habit or embed it, but must not lose interruption. | Insert repeated action before sensory arrival. |
+| "gave out a smell of varnish" | Return point | Main verb returns after relative insertion. | The sentence resumes through smell. | Chinese should let smell become the governing sensory event. | Let the sentence return through a sense impression. |
+| "when it assumed this olfactory guise" | Inserted abstraction | Temporal clause re-enters inside the causal explanation. | The smell becomes a form that defeats intellect. | Preserve "olfactory guise" as sensory-thinking pressure, not a plain smell. | Use sensory form to interrupt rational control. |
+| "a far more poisonous thing" | Parenthetical force | Dash insertion intensifies comparison. | The interruption sharpens rather than decorates. | Chinese punctuation can keep the sudden toxic emphasis. | Use inserted comparison to change intensity. |
+
+Question: Which short phrase is important precisely because it interrupts the sentence instead of advancing it?
+
+### English Style Note
 
 Inserted phrases create pressure between continuity and interruption. In English Proust, an insertion may carry perception, nuance, or hesitation while the larger sentence continues to depend on a delayed return.
 
@@ -138,7 +199,7 @@ Watch for:
 
 Do not treat inserted material as decoration. It is often where perception enters the sentence.
 
-## 7. Chinese Recomposition Studio
+### Chinese Recomposition Note
 
 Literal Chinese may either over-embed the insertion until the sentence becomes stiff, or remove the insertion's pressure by turning it into a separate explanatory sentence.
 
@@ -156,9 +217,9 @@ Decide:
 - Should it move before or after the main clause while retaining its interruptive function?
 - What must not be mistaken for the sentence center?
 
-Do not present a final translation until a verified passage is selected. Build drafts that show where the center is and how the insertion affects it.
+After a source passage is selected, do not produce a final translation unless the reader has first attempted the passage or explicitly requests a final rendering. Build drafts that show where the center is and how the insertion affects it.
 
-## 7A. CN Recomposition Decision Table
+### CN Recomposition Decision Table
 
 | Source Pressure | Literal Chinese Risk | Better Move | Test Question |
 |---|---|---|---|
@@ -168,7 +229,7 @@ Do not present a final translation until a verified passage is selected. Build d
 | "olfactory guise" turns smell into form | Over-explain as "this smell" | Keep the strange sensory form | Does Chinese preserve sensory abstraction? |
 | Dash insertion "a far more poisonous thing" intensifies | Smooth away the interruption | Use punctuation or order to keep sudden force | Does the interruption wound the sentence? |
 
-## 8. Pattern Work
+### Pattern Explanation
 
 Pattern name: PATTERN-Inserted-Perception
 
@@ -186,51 +247,34 @@ Chinese adaptation: Keep the insertion's pressure while choosing whether Chinese
 
 Used in: Chapter 2｜Inserted Phrases and Suspended Attention
 
-## 9. Practice
+## 11. Movement Card
 
-### Minimum Mode｜30 min
+> [!abstract] Movement Card｜Inserted Phrases and Suspended Attention
+> **Source**
+> Combray, staircase / varnish scene; "That hateful staircase" to "varnish upon that staircase."
+>
+> **My Try**
+> One sentence about how I first handled center, insertion, and return.
+>
+> **AI Feedback**
+> No more than 3 points.
+>
+> **Repair**
+> What I changed after feedback.
+>
+> **Pattern**
+> The sentence interrupts itself so perception can enter before the governing movement resumes.
+>
+> **CN Recomposition Rule**
+> Keep the interruption visible without letting it replace the sentence center.
+>
+> **Reuse**
+> Next time I meet an inserted phrase, I mark center, interruption, and return before translating.
 
-1. Skeleton-marking exercise: Bracket one inserted phrase and underline the main clause.
-2. Movement-map exercise: Mark Opening, Insertion, Return, and Completion.
-3. English style observation: Explain what the insertion adds.
-4. Chinese recomposition attempt: Draft one Chinese version that keeps the insertion visible.
-5. Writing imitation task: Write one sentence with an inserted sensory phrase.
-6. Citation-annotation task: Choose one short anchor that proves the inserted material is not the sentence center.
+## 12. Self-Check
 
-### Standard Mode｜60 min
-
-1. Skeleton-marking exercise: Identify every interruption and label its function.
-2. Movement-map exercise: Show how the sentence leaves and returns to its governing path.
-3. English style observation: Describe how punctuation changes breath.
-4. Chinese recomposition attempt: Produce two drafts: embedded insertion and repositioned insertion.
-5. Writing imitation task: Write a short paragraph where an inserted perception changes the reader's understanding of a scene.
-6. Citation-annotation task: Fill the annotation table with center, insertion, and return anchors.
-
-### Studio Mode｜90-120 min
-
-1. Skeleton-marking exercise: Build a complete center/insertion/return map.
-2. Movement-map exercise: Explain why the insertion belongs inside the movement rather than after it as commentary.
-3. English style observation: Compare the sentence with and without the insertion.
-4. Chinese recomposition attempt: Produce three drafts and annotate the cost of each insertion strategy.
-5. Writing imitation task: Write a 120-180 word paragraph with two controlled interruptions and clear returns.
-6. Citation-annotation task: Write a source-grounded note explaining which insertion must remain interruptive in Chinese.
-
-## 10. Self-Check
-
-- Did I find the sentence center?
-- Did I translate too early?
-- Did I preserve delay?
-- Did I confuse insertion with main movement?
-- Did my Chinese rebuild movement rather than merely transfer meaning?
-- Can I reuse this pattern in my own prose?
-- Did each annotation point back to a real short source anchor?
-
-If the Chinese draft reads smoothly but the insertion no longer changes the sentence movement, it has probably been flattened.
-
-## 11. What You Can Now Do
-
-You can bracket inserted material, protect the governing structure, and test Chinese recomposition choices without erasing suspension.
-
-## 12. Next Chapter
-
-Chapter 3 extends the problem. Instead of one clear insertion, the sentence may keep adding clauses, details, and qualifications until completion feels repeatedly postponed.
+- Can I identify the sentence center?
+- Can I bracket the inserted material without deleting it?
+- Can I show where the Chinese returns to the governing path?
+- Can I explain what smoothness would destroy here?
+- Can I save one Movement Card from this training?

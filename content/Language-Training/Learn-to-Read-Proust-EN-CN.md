@@ -13,6 +13,12 @@ This is not a generic English textbook, not a generic translation workbook, and 
 
 Translation is used as pressure. It is not outsourced to AI and not treated as an answer machine. The reader's attempts, mistakes, revisions, and judgments remain part of the training record.
 
+## Source of Truth
+
+This page is the current public-facing surface for the EN-CN Recomposition Studio.
+
+Draft chapters, studio materials, and unreviewed comparative-induction files remain backstage until reviewed through the appropriate Harness. Root-level duplicate drafts are pending merge or archive and should not be treated as the authoritative public version.
+
 ## Track Boundary
 
 This is the **EN-CN textbook track**, not the French precision track.
@@ -21,25 +27,28 @@ This is the **EN-CN textbook track**, not the French precision track.
 - The EN-CN track trains movement across English and Chinese: English sentence pressure, Chinese recomposition, translation judgment, and prose formation.
 - The two tracks meet at Proust, but they should remain visibly separate in the directory and in chapter planning.
 
-## Studio Entrances
+## Training Rule
 
-1. [[LTRP-EN-CN-Textbook-Studio|Textbook Studio]]
-2. [[LTRP-EN-CN-Part-Map|Part Map]]
-3. [[LTRP-EN-CN-Chapter-Template|Chapter Template]]
-4. [[LTRP-EN-CN-Editorial-Board|Editorial Board]]
-5. [[LTRP-EN-CN-Translation-Lab-Protocol|Translation Lab Protocol]]
+After a source passage is selected, do not produce a final translation unless the reader has first attempted the passage or explicitly requests a final rendering.
 
-## Part 1 Chapters
+Public-facing pages should use short citation anchors, movement notes, recomposition principles, and writing exercises rather than long source-text reproduction.
 
-1. [[LTRP-EN-CN-Chapter-001-Waiting-for-the-Main-Clause|Chapter 001: Waiting for the Main Clause]]
-2. [[LTRP-EN-CN-Chapter-002-Inserted-Phrases-and-Suspended-Attention|Chapter 002: Inserted Phrases and Suspended Attention]]
-3. [[LTRP-EN-CN-Chapter-003-The-Sentence-That-Refuses-to-End|Chapter 003: The Sentence That Refuses to End]]
-4. [[LTRP-EN-CN-Chapter-004-Delay-as-a-Form-of-Thought|Chapter 004: Delay as a Form of Thought]]
+## Current Draft Line
+
+The global map, Part 1 outline, and Chapters 001-004 are exposed as working training pages. They are not finished textbook claims.
+
+1. [[LTRP-EN-CN-Part-Map|Part Map]]
+2. [[LTRP-EN-CN-Chapter-001-Waiting-for-the-Main-Clause|Chapter 001: Waiting for the Main Clause]]
+3. [[LTRP-EN-CN-Chapter-002-Inserted-Phrases-and-Suspended-Attention|Chapter 002: Inserted Phrases and Suspended Attention]]
+4. [[LTRP-EN-CN-Chapter-003-The-Sentence-That-Refuses-to-End|Chapter 003: The Sentence That Refuses to End]]
+5. [[LTRP-EN-CN-Chapter-004-Delay-as-a-Form-of-Thought|Chapter 004: Delay as a Form of Thought]]
 
 ## Working Boundary
 
 The center remains Proustian prose. English and Chinese serve reading, judgment, and writing formation. The studio should produce reusable cards and training notes only after actual passage work.
 
+Comparative Induction is an adjacent high-order reading formation track inside Language Training. It should not become a separate comparative literature course, and it should not be treated as part of the EN-CN public textbook surface until selected units pass Harness review.
+
 ## Current Scope
 
-The global map, Part 1 outline, and Chapters 001-004 are active. Chapter 005 remains the next production slot. Do not generate all forty-eight chapters yet.
+Chapter 005 remains the next production slot only after the current draft line has passed review. Do not generate all forty-eight chapters yet.

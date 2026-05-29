@@ -11,19 +11,26 @@ parent: "Learn to Read Proust [EN-CN]"
 ---
 # Chapter 4｜Delay as a Form of Thought
 
-## 0. Chapter Function
+## 1. What You Train
 
-Train the reader to understand delay not as difficulty or ornament, but as a form of thinking and perception.
+> [!note] What You Train
+> Reading delay as a form of thinking.
+>
+> You are training how to explain how syntactic delay changes the experience of perception, memory, or judgment.
 
-The concrete action is: explain how syntactic delay changes the reader's experience of perception, memory, or judgment.
+## 2. Core Explanation
 
-## 1. Before You Begin
+> [!note] Core Explanation
+> Delay is not only difficulty or ornament. In Proust, delay can make thought happen in time: sensation arrives, meaning is withheld, and judgment forms slowly.
+>
+> The first task is to mark where delay becomes an act of thought rather than merely a syntactic device.
 
-1. Do you treat long syntax as a problem to simplify before asking what it does?
-2. Can you explain how delay changes a thought, not just where delay appears?
-3. Can your Chinese draft preserve the thinking process rather than only the final meaning?
+> [!warning] Do Not Ask For This Yet
+> Do not ask AI for a final translation or a full interpretation.
+>
+> Do not read the Teacher Note before you have marked the delay and drafted a rough Chinese version.
 
-## 2. Passage Entrance
+## 3. Input
 
 Source: Marcel Proust, *Swann's Way*, Volume One of *Remembrance of Things Past* / *In Search of Lost Time*
 
@@ -37,35 +44,80 @@ End Words: seize upon and define it
 
 Passage status: selected
 
-### Original Text
-
-### Original Text Citation and Annotation Layer
+### Source Passage
 
 > She sent out for one of those short, plump little cakes called 'petites madeleines,' which look as though they had been moulded in the fluted scallop of a pilgrim's shell. And soon, mechanically, weary after a dull day with the prospect of a depressing morrow, I raised to my lips a spoonful of the tea in which I had soaked a morsel of the cake. No sooner had the warm liquid, and the crumbs with it, touched my palate than a shudder ran through my whole body, and I stopped, intent upon the extraordinary changes that were taking place. An exquisite pleasure had invaded my senses, but individual, detached, with no suggestion of its origin. And at once the vicissitudes of life had become indifferent to me, its disasters innocuous, its brevity illusory--this new sensation having had on me the effect which love has of filling me with a precious essence; or rather this essence was not in me, it was myself. I had ceased now to feel mediocre, accidental, mortal. Whence could it have come to me, this all-powerful joy? I was conscious that it was connected with the taste of tea and cake, but that it infinitely transcended those savours, could not, indeed, be of the same nature as theirs. Whence did it come? What did it signify? How could I seize upon and define it?
 
-Annotation table:
+## 4. Recognition Drill
 
-| Short citation anchor | Citation function | Grammar note | Movement note | CN recomposition note | Writing transfer note |
-|---|---|---|---|---|---|
-| "mechanically" | Initial state | Adverb marks action before awareness. | The body acts before thought begins. | Chinese should not turn this immediately into reflective awareness. | Start with unthinking action. |
-| "No sooner had the warm liquid" | Delay mechanism | Inverted correlative structure delays the bodily result. | Taste produces shock before explanation. | Preserve the sequence: contact first, meaning later. | Use sensory contact to trigger thought. |
-| "with no suggestion of its origin" | Suspended explanation | Negated phrase withholds source. | Pleasure exists before it can be explained. | Keep origin absent; do not name memory too early. | Let experience arrive before cause. |
-| "or rather this essence was not in me" | Thought turn | Self-correction revises the prior statement. | Thought changes itself mid-sentence. | Chinese should preserve correction, not smooth it away. | Use "or rather" to show thinking in motion. |
-| "Whence did it come?" | Final pressure | Repeated question converts sensation into inquiry. | Delay becomes thinking. | Keep the questions as questions; do not answer them in translation. | End with inquiry rather than conclusion. |
+> [!task] Recognition Drill｜From Sensation to Thought
+> Mark one example of each:
+>
+> 1. sensory contact
+> 2. bodily reaction
+> 3. withheld origin
+> 4. self-correction
+> 5. unanswered question
+>
+> Then write one sentence:
+> Delay changes thought here because ___.
 
-Open annotation question: Which short anchor shows that delay is producing thought, not merely postponing information?
+## 5. Recomposition Drill
 
-## 3. First Reading
+> [!task] Recomposition Drill｜Rough Chinese First
+> Write a rough Chinese version that preserves delayed thinking.
+>
+> 1. Keep sensation before explanation.
+> 2. Do not name the hidden origin too early.
+> 3. Preserve at least one self-correction or unanswered question.
+> 4. Identify where your version explains too early.
+> 5. Mark the place where thought becomes too direct.
 
-- Read without translating first.
-- Mark where the sentence withholds completion.
-- Mark what the delay makes you notice before the sentence resolves.
-- Mark whether delay changes perception, memory, judgment, or emphasis.
-- Copy only the shortest necessary citation anchors into the annotation table.
+## 6. AI Feedback
 
-The task is not to admire difficulty. The task is to name what the delay makes possible.
+> [!tip] AI Feedback Prompt
+> I will give you my attempt first.
+>
+> Do not give a final translation.
+> Do not rewrite the whole passage for me.
+>
+> Evaluate my attempt as a training draft.
+>
+> Focus on:
+> 1. whether I preserved delay as a thinking process;
+> 2. whether I explained the meaning too early;
+> 3. whether the Chinese recomposition flattened sensation into conclusion;
+> 4. the one repair I should make now.
+>
+> Give no more than 3 feedback points, one repair instruction, and one thinking question.
 
-## 4. Sentence Skeleton
+## 7. Repair Drill
+
+> [!example] Repair Drill
+> Repair the moment where thought becomes too direct.
+>
+> If origin arrives too soon, delay it. If sensation becomes summary, restore the sensory sequence. If the questions are answered too early, let them remain questions.
+
+## 8. Thinking Question
+
+> [!question] Thinking Question
+> Which is more important here: naming the meaning clearly or preserving the delay through which meaning becomes thinkable?
+
+## 9. Transfer Drill
+
+> [!example] Transfer Drill
+> Turn one direct sentence into a delayed Chinese sentence where perception arrives before judgment.
+>
+> Then mark the point where the thought changes because of the delay.
+
+## 10. Teacher Note
+
+> [!warning] Read after attempting
+> The following Teacher Note is not the starting point.
+>
+> Use it only after you have completed your recognition drill, rough Chinese recomposition, and AI feedback step.
+
+### Sentence Skeleton
 
 Main clause: "She sent out"; "I raised"; "a shudder ran"; "An exquisite pleasure had invaded"; "I was conscious."
 
@@ -87,7 +139,7 @@ Completion: The passage refuses final explanation and ends in questions.
 
 Working rule: delay becomes meaningful when it changes the order in which thought is formed.
 
-## 5. Movement Map
+### Movement Map
 
 Opening: The passage begins with ordinary tea and cake before any great meaning appears.
 
@@ -103,7 +155,7 @@ Completion: There is no explanatory closure; the passage completes by turning se
 
 The movement makes delay a cognitive device. The sentence thinks by making the reader wait.
 
-## 5A. Sentence Diagram
+### Sentence Diagram
 
 ```mermaid
 flowchart LR
@@ -122,7 +174,19 @@ Reading use:
 - The thought is produced by sensory delay.
 - The questions are part of the form, not a failure to explain.
 
-## 6. English Style Studio
+### Citation and Annotation Layer
+
+| Short citation anchor | Citation function | Grammar note | Movement note | CN recomposition note | Writing transfer note |
+|---|---|---|---|---|---|
+| "mechanically" | Initial state | Adverb marks action before awareness. | The body acts before thought begins. | Chinese should not turn this immediately into reflective awareness. | Start with unthinking action. |
+| "No sooner had the warm liquid" | Delay mechanism | Inverted correlative structure delays the bodily result. | Taste produces shock before explanation. | Preserve the sequence: contact first, meaning later. | Use sensory contact to trigger thought. |
+| "with no suggestion of its origin" | Suspended explanation | Negated phrase withholds source. | Pleasure exists before it can be explained. | Keep origin absent; do not name memory too early. | Let experience arrive before cause. |
+| "or rather this essence was not in me" | Thought turn | Self-correction revises the prior statement. | Thought changes itself mid-sentence. | Chinese should preserve correction, not smooth it away. | Use "or rather" to show thinking in motion. |
+| "Whence did it come?" | Final pressure | Repeated question converts sensation into inquiry. | Delay becomes thinking. | Keep the questions as questions; do not answer them in translation. | End with inquiry rather than conclusion. |
+
+Question: Which short anchor shows that delay is producing thought, not merely postponing information?
+
+### English Style Note
 
 Delay works as thought when rhythm, clause movement, and perception alter judgment. The sentence does not simply postpone information; it stages the conditions under which information becomes meaningful.
 
@@ -138,7 +202,7 @@ Watch for:
 
 The style lesson is to ask: what would be lost if this sentence were made direct?
 
-## 7. Chinese Recomposition Studio
+### Chinese Recomposition Note
 
 Chinese recomposition must decide how much delay can survive without becoming artificial. The central risk is making the thought too direct.
 
@@ -156,9 +220,9 @@ Decide:
 - Can punctuation hold suspension?
 - Does the draft show thought forming, or only report the thought after formation?
 
-Do not produce one correct translation without the passage. Produce an annotated recomposition strategy that explains how delay remains a thinking device.
+After a source passage is selected, do not produce a final translation unless the reader has first attempted the passage or explicitly requests a final rendering. Produce an annotated recomposition strategy that explains how delay remains a thinking device.
 
-## 7A. CN Recomposition Decision Table
+### CN Recomposition Decision Table
 
 | Source Pressure | Literal Chinese Risk | Better Move | Test Question |
 |---|---|---|---|
@@ -168,7 +232,7 @@ Do not produce one correct translation without the passage. Produce an annotated
 | "or rather" corrects thought midstream | Smooth into one stable claim | Preserve self-correction | Does thought visibly revise itself? |
 | Repeated questions close the passage | Add explanatory answer | Keep questions unanswered | Does inquiry replace conclusion? |
 
-## 8. Pattern Work
+### Pattern Explanation
 
 Pattern name: PATTERN-Delay-as-Thought
 
@@ -186,51 +250,34 @@ Chinese adaptation: Preserve the order of thought formation, even when Chinese r
 
 Used in: Chapter 4｜Delay as a Form of Thought
 
-## 9. Practice
+## 11. Movement Card
 
-### Minimum Mode｜30 min
+> [!abstract] Movement Card｜Delay as a Form of Thought
+> **Source**
+> Combray, madeleine / tea sequence; "She sent out" to "seize upon and define it."
+>
+> **My Try**
+> One sentence about how I first handled delayed thinking.
+>
+> **AI Feedback**
+> No more than 3 points.
+>
+> **Repair**
+> What I changed after feedback.
+>
+> **Pattern**
+> Delay makes sensation, memory, and judgment form in sequence rather than appear as a finished explanation.
+>
+> **CN Recomposition Rule**
+> Do not explain the thought too early. Preserve sensation before conclusion and inquiry before answer.
+>
+> **Reuse**
+> Next time I meet delayed thought, I ask what the delay makes possible before I translate.
 
-1. Skeleton-marking exercise: Mark delayed completion and the thought it affects.
-2. Movement-map exercise: Write one sentence explaining how delay changes meaning.
-3. English style observation: Identify what would be lost in a direct paraphrase.
-4. Chinese recomposition attempt: Draft a Chinese version that keeps the conclusion from arriving too early.
-5. Writing imitation task: Turn a direct sentence into a delayed sentence that thinks through perception.
-6. Citation-annotation task: Choose one short anchor that proves delay changes thought.
+## 12. Self-Check
 
-### Standard Mode｜60 min
-
-1. Skeleton-marking exercise: Label the grammatical delay and the cognitive delay separately.
-2. Movement-map exercise: Map perception -> suspension -> judgment.
-3. English style observation: Compare the original movement with a direct paraphrase.
-4. Chinese recomposition attempt: Produce two drafts and explain which better preserves thought formation.
-5. Writing imitation task: Write a short English or Chinese paragraph where the final sentence changes because of earlier delay.
-6. Citation-annotation task: Fill the annotation table with perception, delay, and thought-turn anchors.
-
-### Studio Mode｜90-120 min
-
-1. Skeleton-marking exercise: Build a full syntax/thought map.
-2. Movement-map exercise: Explain how delay changes perception, memory, or judgment.
-3. English style observation: Mark the sentence's thinking stages.
-4. Chinese recomposition attempt: Produce three annotated drafts: direct, delayed, and balanced.
-5. Writing imitation task: Write a 150-220 word passage where delayed syntax becomes the method of thinking.
-6. Citation-annotation task: Write a source-grounded note explaining why a direct paraphrase loses thought formation.
-
-## 10. Self-Check
-
-- Did I find the sentence center?
-- Did I translate too early?
-- Did I preserve delay?
-- Did I confuse insertion with main movement?
-- Did my Chinese rebuild movement rather than merely transfer meaning?
-- Can I reuse this pattern in my own prose?
-- Did each annotation point back to a real short source anchor?
-
-Also ask: can I explain why the delay matters without using vague praise such as "beautiful" or "complex"?
-
-## 11. What You Can Now Do
-
-You can explain how delay functions as thought and can design English or Chinese prose exercises that use delay to form perception or judgment.
-
-## 12. Next Chapter
-
-Chapter 5 should move from long sentence delay into slow perception. It should consolidate the first four moves rather than introduce a new system.
+- Can I mark where delay becomes thinking?
+- Can I keep sensation before explanation?
+- Can I identify where my Chinese explains too early?
+- Can I preserve unanswered questions without adding an answer?
+- Can I save one Movement Card from this training?

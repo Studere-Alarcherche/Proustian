@@ -4446,3 +4446,275 @@ body[data-slug="index"] article > h2:nth-of-type(1) + ul {
 body[data-slug="index"] article > h2:nth-of-type(1) + ul > li {
   min-height: 9.5rem !important;
 }
+
+/* 2026-05-30: Dutch archive cleanup for ordinary reading pages. */
+:root,
+:root[saved-theme="light"] {
+  --garden-bg: #f4efe2;
+  --garden-surface: #fbf6e9;
+  --garden-panel: #fffaf0;
+  --garden-text: #201914;
+  --garden-muted: #675746;
+  --garden-faint: #88745d;
+  --garden-line: #d6c6aa;
+  --garden-line-soft: #e7dbc5;
+  --garden-accent: #8c522f;
+  --garden-accent-2: #244f66;
+  --garden-accent-3: #7b2f27;
+  --garden-gold: #b98536;
+  --garden-accent-soft: rgba(140, 82, 47, 0.11);
+}
+
+:root[saved-theme="dark"] {
+  color-scheme: dark;
+  --garden-bg: #120d09;
+  --garden-surface: #1d1510;
+  --garden-panel: #251b14;
+  --garden-text: #f0e1c6;
+  --garden-muted: #c9b18f;
+  --garden-faint: #9f8668;
+  --garden-line: #56412e;
+  --garden-line-soft: #37291e;
+  --garden-accent: #d1a054;
+  --garden-accent-2: #86aeb4;
+  --garden-accent-3: #b7624a;
+  --garden-gold: #d8ad63;
+  --garden-accent-soft: rgba(209, 160, 84, 0.16);
+}
+
+html,
+body,
+#quartz-root,
+.page {
+  background: var(--garden-bg) !important;
+  color: var(--garden-text) !important;
+}
+
+body {
+  background:
+    linear-gradient(180deg, color-mix(in srgb, var(--garden-surface) 62%, transparent), transparent 17rem),
+    var(--garden-bg) !important;
+}
+
+:root[saved-theme="dark"] body {
+  background:
+    radial-gradient(circle at 12% 0%, rgba(129, 79, 38, 0.24), transparent 28rem),
+    linear-gradient(180deg, #17100b 0%, var(--garden-bg) 44%, #0c0907 100%) !important;
+}
+
+@media (min-width: 1200px) {
+  body:not([data-slug="index"]) .page > #quartz-body {
+    grid-template-columns: minmax(128px, 158px) minmax(0, 980px) minmax(204px, 242px) !important;
+    column-gap: clamp(1.2rem, 2.1vw, 2.4rem) !important;
+    width: min(100vw - 32px, 1500px) !important;
+    max-width: min(100vw - 32px, 1500px) !important;
+    margin-inline: auto !important;
+  }
+}
+
+body:not([data-slug="index"]) .sidebar.left .explorer,
+body:not([data-slug="index"]) .sidebar.left .essays-nav {
+  display: none !important;
+}
+
+body:not([data-slug="index"]) .sidebar.left {
+  gap: 1rem !important;
+  padding-left: clamp(0.9rem, 1.4vw, 1.2rem) !important;
+  padding-right: clamp(0.8rem, 1.2vw, 1.05rem) !important;
+  background: transparent !important;
+  border-right: 1px solid var(--garden-line-soft) !important;
+  overflow: visible !important;
+}
+
+.page-title {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: flex-start !important;
+  gap: 0.6rem !important;
+  margin: 1.25rem 0 0.5rem !important;
+  color: var(--garden-text) !important;
+}
+
+.page-title::before {
+  content: "" !important;
+  display: block !important;
+  width: 74px !important;
+  height: 74px !important;
+  margin: 0 !important;
+  border: 1px solid var(--garden-line) !important;
+  border-radius: 50% !important;
+  background-color: var(--garden-panel) !important;
+  background-image: url("/Proustian/static/proust-logo.png") !important;
+  background-position: center 34% !important;
+  background-repeat: no-repeat !important;
+  background-size: 155% auto !important;
+  box-shadow: 0 12px 32px rgba(32, 25, 20, 0.12) !important;
+}
+
+:root[saved-theme="dark"] .page-title::before {
+  background-color: #efe1c6 !important;
+  border-color: var(--garden-accent) !important;
+  box-shadow: 0 16px 42px rgba(0, 0, 0, 0.32) !important;
+}
+
+.page-title a {
+  color: var(--garden-accent) !important;
+  font-size: 0.78rem !important;
+  line-height: 1.35 !important;
+  letter-spacing: 0.14em !important;
+  text-transform: uppercase !important;
+}
+
+.page-title a::after {
+  color: var(--garden-muted) !important;
+  font-size: 0.66rem !important;
+  letter-spacing: 0.04em !important;
+}
+
+body:not([data-slug="index"]) .sidebar.left .social-links {
+  display: grid !important;
+  gap: 0.35rem !important;
+  margin: 0.35rem 0 0.25rem !important;
+}
+
+body:not([data-slug="index"]) .sidebar.left .social-item {
+  width: 100% !important;
+  justify-content: flex-start !important;
+  border-color: var(--garden-line-soft) !important;
+  background: color-mix(in srgb, var(--garden-panel) 76%, transparent) !important;
+  color: var(--garden-muted) !important;
+}
+
+body:not([data-slug="index"]) .sidebar.left .flex-component {
+  align-items: center !important;
+  gap: 0.45rem !important;
+  width: 100% !important;
+}
+
+body:not([data-slug="index"]) .sidebar.left .search {
+  min-width: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  background: transparent !important;
+}
+
+body:not([data-slug="index"]) .sidebar.left .search > .search-button {
+  width: 100% !important;
+  min-height: 2rem !important;
+  border: 1px solid var(--garden-line-soft) !important;
+  border-radius: 7px !important;
+  background: color-mix(in srgb, var(--garden-panel) 88%, transparent) !important;
+  color: var(--garden-muted) !important;
+}
+
+.darkmode,
+.readermode {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 2rem !important;
+  height: 2rem !important;
+  padding: 0 !important;
+  border: 1px solid var(--garden-line-soft) !important;
+  border-radius: 7px !important;
+  background: color-mix(in srgb, var(--garden-panel) 88%, transparent) !important;
+  color: var(--garden-muted) !important;
+}
+
+.darkmode svg,
+.readermode svg {
+  fill: var(--garden-accent) !important;
+  color: var(--garden-accent) !important;
+}
+
+article,
+.page article,
+.center article {
+  border-color: var(--garden-line-soft) !important;
+  border-radius: 10px !important;
+  background: color-mix(in srgb, var(--garden-surface) 88%, transparent) !important;
+  box-shadow: 0 18px 54px rgba(73, 48, 29, 0.08) !important;
+}
+
+:root[saved-theme="dark"] article,
+:root[saved-theme="dark"] .page article,
+:root[saved-theme="dark"] .center article {
+  background:
+    linear-gradient(180deg, rgba(209, 160, 84, 0.055), transparent 15rem),
+    color-mix(in srgb, var(--garden-surface) 92%, transparent) !important;
+  box-shadow: 0 24px 76px rgba(0, 0, 0, 0.36) !important;
+}
+
+article h1 {
+  color: var(--garden-text) !important;
+  letter-spacing: 0 !important;
+}
+
+article h2 {
+  border-bottom-color: var(--garden-line) !important;
+  color: var(--garden-text) !important;
+}
+
+article p,
+article li,
+article blockquote {
+  color: var(--garden-text) !important;
+}
+
+article a,
+article .internal-link {
+  color: var(--garden-accent-2) !important;
+  box-shadow: inset 0 -1px 0 color-mix(in srgb, var(--garden-accent-2) 42%, transparent) !important;
+}
+
+article strong {
+  color: var(--garden-text) !important;
+  box-shadow: inset 0 -0.16em 0 color-mix(in srgb, var(--garden-gold) 28%, transparent) !important;
+}
+
+body:not([data-slug="index"]) .right.sidebar {
+  background: transparent !important;
+  border-left: 1px solid var(--garden-line-soft) !important;
+  gap: 0.85rem !important;
+  padding-left: 1rem !important;
+}
+
+body:not([data-slug="index"]) .right .backlinks,
+body:not([data-slug="index"]) .right .graph {
+  border-color: var(--garden-line-soft) !important;
+  border-radius: 8px !important;
+  background: color-mix(in srgb, var(--garden-panel) 86%, transparent) !important;
+  color: var(--garden-muted) !important;
+}
+
+body:not([data-slug="index"]) .right .backlinks > h3,
+body:not([data-slug="index"]) .right .graph > h3 {
+  color: var(--garden-text) !important;
+}
+
+@media (max-width: 900px) {
+  body:not([data-slug="index"]) .sidebar.left {
+    display: grid !important;
+    grid-template-columns: auto minmax(0, 1fr) auto !important;
+    align-items: center !important;
+    border-right: 0 !important;
+  }
+
+  body:not([data-slug="index"]) .sidebar.left .social-links {
+    display: none !important;
+  }
+
+  .page-title {
+    margin: 0 !important;
+  }
+
+  .page-title::before {
+    width: 48px !important;
+    height: 48px !important;
+  }
+
+  .page-title a,
+  .page-title a::after {
+    display: none !important;
+  }
+}

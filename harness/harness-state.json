@@ -1,0 +1,53 @@
+{
+  "project": "Proustian",
+  "status": "active",
+  "visibility": "backstage",
+  "last_updated": "2026-05-30",
+  "current_core": [
+    "language training",
+    "writing thickening",
+    "finished public artifacts"
+  ],
+  "workflow_integration": {
+    "status": "active",
+    "canonical_instruction_file": "AGENTS.md",
+    "required_start_files": [
+      "harness/README.md",
+      "harness/harness-state.json",
+      "harness/project-memory.md",
+      "harness/decisions.md",
+      "relevant harness/contracts/*.md",
+      "relevant harness/protocols/*.md"
+    ],
+    "required_pre_edit_summary": [
+      "current goal",
+      "current contract",
+      "blockers",
+      "last verification",
+      "next action"
+    ],
+    "wrap_up_required": true
+  },
+  "mother_star": "Recherche / Proust",
+  "public_rule": "Only stable entrances or explicitly exposed working training pages should appear publicly, and public pages must not overstate completion.",
+  "last_completed_action": "Aligned the Language Training Obsidian packet and public Quartz exposure: restored French Precision and EN-CN working training pages to the public site, kept Comparative Induction and backstage studio materials hidden, added an Obsidian-facing internal packet index, and verified the Quartz build.",
+  "backstage_areas": [
+    "System",
+    "99_Archive",
+    "harness",
+    "draft language materials",
+    "unreviewed textbook materials"
+  ],
+  "language_tracks": [
+    "French Precision",
+    "EN-CN Recomposition Studio",
+    "Comparative Literary Induction"
+  ],
+  "next_smallest_actions": [
+    "Review the generated Language Training pages in the browser, especially the Language Training index and the two track entrances.",
+    "Publish from main when the user explicitly approves commit and push.",
+    "Review the deployed GitHub Pages rendering after the next publish from main.",
+    "Audit root duplicate language drafts for source-of-truth status.",
+    "Set up full LTRP Book I Harness only when explicitly approved."
+  ]
+}

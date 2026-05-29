@@ -11,19 +11,26 @@ parent: "Learn to Read Proust [EN-CN]"
 ---
 # Chapter 1｜Waiting for the Main Clause
 
-## 0. Chapter Function
+## 1. What You Train
 
-Train the reader to wait for the governing main clause before translating, summarizing, or deciding what the sentence "means."
+> [!note] What You Train
+> Waiting for the main clause.
+>
+> You are training how to hold attention while a sentence delays completion.
 
-The concrete action is: find the sentence center first, then identify what delays it.
+## 2. Core Explanation
 
-## 1. Before You Begin
+> [!note] Core Explanation
+> A long Proustian sentence may ask you to wait before deciding what it means. Do not translate from the first word as if the sentence has already completed itself.
+>
+> For this chapter, the first task is simple: find where orientation arrives late. Only after that should you draft Chinese.
 
-1. When you meet a long sentence, do you start translating from the first word before you know the main verb?
-2. Can you separate a sentence's grammatical center from the material that postpones it?
-3. When Chinese wants clarity earlier than English gives it, can you preserve some delay without making the sentence unreadable?
+> [!warning] Do Not Ask For This Yet
+> Do not ask AI for a final translation.
+>
+> Do not read the Teacher Note before your own recognition and recomposition attempt.
 
-## 2. Passage Entrance
+## 3. Input
 
 Source: Marcel Proust, *Swann's Way*, Volume One of *Remembrance of Things Past* / *In Search of Lost Time*
 
@@ -37,36 +44,80 @@ End Words: a matter dark indeed
 
 Passage status: selected
 
-### Original Text
-
-### Original Text Citation and Annotation Layer
+### Source Passage
 
 > For a long time I used to go to bed early. Sometimes, when I had put out my candle, my eyes would close so quickly that I had not even time to say "I'm going to sleep." And half an hour later the thought that it was time to go to sleep would awaken me; I would try to put away the book which, I imagined, was still in my hands, and to blow out the light; I had been thinking all the time, while I was asleep, of what I had just been reading, but my thoughts had run into a channel of their own, until I myself seemed actually to have become the subject of my book: a church, a quartet, the rivalry between François I and Charles V. This impression would persist for some moments after I was awake; it did not disturb my mind, but it lay like scales upon my eyes and prevented them from registering the fact that the candle was no longer burning. Then it would begin to seem unintelligible, as the thoughts of a former existence must be to a reincarnate spirit; the subject of my book would separate itself from me, leaving me free to choose whether I would form part of it or no; and at the same time my sight would return and I would be astonished to find myself in a state of darkness, pleasant and restful enough for the eyes, and even more, perhaps, for my mind, to which it appeared incomprehensible, without a cause, a matter dark indeed.
 
-Annotation table:
+## 4. Recognition Drill
 
-| Short citation anchor | Citation function | Grammar note | Movement note | CN recomposition note | Writing transfer note |
-|---|---|---|---|---|---|
-| "For a long time" | Opening pressure | Temporal frame before narrative action. | The reader enters duration before event. | Keep habitual time at the front; do not rush into a story summary. | Open with duration before declaring action. |
-| "when I had put out my candle" | Inserted condition | Subordinate temporal clause interrupts the quick closing of the eyes. | The action is delayed by a small ritual detail. | Chinese may use a fronted temporal phrase but should keep the small delay. | Use a practical action to slow entry into sleep. |
-| "I would try to put away the book" | Governing action after delay | Main action arrives after sleep, waking, and thought. | The sentence returns to bodily action after mental drift. | Do not translate the mental drift as an abstract summary before this return. | Let physical action return after mental wandering. |
-| "until I myself seemed" | Delay turning point | "Until" marks the threshold where reading becomes identification. | Delay becomes transformation. | Chinese should preserve the threshold before explaining it. | Use "until" structure to let perception become thought. |
-| "my sight would return" | Completion and return | Return of sight completes the movement from dream-text to room. | The sentence regains orientation late. | Let Chinese arrive at orientation after mental confusion. | Delay recognition so return feels earned. |
+> [!task] Recognition Drill｜Mark Before Explaining
+> Work only on the selected passage zone.
+>
+> 1. Underline the first governing finite verb.
+> 2. Circle the later return point where orientation becomes clear.
+> 3. Bracket two phrases that delay that return.
+> 4. Mark the point where your Chinese draft completes the meaning.
+>
+> Do not ask AI for a final translation yet.
 
-Open annotation question: Which short phrase proves that the sentence is asking the reader to wait rather than merely read a long unit?
+## 5. Recomposition Drill
 
-## 3. First Reading
+> [!task] Recomposition Drill｜Rough Chinese First
+> Write a rough Chinese version before asking AI for help.
+>
+> 1. Do not make it elegant.
+> 2. Keep the delayed arrival visible.
+> 3. Underline the point where your Chinese version completes the meaning.
+> 4. Ask: did I complete the meaning earlier than the English passage does?
+> 5. Mark one place where your Chinese sounds too smooth.
 
-- Read the whole sentence once without translating.
-- Mark where the sentence seems to begin.
-- Mark the first place where you expect completion.
-- Mark the point where completion is delayed.
-- Mark every phrase that makes you wait before the governing clause becomes clear.
-- Copy only the shortest necessary citation anchors into the annotation table.
+## 6. AI Feedback
 
-Do not write a Chinese version yet. The first task is to discover where the sentence is governed.
+> [!tip] AI Feedback Prompt
+> I will give you my attempt first.
+>
+> Do not give a final translation.
+> Do not rewrite the whole passage for me.
+>
+> Evaluate my attempt as a training draft.
+>
+> Focus on:
+> 1. whether I preserved the sentence movement;
+> 2. whether I completed the meaning too early;
+> 3. whether the Chinese recomposition flattened the delay;
+> 4. the one repair I should make now.
+>
+> Give no more than 3 feedback points, one repair instruction, and one thinking question.
 
-## 4. Sentence Skeleton
+## 7. Repair Drill
+
+> [!example] Repair Drill
+> If your first attempt is strong, do not rewrite everything.
+>
+> Repair only the one point that matters.
+>
+> If the main movement is wrong, try again. If the problem is local, revise locally. If the attempt works, move to the card.
+
+## 8. Thinking Question
+
+> [!question] Thinking Question
+> What changes if Chinese completes the meaning earlier than the English sentence does?
+
+## 9. Transfer Drill
+
+> [!example] Transfer Drill
+> Write one original Chinese sentence that delays completion in the same way.
+>
+> Keep it short. The sentence should make the reader wait for orientation, not merely add extra description.
+
+## 10. Teacher Note
+
+> [!warning] Read after attempting
+> The following Teacher Note is not the starting point.
+>
+> Use it only after you have completed your recognition drill, rough Chinese recomposition, and AI feedback step.
+
+### Sentence Skeleton
 
 Use this skeleton before any recomposition:
 
@@ -90,7 +141,7 @@ Completion: The passage completes when darkness becomes "pleasant and restful" y
 
 Working rule: if the main verb is not located, translation has not begun. It has only guessed.
 
-## 5. Movement Map
+### Movement Map
 
 Opening: "For a long time" creates habitual duration before any specific scene.
 
@@ -106,7 +157,7 @@ Completion: The darkness is not merely physical; it becomes the residue of delay
 
 The movement is not simply "long sentence = difficult grammar." The sentence teaches patience by forcing attention to remain incomplete.
 
-## 5A. Sentence Diagram
+### Sentence Diagram
 
 ```mermaid
 flowchart LR
@@ -125,7 +176,19 @@ Reading use:
 - The training unit is the whole movement from habitual time to delayed orientation.
 - The key delay is not only grammatical; it is perceptual: the narrator returns to the room late.
 
-## 6. English Style Studio
+### Citation and Annotation Layer
+
+| Short citation anchor | Citation function | Grammar note | Movement note | CN recomposition note | Writing transfer note |
+|---|---|---|---|---|---|
+| "For a long time" | Opening pressure | Temporal frame before narrative action. | The reader enters duration before event. | Keep habitual time at the front; do not rush into a story summary. | Open with duration before declaring action. |
+| "when I had put out my candle" | Inserted condition | Subordinate temporal clause interrupts the quick closing of the eyes. | The action is delayed by a small ritual detail. | Chinese may use a fronted temporal phrase but should keep the small delay. | Use a practical action to slow entry into sleep. |
+| "I would try to put away the book" | Governing action after delay | Main action arrives after sleep, waking, and thought. | The sentence returns to bodily action after mental drift. | Do not translate the mental drift as an abstract summary before this return. | Let physical action return after mental wandering. |
+| "until I myself seemed" | Delay turning point | "Until" marks the threshold where reading becomes identification. | Delay becomes transformation. | Chinese should preserve the threshold before explaining it. | Use "until" structure to let perception become thought. |
+| "my sight would return" | Completion and return | Return of sight completes the movement from dream-text to room. | The sentence regains orientation late. | Let Chinese arrive at orientation after mental confusion. | Delay recognition so return feels earned. |
+
+Question: Which short phrase proves that the sentence is asking the reader to wait rather than merely read a long unit?
+
+### English Style Note
 
 In English, a delayed main clause changes rhythm and expectation. The sentence asks the reader to breathe through dependent material before receiving the grammatical center.
 
@@ -141,7 +204,7 @@ Watch for:
 
 The style lesson is to read arrival as an event. The main clause matters partly because it has been delayed.
 
-## 7. Chinese Recomposition Studio
+### Chinese Recomposition Note
 
 Literal Chinese often flattens this pattern by moving the main clause too early. That can make the sentence clearer but less Proustian.
 
@@ -161,7 +224,7 @@ Decide:
 
 Do not produce a final "correct translation" until the source passage is selected. For now, practice building a Chinese draft that marks the main clause and keeps the delay visible.
 
-## 7A. CN Recomposition Decision Table
+### CN Recomposition Decision Table
 
 | Source Pressure | Literal Chinese Risk | Better Move | Test Question |
 |---|---|---|---|
@@ -171,7 +234,7 @@ Do not produce a final "correct translation" until the source passage is selecte
 | "my sight would return" restores orientation late | Move room/darkness earlier for clarity | Let visual return happen after mental drift | Does the reader recover the room late? |
 | Final darkness is physical and mental | Translate as ordinary darkness | Keep both restful perception and incomprehension | Does the Chinese hold comfort and confusion together? |
 
-## 8. Pattern Work
+### Pattern Explanation
 
 Pattern name: PATTERN-Delayed-Main-Clause
 
@@ -189,51 +252,36 @@ Chinese adaptation: Preserve delayed arrival where possible; divide only when di
 
 Used in: Chapter 1｜Waiting for the Main Clause
 
-## 9. Practice
+## 11. Movement Card
 
-### Minimum Mode｜30 min
+> [!abstract] Movement Card｜Waiting for the Main Clause
+> **Source**
+> Overture, opening sleep sequence; "For a long time" to "a matter dark indeed."
+>
+> **My Try**
+> I completed the meaning too early at: ___.
+>
+> **AI Feedback**
+> No more than 3 points.
+>
+> **Repair**
+> What I changed after feedback.
+>
+> **Pattern**
+> The sentence delays completion so that perception precedes orientation.
+>
+> **CN Recomposition Rule**
+> Do not complete the meaning too early in Chinese. Preserve the wait, suspension, and late arrival of orientation.
+>
+> **Reuse**
+> Next time I meet a long Proustian sentence, I first ask: where does the sentence actually complete?
 
-1. Skeleton-marking exercise: Mark the main clause and main verb in the selected sentence.
-2. Movement-map exercise: Write one line for Opening, Delay, Return, and Completion.
-3. English style observation: Identify one phrase that makes the main clause arrive later.
-4. Chinese recomposition attempt: Draft a rough Chinese version that does not move the main clause to the first position.
-5. Writing imitation task: Write one English or Chinese sentence that delays its main statement until after one descriptive phrase.
-6. Citation-annotation task: Choose one short anchor that proves where delay begins.
+## 12. Self-Check
 
-### Standard Mode｜60 min
-
-1. Skeleton-marking exercise: Bracket every delaying unit and number the sentence's grammatical steps.
-2. Movement-map exercise: Draw the path from first word to completion.
-3. English style observation: Explain how rhythm changes when the main clause is delayed.
-4. Chinese recomposition attempt: Produce two Chinese drafts: one preserving length, one strategically divided.
-5. Writing imitation task: Write a three-sentence micro-scene where the key claim arrives only in the final sentence.
-6. Citation-annotation task: Fill the annotation table with opening pressure, delay point, and return point.
-
-### Studio Mode｜90-120 min
-
-1. Skeleton-marking exercise: Build a full skeleton with main clause, subordinate clauses, inserted phrases, and return point.
-2. Movement-map exercise: Explain how delay changes the reader's expectation.
-3. English style observation: Mark breath units and test whether they match grammatical units.
-4. Chinese recomposition attempt: Produce three drafts: literal skeleton, movement-preserving recomposition, prose draft.
-5. Writing imitation task: Write a 120-180 word paragraph that delays the central judgment through perception.
-6. Citation-annotation task: Write a source-grounded note explaining why one anchor must stay late in Chinese.
-
-## 10. Self-Check
-
-- Did I find the sentence center?
-- Did I translate too early?
-- Did I preserve delay?
-- Did I confuse insertion with main movement?
-- Did my Chinese rebuild movement rather than merely transfer meaning?
-- Can I reuse this pattern in my own prose?
-- Did each annotation point back to a real short source anchor?
+- Can I find the delayed main clause?
+- Can I mark where the sentence feels incomplete?
+- Can I tell whether my Chinese completes the meaning too early?
+- Can I explain the sentence movement without producing a final translation?
+- Can I save a Movement Card from this training?
 
 A successful draft does not have to keep every English order. It must preserve the experience of waiting for the sentence to govern itself.
-
-## 11. What You Can Now Do
-
-You can locate a delayed main clause before translating and can test whether a Chinese recomposition preserves the sentence's delayed arrival.
-
-## 12. Next Chapter
-
-Chapter 2 moves from delayed main clause to inserted phrases. The next problem is not only waiting for the center, but also learning how to bracket material that interrupts the path back to that center.
