@@ -6,18 +6,23 @@ thread: digestion-system
 ---
 # Daily Index
 
-This page is the reviewed-facing index for daily digestion work.
+This page is the orientation note for Daily as RAW capture.
 
 Raw Daily Logs live in `raw/daily-logs` and remain local / ignored for now. They are not public-facing material and should not be published.
 
 ## How to Use
 
-1. Write freely in Notion / Ulysses / Obsidian.
+1. Write freely.
 2. Preserve the Raw text.
-3. Put raw logs in local `raw/daily-logs/`.
-4. Let AI create extraction drafts.
-5. Human review decides accept / revise / delete / hold.
-6. Weekly Review absorbs only reviewed material.
+3. Use [[Daily-Digest-Protocol]] only after writing.
+4. Let AI extract, compress, cluster, route, and mark what can remain only in Daily.
+5. Human judgment decides what becomes fixed project material.
+
+## Valid Daily Notes
+
+A Daily note may contain only fragments, questions, passage references, language observations, free paragraphs, unfinished claims, links, and random associations.
+
+No required fields. No mandatory sections. No KPI. No completion tracking.
 
 ## Reviewed Daily Logs
 
@@ -32,4 +37,4 @@ Raw Daily Logs live in `raw/daily-logs` and remain local / ignored for now. They
 - [[Weekly-Review]]
 - [[Current-State]]
 - [[Digestion-System]]
-- [[Templates]]
+- [[Daily-Digest-Protocol]]

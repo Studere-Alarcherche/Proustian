@@ -4,90 +4,39 @@ type: "template-index"
 status: "active"
 thread: "system"
 ---
-# Templates
+# Template Boundary
 
-This page is the current minimal template index for the Proustian Digestion System. It replaces scattered process scaffolds as the visible template surface.
+Daily workflow is no longer template-centered.
 
-## Daily Log Template
+Daily is digital paper: a RAW Capture Surface. It does not require fields, mandatory sections, goals, tasks, reflections, wins, KPIs, completion metrics, or training checklists.
 
-```md
----
-type: daily-log
-status: raw
-date: YYYY-MM-DD
-thread:
----
+Use [[Daily-Digest-Protocol]] after writing, not before writing.
 
-# YYYY-MM-DD
+## Current Rule
 
-## Raw Notes
+- Do not create a Daily Template, Weekly Template, or Monthly Template for the Daily workflow.
+- Do not make Daily a structured journal.
+- Do not make Daily a productivity layer.
+- Do not require a review checklist inside the raw note.
+- Keep Daily as RAW.
+- Put structure in AI Digest only after heat appears.
 
-## Heated Questions
+## Digest Layer
 
-## Possible Essays
+The only active Daily workflow structure is the digest prompt in [[Daily-Digest-Protocol]].
 
-## Possible Project Updates
+AI may extract:
 
-## Next Action
-```
-
-## AI Extraction Draft Template
-
-```md
-## AI Extraction Draft
-> AI/Codex may write only here. Raw must remain untouched.
-
-### Semantic Blocks
-
-### Heated Questions
-
-### Possible Backlinks
-
-### Candidate Notes
-
-### Task Residue
-
-### Rhythm / Body / Friction
-
-### Writing Fragments
-
-### Reading / Training Movement
-
-### Suggested Next Pull
-
-### What Not To Touch
-```
-
-## Human Review Template
-
-```md
-## Human Review
-Status: pending
-
-### Accept
-
-### Revise
-
-### Delete
-
-### Hold
-
-### My Judgment
-
-### Review Checklist
-- [ ] Raw preserved exactly
-- [ ] AI did not sanitize tone
-- [ ] AI did not flatten literary fragments
-- [ ] Semantic blocks are useful
-- [ ] Heated questions are accurate
-- [ ] Backlinks are suggestions only
-- [ ] Candidate notes are not over-produced
-- [ ] Suggested Next Pull is practical
-```
+- heated questions
+- project decisions
+- language-training observations
+- possible essays
+- Proustian updates
+- material that can remain only in Daily
 
 ## Current Template Rule
 
-- Keep templates minimal.
-- Keep Raw outside `content/`.
-- Do not recreate old CARD scaffold templates here.
-- Do not turn templates into a folder system.
+- Existing template files are not daily requirements.
+- If an old template conflicts with RAW capture, treat it as retired.
+- Keep Raw outside `content/` unless the user explicitly decides otherwise.
+- Do not rebuild the Daily system around templates.

@@ -65,6 +65,8 @@ For EN-CN recomposition chapters, use the denser training model:
 9. Teacher Note / Pattern Explanation
 10. Movement Card
 
+Every EN-CN Recomposition chapter must include a primary work zone, recognition drill, recomposition drill, repair drill, thinking question, transfer drill, and Movement Card. Practice must create friction inside language, not administrative burden outside language.
+
 Core Explanation must be short and functional. It must not include a final translation, full skeleton, full movement map, or final interpretation before the learner attempts the task.
 
 Input must be small enough to act on:

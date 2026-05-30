@@ -32,18 +32,16 @@ const explorerFilter = Component.Explorer({
       "Language-Training",
       "Writing",
       "Constellations",
-      "LTF-A0-to-B1-Course-Outline",
-      "LTF-Chapter-001-Cognates-and-Reading-Confidence",
-      "LTF-Chapter-002-False-Friends-and-Controlled-Guessing",
-      "LTF-Chapter-003-Word-Families-and-Recognition-Patterns",
-      "LTF-Chapter-004-Function-Words-I",
-      "LTF-Chapter-005-What-Is-a-French-Sentence",
-      "Learn-to-Read-Proust-EN-CN",
-      "LTRP-EN-CN-Part-Map",
-      "LTRP-EN-CN-Chapter-001-Waiting-for-the-Main-Clause",
-      "LTRP-EN-CN-Chapter-002-Inserted-Phrases-and-Suspended-Attention",
-      "LTRP-EN-CN-Chapter-003-The-Sentence-That-Refuses-to-End",
-      "LTRP-EN-CN-Chapter-004-Delay-as-a-Form-of-Thought",
+      "Learn-to-Read-Proust",
+      "EN-CN-Recomposition",
+      "Comparative-Literary-Induction",
+      "Chapter-001-Waiting-for-the-Main-Clause",
+      "Chapter-002-Inserted-Phrases-and-Suspended-Attention",
+      "Chapter-003-The-Sentence-That-Refuses-to-End",
+      "Chapter-004-Delay-as-a-Form-of-Thought",
+      "Chapter-001-Proust-and-Woolf",
+      "Chapter-002-Proust-and-Faulkner",
+      "Chapter-003-Proust-and-Yourcenar",
       "Build-Log",
     ]
     const internalPrefixes = [
@@ -73,7 +71,15 @@ const explorerFilter = Component.Explorer({
     const slug = node.slugSegment ?? ""
     const filePath = node.data?.filePath ?? ""
     const title = node.data?.title ?? ""
-    const allowedFolders = ["Proustian", "Language-Training", "Writing", "Constellations"]
+    const allowedFolders = [
+      "Proustian",
+      "Language-Training",
+      "Writing",
+      "Constellations",
+      "Learn-to-Read-Proust",
+      "EN-CN-Recomposition",
+      "Comparative-Literary-Induction",
+    ]
 
     if (node.isFolder) {
       return allowedFolders.includes(slug) || allowedFolders.includes(name)
@@ -99,18 +105,16 @@ const explorerFilter = Component.Explorer({
       "Language-Training",
       "Writing",
       "Constellations",
-      "LTF-A0-to-B1-Course-Outline",
-      "LTF-Chapter-001-Cognates-and-Reading-Confidence",
-      "LTF-Chapter-002-False-Friends-and-Controlled-Guessing",
-      "LTF-Chapter-003-Word-Families-and-Recognition-Patterns",
-      "LTF-Chapter-004-Function-Words-I",
-      "LTF-Chapter-005-What-Is-a-French-Sentence",
-      "Learn-to-Read-Proust-EN-CN",
-      "LTRP-EN-CN-Part-Map",
-      "LTRP-EN-CN-Chapter-001-Waiting-for-the-Main-Clause",
-      "LTRP-EN-CN-Chapter-002-Inserted-Phrases-and-Suspended-Attention",
-      "LTRP-EN-CN-Chapter-003-The-Sentence-That-Refuses-to-End",
-      "LTRP-EN-CN-Chapter-004-Delay-as-a-Form-of-Thought",
+      "Learn-to-Read-Proust",
+      "EN-CN-Recomposition",
+      "Comparative-Literary-Induction",
+      "Chapter-001-Waiting-for-the-Main-Clause",
+      "Chapter-002-Inserted-Phrases-and-Suspended-Attention",
+      "Chapter-003-The-Sentence-That-Refuses-to-End",
+      "Chapter-004-Delay-as-a-Form-of-Thought",
+      "Chapter-001-Proust-and-Woolf",
+      "Chapter-002-Proust-and-Faulkner",
+      "Chapter-003-Proust-and-Yourcenar",
       "Build-Log",
     ]
     const aIndex = publicOrder.indexOf(a.slugSegment)

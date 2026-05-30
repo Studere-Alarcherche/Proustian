@@ -133,17 +133,21 @@ Do not restructure the whole repo.
 
 ## Proustian Digestion System
 
-- Daily Log is RAW self-written material.
+- Daily is the RAW Capture Surface.
+- Daily Log is RAW self-written material, not a structured journal, productivity dashboard, task sheet, or template-driven note.
+- A Daily note may contain fragments, reading reactions, questions, passage references, language observations, project thoughts, free paragraphs, unfinished claims, links, and random associations.
+- Daily notes require no fields, mandatory sections, KPI, completion metric, training checklist, or productivity frame.
 - Never rewrite, sanitize, delete, or flatten Raw Daily Log text.
-- AI/Codex may only create extraction drafts, suggested backlinks, candidate notes, review drafts, and current-state patches.
-- Human review decides whether extracted material is accepted, revised, deleted, or held.
-- The system uses a dual track:
-  - Plan Track: Quarter -> Month -> Week -> Daily Next Pull
-  - Record Track: Raw Daily Log -> AI Extraction Draft -> Human Review -> Weekly Digestion
-- The two tracks converge in Weekly Review and Current-State.
-- Structure is controlled by templates, metadata, tags, backlinks, packet files, and review cycles, not by folder hierarchy.
+- AI/Codex works in the Digest Layer: extraction, compression, clustering, routing, and archive judgment.
+- Human review decides whether digested material is accepted, revised, deleted, held, or fixed into another project surface.
+- The workflow is:
+  - Raw Daily Log -> AI Digest -> Optional Fixation
+- Daily remains the RAW layer.
+- AI Digest is the organization layer.
+- Structure appears after heat, not before it.
 - No folder-centered knowledge structure.
 - RAW first. Structure later. Judgment remains human.
+- Digital paper first. Judgment later. Structure after heat.
 - Website / Quartz output is downstream of digested material.
 
 ## Current Public Areas

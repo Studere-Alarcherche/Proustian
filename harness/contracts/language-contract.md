@@ -10,9 +10,9 @@ The learner remains sovereign. AI must never perform the central learning act be
 
 | Track | Function | Default Status |
 |---|---|---|
-| French Precision | French reading recognition, lexical recognition, sentence skeletons, anchors. | working / Harness-controlled |
-| EN-CN Recomposition Studio | English sentence movement, Chinese recomposition, rhythm, writing training. | active draft line / not fully public |
-| Comparative Literary Induction | Proust in English translation inside the English literary world; comparative literary exercises, close reading, critical judgment, and critical writing. | working textbook line / backstage by default |
+| Learn to Read Proust | French-reading developmental textbook for cognates, false friends, word families, function words, subject recognition, conjugated verbs, sentence skeletons, and French anchors. French Precision is the function of this track, not its replacement name. | public textbook folder / chapter migration still Harness-controlled |
+| EN-CN Recomposition | English sentence movement, Chinese recomposition, rhythm, translation judgment, and writing formation. | public textbook folder with active working chapters |
+| Comparative Literary Induction | Proust in English translation inside the English literary world; comparative literary exercises, close reading, critical judgment, and critical writing. | public textbook folder for selected units / working packet remains backstage |
 
 ## Comparative Literary Induction
 
@@ -32,7 +32,7 @@ It may draw on Norton-style literary pedagogy:
 - AI feedback after learner attempt
 - final concept / comparison card
 
-Comparative Literary Induction is backstage / working by default until selected units become finished public artifacts.
+Comparative Literary Induction keeps its working packet backstage by default. Selected reader-facing units may be exposed through `content/Language-Training/Comparative-Literary-Induction/`.
 
 It may supply patterns, genealogies, contrastive examples, and critical questions, but it must not outrank the learner's own attempt or the Proustian mother-star principle.
 
@@ -62,13 +62,15 @@ For EN-CN training pages, the default loop should increase practice density with
 
 Core Explanation -> Input -> Recognition Drill -> Recomposition Drill -> AI Feedback -> Repair Drill -> Thinking Question -> Transfer Drill -> Teacher Note -> Movement Card
 
-Each training chapter must include:
+Each EN-CN training chapter must include:
 
-1. recognition
-2. production or recomposition
-3. repair
-4. transfer
-5. one thinking question
+1. primary work zone
+2. recognition drill
+3. recomposition drill
+4. repair drill
+5. thinking question
+6. transfer drill
+7. Movement Card
 
 Practice must create friction inside language, not administrative burden outside language.
 

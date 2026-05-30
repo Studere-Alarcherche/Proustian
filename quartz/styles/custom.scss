@@ -4647,7 +4647,31 @@ article,
 
 article h1 {
   color: var(--garden-text) !important;
+  max-width: none !important;
+  margin: 0 0 1.75rem !important;
+  font-size: clamp(2.2rem, 3.4vw, 3.35rem) !important;
+  line-height: 1.12 !important;
+  font-weight: 600 !important;
   letter-spacing: 0 !important;
+}
+
+body:not([data-slug="index"]) article h1::before {
+  content: none !important;
+  display: none !important;
+}
+
+body:not([data-slug="index"]) .page-header .article-title {
+  max-width: 980px !important;
+  font-size: clamp(1.9rem, 2.65vw, 2.8rem) !important;
+  line-height: 1.14 !important;
+  letter-spacing: 0 !important;
+}
+
+body:not([data-slug="index"]) article,
+body:not([data-slug="index"]) .page article,
+body:not([data-slug="index"]) .center article {
+  max-width: 980px !important;
+  padding: clamp(2rem, 4vw, 3rem) !important;
 }
 
 article h2 {
@@ -4716,5 +4740,111 @@ body:not([data-slug="index"]) .right .graph > h3 {
   .page-title a,
   .page-title a::after {
     display: none !important;
+  }
+}
+
+.page.layout-reading > #quartz-body {
+  display: block !important;
+  width: min(92vw, 1180px) !important;
+  max-width: min(92vw, 1180px) !important;
+  margin-inline: auto !important;
+  padding-inline: 0 !important;
+}
+
+.page.layout-reading .center,
+.page.layout-reading .page-header,
+.page.layout-reading .page-footer {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin-inline: auto !important;
+}
+
+.page.layout-reading .page-header {
+  max-width: 980px !important;
+  margin-top: clamp(2.4rem, 5vw, 4.5rem) !important;
+}
+
+.page.layout-reading .page-header .article-title {
+  max-width: none !important;
+}
+
+.page.layout-reading article,
+.page.layout-reading .center article {
+  width: 100% !important;
+  max-width: 980px !important;
+  margin-inline: auto !important;
+}
+
+@media (max-width: 700px) {
+  html,
+  body {
+    overflow-x: hidden !important;
+  }
+
+  .page.layout-reading > #quartz-body {
+    box-sizing: border-box !important;
+    width: min(22rem, calc(100dvw - 2rem)) !important;
+    max-width: min(22rem, calc(100dvw - 2rem)) !important;
+    margin-left: 1rem !important;
+    margin-right: auto !important;
+    padding-inline: 0 !important;
+  }
+
+  .page.layout-reading .page-header,
+  .page.layout-reading .page-footer,
+  .page.layout-reading article,
+  .page.layout-reading .center article {
+    box-sizing: border-box !important;
+    width: 100% !important;
+    max-width: min(22rem, calc(100dvw - 2rem)) !important;
+    min-width: 0 !important;
+    margin-left: 0 !important;
+    margin-right: auto !important;
+    overflow-x: hidden !important;
+  }
+
+  .page.layout-reading .page-header .article-title {
+    display: block !important;
+    max-width: 100% !important;
+    font-size: clamp(1.8rem, 8vw, 2.25rem) !important;
+    line-height: 1.12 !important;
+    white-space: normal !important;
+    text-wrap: wrap !important;
+    overflow-wrap: anywhere !important;
+  }
+
+  .page.layout-reading article,
+  .page.layout-reading .center article {
+    padding: 1.5rem 1rem !important;
+  }
+
+  .page.layout-reading article h1 {
+    max-width: 100% !important;
+    font-size: clamp(2rem, 9vw, 2.65rem) !important;
+    line-height: 1.08 !important;
+    white-space: normal !important;
+    text-wrap: wrap !important;
+    overflow-wrap: anywhere !important;
+  }
+
+  .page.layout-reading .breadcrumb-container,
+  .page.layout-reading .breadcrumb-container a,
+  .page.layout-reading article p,
+  .page.layout-reading article li,
+  .page.layout-reading article h2,
+  .page.layout-reading article h3 {
+    max-width: 100% !important;
+    min-width: 0 !important;
+    white-space: normal !important;
+    overflow-wrap: anywhere !important;
+  }
+
+  .page.layout-reading article table {
+    display: block !important;
+    box-sizing: border-box !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+    overflow-x: auto !important;
   }
 }

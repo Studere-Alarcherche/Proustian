@@ -13,33 +13,27 @@ Current active system:
 - [[Digestion-System]]
 - [[Current-State]]
 - [[Daily-Index]]
-- [[Weekly-Plan]]
-- [[Weekly-Review]]
+- [[Daily-Digest-Protocol]]
 
 ## Today's Operating Rule
 
-Raw first. Structure later. Judgment remains human.
+Digital paper first. Judgment later. Structure after heat.
 
 ## Current Loop
 
 ```text
 Raw Daily Log
--> AI Extraction Draft
--> Human Review
--> Weekly Digestion
--> Current-State Patch
+-> AI Digest
+-> Optional Fixation
 ```
 
-## Plan Track
-
-- [[Weekly-Plan]]
-- [[Monthly-Review]]
-- [[Quarterly-Review]]
-
-## Record Track
+## RAW Surface
 
 - [[Daily-Index]]
-- [[Weekly-Review]]
+
+## Digest Layer
+
+- [[Daily-Digest-Protocol]]
 
 ## Thinking Surfaces
 
@@ -52,6 +46,7 @@ Raw Daily Log
 
 - Do not publish Raw.
 - Do not overbuild.
+- Do not turn Daily into a dashboard, KPI, or template journal.
 - Do not return to folder-centered structure.
 - Do not make website work the main task.
 

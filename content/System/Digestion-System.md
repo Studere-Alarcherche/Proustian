@@ -6,35 +6,40 @@ thread: digestion-system
 ---
 # Proustian Digestion System
 
-Start here if the system feels scattered: [[00-CONTROL-DASHBOARD]] → [[01-NEXT-ACTION]] → [[Daily-Index]].
+Start here if the system feels scattered: [[Daily-Index]] -> [[Daily-Digest-Protocol]].
 
 ## Core Rule
 
-Raw first. Structure later. Judgment remains human.
+Daily is RAW. AI digests. Judgment remains human.
 
 ## System Definition
 
-Proustian Digestion System is the workflow that turns raw self-written Daily Logs, reading fragments, writing fragments, tool friction, body rhythm, theory associations, and task residue into reviewed questions, backlinks, passage cards, weekly reviews, and current-state updates.
+Proustian Digestion System is the workflow that protects raw self-written Daily Logs while letting AI extract, compress, cluster, route, and judge what can remain in Daily.
 
-## Dual Track
+## Current Workflow
 
-### Plan Track
+Raw Daily Log -> AI Digest -> Optional Fixation
 
-Quarter → Month → Week → Daily Next Pull
+## Daily Rule
 
-### Record Track
+Daily is a RAW Capture Surface.
 
-Raw Daily Log → AI Extraction Draft → Human Review → Weekly Digestion
+A valid Daily note may contain fragments, reading reactions, questions, passage references, language observations, project thoughts, free paragraphs, unfinished claims, links, and random associations.
 
-## Convergence
+No fields are required. No mandatory sections are required. No KPI, completion metric, training checklist, goals block, tasks block, wins block, or reflection block is required.
 
-The two tracks converge in:
+## Optional Fixation
 
-- Weekly Review
-- Current-State
-- Question Nodes
-- Passage Cards
-- Build Log
+Only after AI Digest and human judgment, material may be fixed into:
+
+- [[Question-Nodes]]
+- [[Passage-Cards]]
+- [[Current-State]]
+- [[Build-Log]]
+- Proustian pages
+- Language Training pages
+- Essays
+- System notes
 
 ## Human / AI Division
 
@@ -49,17 +54,23 @@ Human:
 AI / Codex:
 
 - extract
+- compress
 - classify
+- cluster
+- route
+- mark what can remain only in Daily
 - suggest backlinks
 - draft reviews
 - prepare candidate patches
-- maintain templates
 - clean structure
 
 ## Do Not
 
 - Do not rewrite Raw.
 - Do not sanitize tone.
+- Do not force a Daily template.
+- Do not turn Daily into a structured journal.
+- Do not add Daily KPI, completion tracking, or productivity framing.
 - Do not force cards.
 - Do not publish Raw.
 - Do not make folders the main structure.
@@ -69,7 +80,7 @@ AI / Codex:
 
 - [[Current-State]]
 - [[Daily-Index]]
-- [[Weekly-Plan]]
+- [[Daily-Digest-Protocol]]
 - [[Weekly-Review]]
 - [[Monthly-Review]]
 - [[Quarterly-Review]]

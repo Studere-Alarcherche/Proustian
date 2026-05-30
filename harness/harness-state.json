@@ -30,7 +30,7 @@
   },
   "mother_star": "Recherche / Proust",
   "public_rule": "Only stable entrances or explicitly exposed working training pages should appear publicly, and public pages must not overstate completion.",
-  "last_completed_action": "Aligned the Language Training Obsidian packet and public Quartz exposure: restored French Precision and EN-CN working training pages to the public site, kept Comparative Induction and backstage studio materials hidden, added an Obsidian-facing internal packet index, and verified the Quartz build.",
+  "last_completed_action": "Fixed the malformed Learn to Read Proust Chapter 001 reading layout by constraining homepage-style article rules away from ordinary reading pages and verifying desktop/mobile local render plus Quartz build.",
   "backstage_areas": [
     "System",
     "99_Archive",
@@ -39,15 +39,16 @@
     "unreviewed textbook materials"
   ],
   "language_tracks": [
-    "French Precision",
-    "EN-CN Recomposition Studio",
+    "Learn to Read Proust",
+    "EN-CN Recomposition",
     "Comparative Literary Induction"
   ],
   "next_smallest_actions": [
-    "Review the generated Language Training pages in the browser, especially the Language Training index and the two track entrances.",
+    "Test one real raw Daily note with Daily Digest Protocol and check whether the digest preserves voice while extracting heated questions.",
+    "Human browser check of the three textbook entrances: Learn to Read Proust, EN-CN Recomposition, and Comparative Literary Induction.",
+    "Test Chapter 001 as an actual learner before expanding content.",
     "Publish from main when the user explicitly approves commit and push.",
-    "Review the deployed GitHub Pages rendering after the next publish from main.",
-    "Audit root duplicate language drafts for source-of-truth status.",
-    "Set up full LTRP Book I Harness only when explicitly approved."
+    "Review the deployed GitHub Pages rendering after the next publish from main, especially Learn to Read Proust Chapter 001.",
+    "Audit unresolved French chapter migration into Learn to Read Proust before moving any LTF files."
   ]
 }

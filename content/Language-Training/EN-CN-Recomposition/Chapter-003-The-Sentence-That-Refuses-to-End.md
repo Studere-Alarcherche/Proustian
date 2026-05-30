@@ -1,13 +1,13 @@
 ---
-title: "Chapter 003 — The Sentence That Refuses to End"
-book: "Learn to Read Proust [EN-CN]"
+title: "Chapter 003 - The Sentence That Refuses to End"
+book: "EN-CN Recomposition"
 part: "Part 1 — How a Long Sentence Delays Thought"
 chapter: 003
 status: "draft"
 type: "ltrp-encn-textbook-chapter"
 layout: reading
 thread: "language-training"
-parent: "Learn to Read Proust [EN-CN]"
+parent: "EN-CN Recomposition"
 ---
 # Chapter 3｜The Sentence That Refuses to End
 
@@ -47,6 +47,11 @@ Passage status: selected
 ### Source Passage
 
 > Even at the moment when it manifested itself in this crowning mercy, my father's conduct towards me was still somewhat arbitrary, and regardless of my deserts, as was characteristic of him and due to the fact that his actions were generally dictated by chance expediencies rather than based on any formal plan. And perhaps even what I called his strictness, when he sent me off to bed, deserved that title less, really, than my mother's or grandmother's attitude, for his nature, which in some respects differed more than theirs from my own, had probably prevented him from guessing, until then, how wretched I was every evening, a thing which my mother and grandmother knew well; but they loved me enough to be unwilling to spare me that suffering, which they hoped to teach me to overcome, so as to reduce my nervous sensibility and to strengthen my will. As for my father, whose affection for me was of another kind, I doubt if he would have shewn so much courage, for as soon as he had grasped the fact that I was unhappy he had said to my mother: "Go and comfort him."
+
+> [!task] Primary Work Zone
+> First pass: work only on the second sentence, from "And perhaps even what I called his strictness" to "Go and comfort him."
+>
+> Do not turn the whole passage into a summary before numbering the extensions.
 
 ## 4. Recognition Drill
 

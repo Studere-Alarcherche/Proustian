@@ -3,7 +3,7 @@ title: "Chapter 003: Proust and Yourcenar"
 type: "comparative-lab"
 status: "draft"
 thread: "language-training"
-parent: "Proustian Comparative Induction"
+parent: "Comparative Literary Induction"
 description: "Yourcenar's historical reflective prose clarifies Proustian sensory emergence."
 ---
 # Chapter 003: Proust and Yourcenar

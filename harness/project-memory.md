@@ -18,13 +18,15 @@ Maps is replaced by Constellations. Constellations means a restrained field of g
 
 ## Language Layer
 
-Language Training is the precision and recomposition layer of Proustian.
+Language Training is the precision, recomposition, and comparative judgment layer of Proustian.
 
-It has three tracks:
+It has three textbook folders:
 
-- French Precision
-- EN-CN Recomposition Studio
+- Learn to Read Proust
+- EN-CN Recomposition
 - Comparative Literary Induction
+
+Learn to Read Proust remains the French-reading developmental textbook. French Precision is its function: cognates, false friends, word families, function words, subject recognition, conjugated verbs, sentence skeletons, and French anchors.
 
 Comparative Literary Induction is the third textbook line of the language layer. It treats Proust in English translation as part of the English literary world and uses comparative literary exercises, close reading questions, and critical writing prompts to train judgment.
 
@@ -46,6 +48,8 @@ Core Explanation -> Input -> Recognition Drill -> Recomposition Drill -> AI Feed
 
 Every EN-CN chapter must include a primary work zone, a concrete marking target, a rough Chinese output, one local repair, one transfer task, and one judgment question.
 
+The required EN-CN practice elements are: primary work zone, recognition drill, recomposition drill, repair drill, thinking question, transfer drill, and Movement Card.
+
 The durable direction is: explain lightly, train heavily, feedback precisely, record minimally.
 
 ## File Over App
@@ -61,3 +65,17 @@ AI may assist with structure, checks, state preservation, and bounded patching.
 AI must not replace core reading, judgment, writing, or the user's intellectual authorship.
 
 In language and textbook work, AI may provide materials, examples, sound, feedback, correction, and card compression. AI must not provide a final translation, full sentence skeleton, movement map, full interpretation, or finished answer before the learner has genuinely attempted the task.
+
+## Daily Workflow
+
+Daily is a RAW Capture Surface, not a structured journal, productivity dashboard, task sheet, or template-driven note.
+
+The durable workflow is:
+
+Raw Daily Log -> AI Digest -> Optional Fixation.
+
+Daily accepts fragments, reading reactions, questions, passage references, language observations, project thoughts, free paragraphs, unfinished claims, links, and random associations. No fields, mandatory sections, KPIs, completion metrics, training checklists, goals, tasks, wins, or reflections are required.
+
+AI performs extraction, compression, clustering, routing, and archive judgment after raw writing exists. The user performs reading, thinking, writing, judgment, and direction.
+
+Digital paper first. Judgment later. Structure after heat.

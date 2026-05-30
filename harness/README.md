@@ -18,7 +18,8 @@ It is backstage infrastructure, not public website content.
 - The website shows only finished or stable artifacts.
 - System and 99_Archive are backstage.
 - Maps is replaced by Constellations.
-- The language layer has three tracks: French Precision, EN-CN Recomposition Studio, Comparative Literary Induction.
+- The language layer has three textbook folders: Learn to Read Proust, EN-CN Recomposition, Comparative Literary Induction.
+- Learn to Read Proust is the French-reading developmental track; French Precision is its function, not its replacement name.
 - Textbook and translation materials require Harness before publication.
 - File over App: durable files are the project asset.
 - AI is a post-check and structural assistant, not a replacement for core reading, judgment, or writing.

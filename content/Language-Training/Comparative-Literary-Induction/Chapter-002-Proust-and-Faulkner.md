@@ -3,7 +3,7 @@ title: "Chapter 002: Proust and Faulkner"
 type: "comparative-lab"
 status: "draft"
 thread: "language-training"
-parent: "Proustian Comparative Induction"
+parent: "Comparative Literary Induction"
 description: "Faulkner's temporal rupture clarifies Proustian temporal unfolding."
 ---
 # Chapter 002: Proust and Faulkner

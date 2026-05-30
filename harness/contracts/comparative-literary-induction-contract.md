@@ -14,7 +14,7 @@ This line trains the reader to:
 - understand how translated literature enters English reading, teaching, comparison, and criticism
 - compare Proust with English and American writers through precise literary problems
 - practice close reading, comparative reading, critical debate, and short critical writing
-- form judgment about Proust's position in world literature and the English literary classroom
+- form judgment about Proust's position in world literature and the English literary world
 
 ## Pedagogical Model
 
@@ -51,11 +51,11 @@ AI must not:
 
 ## Public Boundary
 
-This line is backstage / working by default.
+The working packet remains backstage by default.
 
 Selected units may become public only after they are stable, reader-facing, and reviewed as finished artifacts.
 
-Do not expose Comparative Literary Induction through public navigation until selected units are ready.
+Reader-facing selected units may be exposed through `content/Language-Training/Comparative-Literary-Induction/`. Operational prompts, rubrics, matrices, and school / age packets remain backstage.
 
 ## Comparison Boundary
 

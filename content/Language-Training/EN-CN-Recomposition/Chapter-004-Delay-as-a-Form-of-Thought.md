@@ -1,13 +1,13 @@
 ---
-title: "Chapter 004 — Delay as a Form of Thought"
-book: "Learn to Read Proust [EN-CN]"
+title: "Chapter 004 - Delay as a Form of Thought"
+book: "EN-CN Recomposition"
 part: "Part 1 — How a Long Sentence Delays Thought"
 chapter: 004
 status: "draft"
 type: "ltrp-encn-textbook-chapter"
 layout: reading
 thread: "language-training"
-parent: "Learn to Read Proust [EN-CN]"
+parent: "EN-CN Recomposition"
 ---
 # Chapter 4｜Delay as a Form of Thought
 
@@ -47,6 +47,11 @@ Passage status: selected
 ### Source Passage
 
 > She sent out for one of those short, plump little cakes called 'petites madeleines,' which look as though they had been moulded in the fluted scallop of a pilgrim's shell. And soon, mechanically, weary after a dull day with the prospect of a depressing morrow, I raised to my lips a spoonful of the tea in which I had soaked a morsel of the cake. No sooner had the warm liquid, and the crumbs with it, touched my palate than a shudder ran through my whole body, and I stopped, intent upon the extraordinary changes that were taking place. An exquisite pleasure had invaded my senses, but individual, detached, with no suggestion of its origin. And at once the vicissitudes of life had become indifferent to me, its disasters innocuous, its brevity illusory--this new sensation having had on me the effect which love has of filling me with a precious essence; or rather this essence was not in me, it was myself. I had ceased now to feel mediocre, accidental, mortal. Whence could it have come to me, this all-powerful joy? I was conscious that it was connected with the taste of tea and cake, but that it infinitely transcended those savours, could not, indeed, be of the same nature as theirs. Whence did it come? What did it signify? How could I seize upon and define it?
+
+> [!task] Primary Work Zone
+> First pass: work only from "No sooner had the warm liquid" to "How could I seize upon and define it?"
+>
+> Keep the sensory sequence visible before explaining what it means.
 
 ## 4. Recognition Drill
 

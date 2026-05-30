@@ -7,9 +7,9 @@ cycle: weekly
 ---
 # Weekly Review
 
-This page absorbs reviewed Daily Logs. It is not a task dashboard and not a website page.
+This page is optional. It is not a task dashboard, KPI surface, completion review, or website page.
 
-This is the live weekly digestion surface. It receives reviewed material from the Plan Track and Record Track, then prepares candidate updates for [[Current-State]], [[Question-Nodes]], [[Passage-Cards]], and [[Build-Log]].
+Daily digestion now runs through [[Daily-Digest-Protocol]]. Weekly Review may receive only material that has already become hot enough for human judgment.
 
 ## Current Review
 
@@ -18,7 +18,7 @@ This is the live weekly digestion surface. It receives reviewed material from th
 ## Inputs
 
 - [[Daily-Index]]
-- [[Weekly-Plan]]
+- [[Daily-Digest-Protocol]]
 - [[Question-Nodes]]
 - [[Passage-Cards]]
 

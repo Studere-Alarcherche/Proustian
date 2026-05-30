@@ -120,6 +120,18 @@ Control Center is not a Codex dashboard.
 The user is the subject.
 Codex is an executor.
 
+## Daily Workflow
+
+Daily is a RAW Capture Surface, not a structured journal, productivity dashboard, task sheet, or template-driven note.
+
+The durable workflow is:
+
+Raw Daily Log -> AI Digest -> Optional Fixation.
+
+AI may extract, compress, cluster, route, and mark what can remain only in Daily. The user preserves reading, thinking, writing, judgment, and direction.
+
+Digital paper first. Judgment later. Structure after heat.
+
 ## Repository Layers
 
 Project Control Layer:

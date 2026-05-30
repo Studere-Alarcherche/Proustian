@@ -15,7 +15,7 @@ Translation is used as pressure. It is not outsourced to AI and not treated as a
 
 ## Source of Truth
 
-This page is the current public-facing surface for the EN-CN Recomposition Studio.
+The current public-facing textbook entrance is [[Language-Training/EN-CN-Recomposition/|EN-CN Recomposition]].
 
 Draft chapters, studio materials, and unreviewed comparative-induction files remain backstage until reviewed through the appropriate Harness. Root-level duplicate drafts are pending merge or archive and should not be treated as the authoritative public version.
 
@@ -38,10 +38,10 @@ Public-facing pages should use short citation anchors, movement notes, recomposi
 The global map, Part 1 outline, and Chapters 001-004 are exposed as working training pages. They are not finished textbook claims.
 
 1. [[LTRP-EN-CN-Part-Map|Part Map]]
-2. [[LTRP-EN-CN-Chapter-001-Waiting-for-the-Main-Clause|Chapter 001: Waiting for the Main Clause]]
-3. [[LTRP-EN-CN-Chapter-002-Inserted-Phrases-and-Suspended-Attention|Chapter 002: Inserted Phrases and Suspended Attention]]
-4. [[LTRP-EN-CN-Chapter-003-The-Sentence-That-Refuses-to-End|Chapter 003: The Sentence That Refuses to End]]
-5. [[LTRP-EN-CN-Chapter-004-Delay-as-a-Form-of-Thought|Chapter 004: Delay as a Form of Thought]]
+2. [[Language-Training/EN-CN-Recomposition/Chapter-001-Waiting-for-the-Main-Clause|Chapter 001: Waiting for the Main Clause]]
+3. [[Language-Training/EN-CN-Recomposition/Chapter-002-Inserted-Phrases-and-Suspended-Attention|Chapter 002: Inserted Phrases and Suspended Attention]]
+4. [[Language-Training/EN-CN-Recomposition/Chapter-003-The-Sentence-That-Refuses-to-End|Chapter 003: The Sentence That Refuses to End]]
+5. [[Language-Training/EN-CN-Recomposition/Chapter-004-Delay-as-a-Form-of-Thought|Chapter 004: Delay as a Form of Thought]]
 
 ## Working Boundary
 

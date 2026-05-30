@@ -1,26 +1,22 @@
 ---
-title: "Learn to Read Proust - Internal Packet Index"
-type: "internal-index"
-status: "backstage"
+title: "Learn to Read Proust"
+type: "textbook-index"
+status: "active"
 thread: "language-training"
-description: "Obsidian-facing packet index for Language Training materials that are not all public website entrances."
-draft: true
-private: true
-hide: true
+description: "A French-reading developmental textbook for Proustian reading."
 ---
-# Learn to Read Proust - Internal Packet Index
+# Learn to Read Proust
 
-This folder is an Obsidian working packet, not the public website entrance.
+A French-reading developmental textbook for Proustian reading.
 
-The public Language Training entrance is [[Language-Training/index|Language Training]].
+This is not a general French course. It trains the reading organs needed for approaching Proust: cognates, false friends, word families, function words, subject recognition, conjugated verbs, sentence skeletons, and French anchors.
 
-## Public Track Entrances
+French Precision is the function of this track, not a replacement name.
 
-1. [[LTF-A0-to-B1-Course-Outline|Learn to Read French for Proust]]
-2. [[Learn-to-Read-Proust-EN-CN|Learn to Read Proust [EN-CN]]]
+The learner attempts first. AI checks after the attempt.
 
-## Backstage Packets
+## Current Public Status
 
-1. [[Comparative-Induction/index|Proustian Comparative Induction]]
+The original French-reading line remains here as the first textbook line.
 
-Comparative Induction belongs to Language Training as a working packet. It should not be treated as a public reader path until selected units are reviewed and explicitly marked public.
+Existing French chapter files have not been moved into this folder in this patch because their source and public-readiness status still need a separate review.

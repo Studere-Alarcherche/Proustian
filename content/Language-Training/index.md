@@ -11,59 +11,24 @@ comments: false
 
 Language Training is the precision and recomposition layer of Proustian.
 
-It is not a general language-learning program. It exists to support reading, translation, sentence movement, and writing formation around Proustian materials.
+It is not a general language-learning program. It exists to support reading, translation, sentence movement, comparative judgment, and writing formation around Proustian materials.
 
-## Tracks
+## Textbook Lines
 
-### French Precision
+- [[Language-Training/Learn-to-Read-Proust/|Learn to Read Proust]]
+- [[Language-Training/EN-CN-Recomposition/|EN-CN Recomposition]]
+- [[Language-Training/Comparative-Literary-Induction/|Comparative Literary Induction]]
 
-French reading recognition, sentence skeletons, function words, word families, false friends, and French anchors.
+## Line Functions
 
-Status: active working track.
+**Learn to Read Proust** is the French-reading developmental textbook. It trains the reading organs needed for approaching Proustian French: cognates, false friends, word families, function words, subject recognition, conjugated verbs, sentence skeletons, and French anchors.
 
-Public surface: [[LTF-A0-to-B1-Course-Outline|Learn to Read French for Proust]].
+**EN-CN Recomposition** trains English sentence movement, Chinese recomposition, syntax delay, inserted phrases, suspended attention, translation judgment, writing formation, and Proustian rhythm.
 
-Current training pages:
+**Comparative Literary Induction** treats Proust in English translation as part of the English literary world. It trains close reading, comparative reading, critical judgment, writing prompts, and concept / comparison cards.
 
-1. [[LTF-Chapter-001-Cognates-and-Reading-Confidence|Cognates and Reading Confidence]]
-2. [[LTF-Chapter-002-False-Friends-and-Controlled-Guessing|False Friends and Controlled Guessing]]
-3. [[LTF-Chapter-003-Word-Families-and-Recognition-Patterns|Word Families and Recognition Patterns]]
-4. [[LTF-Chapter-004-Function-Words-I|Function Words I]]
-5. [[LTF-Chapter-005-What-Is-a-French-Sentence|What Is a French Sentence?]]
+## Training Rule
 
-### EN-CN Recomposition Studio
+The learner attempts first. AI may provide materials, examples, sound or pronunciation help, feedback, correction, counter-questions, and card compression after the attempt.
 
-English sentence movement, Chinese recomposition, Proustian rhythm, translation judgment, and writing training.
-
-Status: strongest current working draft line.
-
-Public surface: [[Learn-to-Read-Proust-EN-CN|Learn to Read Proust [EN-CN]]].
-
-Current training pages:
-
-1. [[LTRP-EN-CN-Part-Map|Part Map]]
-2. [[LTRP-EN-CN-Chapter-001-Waiting-for-the-Main-Clause|Waiting for the Main Clause]]
-3. [[LTRP-EN-CN-Chapter-002-Inserted-Phrases-and-Suspended-Attention|Inserted Phrases and Suspended Attention]]
-4. [[LTRP-EN-CN-Chapter-003-The-Sentence-That-Refuses-to-End|The Sentence That Refuses to End]]
-5. [[LTRP-EN-CN-Chapter-004-Delay-as-a-Form-of-Thought|Delay as a Form of Thought]]
-
-### Comparative Induction
-
-Cross-language and cross-literary pattern discovery. This track uses comparison to sharpen perception of *Recherche*, not to become a survey course.
-
-Status: internal / working unless explicitly marked public. It remains an Obsidian/Harness packet, not a public reader path.
-
-## Source of Truth
-
-This page is the current public-facing surface for the language layer.
-
-The stable public entrances are:
-
-1. [[LTF-A0-to-B1-Course-Outline|Learn to Read French for Proust]]
-2. [[Learn-to-Read-Proust-EN-CN|Learn to Read Proust [EN-CN]]]
-
-Training pages exposed from those entrances are working reading pages, not finished textbook claims. Studio materials, templates, prompts, editorial boards, and unreviewed comparative-induction files remain backstage until reviewed through the appropriate Harness. Root-level duplicate drafts are pending merge or archive and should not be treated as the authoritative public version.
-
-## Public Rule
-
-Only stable entrances and explicitly exposed working training pages are shown here. Long source passages, prompts, templates, editorial boards, and internal studio materials remain backstage.
+AI must not provide the final translation, complete parsing, full movement map, full interpretation, finished answer, or chapter-level judgment before the learner has attempted the passage.

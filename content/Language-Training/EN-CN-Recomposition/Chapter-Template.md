@@ -1,9 +1,9 @@
 ---
-title: "LTRP EN-CN Chapter Template"
+title: "EN-CN Recomposition Chapter Template"
 type: "chapter-template"
 status: "draft"
 thread: "language-training"
-parent: "Learn to Read Proust [EN-CN]"
+parent: "EN-CN Recomposition"
 description: "Reusable Markdown template for EN-CN passage-based textbook chapters."
 ---
 # Chapter 00X — Title

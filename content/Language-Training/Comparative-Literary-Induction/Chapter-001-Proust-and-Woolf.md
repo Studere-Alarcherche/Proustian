@@ -3,7 +3,7 @@ title: "Chapter 001: Proust and Woolf"
 type: "comparative-lab"
 status: "draft"
 thread: "language-training"
-parent: "Proustian Comparative Induction"
+parent: "Comparative Literary Induction"
 description: "Woolf's wave-like consciousness clarifies Proustian delayed revelation."
 ---
 # Chapter 001: Proust and Woolf

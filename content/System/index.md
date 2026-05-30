@@ -17,6 +17,7 @@ It is not the public course and not the center of Proustian. The center remains 
 - [[NEXT-ACTION]]
 - [[Control-Center]]
 - [[CURRENT-STATE]]
+- [[Daily-Digest-Protocol]]
 - [[README-FOR-OBSIDIAN]]
 
 ## Boundary

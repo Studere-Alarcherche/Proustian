@@ -8,25 +8,24 @@ thread: digestion-system
 
 ## Current Priority
 
-Finish stabilizing the Obsidian Digestion control surface.
+Use Daily as raw digital paper. Digest only after writing.
 
 ## Today / Tonight
 
-1. Review [[00-CONTROL-DASHBOARD]]
-2. Review [[Current-State]]
-3. Run one real Daily Log through [[Daily-Index]]
-4. Do not continue website redesign tonight.
+1. Write freely in Daily.
+2. Preserve the Raw text.
+3. Use [[Daily-Digest-Protocol]] only when a log has heat.
+4. Return to reading before adding more structure.
 
 ## Success Standard
 
-The system is usable if Obsidian clearly shows:
+The system is usable if:
 
-- where to write / import Daily Log
-- where AI extraction goes
-- where weekly review happens
-- where Current-State is updated
-- what not to do
+- Daily does not require a template.
+- AI digests after Raw exists.
+- Human judgment decides fixation.
+- The workflow protects reading instead of replacing it.
 
 ## Next
 
-After one more Daily Log test, decide whether the system is good enough to stop building and return to reading.
+Use one real Daily note to test whether the digest prompt preserves voice and extracts only what has pressure.

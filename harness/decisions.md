@@ -10,7 +10,8 @@
 | Website shows only finished artifacts. | stable | Drafts, scaffolds, and raw working notes remain backstage. |
 | System and 99_Archive are backstage. | stable | They must not be public navigation pillars. |
 | Maps is replaced by Constellations. | stable | Use Constellations / 星座, not Maps / 地图. |
-| Language layer has three tracks. | stable | French Precision, EN-CN Recomposition Studio, Comparative Literary Induction. |
+| Language Training has three textbook folders. | stable | Learn to Read Proust, EN-CN Recomposition, Comparative Literary Induction. |
+| Learn to Read Proust remains the French-reading developmental track. | stable | French Precision is its function, not its replacement folder name. |
 | Textbook and translation materials require Harness before publication. | stable | Stable before public file; published before public navigation. |
 | File over App. | stable | Durable files are the project asset. |
 | AI is post-check / structural assistant. | stable | AI does not replace reading, judgment, or writing. |
@@ -19,7 +20,9 @@
 | Human-first language pedagogy is adopted. | stable | Learner attempt precedes AI feedback; explanation remains but serves practice. |
 | Language chapters use a light training loop. | stable | Core Explanation -> Input -> Try -> AI Feedback -> Repair / Retry -> Card -> Reuse. |
 | Comparative Literary Induction is the third textbook line. | stable | Proust in English translation inside the English literary world; trains close reading, comparative judgment, and critical writing. |
+| EN-CN Recomposition is the English-to-Chinese recomposition textbook line. | stable | It trains English sentence movement, Chinese recomposition, translation judgment, writing formation, and Proustian rhythm. |
 | EN-CN chapters require dense language practice. | stable | Each chapter needs a primary work zone, concrete marking target, rough Chinese output, one local repair, one transfer task, and one judgment question. |
+| Daily is a RAW Capture Surface. | stable | Raw Daily Log -> AI Digest -> Optional Fixation; no daily template, KPI, completion tracking, or productivity framing. |
 
 ## Open Decisions
 

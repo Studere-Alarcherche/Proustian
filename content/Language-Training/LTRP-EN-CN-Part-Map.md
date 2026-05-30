@@ -3,7 +3,7 @@ title: "LTRP EN-CN Part Map"
 type: "part-map"
 status: "draft"
 thread: "language-training"
-parent: "Learn to Read Proust [EN-CN]"
+parent: "EN-CN Recomposition"
 description: "Eight-part architecture and Part 1 chapter outline for the EN-CN textbook studio."
 ---
 # LTRP EN-CN Part Map
@@ -20,16 +20,16 @@ The textbook has eight parts. Each part will eventually contain six chapters. Th
 
 ### Part 1 Chapter Outline
 
-1. [[LTRP-EN-CN-Chapter-001-Waiting-for-the-Main-Clause|Chapter 001 — Waiting for the Main Clause]]
+1. [[Language-Training/EN-CN-Recomposition/Chapter-001-Waiting-for-the-Main-Clause|Chapter 001 - Waiting for the Main Clause]]
    Function: Train the reader to notice how expectation is created before completion.
 
-2. [[LTRP-EN-CN-Chapter-002-Inserted-Phrases-and-Suspended-Attention|Chapter 002 — Inserted Phrases and Suspended Attention]]
+2. [[Language-Training/EN-CN-Recomposition/Chapter-002-Inserted-Phrases-and-Suspended-Attention|Chapter 002 - Inserted Phrases and Suspended Attention]]
    Function: Track parenthetical, qualifying, or interruptive material that alters the sentence's direction.
 
-3. [[LTRP-EN-CN-Chapter-003-The-Sentence-That-Refuses-to-End|Chapter 003 — The Sentence That Refuses to End]]
+3. [[Language-Training/EN-CN-Recomposition/Chapter-003-The-Sentence-That-Refuses-to-End|Chapter 003 - The Sentence That Refuses to End]]
    Function: Identify how dependent clauses keep perception open rather than secondary.
 
-4. [[LTRP-EN-CN-Chapter-004-Delay-as-a-Form-of-Thought|Chapter 004 — Delay as a Form of Thought]]
+4. [[Language-Training/EN-CN-Recomposition/Chapter-004-Delay-as-a-Form-of-Thought|Chapter 004 - Delay as a Form of Thought]]
    Function: Show how descriptive accumulation begins to perform a judgment.
 
 5. Chapter 005 — The Delayed Main Verb

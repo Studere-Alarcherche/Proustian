@@ -7,23 +7,27 @@ cycle: weekly
 ---
 # Weekly Plan
 
-## Current Week
+## Current Rule
 
-Use at most three pulls for the week. The week succeeds if two of the three pulls are completed with real evidence.
+This page no longer governs Daily.
 
-## Pulls
+Daily has no weekly KPI, success rule, daily minimum, or completion metric. Use Weekly Plan only as an optional orientation surface when the user explicitly wants one.
 
-1. Make Obsidian control surface visible.
-2. Run one real Daily Log test.
-3. Stop system-building and return to reading.
+## Optional Use
 
-## 2-of-3 Success Rule
+- Name a current pressure.
+- Name a reading or writing direction.
+- Leave it alone if it starts replacing reading.
 
-If two pulls produce reviewed output, the week counts as successful. The third pull may remain open without forcing false completion.
+## Do Not
+
+- Do not turn Daily into a task sheet.
+- Do not require a Weekly Plan before writing.
+- Do not measure Daily by completion.
 
 ## Links
 
 - [[Daily-Index]]
-- [[Weekly-Review]]
+- [[Daily-Digest-Protocol]]
 - [[Current-State]]
 - [[Digestion-System]]

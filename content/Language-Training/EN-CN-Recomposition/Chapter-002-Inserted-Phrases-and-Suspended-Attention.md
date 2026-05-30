@@ -1,13 +1,13 @@
 ---
-title: "Chapter 002 — Inserted Phrases and Suspended Attention"
-book: "Learn to Read Proust [EN-CN]"
+title: "Chapter 002 - Inserted Phrases and Suspended Attention"
+book: "EN-CN Recomposition"
 part: "Part 1 — How a Long Sentence Delays Thought"
 chapter: 002
 status: "draft"
 type: "ltrp-encn-textbook-chapter"
 layout: reading
 thread: "language-training"
-parent: "Learn to Read Proust [EN-CN]"
+parent: "EN-CN Recomposition"
 ---
 # Chapter 2｜Inserted Phrases and Suspended Attention
 

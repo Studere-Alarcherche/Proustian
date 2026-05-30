@@ -49,3 +49,13 @@ Clean the homepage first, keep the dashboard clear second, and resume reading an
 
 GitHub Pages is deployed through the `Deploy Quartz` GitHub Actions workflow from `main`.
 The `gh-pages` branch and `npm run deploy` are not the current source of truth for the public site.
+
+## Daily Workflow Note
+
+As of 2026-05-30, Daily is a RAW Capture Surface.
+
+The workflow is:
+
+Raw Daily Log -> AI Digest -> Optional Fixation.
+
+Daily notes require no fields, mandatory sections, KPIs, completion metrics, task blocks, goal blocks, reflection blocks, wins blocks, or training checklists. Use [[Daily-Digest-Protocol]] only after raw writing exists.
