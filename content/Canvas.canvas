@@ -1,0 +1,84 @@
+{
+  "nodes": [
+    {
+      "id": "daily-inbox",
+      "type": "text",
+      "text": "Daily Inbox\n\nAll-inclusive human input. Reading, thoughts, tasks, images, anxiety, language, business observations, dreams, fragments. Do not clean at capture time.",
+      "x": -620,
+      "y": -180,
+      "width": 300,
+      "height": 210,
+      "color": "1"
+    },
+    {
+      "id": "canvas-center",
+      "type": "text",
+      "text": "Canvas Center\n\nWarburg / Benjamin floating image board. Preserve contradiction, montage pressure, unstable relation, visual position, and compressed image-truth.",
+      "x": -150,
+      "y": -120,
+      "width": 340,
+      "height": 240,
+      "color": "4"
+    },
+    {
+      "id": "index-stable",
+      "type": "text",
+      "text": "Index\n\nStable double-links only.\n\ncontent node ↔ stable question / theme / work / training direction\n\nDefault: candidate first, human confirmation before promotion.",
+      "x": 390,
+      "y": -180,
+      "width": 320,
+      "height": 230,
+      "color": "2"
+    },
+    {
+      "id": "codex-skills",
+      "type": "text",
+      "text": "Codex + Skills\n\nStructural labor only: sort, stage, suggest, check. Do not replace judgment. Do not create extra entities by default.",
+      "x": -380,
+      "y": 250,
+      "width": 330,
+      "height": 190,
+      "color": "5"
+    },
+    {
+      "id": "rule",
+      "type": "text",
+      "text": "Rule\n\n如无必要，勿增实体。\n\nNo Blocks/, Reviews/, area canvases, or Kanban by default.",
+      "x": 190,
+      "y": 250,
+      "width": 330,
+      "height": 190,
+      "color": "6"
+    }
+  ],
+  "edges": [
+    {
+      "id": "daily-to-center",
+      "fromNode": "daily-inbox",
+      "fromSide": "right",
+      "toNode": "canvas-center",
+      "toSide": "left"
+    },
+    {
+      "id": "skills-to-center",
+      "fromNode": "codex-skills",
+      "fromSide": "top",
+      "toNode": "canvas-center",
+      "toSide": "bottom"
+    },
+    {
+      "id": "center-to-index",
+      "fromNode": "canvas-center",
+      "fromSide": "right",
+      "toNode": "index-stable",
+      "toSide": "left"
+    },
+    {
+      "id": "rule-to-center",
+      "fromNode": "rule",
+      "fromSide": "top",
+      "toNode": "canvas-center",
+      "toSide": "bottom"
+    }
+  ]
+}
